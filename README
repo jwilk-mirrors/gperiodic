@@ -8,7 +8,7 @@ Description:
  browse through the elements, and view detailed information about each
  element. This program also features a non-graphical interface.
 
-Copyright © 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014 Alexey Loginov
+Copyright © 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014-2015 Alexey Loginov
 All Rights Reserved.
 
 This program is copyrighted under the GNU GPLv2 or later.  Please see the file gpl.txt,
@@ -21,6 +21,6 @@ Introduction
 --------------------------------------------------------------------------------
 The original purpose of this project was to help Jonas Frantz learn gtk+.
 The latest version of the software can be found at:
-  http://code.google.com/p/gperiodic
+  https://sourceforge.net/p/gperiodic
 
 See the file ChangeLog for more information about this software.

@@ -1,22 +1,24 @@
-# Translation of gperiodic to Turkish.
-# Copyright (C) 2003-2014 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gperiodic package.
-# Copyright (C) Osman Köşeli <?>, 2003.
-# Fırat Kutlu <firatkutlu@gmail.com>, 2014.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Copyright (C) Osman Köşeli <?>, 2003
+# Fırat Kutlu <firatkutlu@gmail.com>, 2014
+# Osman Köşeli <?>, 2003
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07 13:09+0300\n"
-"PO-Revision-Date: 2014-06-09 15:08+0300\n"
+"PO-Revision-Date: 2015-07-07 13:55+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
-"Language-Team: Turkish <biltek2004@yahoogroups.com>\n"
-"Language: tr\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/gperiodic/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: gperiodic.c:194
 #, c-format
@@ -39,15 +41,7 @@ msgid ""
 "    -D         dump the periodic table\n"
 "    -v         be verbose\n"
 "\n"
-msgstr ""
-"gperiodic [seçenekler]\n"
-"Seçenekler:\n"
-"    -h         bu yardım ekranını göster\n"
-"    -c <Temp>  fazlarına göre elementleri renklendir\n"
-"               sıcaklık <Temp> Kelvinde\n"
-"    -D         periyodik tablodan boşalt\n"
-"    -v         gereksiz olanları\n"
-"\n"
+msgstr "gperiodic [seçenekler]\nSeçenekler:\n    -h         bu yardım ekranını göster\n    -c <Temp>  fazlarına göre elementleri renklendir\n               sıcaklık <Temp> Kelvinde\n    -D         periyodik tablodan boşalt\n    -v         gereksiz olanları\n\n"
 
 #: gperiodic.c:205
 #, c-format
@@ -55,16 +49,9 @@ msgid ""
 "or\n"
 "\n"
 "gperiodic [element_symbol | atomic_number]\n"
-"               display information on the element with the given element "
-"symbol or atomic number\n"
+"               display information on the element with the given element symbol or atomic number\n"
 "\n"
-msgstr ""
-"veya\n"
-"\n"
-"gperiodic [element_sembolü | atom_numarası]\n"
-"               belirlenen element ile elemente dair bilgi gösterme sembol "
-"veya atom numarası\n"
-"\n"
+msgstr "veya\n\ngperiodic [element_sembolü | atom_numarası]\n               belirlenen element ile elemente dair bilgi gösterme sembol veya atom numarası\n\n"
 
 #: gperiodic.c:291 gperiodic.c:292 table_data.h:82 table_data.h:98
 #: table_data.h:148 table_data.h:150 table_data.h:153 table_data.h:154
@@ -159,10 +146,7 @@ msgid ""
 "\n"
 " Unknown element : %s. Exiting.\n"
 "\n"
-msgstr ""
-"\n"
-" Bilinmeyen element : %s. Çıkış.\n"
-"\n"
+msgstr "\n Bilinmeyen element : %s. Çıkış.\n\n"
 
 #: gperiodic.c:537
 #, c-format
@@ -170,18 +154,13 @@ msgid ""
 "\n"
 " Element number exceeds existing elements. Exiting.\n"
 "\n"
-msgstr ""
-"\n"
-" Element sayısı şu andaki elementleri geçiyor. Çıkış.\n"
-"\n"
+msgstr "\n Element sayısı şu andaki elementleri geçiyor. Çıkış.\n\n"
 
 #: gperiodic.h:102
 msgid ""
 "This program shows the periodic table of elements and information about "
 "these elements"
-msgstr ""
-"Bu program elementlerin periyodik tablosunu gösterir ve bu elementler "
-"hakkında bilgi verir"
+msgstr "Bu program elementlerin periyodik tablosunu gösterir ve bu elementler hakkında bilgi verir"
 
 #: gperiodic.h:103
 msgid ""
@@ -197,22 +176,8 @@ msgid ""
 "\n"
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-"USA\n"
-msgstr ""
-"gperiodic özgür yazılımdır; dağıtabilir ve/veya değiştirebilirsiniz\n"
-"program, özgür yazılım vakfı tarafından yayınlanan GNU genel kamu\n"
-"lisansı şartları altındadır; lisansın sürüm 2 veya (seçtiğiniz)\n"
-"son sürümden herhangi biri.\n"
-"\n"
-"gperiodic, HERHANGİ BİR GARANTİ VERMEDEN yararlı olması umuduyla\n"
-"dağıtılmıştır; kastedilen, ÖZEL BİR AMACA UYGUNLUK veya\n"
-"TİCARETE ELVERİŞLİLİK garantisi olmaması.\n"
-"Daha fazla ayrıntı için GNU genel kamu lisansına bakın.\n"
-"\n"
-"Bu programla birlikte GNU Genel Kamu Lisansı'nın bir kopyasını almış\n"
-"olmanız gerekir; aksi halde özgür yazılım vakfına yazın Foundation,\n"
-"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
+msgstr "gperiodic özgür yazılımdır; dağıtabilir ve/veya değiştirebilirsiniz\nprogram, özgür yazılım vakfı tarafından yayınlanan GNU genel kamu\nlisansı şartları altındadır; lisansın sürüm 2 veya (seçtiğiniz)\nson sürümden herhangi biri.\n\ngperiodic, HERHANGİ BİR GARANTİ VERMEDEN yararlı olması umuduyla\ndağıtılmıştır; kastedilen, ÖZEL BİR AMACA UYGUNLUK veya\nTİCARETE ELVERİŞLİLİK garantisi olmaması.\nDaha fazla ayrıntı için GNU genel kamu lisansına bakın.\n\nBu programla birlikte GNU Genel Kamu Lisansı'nın bir kopyasını almış\nolmanız gerekir; aksi halde özgür yazılım vakfına yazın Foundation,\nInc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
 
 #: gperiodic.h:105
 msgid "gperiodic homepage"
@@ -640,11 +605,9 @@ msgstr "Sir Humphrey Davy"
 
 #: table_data.h:159
 msgid ""
-"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium "
-"carbonate)"
-msgstr ""
-"Ortaçağa ait Latin: sodanum (baş ağrısı tedavi eder); latin natriumdan "
-"sembol (sodyum karbonat)"
+"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium"
+" carbonate)"
+msgstr "Ortaçağa ait Latin: sodanum (baş ağrısı tedavi eder); latin natriumdan sembol (sodyum karbonat)"
 
 #: table_data.h:160
 msgid "Magnesium"
@@ -660,8 +623,7 @@ msgstr "1808 (İngiltere)"
 
 #: table_data.h:160
 msgid "Magnesia, ancient city in district of Thessaly, Greece"
-msgstr ""
-"Magnezyum oksit, Thessaly bölgesinde eski zamandan kalma şehir, Yunanistan"
+msgstr "Magnezyum oksit, Thessaly bölgesinde eski zamandan kalma şehir, Yunanistan"
 
 #: table_data.h:161
 msgid "Aluminum"
@@ -693,8 +655,7 @@ msgstr "DIA"
 
 #: table_data.h:162
 msgid "Amorphous form is brown powder; crystalline form has a gray"
-msgstr ""
-"Şekilsiz form, pudra kahverengileşir, kristalize biçim, griye sahip olur"
+msgstr "Şekilsiz form, pudra kahverengileşir, kristalize biçim, griye sahip olur"
 
 #: table_data.h:162
 msgid "1825 (Sweden)"
@@ -982,7 +943,8 @@ msgid "Malleable, ductile, reddish-brown metal"
 msgstr "Dövülebilir, sünek, kırmızımsı-kahverengi metal"
 
 #: table_data.h:178
-msgid "Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
+msgid ""
+"Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
 msgstr "Latinden Sembol: cuprum (Bakır madenleri için Kıbrısın ünlü adası)"
 
 #: table_data.h:179
@@ -1506,8 +1468,7 @@ msgstr "Praseodimyum"
 
 #: table_data.h:211
 msgid "Silvery white, moderately soft, malleable, and ductile metal"
-msgstr ""
-"Gümüş gibi-beyaz, ılımlı bir şekilde yumuşak, dövülebilir, ve sünek metal"
+msgstr "Gümüş gibi-beyaz, ılımlı bir şekilde yumuşak, dövülebilir, ve sünek metal"
 
 #: table_data.h:211
 msgid "1885 (Austria)"
@@ -1711,8 +1672,7 @@ msgstr "Georges Urbain"
 
 #: table_data.h:224
 msgid "Named for the ancient name of Paris: Lutetia Parisorum"
-msgstr ""
-"Parisin eski zamanlardan kalma ismi için adlandırıldı: Lutetia Parisorum"
+msgstr "Parisin eski zamanlardan kalma ismi için adlandırıldı: Lutetia Parisorum"
 
 #: table_data.h:225
 msgid "Hafnium"
@@ -1912,9 +1872,7 @@ msgstr "Kurşun"
 
 #: table_data.h:235
 msgid "Very soft, highly malleable and ductile, blue-white shiny metal"
-msgstr ""
-"Çok yumuşak, yüksek derecede dövülebilir and sünek, mavi-beyaz ışıldayan "
-"metal"
+msgstr "Çok yumuşak, yüksek derecede dövülebilir and sünek, mavi-beyaz ışıldayan metal"
 
 #: table_data.h:235
 msgid "Anglo-Saxon: lead; symbol from Latin: plumbum"
@@ -2240,9 +2198,7 @@ msgstr "1955 (Birleşmiş Devletler)"
 msgid ""
 "Named in honor of the scientist Dmitry Ivanovich Mendeleev, who devised the "
 "periodic table"
-msgstr ""
-"Periyodik tabloyu tasarlayan bilim adamı Dmitry Ivanovich Mendeleev şerefine "
-"adlandırıldı"
+msgstr "Periyodik tabloyu tasarlayan bilim adamı Dmitry Ivanovich Mendeleev şerefine adlandırıldı"
 
 #: table_data.h:257
 msgid "Nobelium"
@@ -2258,9 +2214,9 @@ msgstr "Dubna"
 
 #: table_data.h:257
 msgid ""
-"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel prize"
-msgstr ""
-"Dinamiti icat eden ve Nobel ödülü kazanan Alfred Nobel şerefine adlandırıldı"
+"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel "
+"prize"
+msgstr "Dinamiti icat eden ve Nobel ödülü kazanan Alfred Nobel şerefine adlandırıldı"
 
 #: table_data.h:259
 msgid "Lawrencium"
@@ -2314,9 +2270,7 @@ msgstr "1974 (USSR/Birleşmiş Devletler)"
 msgid ""
 "Named in honor of Glenn Theodore Seaborg, American physical chemist known "
 "for research on transuranium elements"
-msgstr ""
-"Amerikalı fizik kimyageri olan Glenn Seaborgin, elementler üzerine "
-"araştırması için onun şerefine adlandırıldı"
+msgstr "Amerikalı fizik kimyageri olan Glenn Seaborgin, elementler üzerine araştırması için onun şerefine adlandırıldı"
 
 #: table_data.h:263
 msgid "Bohrium"

@@ -1,22 +1,22 @@
-# Translation of gperiodic to Czech.
-# Copyright (C) 2014 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gperiodic package.
-# Pavel Fric <pavelfric@seznam.cz>, 2014.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# fri, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07 13:09+0300\n"
-"PO-Revision-Date: 2014-06-11 15:56+0200\n"
-"Last-Translator: Pavel <pavelfric@seznam.cz>\n"
-"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
-"Language: cs\n"
+"PO-Revision-Date: 2015-07-04 21:56+0000\n"
+"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
+"Language-Team: Czech (http://www.transifex.com/projects/p/gperiodic/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 1.5\n"
 
 #: gperiodic.c:194
 #, c-format
@@ -39,15 +39,7 @@ msgid ""
 "    -D         dump the periodic table\n"
 "    -v         be verbose\n"
 "\n"
-msgstr ""
-"gperiodic [opts]\n"
-"Volby jsou:\n"
-"    -h         Ukázat tuto obrazovku s nápovědou\n"
-"    -c <Temp>  Obarvit prvky podle jejich skupenství\n"
-"               při teplotě <Temp> v Kelvinech\n"
-"    -D         Vypsat periodickou tabulku prvků\n"
-"    -v         Být podrobný\n"
-"\n"
+msgstr "gperiodic [opts]\nVolby jsou:\n    -h         Ukázat tuto obrazovku s nápovědou\n    -c <Temp>  Obarvit prvky podle jejich skupenství\n               při teplotě <Temp> v Kelvinech\n    -D         Vypsat periodickou tabulku prvků\n    -v         Být podrobný\n\n"
 
 #: gperiodic.c:205
 #, c-format
@@ -55,8 +47,7 @@ msgid ""
 "or\n"
 "\n"
 "gperiodic [element_symbol | atomic_number]\n"
-"               display information on the element with the given element "
-"symbol or atomic number\n"
+"               display information on the element with the given element symbol or atomic number\n"
 "\n"
 msgstr ""
 
@@ -153,10 +144,7 @@ msgid ""
 "\n"
 " Unknown element : %s. Exiting.\n"
 "\n"
-msgstr ""
-"\n"
-" Neznámý prvek: %s. Ukončuje se.\n"
-"\n"
+msgstr "\n Neznámý prvek: %s. Ukončuje se.\n\n"
 
 #: gperiodic.c:537
 #, c-format
@@ -164,17 +152,13 @@ msgid ""
 "\n"
 " Element number exceeds existing elements. Exiting.\n"
 "\n"
-msgstr ""
-"\n"
-" Číslo prvku přesahuje stávající prvky. Ukončuje se.\n"
-"\n"
+msgstr "\n Číslo prvku přesahuje stávající prvky. Ukončuje se.\n\n"
 
 #: gperiodic.h:102
 msgid ""
 "This program shows the periodic table of elements and information about "
 "these elements"
-msgstr ""
-"Tento program ukazuje periodickou tabulku prvků a informace o těchto prvcích"
+msgstr "Tento program ukazuje periodickou tabulku prvků a informace o těchto prvcích"
 
 #: gperiodic.h:103
 msgid ""
@@ -190,8 +174,7 @@ msgid ""
 "\n"
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-"USA\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
 msgstr ""
 
 #: gperiodic.h:105
@@ -620,11 +603,9 @@ msgstr "Sir Humphrey Davy"
 
 #: table_data.h:159
 msgid ""
-"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium "
-"carbonate)"
-msgstr ""
-"Středověká latina: sodanum (lék na bolest hlavy); symbol z latinského "
-"natrium (sodium carbonate)"
+"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium"
+" carbonate)"
+msgstr "Středověká latina: sodanum (lék na bolest hlavy); symbol z latinského natrium (sodium carbonate)"
 
 #: table_data.h:160
 msgid "Magnesium"
@@ -960,9 +941,9 @@ msgid "Malleable, ductile, reddish-brown metal"
 msgstr ""
 
 #: table_data.h:178
-msgid "Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
-msgstr ""
-"Symbol z latinského cuprum (ostrov Kypr proslavený díky svým dolům na měď)"
+msgid ""
+"Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
+msgstr "Symbol z latinského cuprum (ostrov Kypr proslavený díky svým dolům na měď)"
 
 #: table_data.h:179
 msgid "Zinc"
@@ -1152,9 +1133,7 @@ msgstr "Johann Gadolin"
 msgid ""
 "Named after the Swedish town, Ytterby, where one of its minerals was first "
 "found"
-msgstr ""
-"Nazváno podle švédského města zvaného Ytterby, kde byl poprvé nalezen jeden "
-"z jeho nerostů"
+msgstr "Nazváno podle švédského města zvaného Ytterby, kde byl poprvé nalezen jeden z jeho nerostů"
 
 #: table_data.h:190
 msgid "Zirconium"
@@ -1310,8 +1289,7 @@ msgstr "Fredrich Stromeyer"
 
 #: table_data.h:198
 msgid "Greek: kadmia (ancient name for calamine (zinc oxide))"
-msgstr ""
-"Řečtina: kadmia (starověký název pro kalamín, zinkovou rudu (oxid zinečnatý))"
+msgstr "Řečtina: kadmia (starověký název pro kalamín, zinkovou rudu (oxid zinečnatý))"
 
 #: table_data.h:199
 msgid "Indium"
@@ -1335,9 +1313,7 @@ msgstr "Ferdinand Reich, T. Richter"
 
 #: table_data.h:199
 msgid "Latin: indicum (color indigo), the color it shows in a spectroscope"
-msgstr ""
-"Latina: indicum (barva indigová modř, fialovomodrá), barva, kterou ukazuje v "
-"spektroskopu"
+msgstr "Latina: indicum (barva indigová modř, fialovomodrá), barva, kterou ukazuje v spektroskopu"
 
 #: table_data.h:200
 msgid "Tin"
@@ -1754,8 +1730,7 @@ msgstr "Juan Jose, Fausto Elhuyar"
 
 #: table_data.h:227
 msgid "Swedish: tung sten (heavy stone); symbol from its German name wolfram"
-msgstr ""
-"Švédština: tung sten (těžký kámen); symbol z jeho německého názvu wolfram"
+msgstr "Švédština: tung sten (těžký kámen); symbol z jeho německého názvu wolfram"
 
 #: table_data.h:228
 msgid "Rhenium"
@@ -1851,8 +1826,7 @@ msgstr ""
 
 #: table_data.h:232
 msgid "Anglo-Saxon: geolo (yellow); symbol from Latin: aurum (shining dawn)"
-msgstr ""
-"Anglosaština: geolo (žlutý); symbol z latinského aurum (zářící svítání)"
+msgstr "Anglosaština: geolo (žlutý); symbol z latinského aurum (zářící svítání)"
 
 #: table_data.h:233
 msgid "Mercury"
@@ -1888,8 +1862,7 @@ msgstr "Sir William Crookes"
 
 #: table_data.h:234
 msgid "Greek: thallos (green twig), for a bright green line in its spectrum"
-msgstr ""
-"Řečtina: thallos (zelený proutek), pro jasně zelenou čáru v jeho spektru"
+msgstr "Řečtina: thallos (zelený proutek), pro jasně zelenou čáru v jeho spektru"
 
 #: table_data.h:235
 msgid "Lead"
@@ -2063,9 +2036,7 @@ msgstr "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner"
 msgid ""
 "Greek: proto and actinium (parent of actinium); it forms actinium when it "
 "radioactively decays"
-msgstr ""
-"Řečtina: proto a actinium (rodič aktinia); tvoří aktinium, když se "
-"radioaktivně rozpadá"
+msgstr "Řečtina: proto a actinium (rodič aktinia); tvoří aktinium, když se radioaktivně rozpadá"
 
 #: table_data.h:247
 msgid "Uranium"
@@ -2225,9 +2196,7 @@ msgstr "1955 (Spojené státy)"
 msgid ""
 "Named in honor of the scientist Dmitry Ivanovich Mendeleev, who devised the "
 "periodic table"
-msgstr ""
-"Nazváno po vědci D. I. Mendělejevovi, který vymyslel periodickou tabulku "
-"prvků"
+msgstr "Nazváno po vědci D. I. Mendělejevovi, který vymyslel periodickou tabulku prvků"
 
 #: table_data.h:257
 msgid "Nobelium"
@@ -2243,10 +2212,9 @@ msgstr "Dubna"
 
 #: table_data.h:257
 msgid ""
-"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel prize"
-msgstr ""
-"Nazváno k poctě Alfreda Nobela, který vynalezl dynamit a založil Nobelovu "
-"cenu"
+"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel "
+"prize"
+msgstr "Nazváno k poctě Alfreda Nobela, který vynalezl dynamit a založil Nobelovu cenu"
 
 #: table_data.h:259
 msgid "Lawrencium"
@@ -2300,9 +2268,7 @@ msgstr "1974 (SSSR/Spojené státy)"
 msgid ""
 "Named in honor of Glenn Theodore Seaborg, American physical chemist known "
 "for research on transuranium elements"
-msgstr ""
-"Nazváno k poctě Glenna Theodora Seaborga, amerického fyzikálního chemika "
-"známého pro výzkum transuranových prvků"
+msgstr "Nazváno k poctě Glenna Theodora Seaborga, amerického fyzikálního chemika známého pro výzkum transuranových prvků"
 
 #: table_data.h:263
 msgid "Bohrium"

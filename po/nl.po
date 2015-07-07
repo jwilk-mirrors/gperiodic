@@ -1,20 +1,22 @@
-# Dutch translation for gpreiodic.
-# Copyright (C) 1999-2014 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gperiodic package.
-# Koen Kooi <?>, 1999.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Koen Kooi <?>, 1999
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07 13:09+0300\n"
-"PO-Revision-Date: 2014-06-09 15:06+0300\n"
+"PO-Revision-Date: 2015-07-04 21:59+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
-"Language-Team: Dutch\n"
-"Language: nl\n"
+"Language-Team: Dutch (http://www.transifex.com/projects/p/gperiodic/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: gperiodic.c:194
 #, c-format
@@ -45,8 +47,7 @@ msgid ""
 "or\n"
 "\n"
 "gperiodic [element_symbol | atomic_number]\n"
-"               display information on the element with the given element "
-"symbol or atomic number\n"
+"               display information on the element with the given element symbol or atomic number\n"
 "\n"
 msgstr ""
 
@@ -173,8 +174,7 @@ msgid ""
 "\n"
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-"USA\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
 msgstr ""
 
 #: gperiodic.h:105
@@ -603,8 +603,8 @@ msgstr ""
 
 #: table_data.h:159
 msgid ""
-"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium "
-"carbonate)"
+"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium"
+" carbonate)"
 msgstr ""
 
 #: table_data.h:160
@@ -941,7 +941,8 @@ msgid "Malleable, ductile, reddish-brown metal"
 msgstr ""
 
 #: table_data.h:178
-msgid "Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
+msgid ""
+"Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
 msgstr "Grieks 'cuprum' voor Cypres"
 
 #: table_data.h:179
@@ -1090,8 +1091,7 @@ msgstr ""
 
 #: table_data.h:187
 msgid "Latin: rubidus (deep red); the color its salts impart to flames"
-msgstr ""
-"Latijn 'rubidus' voor 'donkerrood'; de kleuren zijn zouten geven aan vlammen"
+msgstr "Latijn 'rubidus' voor 'donkerrood'; de kleuren zijn zouten geven aan vlammen"
 
 #: table_data.h:188
 msgid "Strontium"
@@ -1478,8 +1478,7 @@ msgstr ""
 
 #: table_data.h:211
 msgid "Greek: prasios and didymos (green twin); from its green salts"
-msgstr ""
-"Grieks 'prasinos didymos' voor 'groene tweeling'; het hebben groene zouten"
+msgstr "Grieks 'prasinos didymos' voor 'groene tweeling'; het hebben groene zouten"
 
 #: table_data.h:212
 msgid "Neodymium"
@@ -1863,9 +1862,7 @@ msgstr ""
 
 #: table_data.h:234
 msgid "Greek: thallos (green twig), for a bright green line in its spectrum"
-msgstr ""
-"Grieks 'tallos' voor 'jonge twijg', vanwege de felle groene lijn in het "
-"spectrum"
+msgstr "Grieks 'tallos' voor 'jonge twijg', vanwege de felle groene lijn in het spectrum"
 
 #: table_data.h:235
 msgid "Lead"
@@ -2039,9 +2036,7 @@ msgstr ""
 msgid ""
 "Greek: proto and actinium (parent of actinium); it forms actinium when it "
 "radioactively decays"
-msgstr ""
-"Grieks 'protos' voor 'voorouder'; protactinium komt voor Actinium in het "
-"periodiek systeem"
+msgstr "Grieks 'protos' voor 'voorouder'; protactinium komt voor Actinium in het periodiek systeem"
 
 #: table_data.h:247
 msgid "Uranium"
@@ -2217,10 +2212,9 @@ msgstr "Dubna"
 
 #: table_data.h:257
 msgid ""
-"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel prize"
-msgstr ""
-"Genoemd naar de wetenschapper Alfred Nobel, die dynamiet uitgevonden en "
-"stichtte Nobelprijs"
+"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel "
+"prize"
+msgstr "Genoemd naar de wetenschapper Alfred Nobel, die dynamiet uitgevonden en stichtte Nobelprijs"
 
 #: table_data.h:259
 msgid "Lawrencium"

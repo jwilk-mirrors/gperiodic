@@ -1,21 +1,21 @@
-# Brazilian Portuguese translation for gperiodic.
-# Copyright (C) 2014 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gperiodic package.
-# Marcio Padula <padula1000@gmail.com>, 2014.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Marcio Andre Padula <padula1000@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07 13:09+0300\n"
-"PO-Revision-Date: 2014-06-22 16:20-0300\n"
-"Last-Translator: Marcio Padula <padula1000@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <pt@li.org>\n"
-"Language: pt_BR\n"
+"PO-Revision-Date: 2015-07-04 22:00+0000\n"
+"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/gperiodic/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: gperiodic.c:194
@@ -39,15 +39,7 @@ msgid ""
 "    -D         dump the periodic table\n"
 "    -v         be verbose\n"
 "\n"
-msgstr ""
-"gperiodic [opts]\n"
-"As opções são:\n"
-"    -h         mostrar tela de ajuda\n"
-"    -c <Temp>  colorir os elementos de acordo com a sua fase em\n"
-"               <Temp> temperatura em Kelvin\n"
-"    -D         despejar a tabela periódica\n"
-"    -v         ser detalhada\n"
-"\n"
+msgstr "gperiodic [opts]\nAs opções são:\n    -h         mostrar tela de ajuda\n    -c <Temp>  colorir os elementos de acordo com a sua fase em\n               <Temp> temperatura em Kelvin\n    -D         despejar a tabela periódica\n    -v         ser detalhada\n\n"
 
 #: gperiodic.c:205
 #, c-format
@@ -55,16 +47,9 @@ msgid ""
 "or\n"
 "\n"
 "gperiodic [element_symbol | atomic_number]\n"
-"               display information on the element with the given element "
-"symbol or atomic number\n"
+"               display information on the element with the given element symbol or atomic number\n"
 "\n"
-msgstr ""
-"ou\n"
-"\n"
-"gperiodic [element_symbol | atomic_number]\n"
-"               exibir informações sobre o elemento com o símbolo do elemento "
-"dado ou número atômico\n"
-"\n"
+msgstr "ou\n\ngperiodic [element_symbol | atomic_number]\n               exibir informações sobre o elemento com o símbolo do elemento dado ou número atômico\n\n"
 
 #: gperiodic.c:291 gperiodic.c:292 table_data.h:82 table_data.h:98
 #: table_data.h:148 table_data.h:150 table_data.h:153 table_data.h:154
@@ -159,10 +144,7 @@ msgid ""
 "\n"
 " Unknown element : %s. Exiting.\n"
 "\n"
-msgstr ""
-"\n"
-" Elemento desconhecido : %s. Sair.\n"
-"\n"
+msgstr "\n Elemento desconhecido : %s. Sair.\n\n"
 
 #: gperiodic.c:537
 #, c-format
@@ -170,18 +152,13 @@ msgid ""
 "\n"
 " Element number exceeds existing elements. Exiting.\n"
 "\n"
-msgstr ""
-"\n"
-" Elemento número excede elementos existentes. Sair.\n"
-"\n"
+msgstr "\n Elemento número excede elementos existentes. Sair.\n\n"
 
 #: gperiodic.h:102
 msgid ""
 "This program shows the periodic table of elements and information about "
 "these elements"
-msgstr ""
-"Este programa mostra a tabela periódica dos elementos e informações sobre "
-"esses elementos"
+msgstr "Este programa mostra a tabela periódica dos elementos e informações sobre esses elementos"
 
 #: gperiodic.h:103
 msgid ""
@@ -197,26 +174,8 @@ msgid ""
 "\n"
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-"USA\n"
-msgstr ""
-"O gperiodic é uma aplicação livre; pode redistribui­-la e/ou altera-la sob "
-"as\n"
-"condições da Licença Publica Generica GNU tal como publicada pela Free\n"
-"Software Foundation; ou a versão 2 da Licença ou (a sua escolha) qualquer\n"
-"versão uo posterior.\n"
-"\n"
-"O gperiodic é uma distribuição na expectativa de que seja util, mas SEM "
-"QUALQUER\n"
-"GARANTIA; sem mesmo a garantia impli­cita de COMERCIABILIDADE ou ADEQUAÇÃO A\n"
-"UM DETERMINADO PROPOSITO. Consulte a Licença Publica Generica GNU para mais\n"
-"detalhes.\n"
-"\n"
-"Devera ter recebido uma copia da Licença Publica Generica GNU juntamente "
-"com\n"
-"o gperiodic; caso contrario, escreva para a Free Software Foundation, Inc., "
-"51\n"
-"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA (em inglês)\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
+msgstr "O gperiodic é uma aplicação livre; pode redistribui­-la e/ou altera-la sob as\ncondições da Licença Publica Generica GNU tal como publicada pela Free\nSoftware Foundation; ou a versão 2 da Licença ou (a sua escolha) qualquer\nversão uo posterior.\n\nO gperiodic é uma distribuição na expectativa de que seja util, mas SEM QUALQUER\nGARANTIA; sem mesmo a garantia impli­cita de COMERCIABILIDADE ou ADEQUAÇÃO A\nUM DETERMINADO PROPOSITO. Consulte a Licença Publica Generica GNU para mais\ndetalhes.\n\nDevera ter recebido uma copia da Licença Publica Generica GNU juntamente com\no gperiodic; caso contrario, escreva para a Free Software Foundation, Inc., 51\nFranklin Street, Fifth Floor, Boston, MA 02110-1301, USA (em inglês)\n"
 
 #: gperiodic.h:105
 msgid "gperiodic homepage"
@@ -644,11 +603,9 @@ msgstr "Sr Humphrey Davy"
 
 #: table_data.h:159
 msgid ""
-"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium "
-"carbonate)"
-msgstr ""
-"Latino medieval: sodanum (remédio dor de cabeça); símbolo de natrium Latino "
-"(carbonato de sódio)"
+"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium"
+" carbonate)"
+msgstr "Latino medieval: sodanum (remédio dor de cabeça); símbolo de natrium Latino (carbonato de sódio)"
 
 #: table_data.h:160
 msgid "Magnesium"
@@ -984,7 +941,8 @@ msgid "Malleable, ductile, reddish-brown metal"
 msgstr "Maleável, dúctil, metal marrom-avermelhada"
 
 #: table_data.h:178
-msgid "Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
+msgid ""
+"Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
 msgstr "Do grego 'cuprum' para Chipre"
 
 #: table_data.h:179
@@ -1061,8 +1019,7 @@ msgstr "Aço Cinza, semimetal frágil"
 
 #: table_data.h:182
 msgid "Greek: arsenikon; Latin: arsenicum (both names for yellow pigment)"
-msgstr ""
-"Grego: arsenikon; Latin: Arsenicum (ambos os nomes para pigmento amarelo)"
+msgstr "Grego: arsenikon; Latin: Arsenicum (ambos os nomes para pigmento amarelo)"
 
 #: table_data.h:183
 msgid "Selenium"
@@ -1176,8 +1133,7 @@ msgstr "Johann Gadolin"
 msgid ""
 "Named after the Swedish town, Ytterby, where one of its minerals was first "
 "found"
-msgstr ""
-"Nome derivado da pequena cidade de Ytterby, perto de Estocolmo, na Suécia"
+msgstr "Nome derivado da pequena cidade de Ytterby, perto de Estocolmo, na Suécia"
 
 #: table_data.h:190
 msgid "Zirconium"
@@ -1449,9 +1405,7 @@ msgstr "1860 (Alemanha)"
 
 #: table_data.h:206
 msgid "Latin: caesius (sky blue); for the blue lines of its spectrum"
-msgstr ""
-"Do Latim, 'caesius' significa 'azul celeste'; porque as linhas azuis em seu "
-"espectro"
+msgstr "Do Latim, 'caesius' significa 'azul celeste'; porque as linhas azuis em seu espectro"
 
 #: table_data.h:207
 msgid "Barium"
@@ -1504,9 +1458,7 @@ msgstr "Wilhelm von Hisinger, Jons Jacob Berzelius, Martin Klaproth"
 #: table_data.h:210
 msgid ""
 "Named after the asteroid, Ceres, discovered two years before the element"
-msgstr ""
-"Batizado em homenagem ao asteróide, Ceres, descoberto dois anos antes do "
-"elemento"
+msgstr "Batizado em homenagem ao asteróide, Ceres, descoberto dois anos antes do elemento"
 
 #: table_data.h:211
 msgid "Praseodymium"
@@ -1910,9 +1862,7 @@ msgstr "William Crookes"
 
 #: table_data.h:234
 msgid "Greek: thallos (green twig), for a bright green line in its spectrum"
-msgstr ""
-"Do grego 'tallos' para 'ramo jovem' ou 'talo', porque uma linha verde "
-"brilhante no seu espectro"
+msgstr "Do grego 'tallos' para 'ramo jovem' ou 'talo', porque uma linha verde brilhante no seu espectro"
 
 #: table_data.h:235
 msgid "Lead"
@@ -1920,8 +1870,7 @@ msgstr "Lead"
 
 #: table_data.h:235
 msgid "Very soft, highly malleable and ductile, blue-white shiny metal"
-msgstr ""
-"Altamente maleável e dúctil, brilhante metal muito macio, azul e branco"
+msgstr "Altamente maleável e dúctil, brilhante metal muito macio, azul e branco"
 
 #: table_data.h:235
 msgid "Anglo-Saxon: lead; symbol from Latin: plumbum"
@@ -2087,9 +2036,7 @@ msgstr "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner"
 msgid ""
 "Greek: proto and actinium (parent of actinium); it forms actinium when it "
 "radioactively decays"
-msgstr ""
-"Grego: proto e actinium (pai de actinium); ele forma actinium quando ele "
-"decai radioactivamente"
+msgstr "Grego: proto e actinium (pai de actinium); ele forma actinium quando ele decai radioactivamente"
 
 #: table_data.h:247
 msgid "Uranium"
@@ -2265,10 +2212,9 @@ msgstr "Dubna"
 
 #: table_data.h:257
 msgid ""
-"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel prize"
-msgstr ""
-"Nome derivado do cientista Alfred Nobel, que inventou a dinamite e fundou "
-"prêmio Nobel"
+"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel "
+"prize"
+msgstr "Nome derivado do cientista Alfred Nobel, que inventou a dinamite e fundou prêmio Nobel"
 
 #: table_data.h:259
 msgid "Lawrencium"
@@ -2375,9 +2321,7 @@ msgstr "1994 (Alemanha)"
 
 #: table_data.h:266
 msgid "Named after Darmstadt, Germany, the city of its discovery"
-msgstr ""
-"Nome derivado da cidade alemã de Darmstadt, onde foram descobertos vários "
-"elementos"
+msgstr "Nome derivado da cidade alemã de Darmstadt, onde foram descobertos vários elementos"
 
 #: table_data.h:267
 msgid "Roentgenium"

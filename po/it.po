@@ -1,21 +1,23 @@
-# Translation of gperiodic to Italian.
-# Copyright (C) 1999-2014 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gperiodic package.
-# Ambrogio Oliva <?>, 1999.
-# Andrea Tasso <andrea@tasso.info>, 2004.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Ambrogio Oliva <?>, 1999
+# Andrea Tasso <andrea@tasso.info>, 2004
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07 13:09+0300\n"
-"PO-Revision-Date: 2014-06-09 15:06+0300\n"
+"PO-Revision-Date: 2015-07-04 21:58+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
-"Language-Team: Italian <debian-l10n-italian@lists.debian.org>\n"
-"Language: it\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/gperiodic/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: gperiodic.c:194
 #, c-format
@@ -46,8 +48,7 @@ msgid ""
 "or\n"
 "\n"
 "gperiodic [element_symbol | atomic_number]\n"
-"               display information on the element with the given element "
-"symbol or atomic number\n"
+"               display information on the element with the given element symbol or atomic number\n"
 "\n"
 msgstr ""
 
@@ -158,9 +159,7 @@ msgstr ""
 msgid ""
 "This program shows the periodic table of elements and information about "
 "these elements"
-msgstr ""
-"Questo programma mostra la tavola periodica degli elementi ed informazioni "
-"su di essi"
+msgstr "Questo programma mostra la tavola periodica degli elementi ed informazioni su di essi"
 
 #: gperiodic.h:103
 msgid ""
@@ -176,24 +175,8 @@ msgid ""
 "\n"
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-"USA\n"
-msgstr ""
-"gperiodic è software libero; è lecito redistribuirlo o modificarlo secondo "
-"i\n"
-"termini della GNU General Public License come pubblicata dalla Free "
-"Software\n"
-"Foundation; o la versione 2 o (a propria scelta) una versione successiva.\n"
-"\n"
-"gperiodic è distribuito nella speranza che sia utile, ma SENZA ALCUNA\n"
-"GARANZIA; senza neppure la garanzia implicita di NEGOZIABILITÀ o di\n"
-"APPLICABILITÀ PER UN PARTICOLARE SCOPO. Si veda la licenza GNU General\n"
-"Public License per maggiori dettagli.\n"
-"\n"
-"Questo programma deve essere distribuito assieme a una copia della GNU\n"
-"General Public License; in caso contrario, scrivere alla Free Software\n"
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-"USA\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
+msgstr "gperiodic è software libero; è lecito redistribuirlo o modificarlo secondo i\ntermini della GNU General Public License come pubblicata dalla Free Software\nFoundation; o la versione 2 o (a propria scelta) una versione successiva.\n\ngperiodic è distribuito nella speranza che sia utile, ma SENZA ALCUNA\nGARANZIA; senza neppure la garanzia implicita di NEGOZIABILITÀ o di\nAPPLICABILITÀ PER UN PARTICOLARE SCOPO. Si veda la licenza GNU General\nPublic License per maggiori dettagli.\n\nQuesto programma deve essere distribuito assieme a una copia della GNU\nGeneral Public License; in caso contrario, scrivere alla Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
 
 #: gperiodic.h:105
 msgid "gperiodic homepage"
@@ -621,8 +604,8 @@ msgstr ""
 
 #: table_data.h:159
 msgid ""
-"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium "
-"carbonate)"
+"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium"
+" carbonate)"
 msgstr ""
 
 #: table_data.h:160
@@ -959,7 +942,8 @@ msgid "Malleable, ductile, reddish-brown metal"
 msgstr ""
 
 #: table_data.h:178
-msgid "Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
+msgid ""
+"Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
 msgstr "Dal greco «cuprum», «cipresso»"
 
 #: table_data.h:179
@@ -1108,9 +1092,7 @@ msgstr ""
 
 #: table_data.h:187
 msgid "Latin: rubidus (deep red); the color its salts impart to flames"
-msgstr ""
-"Dal latino «rubidus», «rosso scuro»; il colore dei suoi sali impartire alle "
-"fiamme"
+msgstr "Dal latino «rubidus», «rosso scuro»; il colore dei suoi sali impartire alle fiamme"
 
 #: table_data.h:188
 msgid "Strontium"
@@ -1340,8 +1322,7 @@ msgstr "Stagno"
 
 #: table_data.h:200
 msgid "Named after Etruscan god, Tinia; symbol from Latin: stannum (tin)"
-msgstr ""
-"Prende il nome etrusco dio Tinia; dalla parola latina «stannum», «stagno»"
+msgstr "Prende il nome etrusco dio Tinia; dalla parola latina «stannum», «stagno»"
 
 #: table_data.h:201
 msgid "Antimony"
@@ -1882,9 +1863,7 @@ msgstr ""
 
 #: table_data.h:234
 msgid "Greek: thallos (green twig), for a bright green line in its spectrum"
-msgstr ""
-"Dal greco «tallos», «ramoscello», per una linea verde brillante nel suo "
-"spettro"
+msgstr "Dal greco «tallos», «ramoscello», per una linea verde brillante nel suo spettro"
 
 #: table_data.h:235
 msgid "Lead"
@@ -1908,9 +1887,7 @@ msgstr ""
 
 #: table_data.h:236
 msgid "German: bisemutum (white mass); now spelled wismut"
-msgstr ""
-"Anticamente il nome germanico del bismuto era «wismuth», che significa "
-"«massa bianca»"
+msgstr "Anticamente il nome germanico del bismuto era «wismuth», che significa «massa bianca»"
 
 #: table_data.h:237
 msgid "Polonium"
@@ -2060,9 +2037,7 @@ msgstr ""
 msgid ""
 "Greek: proto and actinium (parent of actinium); it forms actinium when it "
 "radioactively decays"
-msgstr ""
-"Dal greco «protos», «antenato»; il protoattinio precede l'attinio nella "
-"tavola periodica"
+msgstr "Dal greco «protos», «antenato»; il protoattinio precede l'attinio nella tavola periodica"
 
 #: table_data.h:247
 msgid "Uranium"
@@ -2238,10 +2213,9 @@ msgstr "Dubna"
 
 #: table_data.h:257
 msgid ""
-"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel prize"
-msgstr ""
-"Dal nome dello scienziato Alfred Nobel, che inventò la dinamite e fondatore "
-"del premio Nobel"
+"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel "
+"prize"
+msgstr "Dal nome dello scienziato Alfred Nobel, che inventò la dinamite e fondatore del premio Nobel"
 
 #: table_data.h:259
 msgid "Lawrencium"
@@ -2348,9 +2322,7 @@ msgstr "1994 (Germania)"
 
 #: table_data.h:266
 msgid "Named after Darmstadt, Germany, the city of its discovery"
-msgstr ""
-"Dal nome della città tedesca di Darmstadt, dove sono stati scoperti numerosi "
-"elementi"
+msgstr "Dal nome della città tedesca di Darmstadt, dove sono stati scoperti numerosi elementi"
 
 #: table_data.h:267
 msgid "Roentgenium"

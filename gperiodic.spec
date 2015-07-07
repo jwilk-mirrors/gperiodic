@@ -2,10 +2,10 @@ Name:		gperiodic
 Summary:	A graphical application for browsing the periodic table
 Version:	3.0.1
 Release:	%mkrel 1
-URL:		http://code.google.com/p/gperiodic
+URL:		https://sourceforge.net/p/gperiodic
 Group:		Sciences/Chemistry
 License:	GPLv2+
-Source0:	%{name}-%{version}.tar.gz
+Source0:	https://sourceforge.net/projects/gperiodic/files/%{name}-%{version}.tar.gz
 BuildRequires:	gtk2-devel
 BuildRequires:	intltool
 

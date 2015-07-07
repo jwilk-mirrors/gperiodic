@@ -1,22 +1,23 @@
-# Translation of gperiodic to Danish.
-# Copyright (C) 2003-2014 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gperiodic package.
-# Gunner Poulsen <?>, 2003.
-# Rémi Verschelde <akien@mageia.org>, 2014.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Gunner Poulsen <?>, 2003
+# Rémi Verschelde <akien@mageia.org>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07 13:09+0300\n"
-"PO-Revision-Date: 2014-06-24 18:43+0100\n"
-"Last-Translator: Rémi Verschelde <akien@mageia.org>\n"
-"Language-Team: Danish <dansk@klid.dk>\n"
-"Language: da\n"
+"PO-Revision-Date: 2015-07-04 21:56+0000\n"
+"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
+"Language-Team: Danish (http://www.transifex.com/projects/p/gperiodic/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: gperiodic.c:194
 #, c-format
@@ -39,15 +40,7 @@ msgid ""
 "    -D         dump the periodic table\n"
 "    -v         be verbose\n"
 "\n"
-msgstr ""
-"gperiodic [tilvalg]\n"
-"Tilvalg:\n"
-"    -h         Vis denne hjælpeskærm\n"
-"    -c <Temp>  farvelæg grundstofferne efter deres tilstandsform\n"
-"               ved temperaturen  <Temp> i Kelvin\n"
-"    -D         dump det periodiske system\n"
-"    -v         verbose tilstand\n"
-"\n"
+msgstr "gperiodic [tilvalg]\nTilvalg:\n    -h         Vis denne hjælpeskærm\n    -c <Temp>  farvelæg grundstofferne efter deres tilstandsform\n               ved temperaturen  <Temp> i Kelvin\n    -D         dump det periodiske system\n    -v         verbose tilstand\n\n"
 
 #: gperiodic.c:205
 #, c-format
@@ -55,16 +48,9 @@ msgid ""
 "or\n"
 "\n"
 "gperiodic [element_symbol | atomic_number]\n"
-"               display information on the element with the given element "
-"symbol or atomic number\n"
+"               display information on the element with the given element symbol or atomic number\n"
 "\n"
-msgstr ""
-"eller\n"
-"\n"
-"gperiodic [element_symbol | atomnummer]\n"
-"               vis oplysninger om elementet med det givne element symbol "
-"eller atomnummer\n"
-"\n"
+msgstr "eller\n\ngperiodic [element_symbol | atomnummer]\n               vis oplysninger om elementet med det givne element symbol eller atomnummer\n\n"
 
 #: gperiodic.c:291 gperiodic.c:292 table_data.h:82 table_data.h:98
 #: table_data.h:148 table_data.h:150 table_data.h:153 table_data.h:154
@@ -159,10 +145,7 @@ msgid ""
 "\n"
 " Unknown element : %s. Exiting.\n"
 "\n"
-msgstr ""
-"\n"
-" Ukendt element : %s. Afslutter.\n"
-"\n"
+msgstr "\n Ukendt element : %s. Afslutter.\n\n"
 
 #: gperiodic.c:537
 #, c-format
@@ -170,18 +153,13 @@ msgid ""
 "\n"
 " Element number exceeds existing elements. Exiting.\n"
 "\n"
-msgstr ""
-"\n"
-" Grundstofnummeret er højere end de eksisterende grundstoffer. Afslutter.\n"
-"\n"
+msgstr "\n Grundstofnummeret er højere end de eksisterende grundstoffer. Afslutter.\n\n"
 
 #: gperiodic.h:102
 msgid ""
 "This program shows the periodic table of elements and information about "
 "these elements"
-msgstr ""
-"Dette program viser grundstoffernes periodiske system og oplysninger om "
-"grundstofferne"
+msgstr "Dette program viser grundstoffernes periodiske system og oplysninger om grundstofferne"
 
 #: gperiodic.h:103
 msgid ""
@@ -197,25 +175,8 @@ msgid ""
 "\n"
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-"USA\n"
-msgstr ""
-"gperiodic er frit programmel; du kan redistribuere og/eller ændre det iht. "
-"GNU\n"
-"General Public License som er udgivet af Free Software Foundation; enten\n"
-"version 2 af licensen, eller (efter eget valg) en hvilken som helst\n"
-"efterfølgende version.\n"
-"\n"
-"gperiodic bliver distribueret med det formål, at det skal være til nytte, "
-"men\n"
-"UDEN NOGEN FORM FOR GARANTI, heller ingen implicit garanti for SALGBARHED\n"
-"eller EGNETHED TIL NOGEN SPECIEL OPGAVE. Se GNU General Public License for\n"
-"nærmere detaljer.\n"
-"\n"
-"Du burde have modtaget en kopi af licensen GNU General Public License "
-"sammen\n"
-"med gperiodic; hvis ikke så skriv til Free Software Foundation, Inc., 51\n"
-"Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
+msgstr "gperiodic er frit programmel; du kan redistribuere og/eller ændre det iht. GNU\nGeneral Public License som er udgivet af Free Software Foundation; enten\nversion 2 af licensen, eller (efter eget valg) en hvilken som helst\nefterfølgende version.\n\ngperiodic bliver distribueret med det formål, at det skal være til nytte, men\nUDEN NOGEN FORM FOR GARANTI, heller ingen implicit garanti for SALGBARHED\neller EGNETHED TIL NOGEN SPECIEL OPGAVE. Se GNU General Public License for\nnærmere detaljer.\n\nDu burde have modtaget en kopi af licensen GNU General Public License sammen\nmed gperiodic; hvis ikke så skriv til Free Software Foundation, Inc., 51\nFranklin Street, Fifth Floor, Boston, MA 02110-1301  USA\n"
 
 #: gperiodic.h:105
 msgid "gperiodic homepage"
@@ -643,8 +604,8 @@ msgstr "Sir Humphrey Davy"
 
 #: table_data.h:159
 msgid ""
-"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium "
-"carbonate)"
+"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium"
+" carbonate)"
 msgstr "Latin: natrium (Natrium carbonat)"
 
 #: table_data.h:160
@@ -717,8 +678,7 @@ msgstr "1.82 (hvidt phosphor)"
 
 #: table_data.h:163
 msgid "The most common white form is a waxy, phosphorescent solid"
-msgstr ""
-"Den mest almindelige hvide form er et voksagtig, fosforiserende faststof"
+msgstr "Den mest almindelige hvide form er et voksagtig, fosforiserende faststof"
 
 #: table_data.h:163
 msgid "1669 (Germany)"
@@ -982,10 +942,9 @@ msgid "Malleable, ductile, reddish-brown metal"
 msgstr "Bøjeligt, rødbrunt metal, der kan smedes"
 
 #: table_data.h:178
-msgid "Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
-msgstr ""
-"Symbolet stammer fra den latinske betegnelse: cuprum (øen Cypern berømt for "
-"sine kobberminer)"
+msgid ""
+"Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
+msgstr "Symbolet stammer fra den latinske betegnelse: cuprum (øen Cypern berømt for sine kobberminer)"
 
 #: table_data.h:179
 msgid "Zinc"
@@ -1363,9 +1322,7 @@ msgstr "Tin"
 
 #: table_data.h:200
 msgid "Named after Etruscan god, Tinia; symbol from Latin: stannum (tin)"
-msgstr ""
-"Navngivet efter den etruskiske gud Tinia, symbolet stammer fra det latinske "
-"navn: stannum (tin)"
+msgstr "Navngivet efter den etruskiske gud Tinia, symbolet stammer fra det latinske navn: stannum (tin)"
 
 #: table_data.h:201
 msgid "Antimony"
@@ -1870,8 +1827,7 @@ msgstr "Blødt, gulligt metal, der kan smedes"
 
 #: table_data.h:232
 msgid "Anglo-Saxon: geolo (yellow); symbol from Latin: aurum (shining dawn)"
-msgstr ""
-"Angelsaksisk: geolo (gult); symbol fra Latin: aurum (skinnende morgengry)"
+msgstr "Angelsaksisk: geolo (gult); symbol fra Latin: aurum (skinnende morgengry)"
 
 #: table_data.h:233
 msgid "Mercury"
@@ -2081,9 +2037,7 @@ msgstr "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner"
 msgid ""
 "Greek: proto and actinium (parent of actinium); it forms actinium when it "
 "radioactively decays"
-msgstr ""
-"Græsk: proto og actinium (actiniums forældre); det bliver til actinium når "
-"det henfalder radioaktivt"
+msgstr "Græsk: proto og actinium (actiniums forældre); det bliver til actinium når det henfalder radioaktivt"
 
 #: table_data.h:247
 msgid "Uranium"
@@ -2243,9 +2197,7 @@ msgstr "1955 (USA)"
 msgid ""
 "Named in honor of the scientist Dmitry Ivanovich Mendeleev, who devised the "
 "periodic table"
-msgstr ""
-"Navngivet til ære for videnskabsmanden Dmitry Ivanovich Mendeleev, som "
-"opfandt det periodiske system"
+msgstr "Navngivet til ære for videnskabsmanden Dmitry Ivanovich Mendeleev, som opfandt det periodiske system"
 
 #: table_data.h:257
 msgid "Nobelium"
@@ -2261,10 +2213,9 @@ msgstr "Dubna"
 
 #: table_data.h:257
 msgid ""
-"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel prize"
-msgstr ""
-"Navngivet til ære for Alfred Nobel, som opfandt dynamit og indstiftede "
-"Nobelprisen"
+"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel "
+"prize"
+msgstr "Navngivet til ære for Alfred Nobel, som opfandt dynamit og indstiftede Nobelprisen"
 
 #: table_data.h:259
 msgid "Lawrencium"
@@ -2318,9 +2269,7 @@ msgstr "1974 (USSR/USA)"
 msgid ""
 "Named in honor of Glenn Theodore Seaborg, American physical chemist known "
 "for research on transuranium elements"
-msgstr ""
-"Navngivet til ære for Glenn Theodore Seaborg, amerikansk fysisk kemiker, der "
-"er kendt for sin forskning i grundstofferne tungere end Uran"
+msgstr "Navngivet til ære for Glenn Theodore Seaborg, amerikansk fysisk kemiker, der er kendt for sin forskning i grundstofferne tungere end Uran"
 
 #: table_data.h:263
 msgid "Bohrium"
@@ -2373,9 +2322,7 @@ msgstr "1994 (Tyskland)"
 
 #: table_data.h:266
 msgid "Named after Darmstadt, Germany, the city of its discovery"
-msgstr ""
-"Opkaldt efter den tyske by Darmstadt, hvor mange grundstoffer er blevet "
-"opdaget"
+msgstr "Opkaldt efter den tyske by Darmstadt, hvor mange grundstoffer er blevet opdaget"
 
 #: table_data.h:267
 msgid "Roentgenium"

@@ -1,21 +1,24 @@
-# Translation of gperiodic to Galician.
-# Copyright (C) 2006-2014 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gperiodic package.
-# Gonzalo Regueiro Iglesias <gonzalo.regueiro.iglesias@gmail.com>, 2006.
-# Leandro Regueiro <leandro.regueiro@gmail.com>, 2006.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Gonzalo Regueiro Iglesias <gonzalo.regueiro.iglesias@gmail.com>, 2006
+# Leandro Regueiro <leandro.regueiro@gmail.com>, 2006
+# Miguel Anxo Bouzada <mbouzada@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07 13:09+0300\n"
-"PO-Revision-Date: 2014-06-09 15:05+0300\n"
-"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
-"Language-Team: Galician <LL@li.org>\n"
-"Language: gl\n"
+"PO-Revision-Date: 2015-07-07 08:48+0000\n"
+"Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
+"Language-Team: Galician (http://www.transifex.com/projects/p/gperiodic/language/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: gl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: gperiodic.c:194
 #, c-format
@@ -46,8 +49,7 @@ msgid ""
 "or\n"
 "\n"
 "gperiodic [element_symbol | atomic_number]\n"
-"               display information on the element with the given element "
-"symbol or atomic number\n"
+"               display information on the element with the given element symbol or atomic number\n"
 "\n"
 msgstr ""
 
@@ -80,7 +82,7 @@ msgstr ""
 #: table_data.h:269 table_data.h:270 table_data.h:271 table_data.h:272
 #: table_data.h:273 table_data.h:274
 msgid "n/a"
-msgstr ""
+msgstr "n/d"
 
 #: gperiodic.c:336
 msgid "_File"
@@ -88,7 +90,7 @@ msgstr "_Ficheiro"
 
 #: gperiodic.c:337
 msgid "_Help"
-msgstr "A_xuda"
+msgstr "_Axuda"
 
 #: gperiodic.c:338
 msgid "E_xit"
@@ -100,11 +102,11 @@ msgstr "SaÃr do programa"
 
 #: gperiodic.c:340 gperiodic.c:342
 msgid "_About"
-msgstr "_Acerca de"
+msgstr "_Sobre"
 
 #: gperiodic.c:340 gperiodic.c:342
 msgid "About gperiodic"
-msgstr "Acerca de gperiodic"
+msgstr "Sobre o gperiodic"
 
 #: gperiodic.c:360
 msgid "GPeriodic"
@@ -174,23 +176,8 @@ msgid ""
 "\n"
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-"USA\n"
-msgstr ""
-"O gperiodic é software libre, pode redistribuílo ou modificalo baixo os "
-"termos\n"
-"da Licenza pública xeral GNU tal como a publica a Free Software Foundation;\n"
-"tanto na versión 2 da Licenza como (segundo o seu criterio) en calquera\n"
-"versión posterior.\n"
-"\n"
-"O gperiodic distribúese esperando que sexa útil, mais SEN NINGUNHA "
-"GARANTÍA;\n"
-"mesmo sen a garantía implícita de VALOR COMERCIAL ou ADECUACIÓN PARA UN\n"
-"PROPÓSITO PARTICULAR. Para máis detalles vexa a Licenza pública xeral GNU.\n"
-"\n"
-"Debeu recibir unha copia da Licenza pública xeral GNU xunto co Brasero; en\n"
-"caso contrario, escriba á Free Software Foundation, Inc., 51 Franklin\n"
-"Street, Fifth Floor, Boston, MA 02111-1301, USA\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
+msgstr "O gperiodic é software libre, pode redistribuílo ou modificalo baixo os termos\nda Licenza pública xeral GNU tal como a publica a Free Software Foundation;\ntanto na versión 2 da Licenza como (segundo o seu criterio) en calquera\nversión posterior.\n\nO gperiodic distribúese esperando que sexa útil, mais SEN NINGUNHA GARANTÍA;\nmesmo sen a garantía implícita de VALOR COMERCIAL ou ADECUACIÓN PARA UN\nPROPÓSITO PARTICULAR. Para máis detalles vexa a Licenza pública xeral GNU.\n\nDebeu recibir unha copia da Licenza pública xeral GNU xunto co Brasero; en\ncaso contrario, escriba á Free Software Foundation, Inc., 51 Franklin\nStreet, Fifth Floor, Boston, MA 02111-1301, USA\n"
 
 #: gperiodic.h:105
 msgid "gperiodic homepage"
@@ -218,11 +205,11 @@ msgstr "Densidade (g/cm&#179;): "
 
 #: table_data.h:36
 msgid "Melting Point (K): "
-msgstr "Punto de Fusión (K): "
+msgstr "Punto de fusión (K): "
 
 #: table_data.h:37
 msgid "Boiling Point (K): "
-msgstr "Punto de Ebulición (K): "
+msgstr "Punto de ebulición (K): "
 
 #: table_data.h:38
 msgid "Atomic Radius (pm): "
@@ -238,7 +225,7 @@ msgstr "Raio iónico (pm): "
 
 #: table_data.h:41
 msgid "Atomic Volume (cm&#179;/mol): "
-msgstr ""
+msgstr "Volume atómico Volume (cm&#179;/mol): "
 
 #: table_data.h:42
 msgid "Specific Heat (@20&#176;C J/(K*mol)): "
@@ -290,7 +277,7 @@ msgstr ""
 
 #: table_data.h:54
 msgid "Appearance: "
-msgstr ""
+msgstr "Aparencia:"
 
 #: table_data.h:55
 msgid "Discovery date: "
@@ -618,8 +605,8 @@ msgstr ""
 
 #: table_data.h:159
 msgid ""
-"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium "
-"carbonate)"
+"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium"
+" carbonate)"
 msgstr ""
 
 #: table_data.h:160
@@ -956,7 +943,8 @@ msgid "Malleable, ductile, reddish-brown metal"
 msgstr ""
 
 #: table_data.h:178
-msgid "Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
+msgid ""
+"Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
 msgstr "Do grego «cuprum» para Chipre"
 
 #: table_data.h:179
@@ -1105,9 +1093,7 @@ msgstr ""
 
 #: table_data.h:187
 msgid "Latin: rubidus (deep red); the color its salts impart to flames"
-msgstr ""
-"Do latín «rubidus», que significa «vermello escuro»; a cor dos seus sales "
-"Concedo a chama"
+msgstr "Do latín «rubidus», que significa «vermello escuro»; a cor dos seus sales Concedo a chama"
 
 #: table_data.h:188
 msgid "Strontium"
@@ -1421,8 +1407,7 @@ msgstr "1860 (Alemaña)"
 
 #: table_data.h:206
 msgid "Latin: caesius (sky blue); for the blue lines of its spectrum"
-msgstr ""
-"Do latín «caesius» para «azul celeste»; para as liñas azuis do seu espectro"
+msgstr "Do latín «caesius» para «azul celeste»; para as liñas azuis do seu espectro"
 
 #: table_data.h:207
 msgid "Barium"
@@ -1495,9 +1480,7 @@ msgstr ""
 
 #: table_data.h:211
 msgid "Greek: prasios and didymos (green twin); from its green salts"
-msgstr ""
-"Do grego «prasinos didymos», que significa «xemelgo verde»; a partir dos "
-"seus sales verdes"
+msgstr "Do grego «prasinos didymos», que significa «xemelgo verde»; a partir dos seus sales verdes"
 
 #: table_data.h:212
 msgid "Neodymium"
@@ -1881,9 +1864,7 @@ msgstr ""
 
 #: table_data.h:234
 msgid "Greek: thallos (green twig), for a bright green line in its spectrum"
-msgstr ""
-"Do grego «tallos» que significa «cana nova», para unha liña verde brillante "
-"no seu espectro"
+msgstr "Do grego «tallos» que significa «cana nova», para unha liña verde brillante no seu espectro"
 
 #: table_data.h:235
 msgid "Lead"
@@ -2057,9 +2038,7 @@ msgstr ""
 msgid ""
 "Greek: proto and actinium (parent of actinium); it forms actinium when it "
 "radioactively decays"
-msgstr ""
-"Do grego «protos» para «antergo»; o protactinio está antes do actinio na "
-"táboa periódica"
+msgstr "Do grego «protos» para «antergo»; o protactinio está antes do actinio na táboa periódica"
 
 #: table_data.h:247
 msgid "Uranium"
@@ -2235,10 +2214,9 @@ msgstr "Dubna"
 
 #: table_data.h:257
 msgid ""
-"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel prize"
-msgstr ""
-"Nome derivado do científico Alfred Nobel, que inventou a dinamita e fundou "
-"premio Nobel"
+"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel "
+"prize"
+msgstr "Nome derivado do científico Alfred Nobel, que inventou a dinamita e fundou premio Nobel"
 
 #: table_data.h:259
 msgid "Lawrencium"
@@ -2345,9 +2323,7 @@ msgstr "1994 (Alemaña)"
 
 #: table_data.h:266
 msgid "Named after Darmstadt, Germany, the city of its discovery"
-msgstr ""
-"Nome derivado da cidade alemá de Darmstadt, onde foron descubertos varios "
-"elementos"
+msgstr "Nome derivado da cidade alemá de Darmstadt, onde foron descubertos varios elementos"
 
 #: table_data.h:267
 msgid "Roentgenium"

@@ -1,22 +1,23 @@
-# Swedish translations for gperiodic.
-# Copyright (C) 2003-2014 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gperiodic package.
-# Jonas Frantz <jonas@frantz.fi>, 2003.
-# Michael Eklund <willard@null.net>, 2014.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # 
+# Translators:
+# Jonas Frantz <jonas@frantz.fi>, 2003
+# Michael Eklund <willard@null.net>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07 13:09+0300\n"
-"PO-Revision-Date: 2014-06-25 12:17+0100\n"
-"Last-Translator: Michael Eklund <willard@null.net>\n"
-"Language-Team: Swedish <LL@li.org>\n"
-"Language: sv\n"
+"PO-Revision-Date: 2015-07-07 13:53+0000\n"
+"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
+"Language-Team: Swedish (http://www.transifex.com/projects/p/gperiodic/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: gperiodic.c:194
 #, c-format
@@ -39,15 +40,7 @@ msgid ""
 "    -D         dump the periodic table\n"
 "    -v         be verbose\n"
 "\n"
-msgstr ""
-"gperiodic [optioner]\n"
-"Optionerna är:\n"
-"    -h         visa denna hjälp\n"
-"    -c <Temp>  färga grundämnena enligt temperaturen\n"
-"               <Temp> i grader Kelvin\n"
-"    -D         dumpa tabellen\n"
-"    -v         skriv ut extra meddelanden\n"
-"\n"
+msgstr "gperiodic [optioner]\nOptionerna är:\n    -h         visa denna hjälp\n    -c <Temp>  färga grundämnena enligt temperaturen\n               <Temp> i grader Kelvin\n    -D         dumpa tabellen\n    -v         skriv ut extra meddelanden\n\n"
 
 #: gperiodic.c:205
 #, c-format
@@ -55,16 +48,9 @@ msgid ""
 "or\n"
 "\n"
 "gperiodic [element_symbol | atomic_number]\n"
-"               display information on the element with the given element "
-"symbol or atomic number\n"
+"               display information on the element with the given element symbol or atomic number\n"
 "\n"
-msgstr ""
-"eller\n"
-"\n"
-"gperiodic [grundämne_symbol | atom_nummer]\n"
-"               visa information om grundämnet med angiven grundämnessymbol "
-"eller atomnummer\n"
-"\n"
+msgstr "eller\n\ngperiodic [grundämne_symbol | atom_nummer]\n               visa information om grundämnet med angiven grundämnessymbol eller atomnummer\n\n"
 
 #: gperiodic.c:291 gperiodic.c:292 table_data.h:82 table_data.h:98
 #: table_data.h:148 table_data.h:150 table_data.h:153 table_data.h:154
@@ -159,10 +145,7 @@ msgid ""
 "\n"
 " Unknown element : %s. Exiting.\n"
 "\n"
-msgstr ""
-"\n"
-" Okänt grundämne : %s. Avslutar.\n"
-"\n"
+msgstr "\n Okänt grundämne : %s. Avslutar.\n\n"
 
 #: gperiodic.c:537
 #, c-format
@@ -170,17 +153,13 @@ msgid ""
 "\n"
 " Element number exceeds existing elements. Exiting.\n"
 "\n"
-msgstr ""
-"\n"
-" Grundämnets nummer överskrider det totala antalet grundämnen. Avslutar.\n"
-"\n"
+msgstr "\n Grundämnets nummer överskrider det totala antalet grundämnen. Avslutar.\n\n"
 
 #: gperiodic.h:102
 msgid ""
 "This program shows the periodic table of elements and information about "
 "these elements"
-msgstr ""
-"Detta program visar den periodiska tabellen samt information om grundämnena"
+msgstr "Detta program visar den periodiska tabellen samt information om grundämnena"
 
 #: gperiodic.h:103
 msgid ""
@@ -196,23 +175,8 @@ msgid ""
 "\n"
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-"USA\n"
-msgstr ""
-"gperiodic är fri programvara. Du kan distribuera det och/eller modifiera "
-"det\n"
-"under villkoren i GNU General Public License, publicerad av Free Software\n"
-"Foundation, antingen version 2 eller (om du så vill) någon senare version.\n"
-"\n"
-"gperiodic distribueras i hopp om att det ska vara användbart, men UTAN "
-"NÅGON\n"
-"SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller\n"
-"LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License för\n"
-"ytterligare information.\n"
-"\n"
-"Du bör ha fått en kopia av GNU General Public License tillsammans med\n"
-"gperiodic. Om inte, skriv till Free Software Foundation, Inc., 51 Franklin\n"
-"Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
+msgstr "gperiodic är fri programvara. Du kan distribuera det och/eller modifiera det\nunder villkoren i GNU General Public License, publicerad av Free Software\nFoundation, antingen version 2 eller (om du så vill) någon senare version.\n\ngperiodic distribueras i hopp om att det ska vara användbart, men UTAN NÅGON\nSOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller\nLÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License för\nytterligare information.\n\nDu bör ha fått en kopia av GNU General Public License tillsammans med\ngperiodic. Om inte, skriv till Free Software Foundation, Inc., 51 Franklin\nStreet, Fifth Floor, Boston, MA 02110-1301, USA\n"
 
 #: gperiodic.h:105
 msgid "gperiodic homepage"
@@ -640,8 +604,8 @@ msgstr "Sir Humphrey Davy"
 
 #: table_data.h:159
 msgid ""
-"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium "
-"carbonate)"
+"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium"
+" carbonate)"
 msgstr "Medeltida latin: sodanum (huvudvärksmedicin)"
 
 #: table_data.h:160
@@ -978,7 +942,8 @@ msgid "Malleable, ductile, reddish-brown metal"
 msgstr "Formbar, elstisk, röd-brun metall"
 
 #: table_data.h:178
-msgid "Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
+msgid ""
+"Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
 msgstr "Symbolen från Latin: cuprum (ön Cypern, känd för sina koppargruvor)"
 
 #: table_data.h:179
@@ -1357,9 +1322,7 @@ msgstr "Tenn"
 
 #: table_data.h:200
 msgid "Named after Etruscan god, Tinia; symbol from Latin: stannum (tin)"
-msgstr ""
-"Namngett efter den etruskiska guden, Tinia; symbolen från Latin: stannum "
-"(tenn)"
+msgstr "Namngett efter den etruskiska guden, Tinia; symbolen från Latin: stannum (tenn)"
 
 #: table_data.h:201
 msgid "Antimony"
@@ -1864,8 +1827,7 @@ msgstr "Mjuk, formbar, gul metall"
 
 #: table_data.h:232
 msgid "Anglo-Saxon: geolo (yellow); symbol from Latin: aurum (shining dawn)"
-msgstr ""
-"Anglo-Saxiska: geolo (gul); symbolen från latin: aurum (skinande soluppgång)"
+msgstr "Anglo-Saxiska: geolo (gul); symbolen från latin: aurum (skinande soluppgång)"
 
 #: table_data.h:233
 msgid "Mercury"
@@ -1881,8 +1843,7 @@ msgstr "Tung, silver-vit metall"
 
 #: table_data.h:233
 msgid "The Roman god Mercury; symbol from Latin: hydrargyrum (liquid silver)"
-msgstr ""
-"Den romerska guden Merkurius; symbolen från latin: hydrargyrum (silvervätska)"
+msgstr "Den romerska guden Merkurius; symbolen från latin: hydrargyrum (silvervätska)"
 
 #: table_data.h:234
 msgid "Thallium"
@@ -2236,9 +2197,7 @@ msgstr "1955 (USA)"
 msgid ""
 "Named in honor of the scientist Dmitry Ivanovich Mendeleev, who devised the "
 "periodic table"
-msgstr ""
-"Uppkallat efter vetenskapsmannen Dmitrij Ivanovitj Mendelejev som omarbetade "
-"det periodiska systemet"
+msgstr "Uppkallat efter vetenskapsmannen Dmitrij Ivanovitj Mendelejev som omarbetade det periodiska systemet"
 
 #: table_data.h:257
 msgid "Nobelium"
@@ -2254,9 +2213,9 @@ msgstr "Dubna"
 
 #: table_data.h:257
 msgid ""
-"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel prize"
-msgstr ""
-"Uppkallat efter Alfred Nobel som uppfann dynamiten och grundade Nobelpriset"
+"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel "
+"prize"
+msgstr "Uppkallat efter Alfred Nobel som uppfann dynamiten och grundade Nobelpriset"
 
 #: table_data.h:259
 msgid "Lawrencium"
@@ -2363,8 +2322,7 @@ msgstr "1994 (Tyskland)"
 
 #: table_data.h:266
 msgid "Named after Darmstadt, Germany, the city of its discovery"
-msgstr ""
-"Namngivet efter den tyska staden Darmstadt där många grundämnen har upptäckts"
+msgstr "Namngivet efter den tyska staden Darmstadt där många grundämnen har upptäckts"
 
 #: table_data.h:267
 msgid "Roentgenium"

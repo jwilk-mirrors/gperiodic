@@ -1,5 +1,7 @@
-3.0.1 Jan 7 2015
+3.0.1 Jul 7 2015
    Update desktop file
+   Move to https://sourceforge.net/p/gperiodic
+   Use translations from transifex.com
 
 3.0.0 Jun 25 2014
    Update authors and changelog

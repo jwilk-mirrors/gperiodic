@@ -1,24 +1,24 @@
-# German translation for gperiodic.
-# Copyright (C) 1999-2014 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gperiodic package.
-# Christian Klein <?>, 1999.
-# Sven Neumann <?>, 1999.
-# Marc Lattemann <marc.lattemann@web.de>, 2014.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # 
+# Translators:
+# Christian Klein <?>, 1999
+# Marc Lattemann, 2014
+# Sven Neumann <?>, 1999
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07 13:09+0300\n"
-"PO-Revision-Date: 2014-06-24 21:28+0200\n"
-"Last-Translator: Marc Lattemann <marc.lattemann@web.de>\n"
-"Language-Team: German\n"
-"Language: de\n"
+"PO-Revision-Date: 2015-07-07 13:42+0000\n"
+"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/gperiodic/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
 
 #: gperiodic.c:194
 #, c-format
@@ -28,8 +28,7 @@ msgstr "Das Periodensystem der Elemente"
 #: gperiodic.c:196
 #, c-format
 msgid "A program for looking up data of elements from the periodic table"
-msgstr ""
-"Ein Programm, um Daten von Elementen aus dem Periodensystem nach zu schauen"
+msgstr "Ein Programm, um Daten von Elementen aus dem Periodensystem nach zu schauen"
 
 #: gperiodic.c:198
 #, c-format
@@ -42,15 +41,7 @@ msgid ""
 "    -D         dump the periodic table\n"
 "    -v         be verbose\n"
 "\n"
-msgstr ""
-"gperiodic [opts]\n"
-"Optionen sind:\n"
-"    -h         anzeigen dieser Hilfe\n"
-"    -c <Temp>  Einfärben der Elemente anhand ihrer Phase bei \n"
-"               Grad <Temp> in Kelvin\n"
-"    -D         löschen des Periodensystems\n"
-"    -v         zeige ausführliche Informationen\n"
-"\n"
+msgstr "gperiodic [opts]\nOptionen sind:\n    -h         anzeigen dieser Hilfe\n    -c <Temp>  Einfärben der Elemente anhand ihrer Phase bei \n               Grad <Temp> in Kelvin\n    -D         löschen des Periodensystems\n    -v         zeige ausführliche Informationen\n\n"
 
 #: gperiodic.c:205
 #, c-format
@@ -58,16 +49,9 @@ msgid ""
 "or\n"
 "\n"
 "gperiodic [element_symbol | atomic_number]\n"
-"               display information on the element with the given element "
-"symbol or atomic number\n"
+"               display information on the element with the given element symbol or atomic number\n"
 "\n"
-msgstr ""
-"oder\n"
-"\n"
-"gperiodic [Element Symbol | Atom Nummer]\n"
-"               Anzeigen von Informationen über das Element mit dem "
-"angegebenen Element Symbol oder Atom Nummer\n"
-"\n"
+msgstr "oder\n\ngperiodic [Element Symbol | Atom Nummer]\n               Anzeigen von Informationen über das Element mit dem angegebenen Element Symbol oder Atom Nummer\n\n"
 
 #: gperiodic.c:291 gperiodic.c:292 table_data.h:82 table_data.h:98
 #: table_data.h:148 table_data.h:150 table_data.h:153 table_data.h:154
@@ -162,10 +146,7 @@ msgid ""
 "\n"
 " Unknown element : %s. Exiting.\n"
 "\n"
-msgstr ""
-"\n"
-"Unbekanntes Element : %s. Programm wird beendet.\n"
-"\n"
+msgstr "\nUnbekanntes Element : %s. Programm wird beendet.\n\n"
 
 #: gperiodic.c:537
 #, c-format
@@ -173,17 +154,13 @@ msgid ""
 "\n"
 " Element number exceeds existing elements. Exiting.\n"
 "\n"
-msgstr ""
-"\n"
-" Element Nummer übersteigt die vorhandenen Elemente. Programm wird beendet\n"
-"\n"
+msgstr "\n Element Nummer übersteigt die vorhandenen Elemente. Programm wird beendet\n\n"
 
 #: gperiodic.h:102
 msgid ""
 "This program shows the periodic table of elements and information about "
 "these elements"
-msgstr ""
-"Dieses Programm zeigt das Periodensystem und Informationen über die Elemente"
+msgstr "Dieses Programm zeigt das Periodensystem und Informationen über die Elemente"
 
 #: gperiodic.h:103
 msgid ""
@@ -199,28 +176,8 @@ msgid ""
 "\n"
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-"USA\n"
-msgstr ""
-"gperiodic ist freie Software, Sie können sie weitergeben und/oder "
-"verändern,\n"
-"solange Sie sich an die Regeln der GNU General Public License halten, so "
-"wie\n"
-"sie von der Free Software Foundation festgelegt wurden; entweder in Version\n"
-"2 der Lizenz oder (nach Ihrem Ermessen) in jeder folgenden Version.\n"
-"\n"
-"gperiodic wurde mit dem Ziel veröffentlicht, dass Sie es nützlich finden,\n"
-"jedoch OHNE JEDWEDE GARANTIE, sogar ohne eine implizite Garantie\n"
-"der VERKAUFBARKEIT oder der NUTZBARKEIT FÜR EINEN SPEZIELLEN ZWECK.\n"
-"Schauen Sie für weitere Informationen bitte in der GNU General Public "
-"License\n"
-"(GNU GPL) nach.\n"
-"\n"
-"Mit gperiodic sollten Sie außerdem eine Kopie der GNU General Public "
-"License\n"
-"erhalten haben. Wenn dem nicht so ist, so schreiben Sie bitte an die Free\n"
-"Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA\n"
-"02110-1301, USA.\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
+msgstr "gperiodic ist freie Software, Sie können sie weitergeben und/oder verändern,\nsolange Sie sich an die Regeln der GNU General Public License halten, so wie\nsie von der Free Software Foundation festgelegt wurden; entweder in Version\n2 der Lizenz oder (nach Ihrem Ermessen) in jeder folgenden Version.\n\ngperiodic wurde mit dem Ziel veröffentlicht, dass Sie es nützlich finden,\njedoch OHNE JEDWEDE GARANTIE, sogar ohne eine implizite Garantie\nder VERKAUFBARKEIT oder der NUTZBARKEIT FÜR EINEN SPEZIELLEN ZWECK.\nSchauen Sie für weitere Informationen bitte in der GNU General Public License\n(GNU GPL) nach.\n\nMit gperiodic sollten Sie außerdem eine Kopie der GNU General Public License\nerhalten haben. Wenn dem nicht so ist, so schreiben Sie bitte an die Free\nSoftware Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA\n02110-1301, USA.\n"
 
 #: gperiodic.h:105
 msgid "gperiodic homepage"
@@ -648,11 +605,9 @@ msgstr "Sir William Ramsey, M.W. Travers"
 
 #: table_data.h:159
 msgid ""
-"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium "
-"carbonate)"
-msgstr ""
-"mittelalterliches Latein: sodanum (Kopfschmerzmittel); Symbol aus dem "
-"lateinischen Natrium (Natrium Carbonat)"
+"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium"
+" carbonate)"
+msgstr "mittelalterliches Latein: sodanum (Kopfschmerzmittel); Symbol aus dem lateinischen Natrium (Natrium Carbonat)"
 
 #: table_data.h:160
 msgid "Magnesium"
@@ -988,7 +943,8 @@ msgid "Malleable, ductile, reddish-brown metal"
 msgstr "dehn- und formbares, rötlich-braunes Metall"
 
 #: table_data.h:178
-msgid "Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
+msgid ""
+"Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
 msgstr "Griechisch „cuprum“ für Zypressen"
 
 #: table_data.h:179
@@ -1065,8 +1021,7 @@ msgstr "Stahl grau, sprödes Halbmetall"
 
 #: table_data.h:182
 msgid "Greek: arsenikon; Latin: arsenicum (both names for yellow pigment)"
-msgstr ""
-"Griechisch: arsenikon: Lateinisch: arsenicum (beide namen für gelbes Pigment)"
+msgstr "Griechisch: arsenikon: Lateinisch: arsenicum (beide namen für gelbes Pigment)"
 
 #: table_data.h:183
 msgid "Selenium"
@@ -1138,9 +1093,7 @@ msgstr "Gustov Kirchoff, Robert Bunsen"
 
 #: table_data.h:187
 msgid "Latin: rubidus (deep red); the color its salts impart to flames"
-msgstr ""
-"Lateinisch „rubidus“ für „dunkelrot“; die Farbe seiner Salze verleihen "
-"Flammen"
+msgstr "Lateinisch „rubidus“ für „dunkelrot“; die Farbe seiner Salze verleihen Flammen"
 
 #: table_data.h:188
 msgid "Strontium"
@@ -1382,9 +1335,7 @@ msgstr "Hartes, silbrig-weißes, sprödes Halbmetall"
 
 #: table_data.h:201
 msgid "Greek: anti and monos (not alone); symbol from mineral stibnite"
-msgstr ""
-"Griechisch \"anti\" und \"monos\" für \"nicht allein\"; Symbol von "
-"mineralischen Antimonit"
+msgstr "Griechisch \"anti\" und \"monos\" für \"nicht allein\"; Symbol von mineralischen Antimonit"
 
 #: table_data.h:202
 msgid "Tellurium"
@@ -1456,8 +1407,7 @@ msgstr "1860 (Deutschland)"
 
 #: table_data.h:206
 msgid "Latin: caesius (sky blue); for the blue lines of its spectrum"
-msgstr ""
-"Lateinisch „caesius“ für „himmelblau“; weil die blauen Linien des Spektrums"
+msgstr "Lateinisch „caesius“ für „himmelblau“; weil die blauen Linien des Spektrums"
 
 #: table_data.h:207
 msgid "Barium"
@@ -1530,8 +1480,7 @@ msgstr "C.F. Aver von Welsbach"
 
 #: table_data.h:211
 msgid "Greek: prasios and didymos (green twin); from its green salts"
-msgstr ""
-"Griechisch „prasios didymos“ für „grüner Zwilling“; von seiner grünen Salze"
+msgstr "Griechisch „prasios didymos“ für „grüner Zwilling“; von seiner grünen Salze"
 
 #: table_data.h:212
 msgid "Neodymium"
@@ -1539,8 +1488,7 @@ msgstr "Neodym"
 
 #: table_data.h:212
 msgid "Silvery-white, rare-earth metal that oxidizes easily in air"
-msgstr ""
-"Silbrig-weißes, Seltene-Erde Metall, welches schnell an der Luft oxidiert"
+msgstr "Silbrig-weißes, Seltene-Erde Metall, welches schnell an der Luft oxidiert"
 
 #: table_data.h:212
 msgid "1925 (Austria)"
@@ -1916,9 +1864,7 @@ msgstr "Sir William Crookes"
 
 #: table_data.h:234
 msgid "Greek: thallos (green twig), for a bright green line in its spectrum"
-msgstr ""
-"Griechisch „tallos“ für „junger Zweig“, weil eine helle grüne Linie in "
-"seinem Spektrum"
+msgstr "Griechisch „tallos“ für „junger Zweig“, weil eine helle grüne Linie in seinem Spektrum"
 
 #: table_data.h:235
 msgid "Lead"
@@ -2092,9 +2038,7 @@ msgstr "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner"
 msgid ""
 "Greek: proto and actinium (parent of actinium); it forms actinium when it "
 "radioactively decays"
-msgstr ""
-"Griechisch „protos“ für „Vorfahre“; proactinium steht vor Actinium im "
-"Periodensystem der Elemente"
+msgstr "Griechisch „protos“ für „Vorfahre“; proactinium steht vor Actinium im Periodensystem der Elemente"
 
 #: table_data.h:247
 msgid "Uranium"
@@ -2270,7 +2214,8 @@ msgstr "Dubna"
 
 #: table_data.h:257
 msgid ""
-"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel prize"
+"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel "
+"prize"
 msgstr "Nach dem Wissenschaftler Alfred Nobel benannt"
 
 #: table_data.h:259
@@ -2283,8 +2228,7 @@ msgstr "1961 (UdSSR/Vereinigte Staaten)"
 
 #: table_data.h:259 table_data.h:261 table_data.h:262
 msgid "Soviet Nuclear Research/University of California at Berkeley"
-msgstr ""
-"Sowjetisches Nuklearforschungszentrum/ University of California in Berkeley"
+msgstr "Sowjetisches Nuklearforschungszentrum/ University of California in Berkeley"
 
 #: table_data.h:259
 msgid "Named in honor of Ernest Orlando Lawrence, inventor of the cyclotron"
@@ -2428,9 +2372,7 @@ msgstr "1998 (Russland/Vereinigte Staaten)"
 
 #: table_data.h:270
 msgid "Named in honor of Soviet physicist Flerov"
-msgstr ""
-"Nach dem russischen Physiker Georgi Fljorow vom „Vereinigtes Institut für "
-"Kernforschung“"
+msgstr "Nach dem russischen Physiker Georgi Fljorow vom „Vereinigtes Institut für Kernforschung“"
 
 #: table_data.h:271
 msgid "Ununpentium"

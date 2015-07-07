@@ -1,20 +1,22 @@
-# Translation of gperiodic to Belarusian.
-# Copyright (C) 2014 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gperiodic package.
-# Uladyslau Ahromenka <ahromenka@gmail.com>, 2014.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Uladyslau Ahromenka <ahromenka@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07 13:09+0300\n"
-"PO-Revision-Date: 2014-06-22 22:20+0300\n"
-"Last-Translator: Uladyslau Ahromenka <ahromenka@gmail.com>\n"
-"Language-Team: Belarusian <ru@li.org>\n"
-"Language: be\n"
+"PO-Revision-Date: 2015-07-04 21:55+0000\n"
+"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
+"Language-Team: Belarusian (http://www.transifex.com/projects/p/gperiodic/language/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: be\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: gperiodic.c:194
 #, c-format
@@ -37,14 +39,7 @@ msgid ""
 "    -D         dump the periodic table\n"
 "    -v         be verbose\n"
 "\n"
-msgstr ""
-"gperiodic [опцыі]\n"
-"    -h         гэта экран для даведкі\n"
-"    -c <Temp>  расфарбаваць элементы адпаведна фазаваму стану\n"
-"               згодна пазначанай тэмпературы (К)\n"
-"    -D         вывесці дамп перыядычнасці табліцы\n"
-"    -v         падрабязнейшая выснова\n"
-"\n"
+msgstr "gperiodic [опцыі]\n    -h         гэта экран для даведкі\n    -c <Temp>  расфарбаваць элементы адпаведна фазаваму стану\n               згодна пазначанай тэмпературы (К)\n    -D         вывесці дамп перыядычнасці табліцы\n    -v         падрабязнейшая выснова\n\n"
 
 #: gperiodic.c:205
 #, c-format
@@ -52,16 +47,9 @@ msgid ""
 "or\n"
 "\n"
 "gperiodic [element_symbol | atomic_number]\n"
-"               display information on the element with the given element "
-"symbol or atomic number\n"
+"               display information on the element with the given element symbol or atomic number\n"
 "\n"
-msgstr ""
-"альбо\n"
-"\n"
-"gperiodic [сімвал_элемента | нумар]\n"
-"               адлюстраваць інфармацыю пра элемент адпаведна яго сімвала ці "
-"нумара\n"
-"\n"
+msgstr "альбо\n\ngperiodic [сімвал_элемента | нумар]\n               адлюстраваць інфармацыю пра элемент адпаведна яго сімвала ці нумара\n\n"
 
 #: gperiodic.c:291 gperiodic.c:292 table_data.h:82 table_data.h:98
 #: table_data.h:148 table_data.h:150 table_data.h:153 table_data.h:154
@@ -156,10 +144,7 @@ msgid ""
 "\n"
 " Unknown element : %s. Exiting.\n"
 "\n"
-msgstr ""
-"\n"
-" Невядомы элемент: %s. Заканчэнне працы.\n"
-"\n"
+msgstr "\n Невядомы элемент: %s. Заканчэнне працы.\n\n"
 
 #: gperiodic.c:537
 #, c-format
@@ -167,17 +152,13 @@ msgid ""
 "\n"
 " Element number exceeds existing elements. Exiting.\n"
 "\n"
-msgstr ""
-"\n"
-" Нумар элемента пераўзыходзіць колькасць даступных. Заканчэнне працы.\n"
-"\n"
+msgstr "\n Нумар элемента пераўзыходзіць колькасць даступных. Заканчэнне працы.\n\n"
 
 #: gperiodic.h:102
 msgid ""
 "This program shows the periodic table of elements and information about "
 "these elements"
-msgstr ""
-"Гэта праграма адлюстроўвае перыядычную табліцу элементаў і інфармацыю пра іх"
+msgstr "Гэта праграма адлюстроўвае перыядычную табліцу элементаў і інфармацыю пра іх"
 
 #: gperiodic.h:103
 msgid ""
@@ -193,24 +174,8 @@ msgid ""
 "\n"
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-"USA\n"
-msgstr ""
-"gperiodic – гэта вольная праграма; вы можаце распаўсюджваць яе\n"
-"і/мадэфікаваць у адпаведнасці з ліцэнўіяй\n"
-"GNU General Public License, якая апублікаваная\n"
-"Free Software Foundation; ці версіяй 2 ліцэнўіі, ці\n"
-"(адпаведна вашаму жаданню) кожнай позняй версіяй.\n"
-"\n"
-"gperiodic распаўсюджваецца з надзеяй, што яна стане карыснай,\n"
-"але БЕЗ УСЯЛЯКІХ ГАРАНТЫЙ; гарантыя нават не маецца на ўвазе\n"
-"КАМЕРЦЫЙНАЙ КАШТОЎНАСЦІ ці ПРЫДАТНАСЦІ ДЛЯ КАНКРЭТНЫХ МЭТАЎ.\n"
-"Глядзіце GNU General Public License, як хочаце дазнацца падрабязней.\n"
-"\n"
-"Вы павінны атрымаць копію GNU General Public License\n"
-"з праграмай; а калі не, то напішыце ў Free Software\n"
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-"USA\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
+msgstr "gperiodic – гэта вольная праграма; вы можаце распаўсюджваць яе\nі/мадэфікаваць у адпаведнасці з ліцэнўіяй\nGNU General Public License, якая апублікаваная\nFree Software Foundation; ці версіяй 2 ліцэнўіі, ці\n(адпаведна вашаму жаданню) кожнай позняй версіяй.\n\ngperiodic распаўсюджваецца з надзеяй, што яна стане карыснай,\nале БЕЗ УСЯЛЯКІХ ГАРАНТЫЙ; гарантыя нават не маецца на ўвазе\nКАМЕРЦЫЙНАЙ КАШТОЎНАСЦІ ці ПРЫДАТНАСЦІ ДЛЯ КАНКРЭТНЫХ МЭТАЎ.\nГлядзіце GNU General Public License, як хочаце дазнацца падрабязней.\n\nВы павінны атрымаць копію GNU General Public License\nз праграмай; а калі не, то напішыце ў Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
 
 #: gperiodic.h:105
 msgid "gperiodic homepage"
@@ -638,11 +603,9 @@ msgstr "Гэмфры Дэві"
 
 #: table_data.h:159
 msgid ""
-"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium "
-"carbonate)"
-msgstr ""
-"сярэжнявечная латынь: sodanum (сродак ад галаўнога болю); сімвал ад лацінск. "
-"natrium (карбанат натрыя)"
+"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium"
+" carbonate)"
+msgstr "сярэжнявечная латынь: sodanum (сродак ад галаўнога болю); сімвал ад лацінск. natrium (карбанат натрыя)"
 
 #: table_data.h:160
 msgid "Magnesium"
@@ -714,8 +677,7 @@ msgstr "1.82 (белы фосфар)"
 
 #: table_data.h:163
 msgid "The most common white form is a waxy, phosphorescent solid"
-msgstr ""
-"воскападобнае рэчыва з уласцівасцямі форфарэсцэння (звычайная белая форма)"
+msgstr "воскападобнае рэчыва з уласцівасцямі форфарэсцэння (звычайная белая форма)"
 
 #: table_data.h:163
 msgid "1669 (Germany)"
@@ -979,7 +941,8 @@ msgid "Malleable, ductile, reddish-brown metal"
 msgstr "ковкий тягучий красновато-коричневый металл"
 
 #: table_data.h:178
-msgid "Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
+msgid ""
+"Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
 msgstr "лацінск. cuprum (о. Кіпр, вядомы меднымі радовішчамі)"
 
 #: table_data.h:179
@@ -1128,8 +1091,7 @@ msgstr "Густаў Кірхгоф, Роберт Бунзэн"
 
 #: table_data.h:187
 msgid "Latin: rubidus (deep red); the color its salts impart to flames"
-msgstr ""
-"лацінск. rubidus (насычаны чырвоны), по колеру, якое полымя надае салям"
+msgstr "лацінск. rubidus (насычаны чырвоны), по колеру, якое полымя надае салям"
 
 #: table_data.h:188
 msgid "Strontium"
@@ -2074,9 +2036,7 @@ msgstr "Фредэрык Содзі, Джон Крэнстан, Отао Ган,
 msgid ""
 "Greek: proto and actinium (parent of actinium); it forms actinium when it "
 "radioactively decays"
-msgstr ""
-"грэцк. прота і акцініюм (бацька акцінія); пры радыёактыўным распадзе дае "
-"акціній"
+msgstr "грэцк. прота і акцініюм (бацька акцінія); пры радыёактыўным распадзе дае акціній"
 
 #: table_data.h:247
 msgid "Uranium"
@@ -2252,7 +2212,8 @@ msgstr "Дубна"
 
 #: table_data.h:257
 msgid ""
-"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel prize"
+"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel "
+"prize"
 msgstr "Альфрэд Нобель"
 
 #: table_data.h:259
