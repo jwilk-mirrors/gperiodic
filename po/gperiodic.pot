@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-07 16:34+0300\n"
+"POT-Creation-Date: 2015-07-10 23:32+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1251,7 +1251,7 @@ msgstr ""
 msgid "Palladium"
 msgstr ""
 
-#: table_data.h:196 table_data.h:200
+#: table_data.h:196 table_data.h:200 table_data.h:209
 msgid "Silvery-white, soft, malleable and ductile metal"
 msgstr ""
 
@@ -1421,10 +1421,6 @@ msgstr ""
 
 #: table_data.h:209
 msgid "Lanthanum"
-msgstr ""
-
-#: table_data.h:209
-msgid "Silvery-white, soft, malleable, and ductile metal"
 msgstr ""
 
 #: table_data.h:209
