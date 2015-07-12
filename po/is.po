@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07 13:09+0300\n"
-"PO-Revision-Date: 2015-07-07 10:42+0000\n"
+"POT-Creation-Date: 2015-07-10 23:32+0300\n"
+"PO-Revision-Date: 2015-07-11 22:59+0000\n"
 "Last-Translator: Ragnar Ásmundsson\n"
-"Language-Team: Icelandic (http://www.transifex.com/projects/p/gperiodic/language/is/)\n"
+"Language-Team: Icelandic (http://www.transifex.com/p/gperiodic/language/is/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: is\n"
-"Plural-Forms: nplurals=2; plural=(n % 10 == 1 || n % 100 != 11);\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
 
 #: gperiodic.c:194
 #, c-format
@@ -175,127 +175,127 @@ msgid ""
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
-msgstr "gperiodic ókeypis forrit; þú mátt dreifa því áfram og/eða breyta því samkvæmt skilmálum GNU General Public License eins og það er birt af\nFree Software Foundation; annað hvort útgáfu 2 af License eða\n(að þínu vali) hvaða seinni útgáfu sem er.\n\ngperiodic is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
+msgstr "gperiodic ókeypis forrit; þú mátt dreifa því áfram og/eða breyta því samkvæmt skilmálum GNU General Public License eins og það er birt af\nFree Software Foundation; annað hvort útgáfu 2 af fyrrnefndu leyfi eða\n(að þínu vali) hvaða seinni útgáfu sem er.\n\nForritinu gperiodic er dreift í þeirri von að það komi að gagni,\nen ÁN ALLRAR ÁBYRGÐAR; jafnvel án ábyrgðar á\nÞJÓNUSTUHÆFNI eða HENTUGLEIKA TIL TILTEKINNA VERKA. Sjá\nGNU General Public License til að frekari upplýsinga.\n\nÞú ættir að hafa fengið afrit af GNU General Public License\nmeð þessu forriti; ef ekki, skrifaðu til Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
 
 #: gperiodic.h:105
 msgid "gperiodic homepage"
-msgstr ""
+msgstr "gperiodic heimasíða"
 
 #: table_data.h:31
 msgid "Name: "
-msgstr ""
+msgstr "Nafn:"
 
 #: table_data.h:32
 msgid "Symbol: "
-msgstr ""
+msgstr "Tákn:"
 
 #: table_data.h:33
 msgid "Atomic Number: "
-msgstr ""
+msgstr "Sætistala:"
 
 #: table_data.h:34
 msgid "Atomic Weight (u.m): "
-msgstr ""
+msgstr "Massi frumeindar:"
 
 #: table_data.h:35
 msgid "Density (g/cm&#179;): "
-msgstr ""
+msgstr "Eðlismassi (g/cm&#179;): "
 
 #: table_data.h:36
 msgid "Melting Point (K): "
-msgstr ""
+msgstr "Bræðslumark (K):"
 
 #: table_data.h:37
 msgid "Boiling Point (K): "
-msgstr ""
+msgstr "Suðumark (K):"
 
 #: table_data.h:38
 msgid "Atomic Radius (pm): "
-msgstr ""
+msgstr "Atómradíus (pm):"
 
 #: table_data.h:39
 msgid "Covalent Radius (pm): "
-msgstr ""
+msgstr "Radíus samgildra tengja (pm)"
 
 #: table_data.h:40
 msgid "Ionic Radius (pm): "
-msgstr ""
+msgstr "Jónaradíus (pm):"
 
 #: table_data.h:41
 msgid "Atomic Volume (cm&#179;/mol): "
-msgstr ""
+msgstr "Atómrúmmál (cm&#179;/mól): "
 
 #: table_data.h:42
 msgid "Specific Heat (@20&#176;C J/(K*mol)): "
-msgstr ""
+msgstr "Eðlisvarmi (@20&#176;C J/(K*mól)): "
 
 #: table_data.h:43
 msgid "Fusion Heat (kJ/mol): "
-msgstr ""
+msgstr "Bræðsluvarmi (kJ/mól): "
 
 #: table_data.h:44
 msgid "Evaporation Heat (kJ/mol): "
-msgstr ""
+msgstr "Uppgufunarvarmi (kJ/mól):"
 
 #: table_data.h:45
 msgid "Thermal Conductivity (@25&#176;C W/(m*K)): "
-msgstr ""
+msgstr "Varmaleiðni (@25&#176;C W/(m*K)): "
 
 #: table_data.h:46
 msgid "Debye temperature (K): "
-msgstr ""
+msgstr "Debye hitastig (K):"
 
 #: table_data.h:47
 msgid "Pauling Negativity Number: "
-msgstr ""
+msgstr "Pauling rafdrægni:"
 
 #: table_data.h:48
 msgid "First Ionizing Energy (kJ/mol): "
-msgstr ""
+msgstr "Fyrsta jónunarorka (KJ/mól)"
 
 #: table_data.h:49
 msgid "Oxidation states: "
-msgstr ""
+msgstr "Oxunarástönd:"
 
 #: table_data.h:50
 msgid "Electronic Configuration: "
-msgstr ""
+msgstr "Rafeindaskipan:"
 
 #: table_data.h:51
 msgid "Lattice structure: "
-msgstr ""
+msgstr "Grindarbygging:"
 
 #: table_data.h:52
 msgid "Lattice constant (&#x212B;): "
-msgstr ""
+msgstr "Grindarstuðull (&#x212B;): "
 
 #: table_data.h:53
 msgid "Lattice c/a ratio: "
-msgstr ""
+msgstr "c/a hlutfall grindar:"
 
 #: table_data.h:54
 msgid "Appearance: "
-msgstr ""
+msgstr "Útlit:"
 
 #: table_data.h:55
 msgid "Discovery date: "
-msgstr ""
+msgstr "Ár uppgötvunar:"
 
 #: table_data.h:56
 msgid "Discovered by: "
-msgstr ""
+msgstr "Uppgötvað af:"
 
 #: table_data.h:57
 msgid "Named after: "
-msgstr ""
+msgstr "Nefnt eftir:"
 
 #: table_data.h:147
 msgid "Hydrogen"
-msgstr ""
+msgstr "Vetni"
 
 #: table_data.h:147
 msgid "0.0708 (@ -253&#176;C)"
-msgstr ""
+msgstr "0.0708 (@ -253&#176;C)"
 
 #: table_data.h:147 table_data.h:148 table_data.h:151 table_data.h:160
 #: table_data.h:170 table_data.h:171 table_data.h:176 table_data.h:179
@@ -307,55 +307,55 @@ msgstr ""
 #: table_data.h:229 table_data.h:234 table_data.h:250 table_data.h:251
 #: table_data.h:252 table_data.h:253
 msgid "HEX"
-msgstr ""
+msgstr "HEX"
 
 #: table_data.h:147 table_data.h:157
 msgid "Colorless, odorless, tasteless gas"
-msgstr ""
+msgstr "Litlaust, lyktarlaust, bragðlaust gas"
 
 #: table_data.h:147
 msgid "1766 (England)"
-msgstr ""
+msgstr "1766 (England)"
 
 #: table_data.h:147
 msgid "Henry Cavendish"
-msgstr ""
+msgstr "Henry Cavendish"
 
 #: table_data.h:147
 msgid "Greek: hydro (water) and genes (generate)"
-msgstr ""
+msgstr "Gríska: hydro (vatn) og genes (skapa)"
 
 #: table_data.h:148
 msgid "Helium"
-msgstr ""
+msgstr "Helíum"
 
 #: table_data.h:148
 msgid "0.147 (@ -270&#176;C)"
-msgstr ""
+msgstr "0.147 (@ -270&#176;C)"
 
 #: table_data.h:148
 msgid "Inert, colorless, odorless, tasteless gas"
-msgstr ""
+msgstr "Óhvarfgjarnt, litlaust, lyktarlaust, bragðlaust gas"
 
 #: table_data.h:148
 msgid "1895 (Scotland/Sweden)"
-msgstr ""
+msgstr "1895 (Skotland/Svíþjóð)"
 
 #: table_data.h:148
 msgid "Sir William Ramsey, Nils Langet, P.T.Cleve"
-msgstr ""
+msgstr "Sir William Ramsey, Nils Langet, P.T.Cleve"
 
 #: table_data.h:148
 msgid "Greek: helios (sun)"
-msgstr ""
+msgstr "Gríska: helios (sól)"
 
 #: table_data.h:150
 msgid "Lithium"
-msgstr ""
+msgstr "Litín"
 
 #: table_data.h:150
 msgid "68 (+1e) or 76 (+1e)"
-msgstr ""
+msgstr "68 (+1e) eða 76 (+1e)"
 
 #: table_data.h:150 table_data.h:159 table_data.h:163 table_data.h:168
 #: table_data.h:172 table_data.h:173 table_data.h:175 table_data.h:187
@@ -363,209 +363,209 @@ msgstr ""
 #: table_data.h:215 table_data.h:226 table_data.h:227 table_data.h:241
 #: table_data.h:242
 msgid "BCC"
-msgstr ""
+msgstr "BCC"
 
 #: table_data.h:150 table_data.h:159 table_data.h:215
 msgid "Soft, silvery-white metal"
-msgstr ""
+msgstr "Linur, silfurhvítur málmur"
 
 #: table_data.h:150 table_data.h:183
 msgid "1817 (Sweden)"
-msgstr ""
+msgstr "1817 (Svíþjóð)"
 
 #: table_data.h:150
 msgid "Johann Arfwedson"
-msgstr ""
+msgstr "Johann Arfwedson"
 
 #: table_data.h:150
 msgid "Greek: lithos (stone)"
-msgstr ""
+msgstr "Gríska: lithos (steinn)"
 
 #: table_data.h:151
 msgid "Beryllium"
-msgstr ""
+msgstr "Beryllín"
 
 #: table_data.h:151
 msgid "Hard, brittle, steel-gray metal"
-msgstr ""
+msgstr "Harður, stökkur, stálgrár málmur"
 
 #: table_data.h:151
 msgid "1798 (France)"
-msgstr ""
+msgstr "1798 (Frakkland)"
 
 #: table_data.h:151
 msgid "Louis-Nicolas Vauquelin"
-msgstr ""
+msgstr "Louis-Nicolas Vauquelin"
 
 #: table_data.h:151
 msgid "Greek: beryllos, 'beryl' (a mineral)"
-msgstr ""
+msgstr "Gríska: beryllos, 'beryl' (steinefni)"
 
 #: table_data.h:152
 msgid "Boron"
-msgstr ""
+msgstr "Bór"
 
 #: table_data.h:152 table_data.h:214 table_data.h:233 table_data.h:236
 msgid "RHL"
-msgstr ""
+msgstr "RHL"
 
 #: table_data.h:152
 msgid "Hard, brittle, lustrous black semimetal"
-msgstr ""
+msgstr "Harður, stökkur, gljáandi svartur hálfmálmur"
 
 #: table_data.h:152
 msgid "1808 (England/France)"
-msgstr ""
+msgstr "1808 (England/Frakkland)"
 
 #: table_data.h:152
 msgid "Sir H. Davy, J.L. Gay-Lussac, L.J. Thenard"
-msgstr ""
+msgstr "Sir H. Davy, J.L. Gay-Lussac, L.J. Thenard"
 
 #: table_data.h:152
 msgid "The Arabic and Persian words for borax"
-msgstr ""
+msgstr "Arabíska og persíska orðið yfir bórax"
 
 #: table_data.h:153
 msgid "Carbon"
-msgstr ""
+msgstr "Kol"
 
 #: table_data.h:153
 msgid "2.25 (graphite)"
-msgstr ""
+msgstr "2.25 (grafít)"
 
 #: table_data.h:153
 msgid "1860.00 (diamond)"
-msgstr ""
+msgstr "1860.00 (demantur)"
 
 #: table_data.h:153
 msgid "HEX (graphite), DIA (diamond)"
-msgstr ""
+msgstr "HEX (grafít), DIA (demantur)"
 
 #: table_data.h:153
 msgid "Dense, Black (graphite)"
-msgstr ""
+msgstr "Þétt, svart (grafít)"
 
 #: table_data.h:153 table_data.h:164 table_data.h:175 table_data.h:178
 #: table_data.h:179 table_data.h:182 table_data.h:197 table_data.h:200
 #: table_data.h:201 table_data.h:232 table_data.h:233 table_data.h:235
 #: table_data.h:236
 msgid "n/a (Unknown)"
-msgstr ""
+msgstr "n/a (óþekkt)"
 
 #: table_data.h:153 table_data.h:164 table_data.h:175 table_data.h:178
 #: table_data.h:179 table_data.h:182 table_data.h:197 table_data.h:200
 #: table_data.h:201 table_data.h:232 table_data.h:233 table_data.h:235
 #: table_data.h:236
 msgid "Known to the ancients"
-msgstr ""
+msgstr "Þekktist til forna"
 
 #: table_data.h:153
 msgid "Latin: carbo (charcoal)"
-msgstr ""
+msgstr "Latneska: carbo (viðarkol)"
 
 #: table_data.h:154
 msgid "Nitrogen"
-msgstr ""
+msgstr "Nitur"
 
 #: table_data.h:154
 msgid "0.808 (@ -195.8&#176;C)"
-msgstr ""
+msgstr "0.808 (@ -195.8&#176;C)"
 
 #: table_data.h:154
 msgid "HEX or CUB"
-msgstr ""
+msgstr "HEX eða CUB"
 
 #: table_data.h:154
 msgid "4.039 (HEX)"
-msgstr ""
+msgstr "4.039 (HEX)"
 
 #: table_data.h:154
 msgid "1.651 (HEX)"
-msgstr ""
+msgstr "1.651 (HEX)"
 
 #: table_data.h:154
 msgid "Colorless, odorless, tasteless, and generally inert gas"
-msgstr ""
+msgstr "Litlaust, lyktarlaust, bragðlaust og almennt óhvarfgjarnt gas"
 
 #: table_data.h:154
 msgid "1772 (Scotland)"
-msgstr ""
+msgstr "1772 (Skotland)"
 
 #: table_data.h:154
 msgid "Daniel Rutherford"
-msgstr ""
+msgstr "Daniel Rutherford"
 
 #: table_data.h:154
 msgid "Greek: nitron and genes (soda forming)"
-msgstr ""
+msgstr "Gríska: nitron og genes (sóda sköpun)"
 
 #: table_data.h:155
 msgid "Oxygen"
-msgstr ""
+msgstr "Súrefni"
 
 #: table_data.h:155
 msgid "1.149 (@ -183&#176;C)"
-msgstr ""
+msgstr "1.149 (@ -183&#176;C)"
 
 #: table_data.h:155
 msgid "MCL or CUB"
-msgstr ""
+msgstr "MCL eða CUB"
 
 #: table_data.h:155
 msgid "6.830 (CUB)"
-msgstr ""
+msgstr "6.830 (CUB)"
 
 #: table_data.h:155
 msgid "Colorless, odorless, tasteless gas; pale blue liquid"
-msgstr ""
+msgstr "Litlaust, lyktarlaust, bragðlaust gas; fölblár vökvi"
 
 #: table_data.h:155
 msgid "1774 (England/Sweden)"
-msgstr ""
+msgstr "1774 (England/Svíþjóð)"
 
 #: table_data.h:155
 msgid "Joseph Priestly, Carl Wilhelm Scheele"
-msgstr ""
+msgstr "Joseph Priestly, Carl Wilhelm Scheele"
 
 #: table_data.h:155
 msgid "Greek: oxys and genes (acid former)"
-msgstr ""
+msgstr "Gríska: oxys og genes (sýru sköpun)"
 
 #: table_data.h:156
 msgid "Fluorine"
-msgstr ""
+msgstr "Flúr"
 
 #: table_data.h:156
 msgid "1.108 (@ -189&#176;C)"
-msgstr ""
+msgstr "1.108 (@ -189&#176;C)"
 
 #: table_data.h:156 table_data.h:249
 msgid "MCL"
-msgstr ""
+msgstr "MCL"
 
 #: table_data.h:156
 msgid "Greenish-yellow, pungent, corrosive gas"
-msgstr ""
+msgstr "Gulgrænt, beiskt, tærandi gas"
 
 #: table_data.h:156 table_data.h:218
 msgid "1886 (France)"
-msgstr ""
+msgstr "1886 (Frakkland)"
 
 #: table_data.h:156
 msgid "Henri Moissan"
-msgstr ""
+msgstr "Henri Moissan"
 
 #: table_data.h:156
 msgid "Latin: fluere (flow)"
-msgstr ""
+msgstr "Latneska: fluere (flæði)"
 
 #: table_data.h:157
 msgid "Neon"
-msgstr ""
+msgstr "Neon"
 
 #: table_data.h:157
 msgid "1.204 (@ -246&#176;C)"
-msgstr ""
+msgstr "1.204 (@ -246&#176;C)"
 
 #: table_data.h:157 table_data.h:161 table_data.h:166 table_data.h:169
 #: table_data.h:177 table_data.h:178 table_data.h:185 table_data.h:188
@@ -574,822 +574,822 @@ msgstr ""
 #: table_data.h:232 table_data.h:235 table_data.h:238 table_data.h:239
 #: table_data.h:244 table_data.h:245
 msgid "FCC"
-msgstr ""
+msgstr "FCC"
 
 #: table_data.h:157 table_data.h:204
 msgid "1898 (England)"
-msgstr ""
+msgstr "1898 (England)"
 
 #: table_data.h:157 table_data.h:185 table_data.h:204
 msgid "Sir William Ramsey, M.W. Travers"
-msgstr ""
+msgstr "Sir William Ramsey, M.W. Travers"
 
 #: table_data.h:157
 msgid "Greek: neos (new)"
-msgstr ""
+msgstr "Gríska: neos (nýr)"
 
 #: table_data.h:159
 msgid "Sodium"
-msgstr ""
+msgstr "Natríum"
 
 #: table_data.h:159 table_data.h:168
 msgid "1807 (England)"
-msgstr ""
+msgstr "1807 (England)"
 
 #: table_data.h:159 table_data.h:160 table_data.h:168 table_data.h:169
 #: table_data.h:207
 msgid "Sir Humphrey Davy"
-msgstr ""
+msgstr "Sir Humphrey Davy"
 
 #: table_data.h:159
 msgid ""
 "Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium"
 " carbonate)"
-msgstr ""
+msgstr "Miðaldar latína: sodanum (læknar hausverk); frumefnistákn dregið af latneska natrium (natríumkarbónat, þvottasódi)"
 
 #: table_data.h:160
 msgid "Magnesium"
-msgstr ""
+msgstr "Magnín"
 
 #: table_data.h:160
 msgid "Lightweight, malleable, silvery-white metal"
-msgstr ""
+msgstr "Léttur, sveigjanlegur, silfurhvítur málmur"
 
 #: table_data.h:160 table_data.h:169 table_data.h:207
 msgid "1808 (England)"
-msgstr ""
+msgstr "1808 (England)"
 
 #: table_data.h:160
 msgid "Magnesia, ancient city in district of Thessaly, Greece"
-msgstr ""
+msgstr "Magnesia, forn borg í Þessalíuhéraði, Grikklandi"
 
 #: table_data.h:161
 msgid "Aluminum"
-msgstr ""
+msgstr "Ál"
 
 #: table_data.h:161
 msgid "Soft, lightweight, silvery-white metal"
-msgstr ""
+msgstr "Linur, léttur, silfurhvítur málmur"
 
 #: table_data.h:161
 msgid "1825 (Denmark)"
-msgstr ""
+msgstr "1825 (Danmörk)"
 
 #: table_data.h:161
 msgid "Hans Christian Oersted"
-msgstr ""
+msgstr "Hans Christian Ørsted"
 
 #: table_data.h:161
 msgid "Latin: alumen, aluminis (alum)"
-msgstr ""
+msgstr "Latína: alumen, aluminis (alum)"
 
 #: table_data.h:162
 msgid "Silicon"
-msgstr ""
+msgstr "Kísill"
 
 #: table_data.h:162 table_data.h:181
 msgid "DIA"
-msgstr ""
+msgstr "DIA"
 
 #: table_data.h:162
 msgid "Amorphous form is brown powder; crystalline form has a gray"
-msgstr ""
+msgstr "Ef myndlaust þá brúnt púður en ef kristall þá grár"
 
 #: table_data.h:162
 msgid "1825 (Sweden)"
-msgstr ""
+msgstr "1825 (Svíþjóð)"
 
 #: table_data.h:162 table_data.h:183 table_data.h:245
 msgid "Jons Jacob Berzelius"
-msgstr ""
+msgstr "Jons Jacob Berzelius"
 
 #: table_data.h:162
 msgid "Latin: silex, silicus (flint)"
-msgstr ""
+msgstr "Latneska: silex, silicus (tinnusteinn)"
 
 #: table_data.h:163
 msgid "Phosphorus"
-msgstr ""
+msgstr "Fosfór"
 
 #: table_data.h:163
 msgid "1.82 (white phosphorus)"
-msgstr ""
+msgstr "1.82 (hvítur fosfór)"
 
 #: table_data.h:163
 msgid "The most common white form is a waxy, phosphorescent solid"
-msgstr ""
+msgstr "Algengasta hvíta formgerðin er vaxkennt, sjálflýsandi fastefni"
 
 #: table_data.h:163
 msgid "1669 (Germany)"
-msgstr ""
+msgstr "1669 (Þýskaland)"
 
 #: table_data.h:163
 msgid "Hennig Brand"
-msgstr ""
+msgstr "Hennig Brand"
 
 #: table_data.h:163
 msgid "Greek: phosphoros (bringer of light)"
-msgstr ""
+msgstr "Gríska: phosphoros (ljósfari)"
 
 #: table_data.h:164
 msgid "Sulfur"
-msgstr ""
+msgstr "Brennisteinn"
 
 #: table_data.h:164 table_data.h:165 table_data.h:180 table_data.h:184
 #: table_data.h:203 table_data.h:247 table_data.h:248
 msgid "ORC"
-msgstr ""
+msgstr "ORC"
 
 #: table_data.h:164
 msgid "Tasteless, odorless, light-yellow, brittle solid"
-msgstr ""
+msgstr "Bragðlaust, lyktarlaust, ljósgult og stökkt fastefni"
 
 #: table_data.h:164
 msgid "Latin: sulphur (brimstone)"
-msgstr ""
+msgstr "Latneska: sulphur (brennisteinn)"
 
 #: table_data.h:165
 msgid "Chlorine"
-msgstr ""
+msgstr "Klór"
 
 #: table_data.h:165
 msgid "1.56 (@ -33.6&#176;C)"
-msgstr ""
+msgstr "1.56 (@ -33.6&#176;C)"
 
 #: table_data.h:165
 msgid "Greenish-yellow, disagreeable gas"
-msgstr ""
+msgstr "Gulgrænt, óþægilegt gas"
 
 #: table_data.h:165 table_data.h:174
 msgid "1774 (Sweden)"
-msgstr ""
+msgstr "1774 (Svíþjóð)"
 
 #: table_data.h:165 table_data.h:192
 msgid "Carl Wilhelm Scheele"
-msgstr ""
+msgstr "Carl Wilhelm Scheele"
 
 #: table_data.h:165
 msgid "Greek: chloros (greenish yellow)"
-msgstr ""
+msgstr "Gríska: chloros (gulgrænn)"
 
 #: table_data.h:166
 msgid "Argon"
-msgstr ""
+msgstr "Argon"
 
 #: table_data.h:166
 msgid "1.40 (@ -189,35&#176;C)"
-msgstr ""
+msgstr "1.40 (@ -189,35&#176;C)"
 
 #: table_data.h:166
 msgid "Colorless, tasteless, odorless noble gas"
-msgstr ""
+msgstr "Litlaust, bragðlaust, lyktarlaust eðalgas"
 
 #: table_data.h:166
 msgid "1894 (Scotland)"
-msgstr ""
+msgstr "1894 (Skotland)"
 
 #: table_data.h:166
 msgid "Sir William Ramsey, Baron Rayleigh"
-msgstr ""
+msgstr "Sir William Ramsey, Baron Rayleigh"
 
 #: table_data.h:166
 msgid "Greek: argos (inactive)"
-msgstr ""
+msgstr "Gríska: argos (óvirkur)"
 
 #: table_data.h:168
 msgid "Potassium"
-msgstr ""
+msgstr "Kalín"
 
 #: table_data.h:168
 msgid "Soft, waxy, silvery-white metal"
-msgstr ""
+msgstr "Linur, vaxkenndur, silfurhvítur málmur"
 
 #: table_data.h:168
 msgid "English: pot ash; symbol from Latin: kalium (alkali)"
-msgstr ""
+msgstr "Ennska: pot ash; frumefnistákn úr latínu: kalium (alkali)"
 
 #: table_data.h:169
 msgid "Calcium"
-msgstr ""
+msgstr "Kalsín"
 
 #: table_data.h:169
 msgid "Fairly hard, silvery-white metal"
-msgstr ""
+msgstr "Fremur harður, silfurhvítur málmur"
 
 #: table_data.h:169
 msgid "Latin: calx, calcis (lime)"
-msgstr ""
+msgstr "Latína: calx, calcis (kalk)"
 
 #: table_data.h:170
 msgid "Scandium"
-msgstr ""
+msgstr "Skandín"
 
 #: table_data.h:170
 msgid "Fairly soft, silvery-white metal"
-msgstr ""
+msgstr "Fremur linur, silfurhvítur málmur"
 
 #: table_data.h:170 table_data.h:221
 msgid "1879 (Sweden)"
-msgstr ""
+msgstr "1879 (Svíþjóð)"
 
 #: table_data.h:170
 msgid "Lars Nilson"
-msgstr ""
+msgstr "Lars Nilson"
 
 #: table_data.h:170
 msgid "Latin: Scandia (Scandinavia)"
-msgstr ""
+msgstr "Latneska: Scandia (Skandinavía)"
 
 #: table_data.h:171
 msgid "Titanium"
-msgstr ""
+msgstr "Títan"
 
 #: table_data.h:171
 msgid "Shiny, dark-gray metal"
-msgstr ""
+msgstr "Skínandi, dökkgrár málmur"
 
 #: table_data.h:171
 msgid "1791 (England)"
-msgstr ""
+msgstr "1791 (England)"
 
 #: table_data.h:171
 msgid "William Gregor"
-msgstr ""
+msgstr "William Gregor"
 
 #: table_data.h:171
 msgid "Greek: titanos (Titans)"
-msgstr ""
+msgstr "Gríska: titanos (risar)"
 
 #: table_data.h:172
 msgid "Vanadium"
-msgstr ""
+msgstr "Vanadín"
 
 #: table_data.h:172 table_data.h:216
 msgid "Soft, ductile, silvery-white metal"
-msgstr ""
+msgstr "Linur, teygjanlegur, silfurhvítur málmur"
 
 #: table_data.h:172
 msgid "1830 (Sweden)"
-msgstr ""
+msgstr "1830 (Svíþjóð)"
 
 #: table_data.h:172
 msgid "Nils Gabriel Sefstrom"
-msgstr ""
+msgstr "Nils Gabriel Sefstrom"
 
 #: table_data.h:172
 msgid "The scandinavian goddess, Vanadis"
-msgstr ""
+msgstr "Skandinavísk gyðja, Vanadís"
 
 #: table_data.h:173
 msgid "Chromium"
-msgstr ""
+msgstr "Króm"
 
 #: table_data.h:173
 msgid "Very hard, crystalline, steel-gray metal"
-msgstr ""
+msgstr "Mjög harður, kristallaður, stálgrár málmur"
 
 #: table_data.h:173
 msgid "1797 (France)"
-msgstr ""
+msgstr "1797 (Frakkland)"
 
 #: table_data.h:173
 msgid "Louis Vauquelin"
-msgstr ""
+msgstr "Louis Vauquelin"
 
 #: table_data.h:173
 msgid "Greek: chroma (color)"
-msgstr ""
+msgstr "Gríska: chroma (litur)"
 
 #: table_data.h:174
 msgid "Manganese"
-msgstr ""
+msgstr "Mangan"
 
 #: table_data.h:174 table_data.h:237
 msgid "CUB"
-msgstr ""
+msgstr "CUB"
 
 #: table_data.h:174
 msgid "Hard, brittle, gray-white metal"
-msgstr ""
+msgstr "Harður, stökkur, gráhvítur málmur"
 
 #: table_data.h:174
 msgid "Johann Gahn"
-msgstr ""
+msgstr "Johann Gahn"
 
 #: table_data.h:174
 msgid "Latin: magnes (magnet); Italian: manganese"
-msgstr ""
+msgstr "Latneska: magnes (segull); Ítalska: manganese"
 
 #: table_data.h:175
 msgid "Iron"
-msgstr ""
+msgstr "Járn"
 
 #: table_data.h:175
 msgid "Malleable, ductile, silvery-white metal"
-msgstr ""
+msgstr "Mótanlegur, teygjanelgur, silfurhvítur málmur"
 
 #: table_data.h:175
 msgid "Anglo-Saxon: iron; symbol from Latin: ferrum (iron)"
-msgstr ""
+msgstr "Latína: ferrum (járn)"
 
 #: table_data.h:176
 msgid "Cobalt"
-msgstr ""
+msgstr "Kóbalt"
 
 #: table_data.h:176
 msgid "Hard, ductile, lustrous bluish-gray metal"
-msgstr ""
+msgstr "Harður, teygjanlegur, gljáandi blágrænn málmur"
 
 #: table_data.h:176
 msgid "1735 (Sweden)"
-msgstr ""
+msgstr "1735 (Svíþjóð)"
 
 #: table_data.h:176
 msgid "George Brandt"
-msgstr ""
+msgstr "George Brandt"
 
 #: table_data.h:176
 msgid "German: kobold (goblin)"
-msgstr ""
+msgstr "Þýska: kobold (álfur)"
 
 #: table_data.h:177
 msgid "Nickel"
-msgstr ""
+msgstr "Nikkel"
 
 #: table_data.h:177
 msgid "Hard, malleable, silvery-white metal"
-msgstr ""
+msgstr "Harður, mótanlegur, silfurhvítur málmur"
 
 #: table_data.h:177
 msgid "1751 (Sweden)"
-msgstr ""
+msgstr "1751 (Svíþjóð)"
 
 #: table_data.h:177
 msgid "Axel Cronstedt"
-msgstr ""
+msgstr "Axel Cronstedt"
 
 #: table_data.h:177
 msgid "German: kupfernickel (false copper), nickel (goblin)"
-msgstr ""
+msgstr "Þýska: kupfernickel (glópakopar), nickel (álfur)"
 
 #: table_data.h:178
 msgid "Copper"
-msgstr ""
+msgstr "Kopar"
 
 #: table_data.h:178
 msgid "Malleable, ductile, reddish-brown metal"
-msgstr ""
+msgstr "Mótanlegur, teygjanlegur, rauðbrúnn málmur"
 
 #: table_data.h:178
 msgid ""
 "Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
-msgstr ""
+msgstr "Latneska: cuprum (eyjan Kýpur, fræg fyrir koparnámur)"
 
 #: table_data.h:179
 msgid "Zinc"
-msgstr ""
+msgstr "Sink"
 
 #: table_data.h:179
 msgid "Bluish-silver, ductile metal"
-msgstr ""
+msgstr "Blásilfraður, teygjanlegur málmur"
 
 #: table_data.h:179
 msgid "German: Zink (German for zinc)"
-msgstr ""
+msgstr "Þýska: Zink"
 
 #: table_data.h:180
 msgid "Gallium"
-msgstr ""
+msgstr "Gallín"
 
 #: table_data.h:180
 msgid "Soft, blue-white metal"
-msgstr ""
+msgstr "Linur, bláhvítur málmur"
 
 #: table_data.h:180
 msgid "1875 (France)"
-msgstr ""
+msgstr "1875 (Frakkland)"
 
 #: table_data.h:180 table_data.h:218
 msgid "Paul-Emile Lecoq de Boisbaudran"
-msgstr ""
+msgstr "Paul-Emile Lecoq de Boisbaudran"
 
 #: table_data.h:180
 msgid "Latin: Gallia (France)"
-msgstr ""
+msgstr "Latneska: Gallia (Frakkland)"
 
 #: table_data.h:181
 msgid "Germanium"
-msgstr ""
+msgstr "German"
 
 #: table_data.h:181
 msgid "Grayish-white metal"
-msgstr ""
+msgstr "Gráhvítur málmur"
 
 #: table_data.h:181
 msgid "1886 (Germany)"
-msgstr ""
+msgstr "1886 (Þýskaland)"
 
 #: table_data.h:181
 msgid "Clemens Winkler"
-msgstr ""
+msgstr "Clemens Winkler"
 
 #: table_data.h:181
 msgid "Latin: Germania (Germany)"
-msgstr ""
+msgstr "Latneska: Germania (Þýskaland)"
 
 #: table_data.h:182
 msgid "Arsenic"
-msgstr ""
+msgstr "Arsen"
 
 #: table_data.h:182
 msgid "5.73 (grey arsenic)"
-msgstr ""
+msgstr "5.73 (grátt arsen)"
 
 #: table_data.h:182
 msgid "24.44 (grey arsenic)"
-msgstr ""
+msgstr "24.44 (grátt arsen)"
 
 #: table_data.h:182 table_data.h:201
 msgid "TRG"
-msgstr ""
+msgstr "TRG"
 
 #: table_data.h:182
 msgid "Steel gray, brittle semimetal"
-msgstr ""
+msgstr "Stálgrár, stökkur hálfmálmur"
 
 #: table_data.h:182
 msgid "Greek: arsenikon; Latin: arsenicum (both names for yellow pigment)"
-msgstr ""
+msgstr "Gríska: arsenikon; Latneska: arsenicum (hvorutveggja gul litarefni)"
 
 #: table_data.h:183
 msgid "Selenium"
-msgstr ""
+msgstr "Selen"
 
 #: table_data.h:183
 msgid "A soft metalloid similar to sulfur"
-msgstr ""
+msgstr "Linur málmungur svipaður brennisteini"
 
 #: table_data.h:183
 msgid "Greek: selena (moon)"
-msgstr ""
+msgstr "Gríska: selena (tungl)"
 
 #: table_data.h:184
 msgid "Bromine"
-msgstr ""
+msgstr "Bróm"
 
 #: table_data.h:184
 msgid "Reddish-brown liquid"
-msgstr ""
+msgstr "Rauðbrúnn vökvi"
 
 #: table_data.h:184
 msgid "1826 (France)"
-msgstr ""
+msgstr "1826 (Frakkland)"
 
 #: table_data.h:184
 msgid "Antoine J. Balard"
-msgstr ""
+msgstr "Antoine J. Balard"
 
 #: table_data.h:184
 msgid "Greek: bromos (stench)"
-msgstr ""
+msgstr "Gríska: bromos (fnykur)"
 
 #: table_data.h:185
 msgid "Krypton"
-msgstr ""
+msgstr "Krypton"
 
 #: table_data.h:185
 msgid "2.155 (@ -153&#176;C)"
-msgstr ""
+msgstr "2.155 (@ -153&#176;C)"
 
 #: table_data.h:185
 msgid "Dense, colorless, odorless, and tasteless gas"
-msgstr ""
+msgstr "Þétt, litlaust, lyktarlaust og bragðlaust gas"
 
 #: table_data.h:185
 msgid "1898 (Great Britain)"
-msgstr ""
+msgstr "1898 (Bretland)"
 
 #: table_data.h:185
 msgid "Greek: kryptos (hidden)"
-msgstr ""
+msgstr "Gríska: kryptos (falinn)"
 
 #: table_data.h:187
 msgid "Rubidium"
-msgstr ""
+msgstr "Rúbidín"
 
 #: table_data.h:187
 msgid "Soft, silvery-white, highly reactive metal"
-msgstr ""
+msgstr "Linur, silfurhvítur, afar hvarfgjarn málmur"
 
 #: table_data.h:187
 msgid "1861 (Germany)"
-msgstr ""
+msgstr "1861 (Þýskaland)"
 
 #: table_data.h:187 table_data.h:206
 msgid "Gustov Kirchoff, Robert Bunsen"
-msgstr ""
+msgstr "Gustov Kirchoff, Robert Bunsen"
 
 #: table_data.h:187
 msgid "Latin: rubidus (deep red); the color its salts impart to flames"
-msgstr ""
+msgstr "Latína: rubidus (djúprauður); litur logans frá jónaefni þess"
 
 #: table_data.h:188
 msgid "Strontium"
-msgstr ""
+msgstr "Strontín"
 
 #: table_data.h:188
 msgid "Silvery, malleable metal"
-msgstr ""
+msgstr "Silfurkenndur, mótanlegur málmur"
 
 #: table_data.h:188
 msgid "1790 (Scotland)"
-msgstr ""
+msgstr "1790 (Skotland)"
 
 #: table_data.h:188
 msgid "A. Crawford"
-msgstr ""
+msgstr "A. Crawford"
 
 #: table_data.h:188
 msgid "The Scottish town, Strontian"
-msgstr ""
+msgstr "Skoski bærinn, Strontian"
 
 #: table_data.h:189
 msgid "Yttrium"
-msgstr ""
+msgstr "Yttrín"
 
 #: table_data.h:189
 msgid "Silvery, ductile, fairly reactive metal"
-msgstr ""
+msgstr "Silfurkenndur, teygjanlegur, fremur hvarfgjarn málmur"
 
 #: table_data.h:189
 msgid "1794 (Finland)"
-msgstr ""
+msgstr "1794 (Finnland)"
 
 #: table_data.h:189
 msgid "Johann Gadolin"
-msgstr ""
+msgstr "Johann Gadolin"
 
 #: table_data.h:189
 msgid ""
 "Named after the Swedish town, Ytterby, where one of its minerals was first "
 "found"
-msgstr ""
+msgstr "Eftir Ytterby, Svíþjóð, þar sem ein af steindum þess fannst fyrst"
 
 #: table_data.h:190
 msgid "Zirconium"
-msgstr ""
+msgstr "Sirkon"
 
 #: table_data.h:190
 msgid "Gray-white, lustrous, corrosion-resistant metal"
-msgstr ""
+msgstr "Gráhvítur, gljáandi, fremur ryðfrír málmur"
 
 #: table_data.h:190 table_data.h:247
 msgid "1789 (Germany)"
-msgstr ""
+msgstr "1789 (Þýskaland)"
 
 #: table_data.h:190 table_data.h:247
 msgid "Martin Klaproth"
-msgstr ""
+msgstr "Martin Klaproth"
 
 #: table_data.h:190
 msgid "The mineral, zircon"
-msgstr ""
+msgstr "Steindin zircon"
 
 #: table_data.h:191
 msgid "Niobium"
-msgstr ""
+msgstr "Níóbín"
 
 #: table_data.h:191
 msgid "Shiny white, soft, ductile metal"
-msgstr ""
+msgstr "Skínandi hvítur, linur, teygjanlegur málmur"
 
 #: table_data.h:191
 msgid "1801 (England)"
-msgstr ""
+msgstr "1801 (England)"
 
 #: table_data.h:191
 msgid "Charles Hatchet"
-msgstr ""
+msgstr "Charles Hatchet"
 
 #: table_data.h:191
 msgid "Niobe; daughter of the mythical Greek king Tantalus"
-msgstr ""
+msgstr "Niobe; dóttir goðsögulega gríska konungsins Tantalus"
 
 #: table_data.h:192
 msgid "Molybdenum"
-msgstr ""
+msgstr "Mólýbden"
 
 #: table_data.h:192 table_data.h:195
 msgid "Silvery white, hard metal"
-msgstr ""
+msgstr "Silfurhvítur, harður málmur"
 
 #: table_data.h:192
 msgid "1778 (Sweden)"
-msgstr ""
+msgstr "1778 (Svíþjóð)"
 
 #: table_data.h:192
 msgid "Greek: molybdos (lead)"
-msgstr ""
+msgstr "Gríska: molybdos (blý)"
 
 #: table_data.h:193
 msgid "Technetium"
-msgstr ""
+msgstr "Teknetín"
 
 #: table_data.h:193 table_data.h:237
 msgid "Silvery-gray metal"
-msgstr ""
+msgstr "Silfurgrár málmur"
 
 #: table_data.h:193
 msgid "1937 (Italy)"
-msgstr ""
+msgstr "1937 (Ítalía)"
 
 #: table_data.h:193
 msgid "Carlo Perrier, Emilio Segre"
-msgstr ""
+msgstr "Carlo Perrier, Emilio Segre"
 
 #: table_data.h:193
 msgid "Greek: technetos (artificial)"
-msgstr ""
+msgstr "Gríska: technetos (gerfi)"
 
 #: table_data.h:194
 msgid "Ruthenium"
-msgstr ""
+msgstr "Rúten"
 
 #: table_data.h:194
 msgid "Rare, silver-gray, extremely brittle metal"
-msgstr ""
+msgstr "Sjaldgæfur, silfurgrár, afar stökkur málmur"
 
 #: table_data.h:194
 msgid "1844 (Russia)"
-msgstr ""
+msgstr "1844 (Rússland)"
 
 #: table_data.h:194
 msgid "Karl Klaus"
-msgstr ""
+msgstr "Karl Klaus"
 
 #: table_data.h:194
 msgid "Latin: Ruthenia (Russia)"
-msgstr ""
+msgstr "Latína: Ruthenia (Rússland)"
 
 #: table_data.h:195
 msgid "Rhodium"
-msgstr ""
+msgstr "Ródín"
 
 #: table_data.h:195 table_data.h:196
 msgid "1803 (England)"
-msgstr ""
+msgstr "1803 (England)"
 
 #: table_data.h:195 table_data.h:196
 msgid "William Wollaston"
-msgstr ""
+msgstr "William Wollaston"
 
 #: table_data.h:195
 msgid "Greek: rhodon (rose); its salts give a rosy solution"
-msgstr ""
+msgstr "Gríska: rhodon (rós); saltlausnir þess eru róslitaðar"
 
 #: table_data.h:196
 msgid "Palladium"
-msgstr ""
+msgstr "Palladín"
 
-#: table_data.h:196 table_data.h:200
+#: table_data.h:196 table_data.h:200 table_data.h:209
 msgid "Silvery-white, soft, malleable and ductile metal"
-msgstr ""
+msgstr "Silfurhvítur, linur, mótanlegur og teygjanlegur málmur"
 
 #: table_data.h:196
 msgid "Named after the asteroid, Pallas, discovered in 1803"
-msgstr ""
+msgstr "Nefndur eftir smástirninu Pallas, uppgötvað 1803"
 
 #: table_data.h:197
 msgid "Silver"
-msgstr ""
+msgstr "Silfur"
 
 #: table_data.h:197
 msgid "Silvery-ductile, and malleable metal"
-msgstr ""
+msgstr "Gljáandi teygjanlegur og mótanlegur málmur"
 
 #: table_data.h:197
 msgid "Anglo-Saxon: siolful (silver); symbol from Latin: argentum"
-msgstr ""
+msgstr "Anglósaxneska: siolful (silfur); frumefnistákn úr latínu: argentum"
 
 #: table_data.h:198
 msgid "Cadmium"
-msgstr ""
+msgstr "Kadmín"
 
 #: table_data.h:198
 msgid "Soft, malleable, blue-white metal"
-msgstr ""
+msgstr "Linur, mótanlegur, bláhvítur málmur"
 
 #: table_data.h:198
 msgid "1817 (Germany)"
-msgstr ""
+msgstr "1817 (Þýskur)"
 
 #: table_data.h:198
 msgid "Fredrich Stromeyer"
-msgstr ""
+msgstr "Fredrich Stromeyer"
 
 #: table_data.h:198
 msgid "Greek: kadmia (ancient name for calamine (zinc oxide))"
-msgstr ""
+msgstr "Gríska: kadmia (fornt nafn yfir sinkoxíð)"
 
 #: table_data.h:199
 msgid "Indium"
-msgstr ""
+msgstr "Indín"
 
 #: table_data.h:199 table_data.h:200 table_data.h:246
 msgid "TET"
-msgstr ""
+msgstr "TET"
 
 #: table_data.h:199
 msgid "Very soft, silvery-white metal"
-msgstr ""
+msgstr "Mjög mjúkur, silfurhvítur málmur"
 
 #: table_data.h:199
 msgid "1863 (Germany)"
-msgstr ""
+msgstr "1863 (Þýskaland)"
 
 #: table_data.h:199
 msgid "Ferdinand Reich, T. Richter"
-msgstr ""
+msgstr "Ferdinand Reich, T. Richter"
 
 #: table_data.h:199
 msgid "Latin: indicum (color indigo), the color it shows in a spectroscope"
-msgstr ""
+msgstr "Latína: indicum (liturinn indígó, sem birtist í litrófsgreini)"
 
 #: table_data.h:200
 msgid "Tin"
-msgstr ""
+msgstr "Tin"
 
 #: table_data.h:200
 msgid "Named after Etruscan god, Tinia; symbol from Latin: stannum (tin)"
-msgstr ""
+msgstr "Nefndur eftir etrúskum guði, Tinia; frumefnatákn úr latínu: stannum (tin)"
 
 #: table_data.h:201
 msgid "Antimony"
-msgstr ""
+msgstr "Antímon"
 
 #: table_data.h:201
 msgid "Hard, silvery-white, brittle semimetal"
-msgstr ""
+msgstr "Harður, silfurhvítur, stökkur hálfmálmur"
 
 #: table_data.h:201
 msgid "Greek: anti and monos (not alone); symbol from mineral stibnite"
-msgstr ""
+msgstr "Gríska: anti og monos (ekki einn); frumefnatákn frá steindinni stibnít"
 
 #: table_data.h:202
 msgid "Tellurium"
-msgstr ""
+msgstr "Tellúr"
 
 #: table_data.h:202
 msgid "Silvery-white, brittle semimetal"
-msgstr ""
+msgstr "Silfurhvítur, stökkur hálfmálmur"
 
 #: table_data.h:202
 msgid "1782 (Romania)"
-msgstr ""
+msgstr "1782 (Rúmenía)"
 
 #: table_data.h:202
 msgid "Franz Joseph Meller von Reichenstein"
-msgstr ""
+msgstr "Franz Joseph Meller von Reichenstein"
 
 #: table_data.h:202
 msgid "Latin: tellus, telluris (Planet Earth)"
-msgstr ""
+msgstr "Latína: tellus, telluris (Jörðin)"
 
 #: table_data.h:203
 msgid "Iodine"
-msgstr ""
+msgstr "Joð"
 
 #: table_data.h:203
 msgid "Shiny, black nonmetallic solid"
-msgstr ""
+msgstr "Skínandi, svart ómálmkennt fastefni"
 
 #: table_data.h:203
 msgid "1811 (France)"
-msgstr ""
+msgstr "1811 (Frakkland)"
 
 #: table_data.h:203
 msgid "Bernard Courtois"
-msgstr ""
+msgstr "Bernard Courtois"
 
 #: table_data.h:203
 msgid "Greek: iodes (violet colored)"
-msgstr ""
+msgstr "Gríska: iodes (fjólublátt)"
 
 #: table_data.h:204
 msgid "Xenon"
-msgstr ""
+msgstr "Xenon"
 
 #: table_data.h:204
 msgid "3.52 (@ -107.05&#176;C)"
-msgstr ""
+msgstr "3.52 (@ -107.05&#176;C)"
 
 #: table_data.h:204
 msgid "Heavy, colorless, and odorless noble gas"
-msgstr ""
+msgstr "Þungt, litlaust og lyktarlaust eðalgas"
 
 #: table_data.h:204
 msgid "Greek: xenos (strange)"
-msgstr ""
+msgstr "Gríska: xenos (furðulegt)"
 
 #: table_data.h:206
 msgid "Cesium"
@@ -1421,10 +1421,6 @@ msgstr ""
 
 #: table_data.h:209
 msgid "Lanthanum"
-msgstr ""
-
-#: table_data.h:209
-msgid "Silvery-white, soft, malleable, and ductile metal"
 msgstr ""
 
 #: table_data.h:209
