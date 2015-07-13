@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-10 23:32+0300\n"
-"PO-Revision-Date: 2015-07-12 07:22+0000\n"
+"PO-Revision-Date: 2015-07-13 08:07+0000\n"
 "Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
 "Language-Team: Galician (http://www.transifex.com/p/gperiodic/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgid ""
 "    -D         dump the periodic table\n"
 "    -v         be verbose\n"
 "\n"
-msgstr ""
+msgstr "gperiodic [opcións]\nAs opcións son:\n-h amosar esta pantalla de axuda\n-c <Temp.> colorear os elementos segundo a súa fase\ná temperatura de <Temp.> en graos Kelvin\n-D amosar a táboa periódica enteira\n-v información detallada\n\n"
 
 #: gperiodic.c:205
 #, c-format
@@ -51,7 +51,7 @@ msgid ""
 "gperiodic [element_symbol | atomic_number]\n"
 "               display information on the element with the given element symbol or atomic number\n"
 "\n"
-msgstr ""
+msgstr "ou\n\ngperiodic [símbolo_do_elemento | número_atómico]\n               amosa información sobre o elemento co símbolo de elemento e o número atómico indicado\n\n"
 
 #: gperiodic.c:291 gperiodic.c:292 table_data.h:82 table_data.h:98
 #: table_data.h:148 table_data.h:150 table_data.h:153 table_data.h:154
@@ -98,7 +98,7 @@ msgstr "E_ditar"
 
 #: gperiodic.c:338
 msgid "Exit the program"
-msgstr "SaÃr do programa"
+msgstr "Saír do programa"
 
 #: gperiodic.c:340 gperiodic.c:342
 msgid "_About"
@@ -114,31 +114,31 @@ msgstr "GPeriodic"
 
 #: gperiodic.c:403
 msgid "No symbol for index"
-msgstr ""
+msgstr "Non hai símbolo para o índice"
 
 #: gperiodic.c:410
 msgid "Error button was null?"
-msgstr ""
+msgstr "O botón de erro era nulo?"
 
 #: gperiodic.c:421
 #, c-format
 msgid "%s(%d) Setting color: %d %d %d"
-msgstr ""
+msgstr "%s(%d) Axustando a cor: %d %d %d"
 
 #: gperiodic.c:458
 #, c-format
 msgid "%s n:%s w:%s"
-msgstr ""
+msgstr "%s n:%s p:%s"
 
 #: gperiodic.c:500
 #, c-format
 msgid " Option -c error : %s is not a number.\n"
-msgstr ""
+msgstr "Erro na opción -c: %s non é un número.\n"
 
 #: gperiodic.c:504
 #, c-format
 msgid " Option -c error : %s is not a valid number (must be > 0).\n"
-msgstr ""
+msgstr "Erro na opción -c: %s non é un número correcto (debe ser > 0).\n"
 
 #: gperiodic.c:532
 #, c-format
@@ -177,7 +177,7 @@ msgid ""
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
-msgstr "O gperiodic é software libre, pode redistribuílo ou modificalo baixo os termos\nda Licenza pública xeral GNU tal como a publica a Free Software Foundation;\ntanto na versión 2 da Licenza como (segundo o seu criterio) en calquera\nversión posterior.\n\nO gperiodic distribúese esperando que sexa útil, mais SEN NINGUNHA GARANTÍA;\nmesmo sen a garantía implícita de VALOR COMERCIAL ou ADECUACIÓN PARA UN\nPROPÓSITO PARTICULAR. Para máis detalles vexa a Licenza pública xeral GNU.\n\nDebeu recibir unha copia da Licenza pública xeral GNU xunto co Brasero; en\ncaso contrario, escriba á Free Software Foundation, Inc., 51 Franklin\nStreet, Fifth Floor, Boston, MA 02111-1301, USA\n"
+msgstr "O gperiodic é software libre, pode redistribuílo ou modificalo baixo os termos\nda Licenza Pública Xeral GNU tal como a publica a Free Software Foundation;\ntanto na versión 2 da Licenza como (segundo o seu criterio) en calquera\nversión posterior.\n\nO gperiodic distribúese esperando que sexa útil, mais SEN NINGUNHA GARANTÍA;\nmesmo sen a garantía implícita de VALOR COMERCIAL ou ADECUACIÓN PARA UN\nPROPÓSITO PARTICULAR. Para máis detalles vexa a Licenza pública xeral GNU.\n\nDebeu recibir unha copia da Licenza pública xeral GNU xunto con este programa; en\ncaso contrario, escriba á Free Software Foundation, Inc., 51 Franklin\nStreet, Fifth Floor, Boston, MA 02110-1301, USA\n"
 
 #: gperiodic.h:105
 msgid "gperiodic homepage"
@@ -229,15 +229,15 @@ msgstr "Volume atómico Volume (cm&#179;/mol): "
 
 #: table_data.h:42
 msgid "Specific Heat (@20&#176;C J/(K*mol)): "
-msgstr "Calor específico (@20&#176;C J/(K*mol)):"
+msgstr "Temperatura específica (@20&#176;C J/(K*mol)):"
 
 #: table_data.h:43
 msgid "Fusion Heat (kJ/mol): "
-msgstr ""
+msgstr "Temperatura de fusión (kJ/mol): "
 
 #: table_data.h:44
 msgid "Evaporation Heat (kJ/mol): "
-msgstr ""
+msgstr "Temperatura de evaporación (kJ/mol): "
 
 #: table_data.h:45
 msgid "Thermal Conductivity (@25&#176;C W/(m*K)): "
@@ -1335,7 +1335,7 @@ msgstr "Semimetal duro, fráxil, de cor branco prateado"
 
 #: table_data.h:201
 msgid "Greek: anti and monos (not alone); symbol from mineral stibnite"
-msgstr ""
+msgstr "Do grego «anti» + «monos» (non só); o símbolo procede do mineral estibina"
 
 #: table_data.h:202
 msgid "Tellurium"
@@ -1484,7 +1484,7 @@ msgstr "Neodimio"
 
 #: table_data.h:212
 msgid "Silvery-white, rare-earth metal that oxidizes easily in air"
-msgstr ""
+msgstr "Metal de terra rara que se oxida facilmente no aire, de cor branco prateado"
 
 #: table_data.h:212
 msgid "1925 (Austria)"
@@ -1504,7 +1504,7 @@ msgstr "(+3e)97.9 ou (+3e)111"
 
 #: table_data.h:213
 msgid "Light-grey, radioactive element"
-msgstr ""
+msgstr "Elemento radioactivo de cor gris claro"
 
 #: table_data.h:213
 msgid "1945 (United States)"
@@ -1524,7 +1524,7 @@ msgstr "Samario"
 
 #: table_data.h:214
 msgid "Silvery rare-earth metal"
-msgstr ""
+msgstr "Terra rara metálica de aspecto prateado"
 
 #: table_data.h:214
 msgid "1880 (France)"
@@ -1572,7 +1572,7 @@ msgstr "Terbio"
 
 #: table_data.h:217
 msgid "Soft, ductile, silvery-gray, rare-earth metal"
-msgstr ""
+msgstr "Metal de terra rara, brando, dúctil, de cor gris prateado"
 
 #: table_data.h:217 table_data.h:220
 msgid "1843 (Sweden)"
@@ -1588,7 +1588,7 @@ msgstr "Disprosio"
 
 #: table_data.h:218
 msgid "Soft. lustrous, silvery metal"
-msgstr ""
+msgstr "Metal brando, prateado de aspecto lustroso"
 
 #: table_data.h:218
 msgid "Greek: dysprositos (hard to get at)"
@@ -1600,7 +1600,7 @@ msgstr "Holmio"
 
 #: table_data.h:219
 msgid "Fairly soft, malleable, lustrous, silvery metal"
-msgstr ""
+msgstr "Metal relativamente brando, maleábel, prateado de aspecto lustroso"
 
 #: table_data.h:219
 msgid "1879 (Switzerland)"
@@ -1620,7 +1620,7 @@ msgstr "Erbio"
 
 #: table_data.h:220
 msgid "Soft, malleable, silvery metal"
-msgstr ""
+msgstr "Metal brando, maleábel, de cor prateado"
 
 #: table_data.h:221
 msgid "Thulium"
@@ -1628,7 +1628,7 @@ msgstr "Tulio"
 
 #: table_data.h:221
 msgid "Soft, malleable, ductile, silvery metal"
-msgstr ""
+msgstr "Metal brando, maleábel, dúctil, de cor prateado"
 
 #: table_data.h:221
 msgid "Per Theodor Cleve"
@@ -1644,7 +1644,7 @@ msgstr "Iterbio"
 
 #: table_data.h:222
 msgid "Silvery, lustrous, malleable, and ductile metal"
-msgstr ""
+msgstr "Metal maleábel e dúctil, prateado de aspecto lustroso"
 
 #: table_data.h:222
 msgid "1878 (Switzerland)"
@@ -1656,7 +1656,7 @@ msgstr "Lutecio"
 
 #: table_data.h:224
 msgid "Silvery-white, hard, dense, rare-earth metal"
-msgstr ""
+msgstr "Metal de terra rara, duro e denso, de cor branco prateado"
 
 #: table_data.h:224
 msgid "1907 (France)"
@@ -1676,7 +1676,7 @@ msgstr "Hafnio"
 
 #: table_data.h:225
 msgid "Silvery, ductile metal"
-msgstr ""
+msgstr "Metal dúctil de cor prata"
 
 #: table_data.h:225
 msgid "1923 (Denmark)"
@@ -1696,7 +1696,7 @@ msgstr "Tantalio"
 
 #: table_data.h:226
 msgid "Gray, heavy, hard metal"
-msgstr ""
+msgstr "Metal pesado e duro, de cor gris "
 
 #: table_data.h:226
 msgid "1802 (Sweden)"
@@ -1716,7 +1716,7 @@ msgstr "Volframio"
 
 #: table_data.h:227
 msgid "Tough, steel-gray to white metal"
-msgstr ""
+msgstr "Metal duro, de cor de gris aceirado a branco"
 
 #: table_data.h:227
 msgid "1783 (Spain)"
@@ -1736,7 +1736,7 @@ msgstr "Renio"
 
 #: table_data.h:228
 msgid "Dense, silvery-white metal"
-msgstr ""
+msgstr "Metal denso, de cor branco prateado"
 
 #: table_data.h:228
 msgid "1925 (Germany)"
@@ -1756,7 +1756,7 @@ msgstr "Osmio"
 
 #: table_data.h:229
 msgid "Blue-white, lustrous, hard metal"
-msgstr ""
+msgstr "Metal duro, de cor branco azulado de aspecto lustroso"
 
 #: table_data.h:229
 msgid "1804 (England)"
@@ -1776,7 +1776,7 @@ msgstr "Iridio"
 
 #: table_data.h:230
 msgid "White, brittle metal"
-msgstr ""
+msgstr "Metal fráxil de cor branco"
 
 #: table_data.h:230
 msgid "1804 (England/France)"
@@ -1784,7 +1784,7 @@ msgstr "1804 (Inglaterra/Francia)"
 
 #: table_data.h:230
 msgid "S.Tenant, A.F.Fourcroy, L.N.Vauquelin, H.V.Collet-Descoltils"
-msgstr ""
+msgstr "S.Tenant, A.F.Fourcroy, L.N.Vauquelin, H.V.Collet-Descoltils"
 
 #: table_data.h:230
 msgid "Greek: iris (rainbow)"
@@ -1796,7 +1796,7 @@ msgstr "Platino"
 
 #: table_data.h:231
 msgid "Very heavy, soft, silvery-white metal"
-msgstr ""
+msgstr "Metal moi pesado, brando, de cor branco prateado"
 
 #: table_data.h:231
 msgid "1557 (Italy), but Incas use before"
@@ -1820,7 +1820,7 @@ msgstr "(-3e) 185 (+1e) 137 ou (+3e) 85 (+1e) 137"
 
 #: table_data.h:232
 msgid "Soft, malleable, yellow metal"
-msgstr ""
+msgstr "Metal brando, maleábel, de cor amarelo"
 
 #: table_data.h:232
 msgid "Anglo-Saxon: geolo (yellow); symbol from Latin: aurum (shining dawn)"
@@ -1836,7 +1836,7 @@ msgstr "13.546 (@ +20&#176;C)"
 
 #: table_data.h:233
 msgid "Heavy, silver-white metal that is in its liquid state at"
-msgstr ""
+msgstr "Metal pesado, de cor branco prateado, atópase en estado líquido a"
 
 #: table_data.h:233
 msgid "The Roman god Mercury; symbol from Latin: hydrargyrum (liquid silver)"
@@ -1848,7 +1848,7 @@ msgstr "Talio"
 
 #: table_data.h:234
 msgid "Soft, gray metal"
-msgstr ""
+msgstr "Metal brando de cor gris"
 
 #: table_data.h:234
 msgid "1861 (England)"
@@ -1868,7 +1868,7 @@ msgstr "Chumbo"
 
 #: table_data.h:235
 msgid "Very soft, highly malleable and ductile, blue-white shiny metal"
-msgstr ""
+msgstr "Metal moi brando, altamente maleábel e dúctil, de cor branco azulado e brillante"
 
 #: table_data.h:235
 msgid "Anglo-Saxon: lead; symbol from Latin: plumbum"
@@ -1880,7 +1880,7 @@ msgstr "Bismuto"
 
 #: table_data.h:236
 msgid "Hard, brittle, steel-gray metal with a pinkish tinge"
-msgstr ""
+msgstr "Metal duro, fráxil, de cor gris aceirado, cun matíz rosáceo"
 
 #: table_data.h:236
 msgid "German: bisemutum (white mass); now spelled wismut"
@@ -1908,7 +1908,7 @@ msgstr "Astato"
 
 #: table_data.h:238
 msgid "Unstable, radioactive halogen"
-msgstr ""
+msgstr "Halóxeno inestábel e radioactivo"
 
 #: table_data.h:238 table_data.h:249
 msgid "1940 (United States)"
@@ -1932,7 +1932,7 @@ msgstr "4.4 (@ -62&#176;C)"
 
 #: table_data.h:239
 msgid "Heavy radioactive gas"
-msgstr ""
+msgstr "Gas pesado radioactivo"
 
 #: table_data.h:239
 msgid "1898 (Germany/England)"
@@ -1944,7 +1944,7 @@ msgstr "Fredrich Ernst Dorn, Ernest Rutherford"
 
 #: table_data.h:239
 msgid "Variation of the name of another element, radium"
-msgstr ""
+msgstr "Variación sobre o nome doutro elemento, o radio"
 
 #: table_data.h:241
 msgid "Francium"
@@ -1972,7 +1972,7 @@ msgstr "5.5 (@ +20&#176;C)"
 
 #: table_data.h:242
 msgid "Silvery white, radioactive element"
-msgstr ""
+msgstr "Elemento radioactivo de cor branco prateado"
 
 #: table_data.h:242
 msgid "Latin: radius (beam, ray)"
@@ -1984,7 +1984,7 @@ msgstr "Actinio"
 
 #: table_data.h:244
 msgid "Heavy, Silvery-white metal that is very radioactive"
-msgstr ""
+msgstr "Metal pesado, moi radioactivo, de cor branco prateado"
 
 #: table_data.h:244
 msgid "1899 (France)"
@@ -2004,7 +2004,7 @@ msgstr "Torio"
 
 #: table_data.h:245
 msgid "Gray, soft, malleable, ductile, radioactive metal"
-msgstr ""
+msgstr "Metal brando, maleábel, dúctil, radioactivo, de cor gris"
 
 #: table_data.h:245
 msgid "1828 (Sweden)"
@@ -2020,7 +2020,7 @@ msgstr "Protoactinio"
 
 #: table_data.h:246 table_data.h:249 table_data.h:250
 msgid "Silvery-white, radioactive metal"
-msgstr ""
+msgstr "Metal radioactivo de cor branco prateado"
 
 #: table_data.h:246
 msgid "1918 (England/France)"
@@ -2042,7 +2042,7 @@ msgstr "Uranio"
 
 #: table_data.h:247
 msgid "Silvery-white, dense, ductile and malleable, radioactive metal"
-msgstr ""
+msgstr "Metal radioactivo, denso, dúctil e maleábel, de cor branco prateado"
 
 #: table_data.h:247
 msgid "Named for the planet Uranus"
@@ -2054,7 +2054,7 @@ msgstr "Neptunio"
 
 #: table_data.h:248
 msgid "Silvery metal"
-msgstr ""
+msgstr "Metal prateado"
 
 #: table_data.h:248
 msgid "E.M. McMillan, P.H. Abelson"
@@ -2102,7 +2102,7 @@ msgstr "Curio"
 
 #: table_data.h:251
 msgid "Silvery, malleable, synthetic radioactive metal"
-msgstr ""
+msgstr "Metal sintético radioactivo, maleábel de aspecto prateado"
 
 #: table_data.h:251
 msgid "G.T.Seaborg, R.A.James, A.Ghiorso"
@@ -2118,7 +2118,7 @@ msgstr "Berquelio"
 
 #: table_data.h:252
 msgid "Radioactive synthetic metal"
-msgstr ""
+msgstr "Metal sintético radioactivo"
 
 #: table_data.h:252
 msgid "1949 (United States)"
@@ -2138,7 +2138,7 @@ msgstr "Californio"
 
 #: table_data.h:253
 msgid "Powerful neutron emitter"
-msgstr ""
+msgstr "Potente emisor de neutróns"
 
 #: table_data.h:253
 msgid "1950 (United States)"
@@ -2160,7 +2160,7 @@ msgstr "Einstenio"
 #: table_data.h:259 table_data.h:260 table_data.h:261 table_data.h:262
 #: table_data.h:263
 msgid "Radioactive, synthetic metal"
-msgstr ""
+msgstr "Metal sintético radioactivo"
 
 #: table_data.h:254 table_data.h:255
 msgid "1952 (United States)"
@@ -2224,7 +2224,7 @@ msgstr "1961 (URSS/Estados Unidos)"
 
 #: table_data.h:259 table_data.h:261 table_data.h:262
 msgid "Soviet Nuclear Research/University of California at Berkeley"
-msgstr ""
+msgstr "Centro Soviético de Investigación Nuclear e Universidade de California en Berkeley"
 
 #: table_data.h:259
 msgid "Named in honor of Ernest Orlando Lawrence, inventor of the cyclotron"
