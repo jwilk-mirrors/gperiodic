@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07 13:09+0300\n"
-"PO-Revision-Date: 2015-07-04 21:55+0000\n"
+"POT-Creation-Date: 2015-07-10 23:32+0300\n"
+"PO-Revision-Date: 2015-07-10 20:47+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
-"Language-Team: Belarusian (http://www.transifex.com/projects/p/gperiodic/language/be/)\n"
+"Language-Team: Belarusian (http://www.transifex.com/Magic/gperiodic/language/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1251,7 +1251,7 @@ msgstr "грэцк. радон (ружа), соли даюць ружовыя р
 msgid "Palladium"
 msgstr "паладый"
 
-#: table_data.h:196 table_data.h:200
+#: table_data.h:196 table_data.h:200 table_data.h:209
 msgid "Silvery-white, soft, malleable and ductile metal"
 msgstr "срабрыста-белы коўкі і вельмі цягучы метал"
 
@@ -1422,10 +1422,6 @@ msgstr "грэцк. барыс (цяжкі ці шчыльны)"
 #: table_data.h:209
 msgid "Lanthanum"
 msgstr "лантан"
-
-#: table_data.h:209
-msgid "Silvery-white, soft, malleable, and ductile metal"
-msgstr "срабрыста-белы мяккі коўкі цягучы метал"
 
 #: table_data.h:209
 msgid "1839 (Sweden)"

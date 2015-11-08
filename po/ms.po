@@ -3,32 +3,30 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Adrián José Prado Castro <adrian.prado@gmail.com>, 2015
-# Juan Rafael Fernández <jrfern@telefonica.net>, 2014
-# Mauricio Rivera <?>, 1999
+# abuyop <abuyop@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-10 23:32+0300\n"
-"PO-Revision-Date: 2015-07-10 20:47+0000\n"
-"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/Magic/gperiodic/language/es/)\n"
+"PO-Revision-Date: 2015-09-04 06:41+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>\n"
+"Language-Team: Malay (http://www.transifex.com/Magic/gperiodic/language/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ms\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: gperiodic.c:194
 #, c-format
 msgid "Periodic table of the elements"
-msgstr "Tabla periódica de los elementos"
+msgstr "Jadual berkala unsur"
 
 #: gperiodic.c:196
 #, c-format
 msgid "A program for looking up data of elements from the periodic table"
-msgstr "Un programa para consultar datos sobre los elementos de la tabla periódica"
+msgstr "Program untuk mencari maklumat unsur dari jadual berkala"
 
 #: gperiodic.c:198
 #, c-format
@@ -41,7 +39,7 @@ msgid ""
 "    -D         dump the periodic table\n"
 "    -v         be verbose\n"
 "\n"
-msgstr "gperiodic [opciones]\nLas opciones son:\n     -h         mostrar esta pantalla de ayuda\n     -c <Temp.> colorear los elementos según su fase a\n                la temperatura <Temp.> en grados Kelvin\n     -D         mostrar la tabla periódica entera\n     -v         información detallada\n\n"
+msgstr "gperiodic [opts]\nPilihan adalah:\n    -h         tunjuk skrin bantuan ini\n    -c <Temp>  warna unsur berdasarkan fasa pada mengikut\n               suhu <Temp> dalam Kelvin\n    -D         longgok jadual berkala\n    -v         biar berjela\n\n"
 
 #: gperiodic.c:205
 #, c-format
@@ -51,7 +49,7 @@ msgid ""
 "gperiodic [element_symbol | atomic_number]\n"
 "               display information on the element with the given element symbol or atomic number\n"
 "\n"
-msgstr "o\n\ngperiodic [símbolo_de_elemento | número_atómico]\n               mostrar información sobre el elemento con el símbolo de elemento o número atómico dado\n\n"
+msgstr "atau\n\ngperiodic [element_symbol | atomic_number]\n               papar maklumat pada unsur dengan simbol unsur atau nombor atom\n\n"
 
 #: gperiodic.c:291 gperiodic.c:292 table_data.h:82 table_data.h:98
 #: table_data.h:148 table_data.h:150 table_data.h:153 table_data.h:154
@@ -82,31 +80,31 @@ msgstr "o\n\ngperiodic [símbolo_de_elemento | número_atómico]\n              
 #: table_data.h:269 table_data.h:270 table_data.h:271 table_data.h:272
 #: table_data.h:273 table_data.h:274
 msgid "n/a"
-msgstr "no disponible"
+msgstr "t/s"
 
 #: gperiodic.c:336
 msgid "_File"
-msgstr "_Archivo"
+msgstr "_Fail"
 
 #: gperiodic.c:337
 msgid "_Help"
-msgstr "_Ayuda"
+msgstr "B_antuan"
 
 #: gperiodic.c:338
 msgid "E_xit"
-msgstr "_Salir"
+msgstr "Ke_luar"
 
 #: gperiodic.c:338
 msgid "Exit the program"
-msgstr "Salir del programa"
+msgstr "Keluar dari program"
 
 #: gperiodic.c:340 gperiodic.c:342
 msgid "_About"
-msgstr "_Acerca de"
+msgstr "_Perihal"
 
 #: gperiodic.c:340 gperiodic.c:342
 msgid "About gperiodic"
-msgstr "Acerca de gperiodic"
+msgstr "Perihal gperiodic"
 
 #: gperiodic.c:360
 msgid "GPeriodic"
@@ -114,16 +112,16 @@ msgstr "GPeriodic"
 
 #: gperiodic.c:403
 msgid "No symbol for index"
-msgstr "Sin símbolo para el índice"
+msgstr "Tiada simbol untuk indeks"
 
 #: gperiodic.c:410
 msgid "Error button was null?"
-msgstr "El botón de error era nulo?"
+msgstr "Butang ralat adalah nol?"
 
 #: gperiodic.c:421
 #, c-format
 msgid "%s(%d) Setting color: %d %d %d"
-msgstr "%s(%d) Poniendo color: %d %d %d"
+msgstr "%s(%d) Warna tetapan: %d %d %d"
 
 #: gperiodic.c:458
 #, c-format
@@ -133,12 +131,12 @@ msgstr "%s n:%s w:%s"
 #: gperiodic.c:500
 #, c-format
 msgid " Option -c error : %s is not a number.\n"
-msgstr "Error en la opción -c: %s no es un número.\n"
+msgstr "Ralat pilihan -c : %s bukanlah satu nombor.\n"
 
 #: gperiodic.c:504
 #, c-format
 msgid " Option -c error : %s is not a valid number (must be > 0).\n"
-msgstr "Error en la opción -c: %s no es un número válido (debe ser > 0).\n"
+msgstr "Ralat pilihan -c : %s bukanlah nombor yang sah (mesti > 0).\n"
 
 #: gperiodic.c:532
 #, c-format
@@ -146,7 +144,7 @@ msgid ""
 "\n"
 " Unknown element : %s. Exiting.\n"
 "\n"
-msgstr "\nElemento desconocido: %s. Saliendo.\n\n"
+msgstr "\n Unsur tidak diketahui : %s. Keluar.\n\n"
 
 #: gperiodic.c:537
 #, c-format
@@ -154,13 +152,13 @@ msgid ""
 "\n"
 " Element number exceeds existing elements. Exiting.\n"
 "\n"
-msgstr "\nEl número del elemento sobrepasa el de los elementos existentes. Saliendo.\n\n"
+msgstr "\n Nombor unsur melebihi unsur sedia ada. Keluar.\n\n"
 
 #: gperiodic.h:102
 msgid ""
 "This program shows the periodic table of elements and information about "
 "these elements"
-msgstr "Este programa muestra la tabla periódica de los elementos e información sobre estos elementos"
+msgstr "Program ini menunjukkan jadual berkala unsur dan maklumat berkenaan unsur tersebut"
 
 #: gperiodic.h:103
 msgid ""
@@ -177,123 +175,123 @@ msgid ""
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
-msgstr "gperiodic es software libre; puede redistribuirlo y/o modificarlo bajo los\ntérminos de la Licencia Pública General GNU tal como la publica la Free\nSoftware Foundation; ya sea en la versión 2 de la Licencia, o (a su opción)\ncualquier versión posterior.\n\ngperiodic se distribuye con el propósito de que le sea útil, pero SIN NINGUNA\nGARANTÍA; sin incluso la garantía implícita de MERCANTILIDAD o IDONEIDAD\nPARA UN PROPÓSITO DETERMINADO. Vea la Licencia Pública General de GNU para\nmás detalles.\n\nDebería haber recibido una copia de la Licencia Pública General de GNU junto\ncon gperiodic; si no es así, escriba a la Free Software Foundation, Inc, 51\nFranklin Street, Fifth Floor, Boston, MA 02110-1301, EE. UU.\n"
+msgstr "gperiodic adalah perisian bebas; anda boleh edar semula ia dan ubahsuai ia\ndibawah terma Lesen Awam Am GNU sepertimana yang diterbitkan oleh\nFree Software Foundation; sama ada Lesen versi 2 atau (ikut pilihan anda)\nmana-mana versi terkemudian.\n\ngperiodic diedar dengan harapan ia akan berguna, tetapi TANPA\nAPA-APA JAMINAN; begitu juga jaminan berkenaan KEBOLEHPASARAN\natau KESESUAIAN APA JUA TUJUAN. Sila rujuk Lesem Awam AM GNU\nuntuk perincian lanjut.\n\nAnda seharusnya menerima satu salinan Lesen Awam Am GNU bersama-\nsama dengan program ini; jika tidak disertakan, sila tulis perihal ini kepada\nFree Software Foundation, Inc., 51Franklin Street, Fifth Floor, Boston, \nMA 02110-1301 USA\n"
 
 #: gperiodic.h:105
 msgid "gperiodic homepage"
-msgstr "sitio web de gperiodic"
+msgstr "laman sesawang gperiodic"
 
 #: table_data.h:31
 msgid "Name: "
-msgstr "Nombre: "
+msgstr "Nama:"
 
 #: table_data.h:32
 msgid "Symbol: "
-msgstr "Símbolo: "
+msgstr "Simbol:"
 
 #: table_data.h:33
 msgid "Atomic Number: "
-msgstr "Número atómico: "
+msgstr "Nombor Atom:"
 
 #: table_data.h:34
 msgid "Atomic Weight (u.m): "
-msgstr "Peso atómico (u.m): "
+msgstr "Berat Atom (u.m):"
 
 #: table_data.h:35
 msgid "Density (g/cm&#179;): "
-msgstr "Densidad (g/cm&#179;): "
+msgstr "Ketumpatan (g/cm&#179;): "
 
 #: table_data.h:36
 msgid "Melting Point (K): "
-msgstr "Punto de fusión (K): "
+msgstr "Takat Lebur (K):"
 
 #: table_data.h:37
 msgid "Boiling Point (K): "
-msgstr "Punto de ebullición (K): "
+msgstr "Takat Didih (K):"
 
 #: table_data.h:38
 msgid "Atomic Radius (pm): "
-msgstr "Radio atómico (pm): "
+msgstr "Jejari Atom (pm):"
 
 #: table_data.h:39
 msgid "Covalent Radius (pm): "
-msgstr "Radio covalente (pm): "
+msgstr "Jejari Kovalens (pm):"
 
 #: table_data.h:40
 msgid "Ionic Radius (pm): "
-msgstr "Radio iónico (pm): "
+msgstr "Jejari Ionik (pm):"
 
 #: table_data.h:41
 msgid "Atomic Volume (cm&#179;/mol): "
-msgstr "Volumen atómico (cm&#179;/mol): "
+msgstr "Isipadu Atom (cm&#179;/mol): "
 
 #: table_data.h:42
 msgid "Specific Heat (@20&#176;C J/(K*mol)): "
-msgstr "Calor específico (@20&#176;C J/(K*mol)): "
+msgstr "Haba Tentu (@20&#176;C J/(K*mol)): "
 
 #: table_data.h:43
 msgid "Fusion Heat (kJ/mol): "
-msgstr "Punto de fusión (kJ/mol): "
+msgstr "Haba Lakuran (kJ/mol):"
 
 #: table_data.h:44
 msgid "Evaporation Heat (kJ/mol): "
-msgstr "Punto de ebullición (kJ/mol): "
+msgstr "Haba Pemeruapant (kJ/mol): "
 
 #: table_data.h:45
 msgid "Thermal Conductivity (@25&#176;C W/(m*K)): "
-msgstr "Conductividad térmica  (@25&#176;C W/(m*K)): "
+msgstr "Kekonduksian Haba (@25&#176;C W/(m*K)): "
 
 #: table_data.h:46
 msgid "Debye temperature (K): "
-msgstr "Temperatura de Debye (K): "
+msgstr "Suhu Debye (K): "
 
 #: table_data.h:47
 msgid "Pauling Negativity Number: "
-msgstr "Número de Negatividad de Pauling: "
+msgstr "Nonobr Kenegatifan Pauling:"
 
 #: table_data.h:48
 msgid "First Ionizing Energy (kJ/mol): "
-msgstr "Primera energía de ionización (kJ/mol): "
+msgstr "Tenaga Pengionan Pertama (kJ/mol):"
 
 #: table_data.h:49
 msgid "Oxidation states: "
-msgstr "Estados de oxidación: "
+msgstr "Keadaan pengoksidaan:"
 
 #: table_data.h:50
 msgid "Electronic Configuration: "
-msgstr "Configuración electrónica: "
+msgstr "Konfigurasi Elektronik:"
 
 #: table_data.h:51
 msgid "Lattice structure: "
-msgstr "Estructura reticular"
+msgstr "Struktur kekisi:"
 
 #: table_data.h:52
 msgid "Lattice constant (&#x212B;): "
-msgstr "Constante de la retícula (&#x212B;): "
+msgstr "Pekali kekisi (&#x212B;): "
 
 #: table_data.h:53
 msgid "Lattice c/a ratio: "
-msgstr "Relación a/c de la retícula:"
+msgstr "Nisbah c/a kekisi:"
 
 #: table_data.h:54
 msgid "Appearance: "
-msgstr "Apariencia: "
+msgstr "Penampilan:"
 
 #: table_data.h:55
 msgid "Discovery date: "
-msgstr "Fecha del descubrimiento: "
+msgstr "Tarikh penemuan:"
 
 #: table_data.h:56
 msgid "Discovered by: "
-msgstr "Descubierto por: "
+msgstr "Ditemui oleh:"
 
 #: table_data.h:57
 msgid "Named after: "
-msgstr "Origen del nombre: "
+msgstr "Dinamakan selepas:"
 
 #: table_data.h:147
 msgid "Hydrogen"
-msgstr "Hidrógeno"
+msgstr "Hidrogen"
 
 #: table_data.h:147
 msgid "0.0708 (@ -253&#176;C)"
@@ -313,11 +311,11 @@ msgstr "HEX"
 
 #: table_data.h:147 table_data.h:157
 msgid "Colorless, odorless, tasteless gas"
-msgstr "Gas incoloro, inodoro, e insípido"
+msgstr "Gas tidak berwarna, tidak berbau dan tanpa rasa"
 
 #: table_data.h:147
 msgid "1766 (England)"
-msgstr "1766 (Inglaterra)"
+msgstr "1766 (England)"
 
 #: table_data.h:147
 msgid "Henry Cavendish"
@@ -325,11 +323,11 @@ msgstr "Henry Cavendish"
 
 #: table_data.h:147
 msgid "Greek: hydro (water) and genes (generate)"
-msgstr "Griego: hidro- (agua) y genes (generar)"
+msgstr "Yunani: hydro (air) dan genes (jana)"
 
 #: table_data.h:148
 msgid "Helium"
-msgstr "Helio"
+msgstr "Helium"
 
 #: table_data.h:148
 msgid "0.147 (@ -270&#176;C)"
@@ -337,11 +335,11 @@ msgstr "0.147 (@ -270&#176;C)"
 
 #: table_data.h:148
 msgid "Inert, colorless, odorless, tasteless gas"
-msgstr "Gas inerte, incoloro, inodoro e insípido"
+msgstr "Gas lengai, tidak berwarna, tidak berbau dan tanpa rasa"
 
 #: table_data.h:148
 msgid "1895 (Scotland/Sweden)"
-msgstr "1895 (Escocia/Suecia)"
+msgstr "1895 (Scotland/Sweden)"
 
 #: table_data.h:148
 msgid "Sir William Ramsey, Nils Langet, P.T.Cleve"
@@ -349,15 +347,15 @@ msgstr "Sir William Ramsey, Nils Langet, P.T.Cleve"
 
 #: table_data.h:148
 msgid "Greek: helios (sun)"
-msgstr "Griego: helios (sol)"
+msgstr "Yunani: helios (matahari)"
 
 #: table_data.h:150
 msgid "Lithium"
-msgstr "Litio"
+msgstr "Litium"
 
 #: table_data.h:150
 msgid "68 (+1e) or 76 (+1e)"
-msgstr "68 (+1e) o 76 (+1e)"
+msgstr "68 (+1e) atau 76 (+1e)"
 
 #: table_data.h:150 table_data.h:159 table_data.h:163 table_data.h:168
 #: table_data.h:172 table_data.h:173 table_data.h:175 table_data.h:187
@@ -369,11 +367,11 @@ msgstr "BCC"
 
 #: table_data.h:150 table_data.h:159 table_data.h:215
 msgid "Soft, silvery-white metal"
-msgstr "Metal blando, de color blanco plateado"
+msgstr "Logam perak-putih yang lembut"
 
 #: table_data.h:150 table_data.h:183
 msgid "1817 (Sweden)"
-msgstr "1817 (Suecia)"
+msgstr "1817 (Sweden)"
 
 #: table_data.h:150
 msgid "Johann Arfwedson"
@@ -381,19 +379,19 @@ msgstr "Johann Arfwedson"
 
 #: table_data.h:150
 msgid "Greek: lithos (stone)"
-msgstr "Griego: lithos (piedra)"
+msgstr "Yunani: lithos (batu)"
 
 #: table_data.h:151
 msgid "Beryllium"
-msgstr "Berilio"
+msgstr "Berilium"
 
 #: table_data.h:151
 msgid "Hard, brittle, steel-gray metal"
-msgstr "Metal duro, frágil, de color gris-acerado"
+msgstr "Logam kelabu-keluli, keras dan rapuh"
 
 #: table_data.h:151
 msgid "1798 (France)"
-msgstr "1798 (Francia)"
+msgstr "1798 (Perancis)"
 
 #: table_data.h:151
 msgid "Louis-Nicolas Vauquelin"
@@ -401,11 +399,11 @@ msgstr "Louis-Nicolas Vauquelin"
 
 #: table_data.h:151
 msgid "Greek: beryllos, 'beryl' (a mineral)"
-msgstr "Griego: beryllos, 'berilio' (un mineral)"
+msgstr "Yunani: beryllos, 'beryl' (mineral)"
 
 #: table_data.h:152
 msgid "Boron"
-msgstr "Boro"
+msgstr "Boron"
 
 #: table_data.h:152 table_data.h:214 table_data.h:233 table_data.h:236
 msgid "RHL"
@@ -413,11 +411,11 @@ msgstr "RHL"
 
 #: table_data.h:152
 msgid "Hard, brittle, lustrous black semimetal"
-msgstr "Semimetal duro, frágil, de un negro brillante"
+msgstr "Separa-logam hitam, keras dan rapuh"
 
 #: table_data.h:152
 msgid "1808 (England/France)"
-msgstr "1808 (Inglaterra/Francia)"
+msgstr "1808 (England/Perancis)"
 
 #: table_data.h:152
 msgid "Sir H. Davy, J.L. Gay-Lussac, L.J. Thenard"
@@ -425,49 +423,49 @@ msgstr "Sir H. Davy, J.L. Gay-Lussac, L.J. Thenard"
 
 #: table_data.h:152
 msgid "The Arabic and Persian words for borax"
-msgstr "Las palabras árabe y persa para referirse al bórax"
+msgstr "Perkataan bahasa Arab dan Parsi bagi borax"
 
 #: table_data.h:153
 msgid "Carbon"
-msgstr "Carbono"
+msgstr "Karbon"
 
 #: table_data.h:153
 msgid "2.25 (graphite)"
-msgstr "2.25 (grafito)"
+msgstr "2.25 (grafit)"
 
 #: table_data.h:153
 msgid "1860.00 (diamond)"
-msgstr "1860.00 (diamante)"
+msgstr "1860.00 (berlian)"
 
 #: table_data.h:153
 msgid "HEX (graphite), DIA (diamond)"
-msgstr "HEX (grafito), DIA (diamante)"
+msgstr "HEX (grafit), DIA (berlian)"
 
 #: table_data.h:153
 msgid "Dense, Black (graphite)"
-msgstr "Denso, negro(grafito)"
+msgstr "Padat, Hitam (grafit)"
 
 #: table_data.h:153 table_data.h:164 table_data.h:175 table_data.h:178
 #: table_data.h:179 table_data.h:182 table_data.h:197 table_data.h:200
 #: table_data.h:201 table_data.h:232 table_data.h:233 table_data.h:235
 #: table_data.h:236
 msgid "n/a (Unknown)"
-msgstr "No disponible (desconocido)"
+msgstr "t/d (Tidak diketahui)"
 
 #: table_data.h:153 table_data.h:164 table_data.h:175 table_data.h:178
 #: table_data.h:179 table_data.h:182 table_data.h:197 table_data.h:200
 #: table_data.h:201 table_data.h:232 table_data.h:233 table_data.h:235
 #: table_data.h:236
 msgid "Known to the ancients"
-msgstr "Conocido por los antiguos"
+msgstr "Diketahui semenjak dahulu kala"
 
 #: table_data.h:153
 msgid "Latin: carbo (charcoal)"
-msgstr "Latín: carbo (carbón de leña)"
+msgstr "Latin: carbo (arang)"
 
 #: table_data.h:154
 msgid "Nitrogen"
-msgstr "Nitrógeno"
+msgstr "Nitrogen"
 
 #: table_data.h:154
 msgid "0.808 (@ -195.8&#176;C)"
@@ -475,7 +473,7 @@ msgstr "0.808 (@ -195.8&#176;C)"
 
 #: table_data.h:154
 msgid "HEX or CUB"
-msgstr "HEX o CUB"
+msgstr "HEX atau CUB"
 
 #: table_data.h:154
 msgid "4.039 (HEX)"
@@ -487,11 +485,11 @@ msgstr "1.651 (HEX)"
 
 #: table_data.h:154
 msgid "Colorless, odorless, tasteless, and generally inert gas"
-msgstr "Gas incoloro, inodoro, insípido y por lo general inerte"
+msgstr "Gas lengai umumnya, tidak berwarna, tidak berbau dan tanpa rasa"
 
 #: table_data.h:154
 msgid "1772 (Scotland)"
-msgstr "1772 (Escocia)"
+msgstr "1772 (Scotland)"
 
 #: table_data.h:154
 msgid "Daniel Rutherford"
@@ -499,11 +497,11 @@ msgstr "Daniel Rutherford"
 
 #: table_data.h:154
 msgid "Greek: nitron and genes (soda forming)"
-msgstr "Griego: nitron + genes (que forma sosa)"
+msgstr "Yunani: nitron dan genes (pembentukan soda)"
 
 #: table_data.h:155
 msgid "Oxygen"
-msgstr "Oxígeno"
+msgstr "Oksigen"
 
 #: table_data.h:155
 msgid "1.149 (@ -183&#176;C)"
@@ -511,7 +509,7 @@ msgstr "1.149 (@ -183&#176;C)"
 
 #: table_data.h:155
 msgid "MCL or CUB"
-msgstr "MCL o CUB"
+msgstr "MCL atau CUB"
 
 #: table_data.h:155
 msgid "6.830 (CUB)"
@@ -519,11 +517,11 @@ msgstr "6.830 (CUB)"
 
 #: table_data.h:155
 msgid "Colorless, odorless, tasteless gas; pale blue liquid"
-msgstr "Gas incoloro, inodoro, insípido; líquido de un azul pálido"
+msgstr "Cecair biru pucat; gas tidak berwarna, tidak berbau dan tanpa rasa"
 
 #: table_data.h:155
 msgid "1774 (England/Sweden)"
-msgstr "1774 (Inglaterra/Suecia)"
+msgstr "1774 (England/Sweden)"
 
 #: table_data.h:155
 msgid "Joseph Priestly, Carl Wilhelm Scheele"
@@ -531,11 +529,11 @@ msgstr "Joseph Priestly, Carl Wilhelm Scheele"
 
 #: table_data.h:155
 msgid "Greek: oxys and genes (acid former)"
-msgstr "Griego: oxys + genes (que forma ácido)"
+msgstr "Yunani: oxys dan genes (pembentuk asid)"
 
 #: table_data.h:156
 msgid "Fluorine"
-msgstr "Flúor"
+msgstr "Florin"
 
 #: table_data.h:156
 msgid "1.108 (@ -189&#176;C)"
@@ -547,11 +545,11 @@ msgstr "MCL"
 
 #: table_data.h:156
 msgid "Greenish-yellow, pungent, corrosive gas"
-msgstr "Gas verde-amarillento, acre, corrosivo"
+msgstr "Gas kuning-hijau, berbau sengit dan mengkakis"
 
 #: table_data.h:156 table_data.h:218
 msgid "1886 (France)"
-msgstr "1886 (Francia)"
+msgstr "1886 (Perancis)"
 
 #: table_data.h:156
 msgid "Henri Moissan"
@@ -559,11 +557,11 @@ msgstr "Henri Moissan"
 
 #: table_data.h:156
 msgid "Latin: fluere (flow)"
-msgstr "Latín: fluere (fluir)"
+msgstr "Latin: fluere (mengalir)"
 
 #: table_data.h:157
 msgid "Neon"
-msgstr "Neón"
+msgstr "Neon"
 
 #: table_data.h:157
 msgid "1.204 (@ -246&#176;C)"
@@ -580,7 +578,7 @@ msgstr "FCC"
 
 #: table_data.h:157 table_data.h:204
 msgid "1898 (England)"
-msgstr "1898 (Inglaterra)"
+msgstr "1898 (England)"
 
 #: table_data.h:157 table_data.h:185 table_data.h:204
 msgid "Sir William Ramsey, M.W. Travers"
@@ -588,15 +586,15 @@ msgstr "Sir William Ramsey, M.W. Travers"
 
 #: table_data.h:157
 msgid "Greek: neos (new)"
-msgstr "Del griego: neos (nuevo)"
+msgstr "Yunani: neos (baru)"
 
 #: table_data.h:159
 msgid "Sodium"
-msgstr "Sodio"
+msgstr "Natrium"
 
 #: table_data.h:159 table_data.h:168
 msgid "1807 (England)"
-msgstr "1807 (Inglaterra)"
+msgstr "1807 (England)"
 
 #: table_data.h:159 table_data.h:160 table_data.h:168 table_data.h:169
 #: table_data.h:207
@@ -607,35 +605,35 @@ msgstr "Sir Humphrey Davy"
 msgid ""
 "Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium"
 " carbonate)"
-msgstr "Latín medieval: sodanum (remedio para el dolor de cabeza); el símbolo procede del latín natrium (carbonato sódico)"
+msgstr "Latin Zaman Pertengahan: sodanum (ubat sakit kepala); simbol daripada Latin natrium (natrium karbonat)"
 
 #: table_data.h:160
 msgid "Magnesium"
-msgstr "Magnesio"
+msgstr "Magnesium"
 
 #: table_data.h:160
 msgid "Lightweight, malleable, silvery-white metal"
-msgstr "Metal ligero, maleable, de un blanco plateado"
+msgstr "Logam putih-perak, boleh ditempa dan ringan"
 
 #: table_data.h:160 table_data.h:169 table_data.h:207
 msgid "1808 (England)"
-msgstr "1808 (Inglaterra)"
+msgstr "1808 (England)"
 
 #: table_data.h:160
 msgid "Magnesia, ancient city in district of Thessaly, Greece"
-msgstr "Magnesia, antigua ciudad de Tesalia, en Grecia"
+msgstr "Magnesia, bandar purba dalam daerah Thessaly, Greece"
 
 #: table_data.h:161
 msgid "Aluminum"
-msgstr "Aluminio"
+msgstr "Aluminum"
 
 #: table_data.h:161
 msgid "Soft, lightweight, silvery-white metal"
-msgstr "Metal blando, ligero, de un blanco plateado"
+msgstr "Logam putih-perak, ringan dan lembut"
 
 #: table_data.h:161
 msgid "1825 (Denmark)"
-msgstr "1825 (Dinamarca)"
+msgstr "1825 (Denmark)"
 
 #: table_data.h:161
 msgid "Hans Christian Oersted"
@@ -643,11 +641,11 @@ msgstr "Hans Christian Oersted"
 
 #: table_data.h:161
 msgid "Latin: alumen, aluminis (alum)"
-msgstr "Latín: alumen, aluminis (alumbre)"
+msgstr "Latin: alumen, aluminis (alum)"
 
 #: table_data.h:162
 msgid "Silicon"
-msgstr "Silicio"
+msgstr "Silikon"
 
 #: table_data.h:162 table_data.h:181
 msgid "DIA"
@@ -655,11 +653,11 @@ msgstr "DIA"
 
 #: table_data.h:162
 msgid "Amorphous form is brown powder; crystalline form has a gray"
-msgstr "La forma amorfa es un polvo de color marrón; la forma cristalina es gris"
+msgstr "Bentuk tak tentu ialah serbuk perang; bentuk hablur berwarna kelabu"
 
 #: table_data.h:162
 msgid "1825 (Sweden)"
-msgstr "1825 (Suecia)"
+msgstr "1825 (Sweden)"
 
 #: table_data.h:162 table_data.h:183 table_data.h:245
 msgid "Jons Jacob Berzelius"
@@ -667,23 +665,23 @@ msgstr "Jons Jacob Berzelius"
 
 #: table_data.h:162
 msgid "Latin: silex, silicus (flint)"
-msgstr "Latín: silex, silicis (pedernal)"
+msgstr "Latin: silex, silicus (batu api)"
 
 #: table_data.h:163
 msgid "Phosphorus"
-msgstr "Fósforo"
+msgstr "Fosforus"
 
 #: table_data.h:163
 msgid "1.82 (white phosphorus)"
-msgstr "1.82 (fósforo blanco)"
+msgstr "1.82 (fosforus putih)"
 
 #: table_data.h:163
 msgid "The most common white form is a waxy, phosphorescent solid"
-msgstr "La forma blanca más común es un sólido ceroso y fosforescente"
+msgstr "Bentuk putih paling umum ialah pepejal fosforus berlilin"
 
 #: table_data.h:163
 msgid "1669 (Germany)"
-msgstr "1669 (Alemania)"
+msgstr "1669 (Jerman)"
 
 #: table_data.h:163
 msgid "Hennig Brand"
@@ -691,11 +689,11 @@ msgstr "Hennig Brand"
 
 #: table_data.h:163
 msgid "Greek: phosphoros (bringer of light)"
-msgstr "Griego: phosphoros (el que trae la luz)"
+msgstr "Yunani: phosphoros (Pembawa cahaya)"
 
 #: table_data.h:164
 msgid "Sulfur"
-msgstr "Azufre"
+msgstr "Sulfur"
 
 #: table_data.h:164 table_data.h:165 table_data.h:180 table_data.h:184
 #: table_data.h:203 table_data.h:247 table_data.h:248
@@ -704,15 +702,15 @@ msgstr "ORC"
 
 #: table_data.h:164
 msgid "Tasteless, odorless, light-yellow, brittle solid"
-msgstr "Sólido insípido, inodoro, amarillo claro y frágil"
+msgstr "Pepejal kuning cerah, rapuh, tidak berbau dan tanpa rasa"
 
 #: table_data.h:164
 msgid "Latin: sulphur (brimstone)"
-msgstr "Latín: sulphur (azufre)"
+msgstr "Latin: sulphur (batu belerang)"
 
 #: table_data.h:165
 msgid "Chlorine"
-msgstr "Cloro"
+msgstr "Klorin"
 
 #: table_data.h:165
 msgid "1.56 (@ -33.6&#176;C)"
@@ -720,11 +718,11 @@ msgstr "1.56 (@ -33.6&#176;C)"
 
 #: table_data.h:165
 msgid "Greenish-yellow, disagreeable gas"
-msgstr "Gas amarillo-verdoso, desagradable"
+msgstr "Gas kuning-hijau yang tidak menyenangkan"
 
 #: table_data.h:165 table_data.h:174
 msgid "1774 (Sweden)"
-msgstr "1774 (Suecia)"
+msgstr "1774 (Sweden)"
 
 #: table_data.h:165 table_data.h:192
 msgid "Carl Wilhelm Scheele"
@@ -732,11 +730,11 @@ msgstr "Carl Wilhelm Scheele"
 
 #: table_data.h:165
 msgid "Greek: chloros (greenish yellow)"
-msgstr "Griego: chloros (amarillo verdoso)"
+msgstr "Yunani: chloros (kuning hijau)"
 
 #: table_data.h:166
 msgid "Argon"
-msgstr "Argón"
+msgstr "Argon"
 
 #: table_data.h:166
 msgid "1.40 (@ -189,35&#176;C)"
@@ -744,11 +742,11 @@ msgstr "1.40 (@ -189,35&#176;C)"
 
 #: table_data.h:166
 msgid "Colorless, tasteless, odorless noble gas"
-msgstr "Gas noble incoloro, insípido e inodoro"
+msgstr "Gas adi tidak berwarnam tidak berbau dan tanpa rasa"
 
 #: table_data.h:166
 msgid "1894 (Scotland)"
-msgstr "1894 (Escocia)"
+msgstr "1894 (Scotland)"
 
 #: table_data.h:166
 msgid "Sir William Ramsey, Baron Rayleigh"
@@ -756,43 +754,43 @@ msgstr "Sir William Ramsey, Baron Rayleigh"
 
 #: table_data.h:166
 msgid "Greek: argos (inactive)"
-msgstr "Griego: argos (inactivo, inerte)"
+msgstr "Yunani: argos (tidak aktif)"
 
 #: table_data.h:168
 msgid "Potassium"
-msgstr "Potasio"
+msgstr "Kalium"
 
 #: table_data.h:168
 msgid "Soft, waxy, silvery-white metal"
-msgstr "Metal blando, ceroso, de un blanco plateado"
+msgstr "Logam putih-perak, berlilin dan lembut"
 
 #: table_data.h:168
 msgid "English: pot ash; symbol from Latin: kalium (alkali)"
-msgstr "Inglés: pot ash (potasa); el símbolo procede del latín: kalium (álcali)"
+msgstr "Inggeris: pot ash; simbol dari Latin: kalium (alkali)"
 
 #: table_data.h:169
 msgid "Calcium"
-msgstr "Calcio"
+msgstr "Kalsium"
 
 #: table_data.h:169
 msgid "Fairly hard, silvery-white metal"
-msgstr "Metal relativamente duro, de un blanco plateado"
+msgstr "Logam perak-putih sedikit keras"
 
 #: table_data.h:169
 msgid "Latin: calx, calcis (lime)"
-msgstr "Latín: calx, calcis (cal)"
+msgstr "Latin: calx, calcis (batu kapur)"
 
 #: table_data.h:170
 msgid "Scandium"
-msgstr "Escandio"
+msgstr "Skandium"
 
 #: table_data.h:170
 msgid "Fairly soft, silvery-white metal"
-msgstr "Metal relativamente blando, de un blanco plateado"
+msgstr "Logam perak-putih sedikit lembut"
 
 #: table_data.h:170 table_data.h:221
 msgid "1879 (Sweden)"
-msgstr "1879 (Suecia)"
+msgstr "1879 (Sweden)"
 
 #: table_data.h:170
 msgid "Lars Nilson"
@@ -800,19 +798,19 @@ msgstr "Lars Nilson"
 
 #: table_data.h:170
 msgid "Latin: Scandia (Scandinavia)"
-msgstr "Latín: Scandia (Escandinavia)"
+msgstr "Latin: Scandia (Scandinavia)"
 
 #: table_data.h:171
 msgid "Titanium"
-msgstr "Titanio"
+msgstr "Titanium"
 
 #: table_data.h:171
 msgid "Shiny, dark-gray metal"
-msgstr "Metal brillante, gris oscuro"
+msgstr "Logam kelabu-gelap yang berkilat"
 
 #: table_data.h:171
 msgid "1791 (England)"
-msgstr "1791 (Inglaterra)"
+msgstr "1791 (England)"
 
 #: table_data.h:171
 msgid "William Gregor"
@@ -820,19 +818,19 @@ msgstr "William Gregor"
 
 #: table_data.h:171
 msgid "Greek: titanos (Titans)"
-msgstr "Griego: titanos (Titán)"
+msgstr "Yunani: titanos (Gergasi)"
 
 #: table_data.h:172
 msgid "Vanadium"
-msgstr "Vanadio"
+msgstr "Vanadium"
 
 #: table_data.h:172 table_data.h:216
 msgid "Soft, ductile, silvery-white metal"
-msgstr "Metal blando, dúctil, de un blanco plateado"
+msgstr "Logam perak-putih, mulur yang lembut"
 
 #: table_data.h:172
 msgid "1830 (Sweden)"
-msgstr "1830 (Suecia)"
+msgstr "1830 (Sweden)"
 
 #: table_data.h:172
 msgid "Nils Gabriel Sefstrom"
@@ -840,19 +838,19 @@ msgstr "Nils Gabriel Sefstrom"
 
 #: table_data.h:172
 msgid "The scandinavian goddess, Vanadis"
-msgstr "La diosa escandinava Vanadis"
+msgstr "Dewi scandinavia, Vanadis"
 
 #: table_data.h:173
 msgid "Chromium"
-msgstr "Cromo"
+msgstr "Kromium"
 
 #: table_data.h:173
 msgid "Very hard, crystalline, steel-gray metal"
-msgstr "Metal muy duro, cristalino, de color gris acerado"
+msgstr "Logam kelabu-keluli, berhablur dan sangat keras"
 
 #: table_data.h:173
 msgid "1797 (France)"
-msgstr "1797 (Francia)"
+msgstr "1797 (Perancis)"
 
 #: table_data.h:173
 msgid "Louis Vauquelin"
@@ -860,11 +858,11 @@ msgstr "Louis Vauquelin"
 
 #: table_data.h:173
 msgid "Greek: chroma (color)"
-msgstr "Griego: chroma (color)"
+msgstr "Yunani: chroma (warna)"
 
 #: table_data.h:174
 msgid "Manganese"
-msgstr "Manganeso"
+msgstr "Mangan"
 
 #: table_data.h:174 table_data.h:237
 msgid "CUB"
@@ -872,7 +870,7 @@ msgstr "CUB"
 
 #: table_data.h:174
 msgid "Hard, brittle, gray-white metal"
-msgstr "Metal duro, frágil, de color blanco grisáceo"
+msgstr "Logam kelabu-putih, keras dan rapuh"
 
 #: table_data.h:174
 msgid "Johann Gahn"
@@ -880,31 +878,31 @@ msgstr "Johann Gahn"
 
 #: table_data.h:174
 msgid "Latin: magnes (magnet); Italian: manganese"
-msgstr "Latín: magnes (imán); Italiano: manganese (manganeso)"
+msgstr "Latin: magnes (magnet); Itali: manganese"
 
 #: table_data.h:175
 msgid "Iron"
-msgstr "Hierro"
+msgstr "Ferum"
 
 #: table_data.h:175
 msgid "Malleable, ductile, silvery-white metal"
-msgstr "Metal maleable, dúctil, de un blanco plateado"
+msgstr "Logam perak-putih, mulur dan boleh ditempa"
 
 #: table_data.h:175
 msgid "Anglo-Saxon: iron; symbol from Latin: ferrum (iron)"
-msgstr "Latín: ferrum (hierro)"
+msgstr "Anglo-Saxon: iron; simbol dari Latin: ferrum (besi)"
 
 #: table_data.h:176
 msgid "Cobalt"
-msgstr "Cobalto"
+msgstr "Kobalt"
 
 #: table_data.h:176
 msgid "Hard, ductile, lustrous bluish-gray metal"
-msgstr "Metal duro, dúctil, de color gris azulado y lustroso"
+msgstr "Logam kelabu-biru berkilat, keras dan rapuh"
 
 #: table_data.h:176
 msgid "1735 (Sweden)"
-msgstr "1735 (Suecia)"
+msgstr "1735 (Sweden)"
 
 #: table_data.h:176
 msgid "George Brandt"
@@ -912,19 +910,19 @@ msgstr "George Brandt"
 
 #: table_data.h:176
 msgid "German: kobold (goblin)"
-msgstr "Alemán: Kobold (duende)"
+msgstr "Jerman: kobold (goblin)"
 
 #: table_data.h:177
 msgid "Nickel"
-msgstr "Níquel"
+msgstr "Nikel"
 
 #: table_data.h:177
 msgid "Hard, malleable, silvery-white metal"
-msgstr "Metal duro, maleable, de un blanco plateado"
+msgstr "Logam putih-perak, boleh ditempa dan keras"
 
 #: table_data.h:177
 msgid "1751 (Sweden)"
-msgstr "1751 (Suecia)"
+msgstr "1751 (Sweden)"
 
 #: table_data.h:177
 msgid "Axel Cronstedt"
@@ -932,44 +930,44 @@ msgstr "Axel Cronstedt"
 
 #: table_data.h:177
 msgid "German: kupfernickel (false copper), nickel (goblin)"
-msgstr "Alemán: Kupfernickel (falso cobre), nickel (duende)"
+msgstr "Jerman: kupfernickel (kuprum palsu), nickel (goblin)"
 
 #: table_data.h:178
 msgid "Copper"
-msgstr "Cobre"
+msgstr "Kuprum"
 
 #: table_data.h:178
 msgid "Malleable, ductile, reddish-brown metal"
-msgstr "Metal maleable, dúctil, de color marrón rojizo"
+msgstr "Logam coklat-merah, mulur dan boleh ditempa"
 
 #: table_data.h:178
 msgid ""
 "Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
-msgstr "El símbolo procede del latín cuprum (de la Isla de Chipre, famosa por sus minas de cobre)"
+msgstr "Simbol dari Latin: cuprum (pulau Cyprus yang terkenal kerana perlombongan kuprum)"
 
 #: table_data.h:179
 msgid "Zinc"
-msgstr "Zinc"
+msgstr "Zink"
 
 #: table_data.h:179
 msgid "Bluish-silver, ductile metal"
-msgstr "Metal de color plateado-azulado, dúctil"
+msgstr "Logam perak-biru yang mulur"
 
 #: table_data.h:179
 msgid "German: Zink (German for zinc)"
-msgstr "Alemán: Zink (zinc)"
+msgstr "Jerman: Zink (Bahasa Jerman untuk Zink)"
 
 #: table_data.h:180
 msgid "Gallium"
-msgstr "Galio"
+msgstr "Galium"
 
 #: table_data.h:180
 msgid "Soft, blue-white metal"
-msgstr "Metal blando, de color blanco azulado"
+msgstr "Logam putih-biru yang lembut"
 
 #: table_data.h:180
 msgid "1875 (France)"
-msgstr "1875 (Francia)"
+msgstr "1875 (Perancis)"
 
 #: table_data.h:180 table_data.h:218
 msgid "Paul-Emile Lecoq de Boisbaudran"
@@ -977,19 +975,19 @@ msgstr "Paul-Emile Lecoq de Boisbaudran"
 
 #: table_data.h:180
 msgid "Latin: Gallia (France)"
-msgstr "Latín: Gallia (Francia)"
+msgstr "Latin: Gallia (Perancis)"
 
 #: table_data.h:181
 msgid "Germanium"
-msgstr "Germanio"
+msgstr "Germanium"
 
 #: table_data.h:181
 msgid "Grayish-white metal"
-msgstr "Metal blanco-grisáceo"
+msgstr "Logam putih-kelabu"
 
 #: table_data.h:181
 msgid "1886 (Germany)"
-msgstr "1886 (Alemania)"
+msgstr "1886 (Jerman)"
 
 #: table_data.h:181
 msgid "Clemens Winkler"
@@ -997,19 +995,19 @@ msgstr "Clemens Winkler"
 
 #: table_data.h:181
 msgid "Latin: Germania (Germany)"
-msgstr "Latín: Germania (Alemania)"
+msgstr "Latin: Germania (Jerman)"
 
 #: table_data.h:182
 msgid "Arsenic"
-msgstr "Arsénico"
+msgstr "Arsenik"
 
 #: table_data.h:182
 msgid "5.73 (grey arsenic)"
-msgstr "5.73 (arsénico gris)"
+msgstr "5.73 (arsenik kelabu)"
 
 #: table_data.h:182
 msgid "24.44 (grey arsenic)"
-msgstr "24.44 (arsénico gris)"
+msgstr "24.44 (arsenik kelabu)"
 
 #: table_data.h:182 table_data.h:201
 msgid "TRG"
@@ -1017,35 +1015,35 @@ msgstr "TRG"
 
 #: table_data.h:182
 msgid "Steel gray, brittle semimetal"
-msgstr "Semimetal de color gris acerado, frágil"
+msgstr "Separa-logam kelabu-keluli yang rapuh"
 
 #: table_data.h:182
 msgid "Greek: arsenikon; Latin: arsenicum (both names for yellow pigment)"
-msgstr "Griego: arsenikon; latín: arsenicum (ambos nombres de un pigmento amarillo)"
+msgstr "Yunani: arsenikon; Latin: arsenicum (kedua-dua nama untuk pigmen kuning)"
 
 #: table_data.h:183
 msgid "Selenium"
-msgstr "Selenio"
+msgstr "Selenium"
 
 #: table_data.h:183
 msgid "A soft metalloid similar to sulfur"
-msgstr "Metaloide blando similar al sulfuro"
+msgstr "Metaloid lembut seakan sulfur"
 
 #: table_data.h:183
 msgid "Greek: selena (moon)"
-msgstr "Griego: selena (luna)"
+msgstr "Greek: selena (bulan)"
 
 #: table_data.h:184
 msgid "Bromine"
-msgstr "Bromo"
+msgstr "Bromin"
 
 #: table_data.h:184
 msgid "Reddish-brown liquid"
-msgstr "Líquido de color marrón rojizo"
+msgstr "Cecair coklat-merah"
 
 #: table_data.h:184
 msgid "1826 (France)"
-msgstr "1826 (Francia)"
+msgstr "1826 (Perancis)"
 
 #: table_data.h:184
 msgid "Antoine J. Balard"
@@ -1053,11 +1051,11 @@ msgstr "Antoine J. Balard"
 
 #: table_data.h:184
 msgid "Greek: bromos (stench)"
-msgstr "Griego: bromos (pestilencia)"
+msgstr "Yunani: bromos (sengit)"
 
 #: table_data.h:185
 msgid "Krypton"
-msgstr "Criptón"
+msgstr "Krypton"
 
 #: table_data.h:185
 msgid "2.155 (@ -153&#176;C)"
@@ -1065,27 +1063,27 @@ msgstr "2.155 (@ -153&#176;C)"
 
 #: table_data.h:185
 msgid "Dense, colorless, odorless, and tasteless gas"
-msgstr "Gas denso, incoloro, inodoro e insípido"
+msgstr "Gas padat, tanpa warna, tanpa bau dan tanpa rasa"
 
 #: table_data.h:185
 msgid "1898 (Great Britain)"
-msgstr "1898 (Gran Bretaña)"
+msgstr "1898 (Great Britain)"
 
 #: table_data.h:185
 msgid "Greek: kryptos (hidden)"
-msgstr "Griego: kryptos (oculto, escondido)"
+msgstr "Yunani: kryptos (tersembunyi)"
 
 #: table_data.h:187
 msgid "Rubidium"
-msgstr "Rubidio"
+msgstr "Rubidium"
 
 #: table_data.h:187
 msgid "Soft, silvery-white, highly reactive metal"
-msgstr "Metal blando, de un blanco plateado y altamente reactivo"
+msgstr "Logam putih-perak, lembut dan sangat reaktif"
 
 #: table_data.h:187
 msgid "1861 (Germany)"
-msgstr "1861 (Alemania)"
+msgstr "1861 (Jerman)"
 
 #: table_data.h:187 table_data.h:206
 msgid "Gustov Kirchoff, Robert Bunsen"
@@ -1093,19 +1091,19 @@ msgstr "Gustov Kirchoff, Robert Bunsen"
 
 #: table_data.h:187
 msgid "Latin: rubidus (deep red); the color its salts impart to flames"
-msgstr "Latín: rubidus (de un rojo intenso); el color que sus sales dan a las llamas"
+msgstr "Latin: rubidus (merah gelap); warna nyalaan garamnya"
 
 #: table_data.h:188
 msgid "Strontium"
-msgstr "Estroncio"
+msgstr "Strontium"
 
 #: table_data.h:188
 msgid "Silvery, malleable metal"
-msgstr "Metal plateado, maleable"
+msgstr "Logam kelabu yang mulur"
 
 #: table_data.h:188
 msgid "1790 (Scotland)"
-msgstr "1790 (Escocia)"
+msgstr "1790 (Scotland)"
 
 #: table_data.h:188
 msgid "A. Crawford"
@@ -1113,19 +1111,19 @@ msgstr "A. Crawford"
 
 #: table_data.h:188
 msgid "The Scottish town, Strontian"
-msgstr "La ciudad escocesa de Strontian"
+msgstr "Bandar Scotland, Strontian"
 
 #: table_data.h:189
 msgid "Yttrium"
-msgstr "Itrio"
+msgstr "Yttrium"
 
 #: table_data.h:189
 msgid "Silvery, ductile, fairly reactive metal"
-msgstr "Metal plateado, dúctil, relativamente reactivo"
+msgstr "Logam perak yang mulur dan sedikit reaktif"
 
 #: table_data.h:189
 msgid "1794 (Finland)"
-msgstr "1794 (Finlandia)"
+msgstr "1794 (Finland)"
 
 #: table_data.h:189
 msgid "Johann Gadolin"
@@ -1135,19 +1133,19 @@ msgstr "Johann Gadolin"
 msgid ""
 "Named after the Swedish town, Ytterby, where one of its minerals was first "
 "found"
-msgstr "La ciudad sueca de Ytterby, donde uno de sus minerales fue encontrado por primera vez"
+msgstr "Dinamakan mengikut bandar Sweden, Ytterby, lokasi mineral ini mula-mula ditemui"
 
 #: table_data.h:190
 msgid "Zirconium"
-msgstr "Circonio"
+msgstr "Zirkonium"
 
 #: table_data.h:190
 msgid "Gray-white, lustrous, corrosion-resistant metal"
-msgstr "Metal blanco grisáceo, lustroso, resistente a la corrosión"
+msgstr "Logam kelabu-putih, berkilat dan tahan kakisan"
 
 #: table_data.h:190 table_data.h:247
 msgid "1789 (Germany)"
-msgstr "1789 (Alemania)"
+msgstr "1789 (Jerman)"
 
 #: table_data.h:190 table_data.h:247
 msgid "Martin Klaproth"
@@ -1155,19 +1153,19 @@ msgstr "Martin Klaproth"
 
 #: table_data.h:190
 msgid "The mineral, zircon"
-msgstr "El mineral, zircón"
+msgstr "Mineral zirkon"
 
 #: table_data.h:191
 msgid "Niobium"
-msgstr "Niobio"
+msgstr "Niobium"
 
 #: table_data.h:191
 msgid "Shiny white, soft, ductile metal"
-msgstr "Metal de un blanco brillante, blando y dúctil"
+msgstr "Logam putih, mulur dan lembut"
 
 #: table_data.h:191
 msgid "1801 (England)"
-msgstr "1801 (Inglaterra)"
+msgstr "1801 (England)"
 
 #: table_data.h:191
 msgid "Charles Hatchet"
@@ -1175,35 +1173,35 @@ msgstr "Charles Hatchet"
 
 #: table_data.h:191
 msgid "Niobe; daughter of the mythical Greek king Tantalus"
-msgstr "Níobe, hija del mítico rey griego Tántalo"
+msgstr "Niobe; anak perempuan Raja Yunani Tantalus"
 
 #: table_data.h:192
 msgid "Molybdenum"
-msgstr "Molibdeno"
+msgstr "Molibdenum"
 
 #: table_data.h:192 table_data.h:195
 msgid "Silvery white, hard metal"
-msgstr "Metal duro de un blanco plateado"
+msgstr "Logam perak-putih yang keras"
 
 #: table_data.h:192
 msgid "1778 (Sweden)"
-msgstr "1778 (Suecia)"
+msgstr "1778 (Sweden)"
 
 #: table_data.h:192
 msgid "Greek: molybdos (lead)"
-msgstr "Griego: molybdos (plomo)"
+msgstr "Yunani: molybdos (plumbum)"
 
 #: table_data.h:193
 msgid "Technetium"
-msgstr "Tecnecio"
+msgstr "Tekhnetium"
 
 #: table_data.h:193 table_data.h:237
 msgid "Silvery-gray metal"
-msgstr "Metal de color gris plateado"
+msgstr "Logam kelabu-perak"
 
 #: table_data.h:193
 msgid "1937 (Italy)"
-msgstr "1937 (Italia)"
+msgstr "1937 (Itali)"
 
 #: table_data.h:193
 msgid "Carlo Perrier, Emilio Segre"
@@ -1211,15 +1209,15 @@ msgstr "Carlo Perrier, Emilio Segre"
 
 #: table_data.h:193
 msgid "Greek: technetos (artificial)"
-msgstr "Griego: technetos (artificial)"
+msgstr "Yunani: technetos (tiruan)"
 
 #: table_data.h:194
 msgid "Ruthenium"
-msgstr "Rutenio"
+msgstr "Ruthenium"
 
 #: table_data.h:194
 msgid "Rare, silver-gray, extremely brittle metal"
-msgstr "Metal raro, de color gris plateado, extremadamente frágil"
+msgstr "Logam kelabu-perak, sukar ditemui dan sangat rapuh"
 
 #: table_data.h:194
 msgid "1844 (Russia)"
@@ -1231,15 +1229,15 @@ msgstr "Karl Klaus"
 
 #: table_data.h:194
 msgid "Latin: Ruthenia (Russia)"
-msgstr "Latín: Ruthenia (Rusia)"
+msgstr "Latin: Ruthenia (Rusia)"
 
 #: table_data.h:195
 msgid "Rhodium"
-msgstr "Rodio"
+msgstr "Rhodium"
 
 #: table_data.h:195 table_data.h:196
 msgid "1803 (England)"
-msgstr "1803 (Inglaterra)"
+msgstr "1803 (England)"
 
 #: table_data.h:195 table_data.h:196
 msgid "William Wollaston"
@@ -1247,43 +1245,43 @@ msgstr "William Wollaston"
 
 #: table_data.h:195
 msgid "Greek: rhodon (rose); its salts give a rosy solution"
-msgstr "Griego: rhodon (rosa); sus sales dan una solución rosada"
+msgstr "Yunani: rhodon (rose); garamnya menghasilkan larutan berwarna merah ros"
 
 #: table_data.h:196
 msgid "Palladium"
-msgstr "Paladio"
+msgstr "Palladium"
 
 #: table_data.h:196 table_data.h:200 table_data.h:209
 msgid "Silvery-white, soft, malleable and ductile metal"
-msgstr "Metal de un blanco plateado, blando, maleable y dúctil"
+msgstr "Logam putih-perak, mulur, boleh ditempa dan lembut"
 
 #: table_data.h:196
 msgid "Named after the asteroid, Pallas, discovered in 1803"
-msgstr "Bautizado con el nombre del asteroide Palas, descubierto en 1803"
+msgstr "Dinamakan mengikut asteroid Pallas yang ditemui pada 1803"
 
 #: table_data.h:197
 msgid "Silver"
-msgstr "Plata"
+msgstr "Argentum"
 
 #: table_data.h:197
 msgid "Silvery-ductile, and malleable metal"
-msgstr "Metal de color plateado, dúctil y maleable"
+msgstr "Logam perak, boleh ditempa dan mulur"
 
 #: table_data.h:197
 msgid "Anglo-Saxon: siolful (silver); symbol from Latin: argentum"
-msgstr "Latín argentum (plata)"
+msgstr "Anglo-Saxon: siolful (perak); simbol dari Latin: argentum"
 
 #: table_data.h:198
 msgid "Cadmium"
-msgstr "Cadmio"
+msgstr "Kadmium"
 
 #: table_data.h:198
 msgid "Soft, malleable, blue-white metal"
-msgstr "Metal blando, maleable, de color blanco azulado"
+msgstr "Logam putih-biru, boleh ditempa dan lembut"
 
 #: table_data.h:198
 msgid "1817 (Germany)"
-msgstr "1817 (Alemania)"
+msgstr "1817 (Jerman)"
 
 #: table_data.h:198
 msgid "Fredrich Stromeyer"
@@ -1291,11 +1289,11 @@ msgstr "Fredrich Stromeyer"
 
 #: table_data.h:198
 msgid "Greek: kadmia (ancient name for calamine (zinc oxide))"
-msgstr "Griego kadmia (antiguo nombre de la calamina, óxido de zinc)"
+msgstr "Yunani: kadmia (nama purba untuk kalamin (zink oksida))"
 
 #: table_data.h:199
 msgid "Indium"
-msgstr "Indio"
+msgstr "Indium"
 
 #: table_data.h:199 table_data.h:200 table_data.h:246
 msgid "TET"
@@ -1303,11 +1301,11 @@ msgstr "TET"
 
 #: table_data.h:199
 msgid "Very soft, silvery-white metal"
-msgstr "Metal muy blando, de color blanco plateado"
+msgstr "Logam perak-putih yang sangat lembut"
 
 #: table_data.h:199
 msgid "1863 (Germany)"
-msgstr "1863 (Alemania)"
+msgstr "1863 (Jerman)"
 
 #: table_data.h:199
 msgid "Ferdinand Reich, T. Richter"
@@ -1315,39 +1313,39 @@ msgstr "Ferdinand Reich, T. Richter"
 
 #: table_data.h:199
 msgid "Latin: indicum (color indigo), the color it shows in a spectroscope"
-msgstr "Latín: indicum (color índigo, añil), el color que muestra en un espectroscopio"
+msgstr "Latin: indicum (warna indigo), warna yang ditunjukkan dalam spektroskop"
 
 #: table_data.h:200
 msgid "Tin"
-msgstr "Estaño"
+msgstr "Stanum"
 
 #: table_data.h:200
 msgid "Named after Etruscan god, Tinia; symbol from Latin: stannum (tin)"
-msgstr "Latín: stannum (estaño)"
+msgstr "Dinamakan mengikut nama dewa Etruscsn, Tinia; simbol dari Latin: stannum (timah)"
 
 #: table_data.h:201
 msgid "Antimony"
-msgstr "Antimonio"
+msgstr "Antimoni"
 
 #: table_data.h:201
 msgid "Hard, silvery-white, brittle semimetal"
-msgstr "Semimetal duro, blanco plateado, frágil"
+msgstr "Separa-logam perak-putih, keras dan rapuh"
 
 #: table_data.h:201
 msgid "Greek: anti and monos (not alone); symbol from mineral stibnite"
-msgstr "Griego: anti + monos (no solo); el símbolo procede del mineral estibnita"
+msgstr "Yunani: anti dan monos (tidak berseorangan); simbol dari mineral stibnit"
 
 #: table_data.h:202
 msgid "Tellurium"
-msgstr "Telurio"
+msgstr "Tellurium"
 
 #: table_data.h:202
 msgid "Silvery-white, brittle semimetal"
-msgstr "Semimetal blanco plateado, frágil"
+msgstr "Separa-logam perak-putih yang rapuh"
 
 #: table_data.h:202
 msgid "1782 (Romania)"
-msgstr "1782 (Rumania)"
+msgstr "1782 (Romania)"
 
 #: table_data.h:202
 msgid "Franz Joseph Meller von Reichenstein"
@@ -1355,19 +1353,19 @@ msgstr "Franz Joseph Meller von Reichenstein"
 
 #: table_data.h:202
 msgid "Latin: tellus, telluris (Planet Earth)"
-msgstr "Latín: tellus, telluris (planeta Tierra)"
+msgstr "Latin: tellus, telluris (Planet Bumi)"
 
 #: table_data.h:203
 msgid "Iodine"
-msgstr "Yodo"
+msgstr "Iodin"
 
 #: table_data.h:203
 msgid "Shiny, black nonmetallic solid"
-msgstr "Sólido no-metálico de color negro y brillante"
+msgstr "Pepejal bukan-logam hitam yang berkilat"
 
 #: table_data.h:203
 msgid "1811 (France)"
-msgstr "1811 (Francia)"
+msgstr "1811 (Perancis)"
 
 #: table_data.h:203
 msgid "Bernard Courtois"
@@ -1375,11 +1373,11 @@ msgstr "Bernard Courtois"
 
 #: table_data.h:203
 msgid "Greek: iodes (violet colored)"
-msgstr "Griego: iodes (coloreado de violeta)"
+msgstr "Yunani: iodes (warna ungu)"
 
 #: table_data.h:204
 msgid "Xenon"
-msgstr "Xenón"
+msgstr "Xenon"
 
 #: table_data.h:204
 msgid "3.52 (@ -107.05&#176;C)"
@@ -1387,47 +1385,47 @@ msgstr "3.52 (@ -107.05&#176;C)"
 
 #: table_data.h:204
 msgid "Heavy, colorless, and odorless noble gas"
-msgstr "Gas noble pesado, incoloro e inodoro"
+msgstr "Gas adi tidak berwarna dan tidak berbau"
 
 #: table_data.h:204
 msgid "Greek: xenos (strange)"
-msgstr "Griego: xenos (extraño)"
+msgstr "Yunani: xenos (pelik)"
 
 #: table_data.h:206
 msgid "Cesium"
-msgstr "Cesio"
+msgstr "Cesium"
 
 #: table_data.h:206
 msgid "Very soft, ductile, light gray metal"
-msgstr "Metal muy blando, dúctil, de color gris claro"
+msgstr "Logam kelabu-cerah, mulur dan sangat lembut"
 
 #: table_data.h:206
 msgid "1860 (Germany)"
-msgstr "1860 (Alemania)"
+msgstr "1860 (Jerman)"
 
 #: table_data.h:206
 msgid "Latin: caesius (sky blue); for the blue lines of its spectrum"
-msgstr "Latín: caesius (azul celeste); por las líneas azules de su espectro"
+msgstr "Latin: caesius (biru langit); kerana garisan biru dalam spektrumnya"
 
 #: table_data.h:207
 msgid "Barium"
-msgstr "Bario"
+msgstr "Barium"
 
 #: table_data.h:207
 msgid "Soft, slightly malleable, silver-white metal"
-msgstr "Metal blando, ligeramente maleable, de color blanco plateado"
+msgstr "Logam putih-perak, boleh ditempa sedikit dan lembut"
 
 #: table_data.h:207
 msgid "Greek: barys (heavy or dense)"
-msgstr "Griego: barys (pesado o denso)"
+msgstr "Yunni: barys (berat atau padat)"
 
 #: table_data.h:209
 msgid "Lanthanum"
-msgstr "Lantano"
+msgstr "Lanthanum"
 
 #: table_data.h:209
 msgid "1839 (Sweden)"
-msgstr "1839 (Suecia)"
+msgstr "1839 (Sweden)"
 
 #: table_data.h:209 table_data.h:217 table_data.h:220
 msgid "Carl Mosander"
@@ -1435,19 +1433,19 @@ msgstr "Carl Mosander"
 
 #: table_data.h:209
 msgid "Greek: lanthanein (to be hidden)"
-msgstr "Griego: lanthanein (estar oculto)"
+msgstr "Yunani: lanthanein (yang disembunyikan)"
 
 #: table_data.h:210
 msgid "Cerium"
-msgstr "Cerio"
+msgstr "Cerium"
 
 #: table_data.h:210
 msgid "Malleable, ductile, iron-gray metal"
-msgstr "Metal maleable, dúctil, de color gris hierro"
+msgstr "Logam kelabu-besi, mulur dan boleh ditempa"
 
 #: table_data.h:210
 msgid "1803 (Sweden/Germany)"
-msgstr "1803 (Suecia/Alemania)"
+msgstr "1803 (Sweden/Jerman)"
 
 #: table_data.h:210
 msgid "Wilhelm von Hisinger, Jons Jacob Berzelius, Martin Klaproth"
@@ -1456,15 +1454,15 @@ msgstr "Wilhelm von Hisinger, Jons Jacob Berzelius, Martin Klaproth"
 #: table_data.h:210
 msgid ""
 "Named after the asteroid, Ceres, discovered two years before the element"
-msgstr "Por el asteroide Ceres, descubierto dos años antes que el elemento"
+msgstr "Dinamakan mengikut asteroid Ceres yang ditemui dua tahun sebelum penemuan unsur tersebut"
 
 #: table_data.h:211
 msgid "Praseodymium"
-msgstr "Praseodimio"
+msgstr "Praseodimium"
 
 #: table_data.h:211
 msgid "Silvery white, moderately soft, malleable, and ductile metal"
-msgstr "Metal de un blanco palteado, moderadamente blando, maleable y dúctil"
+msgstr "Logam putih-perak, mulur, boleh ditempa dan agak lembut"
 
 #: table_data.h:211
 msgid "1885 (Austria)"
@@ -1476,15 +1474,15 @@ msgstr "C.F. Aver von Welsbach"
 
 #: table_data.h:211
 msgid "Greek: prasios and didymos (green twin); from its green salts"
-msgstr "Griego: prasios + didymos (gemelo verde), por sus sales verdes"
+msgstr "Yunani: prasios dan didymos (kembar hijau); daripada garam hijaunya"
 
 #: table_data.h:212
 msgid "Neodymium"
-msgstr "Neodimio"
+msgstr "Neodimium"
 
 #: table_data.h:212
 msgid "Silvery-white, rare-earth metal that oxidizes easily in air"
-msgstr "Metal de color blanco plateado, tierra rara que se oxida fácilmente en el aire"
+msgstr "Logam nadir bumi putih-perak yang mudah teroksida di udara"
 
 #: table_data.h:212
 msgid "1925 (Austria)"
@@ -1492,23 +1490,23 @@ msgstr "1925 (Austria)"
 
 #: table_data.h:212
 msgid "Greek: neos and didymos (new twin)"
-msgstr "Griego: neos + didymos (gemelo nuevo)"
+msgstr "Yunani: neos dan didymos (kembar baharu)"
 
 #: table_data.h:213
 msgid "Promethium"
-msgstr "Prometio"
+msgstr "Promethium"
 
 #: table_data.h:213
 msgid "(+3e)97.9 or (+3e)111"
-msgstr "(+3e)97.9 o (+3e)111"
+msgstr "(+3e)97.9 or (+3e)111"
 
 #: table_data.h:213
 msgid "Light-grey, radioactive element"
-msgstr "Elemento de color gris claro, radioactivo"
+msgstr "Unsur radioaktif kelabu-cerah"
 
 #: table_data.h:213
 msgid "1945 (United States)"
-msgstr "1945 (Estados Unidos)"
+msgstr "1945 (Amerika Syarikat)"
 
 #: table_data.h:213
 msgid "J.A. Marinsky, L.E. Glendenin, C.D. Coryell"
@@ -1516,19 +1514,19 @@ msgstr "J.A. Marinsky, L.E. Glendenin, C.D. Coryell"
 
 #: table_data.h:213
 msgid "Named for the Greek god, Prometheus"
-msgstr "Por el héroe griego Prometeo"
+msgstr "Dinamakan sempena dewa Yunani, Prometheus"
 
 #: table_data.h:214
 msgid "Samarium"
-msgstr "Samario"
+msgstr "Samarium"
 
 #: table_data.h:214
 msgid "Silvery rare-earth metal"
-msgstr "Tierra rara metálica de aspecto plateado"
+msgstr "Logam nadir-bumi berwarna perak"
 
 #: table_data.h:214
 msgid "1880 (France)"
-msgstr "1880 (Francia)"
+msgstr "1880 (Perancis)"
 
 #: table_data.h:214 table_data.h:216 table_data.h:222
 msgid "Jean Charles Galissard de Marignac"
@@ -1536,15 +1534,15 @@ msgstr "Jean Charles Galissard de Marignac"
 
 #: table_data.h:214
 msgid "Named after the mineral samarskite"
-msgstr "Por el mineral samarsquita"
+msgstr "Dinamakan sempena mineral samarskit"
 
 #: table_data.h:215
 msgid "Europium"
-msgstr "Europio"
+msgstr "Europium"
 
 #: table_data.h:215
 msgid "1901 (France)"
-msgstr "1901 (Francia)"
+msgstr "1901 (Perancis)"
 
 #: table_data.h:215
 msgid "Eugene-Antole Demarcay"
@@ -1552,59 +1550,59 @@ msgstr "Eugene-Antole Demarcay"
 
 #: table_data.h:215
 msgid "Named for the continent of Europe"
-msgstr "Por el continente europeo"
+msgstr "Dinamakan sempena benua Eropah"
 
 #: table_data.h:216
 msgid "Gadolinium"
-msgstr "Gadolinio"
+msgstr "Gadolinium"
 
 #: table_data.h:216
 msgid "1880 (Switzerland)"
-msgstr "1880 (Suiza)"
+msgstr "1880 (Switzerland)"
 
 #: table_data.h:216
 msgid "Named after the mineral gadolinite"
-msgstr "Por el mineral gadolinita"
+msgstr "Dinamakan sempena mineral gadolinit"
 
 #: table_data.h:217
 msgid "Terbium"
-msgstr "Terbio"
+msgstr "Terbium"
 
 #: table_data.h:217
 msgid "Soft, ductile, silvery-gray, rare-earth metal"
-msgstr "Metal blando, dúctil, de color gris plateado, una tierra rara"
+msgstr "Logam nadir-bumi kelabu-perak, mulur dan lembut"
 
 #: table_data.h:217 table_data.h:220
 msgid "1843 (Sweden)"
-msgstr "1843 (Suecia)"
+msgstr "1843 (Sweden)"
 
 #: table_data.h:217 table_data.h:220 table_data.h:222
 msgid "Named after the Swedish town, Ytterby"
-msgstr "Por la localidad sueca de Ytterby"
+msgstr "Dinamakan sempena bandar Sweden, Ytterby"
 
 #: table_data.h:218
 msgid "Dysprosium"
-msgstr "Disprosio"
+msgstr "Dysprosium"
 
 #: table_data.h:218
 msgid "Soft. lustrous, silvery metal"
-msgstr "Metal blando, de aspecto lustroso y plateado"
+msgstr "Logam perak, berkilat yang lembut"
 
 #: table_data.h:218
 msgid "Greek: dysprositos (hard to get at)"
-msgstr "Griego: dysprositos (difícil de acercarse, hostil)"
+msgstr "Yunani: dysprositos (sukar diperolehi)"
 
 #: table_data.h:219
 msgid "Holmium"
-msgstr "Holmio"
+msgstr "Holmium"
 
 #: table_data.h:219
 msgid "Fairly soft, malleable, lustrous, silvery metal"
-msgstr "Metal relativamente blando, maleable, de aspecto lustroso y plateado"
+msgstr "Logam perak, berkilat, boleh ditempa yang agak lembut"
 
 #: table_data.h:219
 msgid "1879 (Switzerland)"
-msgstr "1879 (Suiza)"
+msgstr "1879 (Switzerland)"
 
 #: table_data.h:219
 msgid "J.L. Soret"
@@ -1612,23 +1610,23 @@ msgstr "J.L. Soret"
 
 #: table_data.h:219
 msgid "Holmia, the Latinized name for Stockholm, Sweden"
-msgstr "Holmia, nombre latinizado de Estocolmo, Suecia"
+msgstr "Holmia, nama Latin bagi bandar Stockholm, Sweden"
 
 #: table_data.h:220
 msgid "Erbium"
-msgstr "Erbio"
+msgstr "Erbium"
 
 #: table_data.h:220
 msgid "Soft, malleable, silvery metal"
-msgstr "Metal blando, maleable, de color plateado"
+msgstr "Logam perak, boleh ditempa dan lembut"
 
 #: table_data.h:221
 msgid "Thulium"
-msgstr "Tulio"
+msgstr "Tulium"
 
 #: table_data.h:221
 msgid "Soft, malleable, ductile, silvery metal"
-msgstr "Metal blando, maleable, dúctil, de color plateado"
+msgstr "Logam perak, boleh ditempa, mulur dan lembut"
 
 #: table_data.h:221
 msgid "Per Theodor Cleve"
@@ -1636,51 +1634,51 @@ msgstr "Per Theodor Cleve"
 
 #: table_data.h:221
 msgid "Thule, ancient name of Scandinavia"
-msgstr "Thule, nombre antiguo de Escandinavia"
+msgstr "Thule, nama purba Scandinavia"
 
 #: table_data.h:222
 msgid "Ytterbium"
-msgstr "Iterbio"
+msgstr "Ytterbium"
 
 #: table_data.h:222
 msgid "Silvery, lustrous, malleable, and ductile metal"
-msgstr "Metal de aspecto plateado y lustroso, maleable y dúctil"
+msgstr "Logam perak, mulur, boleh ditempa dan berkilat"
 
 #: table_data.h:222
 msgid "1878 (Switzerland)"
-msgstr "1878 (Suiza)"
+msgstr "1878 (Switzerland)"
 
 #: table_data.h:224
 msgid "Lutetium"
-msgstr "Lutecio"
+msgstr "Lutetium"
 
 #: table_data.h:224
 msgid "Silvery-white, hard, dense, rare-earth metal"
-msgstr "Metal, una tierra rara, de color blanco plateado, duro y denso"
+msgstr "Logam nadir-bumi perak-putih, padat dan keras"
 
 #: table_data.h:224
 msgid "1907 (France)"
-msgstr "1907 (Francia)"
+msgstr "1907 (Perancis)"
 
 #: table_data.h:224
 msgid "Georges Urbain"
-msgstr "Georges Urbain"
+msgstr "George Brandt"
 
 #: table_data.h:224
 msgid "Named for the ancient name of Paris: Lutetia Parisorum"
-msgstr "Por el nombre antiguo de Paris, Lutecia"
+msgstr "Dinamakan sempena nama purba Paris: Lutetia Parisorum"
 
 #: table_data.h:225
 msgid "Hafnium"
-msgstr "Hafnio"
+msgstr "Hafnium"
 
 #: table_data.h:225
 msgid "Silvery, ductile metal"
-msgstr "Metal plateado y dúctil"
+msgstr "Logam perak yang mulur"
 
 #: table_data.h:225
 msgid "1923 (Denmark)"
-msgstr "1923 (Dinamarca)"
+msgstr "1923 (Denmark)"
 
 #: table_data.h:225
 msgid "Dirk Coster, Georg von Hevesy"
@@ -1688,19 +1686,19 @@ msgstr "Dirk Coster, Georg von Hevesy"
 
 #: table_data.h:225
 msgid "Hafnia, the Latin name of Copenhagen"
-msgstr "Hafnia, el nombre latino de Copenhague"
+msgstr "Hafnia, nama Latin Copenhagen"
 
 #: table_data.h:226
 msgid "Tantalum"
-msgstr "Tántalo"
+msgstr "Tantalum"
 
 #: table_data.h:226
 msgid "Gray, heavy, hard metal"
-msgstr "Metal gris, pesado y duro"
+msgstr "Logam kelabu, keras dan berat"
 
 #: table_data.h:226
 msgid "1802 (Sweden)"
-msgstr "1802 (Suecia)"
+msgstr "1802 (Sweden)"
 
 #: table_data.h:226
 msgid "Anders Ekeberg"
@@ -1708,19 +1706,19 @@ msgstr "Anders Ekeberg"
 
 #: table_data.h:226
 msgid "King Tantalus of Greek mythology, father of Niobe"
-msgstr "El rey Tántalo de la mitología griega, padre de Níobe"
+msgstr "Raja Tantalus dari mitologi Yunani, bapa Niobe"
 
 #: table_data.h:227
 msgid "Tungsten"
-msgstr "Tungsteno"
+msgstr "Tungsten"
 
 #: table_data.h:227
 msgid "Tough, steel-gray to white metal"
-msgstr "Metal duro, de color de gris acerado a blanco"
+msgstr "Logam kelabu-keluli dan putih yang kuat"
 
 #: table_data.h:227
 msgid "1783 (Spain)"
-msgstr "1783 (España)"
+msgstr "1783 (Sepanyol)"
 
 #: table_data.h:227
 msgid "Juan Jose, Fausto Elhuyar"
@@ -1728,19 +1726,19 @@ msgstr "Juan Jose, Fausto Elhuyar"
 
 #: table_data.h:227
 msgid "Swedish: tung sten (heavy stone); symbol from its German name wolfram"
-msgstr "Sueco: tung sten (piedra pesada); el símbolo procede de su nombre alemán wolfram"
+msgstr "Sweden: tung sten (batu berat); simbol dari nama Jerman wolfram"
 
 #: table_data.h:228
 msgid "Rhenium"
-msgstr "Renio"
+msgstr "Rhenium"
 
 #: table_data.h:228
 msgid "Dense, silvery-white metal"
-msgstr "Metal denso, de color blanco plateado"
+msgstr "Logam perak-putih yang padat"
 
 #: table_data.h:228
 msgid "1925 (Germany)"
-msgstr "1925 (Alemania)"
+msgstr "1925 (Jerman)"
 
 #: table_data.h:228
 msgid "Walter Noddack, Ida Tacke, Otto Berg"
@@ -1748,19 +1746,19 @@ msgstr "Walter Noddack, Ida Tacke, Otto Berg"
 
 #: table_data.h:228
 msgid "Latin: Rhenus, the Rhine River"
-msgstr "Latín: Rhenus, el río Rin"
+msgstr "Latin: Rhenus, Sungai Rhine"
 
 #: table_data.h:229
 msgid "Osmium"
-msgstr "Osmio"
+msgstr "Osmium"
 
 #: table_data.h:229
 msgid "Blue-white, lustrous, hard metal"
-msgstr "Metal de color blanco azulado, lustroso y duro"
+msgstr "Logam putih-biru, berkilat dan keras"
 
 #: table_data.h:229
 msgid "1804 (England)"
-msgstr "1804 (Inglaterra)"
+msgstr "1804 (England)"
 
 #: table_data.h:229
 msgid "Smithson Tenant"
@@ -1768,19 +1766,19 @@ msgstr "Smithson Tenant"
 
 #: table_data.h:229
 msgid "Greek: osme (odor)"
-msgstr "Griego: osme (olor)"
+msgstr "Yunani: osme (berbau)"
 
 #: table_data.h:230
 msgid "Iridium"
-msgstr "Iridio"
+msgstr "Iridium"
 
 #: table_data.h:230
 msgid "White, brittle metal"
-msgstr "Metal blanco y frágil"
+msgstr "Logam putih yang rapuh"
 
 #: table_data.h:230
 msgid "1804 (England/France)"
-msgstr "1804 (Inglaterra/Francia)"
+msgstr "1804 (England/Perancis)"
 
 #: table_data.h:230
 msgid "S.Tenant, A.F.Fourcroy, L.N.Vauquelin, H.V.Collet-Descoltils"
@@ -1788,19 +1786,19 @@ msgstr "S.Tenant, A.F.Fourcroy, L.N.Vauquelin, H.V.Collet-Descoltils"
 
 #: table_data.h:230
 msgid "Greek: iris (rainbow)"
-msgstr "Griego: iris (arcoiris)"
+msgstr "Yunani: iris (pelangi)"
 
 #: table_data.h:231
 msgid "Platinum"
-msgstr "Platino"
+msgstr "Platinum"
 
 #: table_data.h:231
 msgid "Very heavy, soft, silvery-white metal"
-msgstr "Metal muy pesado, blando, de color blanco plateado"
+msgstr "Logam putih-perak yang lembut dan sangat berat"
 
 #: table_data.h:231
 msgid "1557 (Italy), but Incas use before"
-msgstr "1557 (Italia), pero usado por los Incas anteriormente"
+msgstr "1557 (Itali), tetapi puak Inca telah gunakannya"
 
 #: table_data.h:231
 msgid "Julius Scaliger"
@@ -1808,27 +1806,27 @@ msgstr "Julius Scaliger"
 
 #: table_data.h:231
 msgid "Spanish: platina (little silver)"
-msgstr "Español: platina (diminutivo de plata)"
+msgstr "Spanyol: platina (perak kecil)"
 
 #: table_data.h:232
 msgid "Gold"
-msgstr "Oro"
+msgstr "Aurum"
 
 #: table_data.h:232
 msgid "(-3e) 185 (+1e) 137 or (+3e) 85 (+1e) 137"
-msgstr "(-3e) 185 (+1e) 137 o (+3e) 85 (+1e) 137"
+msgstr "(-3e) 185 (+1e) 137 or (+3e) 85 (+1e) 137"
 
 #: table_data.h:232
 msgid "Soft, malleable, yellow metal"
-msgstr "Metal blando, maleable, amarillo"
+msgstr "Logam kuning, boleh ditempa dan lembut"
 
 #: table_data.h:232
 msgid "Anglo-Saxon: geolo (yellow); symbol from Latin: aurum (shining dawn)"
-msgstr "Latín: aurum (el resplandor de la aurora)"
+msgstr "Anglo-Saxon: geolo (kuning); simbol dari Latin: aurum (senja)"
 
 #: table_data.h:233
 msgid "Mercury"
-msgstr "Mercurio"
+msgstr "Raksa"
 
 #: table_data.h:233
 msgid "13.546 (@ +20&#176;C)"
@@ -1836,23 +1834,23 @@ msgstr "13.546 (@ +20&#176;C)"
 
 #: table_data.h:233
 msgid "Heavy, silver-white metal that is in its liquid state at"
-msgstr "Metal pesado, de color blanco plateado, que está en su estado líquido en"
+msgstr "Logam putih-perak yang berat dalam keadaan cecair"
 
 #: table_data.h:233
 msgid "The Roman god Mercury; symbol from Latin: hydrargyrum (liquid silver)"
-msgstr "El dios romano Mercurio; el símbolo procede del latín hydrargyrum (plata líquida)"
+msgstr "Dewa Rom Mercury; simbol dari Latin: hydrargyrum (perak cecair)"
 
 #: table_data.h:234
 msgid "Thallium"
-msgstr "Talio"
+msgstr "Talium"
 
 #: table_data.h:234
 msgid "Soft, gray metal"
-msgstr "Metal blando, gris"
+msgstr "Logam kelabuyang lembut"
 
 #: table_data.h:234
 msgid "1861 (England)"
-msgstr "1861 (Inglaterra)"
+msgstr "1861 (England)"
 
 #: table_data.h:234
 msgid "Sir William Crookes"
@@ -1860,59 +1858,59 @@ msgstr "Sir William Crookes"
 
 #: table_data.h:234
 msgid "Greek: thallos (green twig), for a bright green line in its spectrum"
-msgstr "Griego: thallos (rama verde), por una brillante línea verde que aparece en su espectro"
+msgstr "Yunani: thallos (ranting hijau), kerana garisan hijau cerah di dalam spektrumnya"
 
 #: table_data.h:235
 msgid "Lead"
-msgstr "Plomo"
+msgstr "Plumbum"
 
 #: table_data.h:235
 msgid "Very soft, highly malleable and ductile, blue-white shiny metal"
-msgstr "Metal muy blando, altamente maleable y dúctil, de color blanco azulado y brillante"
+msgstr "Logam putih-biru berkilat, sangat lebut, sangat mulir dan boleh ditempa"
 
 #: table_data.h:235
 msgid "Anglo-Saxon: lead; symbol from Latin: plumbum"
-msgstr "Latín: plumbum (plomo)"
+msgstr "Anglo-Saxon: lead; simbol dari Latin: plumbum"
 
 #: table_data.h:236
 msgid "Bismuth"
-msgstr "Bismuto"
+msgstr "Bismuth"
 
 #: table_data.h:236
 msgid "Hard, brittle, steel-gray metal with a pinkish tinge"
-msgstr "Metal duro, frágil, de color gris acerado, con tinte rosáceo"
+msgstr "Logam kelabu-keluli, keras dan rapuh dengan sedikit warna merah jambu"
 
 #: table_data.h:236
 msgid "German: bisemutum (white mass); now spelled wismut"
-msgstr "Bisemutum es latinización de una palabra alemana (masa blanca) que en la actualidad se escribe Wismut"
+msgstr "Jerman: bisemutum (jisim putih); kini dieja wismut"
 
 #: table_data.h:237
 msgid "Polonium"
-msgstr "Polonio"
+msgstr "Polonium"
 
 #: table_data.h:237 table_data.h:242
 msgid "1898 (France/Poland)"
-msgstr "1898 (Francia/Polonia)"
+msgstr "1898 (Perancis/Poland)"
 
 #: table_data.h:237 table_data.h:242
 msgid "Pierre and Marie Curie-Sklodowska"
-msgstr "Pierre and Marie Curie-Sklodowska"
+msgstr "Pierre dan Marie Curie-Sklodowska"
 
 #: table_data.h:237
 msgid "Named for Poland, native country of Marie Curie"
-msgstr "Por Polonia, país natal de Marie Curie"
+msgstr "Dinamakan sempena Poland, negara asal Marie Curie"
 
 #: table_data.h:238
 msgid "Astatine"
-msgstr "Astato"
+msgstr "Astatin"
 
 #: table_data.h:238
 msgid "Unstable, radioactive halogen"
-msgstr "Halógeno inestable y radioactivo"
+msgstr "Halogen radioaktif yang tidak stabil"
 
 #: table_data.h:238 table_data.h:249
 msgid "1940 (United States)"
-msgstr "1940 (Estados Unidos)"
+msgstr "1940 (Amerika Syarikat)"
 
 #: table_data.h:238
 msgid "D.R.Corson, K.R.MacKenzie, E. Segre"
@@ -1920,11 +1918,11 @@ msgstr "D.R.Corson, K.R.MacKenzie, E. Segre"
 
 #: table_data.h:238
 msgid "Greek: astatos (unstable)"
-msgstr "Griego: astatos (inestable)"
+msgstr "Yunani: astatos (tidak stabil)"
 
 #: table_data.h:239
 msgid "Radon"
-msgstr "Radón"
+msgstr "Radon"
 
 #: table_data.h:239
 msgid "4.4 (@ -62&#176;C)"
@@ -1932,11 +1930,11 @@ msgstr "4.4 (@ -62&#176;C)"
 
 #: table_data.h:239
 msgid "Heavy radioactive gas"
-msgstr "Gas pesado radiactivo"
+msgstr "Gas radioaktif berat"
 
 #: table_data.h:239
 msgid "1898 (Germany/England)"
-msgstr "1898 (Alemania/Inglaterra)"
+msgstr "1898 (Jerman/England)"
 
 #: table_data.h:239
 msgid "Fredrich Ernst Dorn, Ernest Rutherford"
@@ -1944,15 +1942,15 @@ msgstr "Fredrich Ernst Dorn, Ernest Rutherford"
 
 #: table_data.h:239
 msgid "Variation of the name of another element, radium"
-msgstr "Variación sobre el nombre de otro elmento, el radio"
+msgstr "Variasi bag nama unsur lain, radium"
 
 #: table_data.h:241
 msgid "Francium"
-msgstr "Francio"
+msgstr "Fransium"
 
 #: table_data.h:241
 msgid "1939 (France)"
-msgstr "1939 (Francia)"
+msgstr "1939 (Perancis)"
 
 #: table_data.h:241
 msgid "Marguerite Perey"
@@ -1960,11 +1958,11 @@ msgstr "Marguerite Perey"
 
 #: table_data.h:241
 msgid "Named for France, the nation of its discovery"
-msgstr "En honor a Francia, la nación de su descubrimiento"
+msgstr "Dinamakan sempena negara Perancis, ditemui di sana"
 
 #: table_data.h:242
 msgid "Radium"
-msgstr "Radio"
+msgstr "Radium"
 
 #: table_data.h:242
 msgid "5.5 (@ +20&#176;C)"
@@ -1972,23 +1970,23 @@ msgstr "5.5 (@ +20&#176;C)"
 
 #: table_data.h:242
 msgid "Silvery white, radioactive element"
-msgstr "Elemento de un blanco plateado, radioactivo"
+msgstr "Unsur radioaktif putih perak"
 
 #: table_data.h:242
 msgid "Latin: radius (beam, ray)"
-msgstr "Latín: radius (rayo)"
+msgstr "Latin: radius (sinaran)"
 
 #: table_data.h:244
 msgid "Actinium"
-msgstr "Actinio"
+msgstr "Aktinium"
 
 #: table_data.h:244
 msgid "Heavy, Silvery-white metal that is very radioactive"
-msgstr "Metal pesado, de un blanco plateado y muy radiactivo"
+msgstr "Logam putih perak yang berat dan sangat beradioaktif"
 
 #: table_data.h:244
 msgid "1899 (France)"
-msgstr "1899 (Francia)"
+msgstr "1899 (Perancis)"
 
 #: table_data.h:244
 msgid "Andre-Louis Debierne"
@@ -1996,35 +1994,35 @@ msgstr "Andre-Louis Debierne"
 
 #: table_data.h:244
 msgid "Greek: akis, aktis, aktinos (beam, ray)"
-msgstr "Griego: akis, aktis, aktinos (rayo)"
+msgstr "Yunani: akis, aktis, aktinos (sinaran)"
 
 #: table_data.h:245
 msgid "Thorium"
-msgstr "Torio"
+msgstr "Torium"
 
 #: table_data.h:245
 msgid "Gray, soft, malleable, ductile, radioactive metal"
-msgstr "Metal gris, blando, maleable, dúctil y radiactivo"
+msgstr "Logam kelabu beradioaktif, boleh ditempa, mulur dan lembut"
 
 #: table_data.h:245
 msgid "1828 (Sweden)"
-msgstr "1828 (Suecia)"
+msgstr "1828 (Sweden)"
 
 #: table_data.h:245
 msgid "Named for Thor, Norse god of thunder"
-msgstr "Por Thor, dios nórdico del trueno"
+msgstr "Dinamakan sempena dewa Thor, Dewa kilat puak Norse"
 
 #: table_data.h:246
 msgid "Protactinium"
-msgstr "Protactinio"
+msgstr "Protaktinium"
 
 #: table_data.h:246 table_data.h:249 table_data.h:250
 msgid "Silvery-white, radioactive metal"
-msgstr "Metal de color blanco plateado, radiactivo"
+msgstr "Logam perak-putih yang beradioaktif"
 
 #: table_data.h:246
 msgid "1918 (England/France)"
-msgstr "1918 (Inglaterra/Francia)"
+msgstr "1918 (England/Perancis)"
 
 #: table_data.h:246
 msgid "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner"
@@ -2034,27 +2032,27 @@ msgstr "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner"
 msgid ""
 "Greek: proto and actinium (parent of actinium); it forms actinium when it "
 "radioactively decays"
-msgstr "Griego: proto + actinium (padre de actinio); forma actinio cuando decae radioactivamente"
+msgstr "Yunani: proto dan actinium (induk actinium); ia membentuk aktinium bila mengalami susutan secara radioaktif"
 
 #: table_data.h:247
 msgid "Uranium"
-msgstr "Uranio"
+msgstr "Uranium"
 
 #: table_data.h:247
 msgid "Silvery-white, dense, ductile and malleable, radioactive metal"
-msgstr "Metal radioactivo de color blanco plateado, denso, dúctil y maleable"
+msgstr "Logam putih-perak beradioaktif, padat, mulur dan boleh ditempa"
 
 #: table_data.h:247
 msgid "Named for the planet Uranus"
-msgstr "Por el planeta Urano"
+msgstr "Dinamakan sempena planet Uranus"
 
 #: table_data.h:248
 msgid "Neptunium"
-msgstr "Neptunio"
+msgstr "Neptunium"
 
 #: table_data.h:248
 msgid "Silvery metal"
-msgstr "Metal plateado"
+msgstr "Logam berwarna perak"
 
 #: table_data.h:248
 msgid "E.M. McMillan, P.H. Abelson"
@@ -2062,15 +2060,15 @@ msgstr "E.M. McMillan, P.H. Abelson"
 
 #: table_data.h:248
 msgid "Named for the planet Neptune"
-msgstr "Por el planeta Neptuno"
+msgstr "Dinamakan sempena planet Neptun"
 
 #: table_data.h:249
 msgid "Plutonium"
-msgstr "Plutonio"
+msgstr "Plutonium"
 
 #: table_data.h:249
 msgid "71-100 or (+4e) 93 (+3e) 108"
-msgstr "71-100 o (+4e) 93 (+3e) 108"
+msgstr "71-100 atau (+4e) 93 (+3e) 108"
 
 #: table_data.h:249
 msgid "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl"
@@ -2078,15 +2076,15 @@ msgstr "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl"
 
 #: table_data.h:249
 msgid "Named for the planet Pluto"
-msgstr "Por el pseudoplaneta Plutón"
+msgstr "Dinamakan sempena planet Pluto"
 
 #: table_data.h:250
 msgid "Americium"
-msgstr "Americio"
+msgstr "Amerisium"
 
 #: table_data.h:250 table_data.h:251
 msgid "1944 (United States)"
-msgstr "1944 (Estados Unidos)"
+msgstr "1944 (Amerika Syarikat)"
 
 #: table_data.h:250
 msgid "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso"
@@ -2094,15 +2092,15 @@ msgstr "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso"
 
 #: table_data.h:250
 msgid "Named for the American continent, by analogy with europium"
-msgstr "Por el continente americano, por analogía con el europio"
+msgstr "Dinamakan sempena benua Amerika, seperti eropium"
 
 #: table_data.h:251
 msgid "Curium"
-msgstr "Curio"
+msgstr "Curium"
 
 #: table_data.h:251
 msgid "Silvery, malleable, synthetic radioactive metal"
-msgstr "Metal sintético radioactivo de aspecto plateado y maleable"
+msgstr "Logam radioaktif sintetik berwarna pelar yang mulur"
 
 #: table_data.h:251
 msgid "G.T.Seaborg, R.A.James, A.Ghiorso"
@@ -2110,19 +2108,19 @@ msgstr "G.T.Seaborg, R.A.James, A.Ghiorso"
 
 #: table_data.h:251
 msgid "Named in honor of Pierre and Marie Curie"
-msgstr "En honor de Pierre y Marie Curie"
+msgstr "Dinamakan sempena nama Pierre dan Marie Curie"
 
 #: table_data.h:252
 msgid "Berkelium"
-msgstr "Berkelio"
+msgstr "Berkelium"
 
 #: table_data.h:252
 msgid "Radioactive synthetic metal"
-msgstr "Metal sintético radioactivo"
+msgstr "Logam sintetik beradioaktif"
 
 #: table_data.h:252
 msgid "1949 (United States)"
-msgstr "1949 (Estados Unidos)"
+msgstr "1949 (Amerika Syarikat)"
 
 #: table_data.h:252
 msgid "G.T.Seaborg, S.G.Tompson, A.Ghiorso"
@@ -2130,19 +2128,19 @@ msgstr "G.T.Seaborg, S.G.Tompson, A.Ghiorso"
 
 #: table_data.h:252
 msgid "Named after Berkeley, California the city of its discovery"
-msgstr "Por Berkeley, California, la ciudad de su descubrimiento"
+msgstr "Dinamakan sempena bandar Berkeley, California iaitu lokasi penemuannya"
 
 #: table_data.h:253
 msgid "Californium"
-msgstr "Californio"
+msgstr "Californium"
 
 #: table_data.h:253
 msgid "Powerful neutron emitter"
-msgstr "Poderoso emisor de neutrones"
+msgstr "Pemancar neutron yang kuat"
 
 #: table_data.h:253
 msgid "1950 (United States)"
-msgstr "1950 (Estados Unidos)"
+msgstr "1950 (Amerika Syarikat)"
 
 #: table_data.h:253 table_data.h:256
 msgid "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr."
@@ -2150,59 +2148,59 @@ msgstr "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr."
 
 #: table_data.h:253
 msgid "Named after the US-state and University of California"
-msgstr "Por el estado y la universidad de California"
+msgstr "Dinamakan sempena negeri Amerika Syarikat dan Universiti California"
 
 #: table_data.h:254
 msgid "Einsteinium"
-msgstr "Einsteinio"
+msgstr "Einsteinium"
 
 #: table_data.h:254 table_data.h:255 table_data.h:256 table_data.h:257
 #: table_data.h:259 table_data.h:260 table_data.h:261 table_data.h:262
 #: table_data.h:263
 msgid "Radioactive, synthetic metal"
-msgstr "Metal sintético radioactivo"
+msgstr "Logam sintetik dan beradioaktif"
 
 #: table_data.h:254 table_data.h:255
 msgid "1952 (United States)"
-msgstr "1952 (Estados Unidos)"
+msgstr "1952 (Amerika Syarikat)"
 
 #: table_data.h:254 table_data.h:255
 msgid "Argonne, Los Alamos, University of California"
-msgstr "Argonne, Los Álamos, Universidad de California"
+msgstr "Argonne, Los Alamos, Universiti California"
 
 #: table_data.h:254
 msgid "Named in honor of the scientist Albert Einstein"
-msgstr "En honor al científico Albert Einstein"
+msgstr "Dinamakan mengikut ahli saintis Albert Einstein"
 
 #: table_data.h:255
 msgid "Fermium"
-msgstr "Fermio"
+msgstr "Fermium"
 
 #: table_data.h:255
 msgid "Named in honor of the scientist Enrico Fermi"
-msgstr "En honor al científico Enrico Fermi"
+msgstr "Dinamakan mengikut ahli saintis Enrico Fermi"
 
 #: table_data.h:256
 msgid "Mendelevium"
-msgstr "Mendelevio"
+msgstr "Mendelevium"
 
 #: table_data.h:256
 msgid "1955 (United States)"
-msgstr "1955 (Estados Unidos)"
+msgstr "1955 (Amerika Syarikat)"
 
 #: table_data.h:256
 msgid ""
 "Named in honor of the scientist Dmitry Ivanovich Mendeleev, who devised the "
 "periodic table"
-msgstr "En honor al científico Dmitry Ivanovich Mendeleev, que concibió la tabla periódica"
+msgstr "Dinamakan mengikut ahli saintis Dmitry Ivanovich Mendeleev, yang merangka jadual berkala modern"
 
 #: table_data.h:257
 msgid "Nobelium"
-msgstr "Nobelio"
+msgstr "Nobelium"
 
 #: table_data.h:257
 msgid "1963 (USSR)"
-msgstr "1963 (URSS)"
+msgstr "1963 (USSR)"
 
 #: table_data.h:257 table_data.h:260
 msgid "Dubna"
@@ -2212,142 +2210,142 @@ msgstr "Dubna"
 msgid ""
 "Named in honor of Alfred Nobel, who invented dynamite and founded Nobel "
 "prize"
-msgstr "En honor a Alfred Nobel, inventor de la dinamita y fundador del premio Nobel"
+msgstr "Dinamakan mengikut Alfred Nobel yang mencipta dinamit dan mengasaskan hadiah Nobel"
 
 #: table_data.h:259
 msgid "Lawrencium"
-msgstr "Laurencio"
+msgstr "Lawrensium"
 
 #: table_data.h:259
 msgid "1961 (USSR/United States)"
-msgstr "1961 (URSS/Estados Unidos)"
+msgstr "1961 (USSR/Amerika Syarikat)"
 
 #: table_data.h:259 table_data.h:261 table_data.h:262
 msgid "Soviet Nuclear Research/University of California at Berkeley"
-msgstr "Investigación nuclear soviética/Universidad de California en Berkeley"
+msgstr "Universiti California/Kajian Nuklear Soviet di Berkeley"
 
 #: table_data.h:259
 msgid "Named in honor of Ernest Orlando Lawrence, inventor of the cyclotron"
-msgstr "En honor de Ernest Orlando Lawrence, inventor del ciclotrón"
+msgstr "Dinamakan sempena nama Ernest Orlando Lawrence, pencipta cyclotron"
 
 #: table_data.h:260
 msgid "Rutherfordium"
-msgstr "Ruterfordio"
+msgstr "Rutherfordium"
 
 #: table_data.h:260
 msgid "1964 (USSR)"
-msgstr "1964 (URSS)"
+msgstr "1964 (USSR)"
 
 #: table_data.h:260
 msgid "Named in honor of Ernest Rutherford"
-msgstr "En honor de Ernest Rutherford"
+msgstr "Dinamakan mengikut ahli saintis Ernest Rutherford"
 
 #: table_data.h:261
 msgid "Dubnium"
-msgstr "Dubino"
+msgstr "Dubnium"
 
 #: table_data.h:261
 msgid "1970 (USSR/United States)"
-msgstr "1970 (URSS/Estados Unidos)"
+msgstr "1970 (USSR/Amerika Syarikat)"
 
 #: table_data.h:261
 msgid "Named after the science-town Dubna in Russia"
-msgstr "Su nombre procede de la ciudad científica de Dubna, en Rusia"
+msgstr "Dinamakan mengikut bandar-sains Dubna di Rusia"
 
 #: table_data.h:262
 msgid "Seaborgium"
-msgstr "Seaborgio"
+msgstr "Seaborgium"
 
 #: table_data.h:262
 msgid "1974 (USSR/United States)"
-msgstr "1974 (URSS/Estados Unidos)"
+msgstr "1974 (USSR/Amerika Syarikat)"
 
 #: table_data.h:262
 msgid ""
 "Named in honor of Glenn Theodore Seaborg, American physical chemist known "
 "for research on transuranium elements"
-msgstr "En honor de Glenn Theodore Seaborg, físico-químico estadounidense conocido por su investigación sobre los elmentos transuranianos"
+msgstr "Dinamakan sempena nama Glenn Theodore Seaborg, Ahli fizik kimia yang terkenal dengan kajian unsur transuranium"
 
 #: table_data.h:263
 msgid "Bohrium"
-msgstr "Bohrio"
+msgstr "Bohrium"
 
 #: table_data.h:263
 msgid "1976 (Germany)"
-msgstr "1976 (Alemania)"
+msgstr "1976 (Jerman)"
 
 #: table_data.h:263 table_data.h:264 table_data.h:265 table_data.h:266
 #: table_data.h:267 table_data.h:268
 msgid "Heavy Ion Research Laboratory (HIRL)"
-msgstr "Laboratorio de Investigación sobre los Iones Pesados (siglas en inglés HIRL)"
+msgstr "Makmal Kajian Ion Berat (HIRL)"
 
 #: table_data.h:263
 msgid "Named in honor of Niels Bohr"
-msgstr "En honor de Niels Bohr"
+msgstr "Dinamakan sempena nama Niels Bohr"
 
 #: table_data.h:264
 msgid "Hassium"
-msgstr "Hasio"
+msgstr "Hassium"
 
 #: table_data.h:264
 msgid "1984 (Germany)"
-msgstr "1984 (Alemania)"
+msgstr "1984 (Jerman)"
 
 #: table_data.h:264
 msgid "Named in honor of Hessen county, Germany (latin: Hassia)"
-msgstr "De «Hassia», nombre latino del estado alemán de Hesse"
+msgstr "Dinamakan sempena daerah Hessen, Jerman (latin: Hassia)"
 
 #: table_data.h:265
 msgid "Meitnerium"
-msgstr "Meitnerio"
+msgstr "Meitnerium"
 
 #: table_data.h:265
 msgid "1982 (Germany)"
-msgstr "1982 (Alemania)"
+msgstr "1982 (Jerman)"
 
 #: table_data.h:265
 msgid "Named in honor of Lise Meitner"
-msgstr "En honor de Lise Meitner"
+msgstr "Dinamakan sempena nama Lise Meitner"
 
 #: table_data.h:266
 msgid "Darmstadtium"
-msgstr "Darmstadcio"
+msgstr "Darmstadtium"
 
 #: table_data.h:266 table_data.h:267
 msgid "1994 (Germany)"
-msgstr "1994 (Alemania)"
+msgstr "1994 (Jerman)"
 
 #: table_data.h:266
 msgid "Named after Darmstadt, Germany, the city of its discovery"
-msgstr "Por Darmstadt, Alemania, la ciudad de su descubrimiento"
+msgstr "Dinamakan sempena bandar, Germany, bandar ia ditemui"
 
 #: table_data.h:267
 msgid "Roentgenium"
-msgstr "Roentgenio"
+msgstr "Roentgenium"
 
 #: table_data.h:267
 msgid "Named in honor of physicist Wilhelm Conrad Roentgen"
-msgstr "En honor del físico Wilhelm Conrad Roentgen"
+msgstr "Dinamakan sempena ahli fizik Wilhelm Conrad Roentgen"
 
 #: table_data.h:268
 msgid "Copernicium"
-msgstr "Copernicio"
+msgstr "Copernisium"
 
 #: table_data.h:268
 msgid "1996 (Germany)"
-msgstr "1996 (Alemania)"
+msgstr "1996 (Jerman)"
 
 #: table_data.h:268
 msgid "Named in honor of Nicolaus Copernicus"
-msgstr "En honor de Nicolás Copérnico"
+msgstr "Dinamakan sempena nama Nicolaus Copernicus"
 
 #: table_data.h:269
 msgid "Ununtrium"
-msgstr "Ununtrio"
+msgstr "Ununtrium"
 
 #: table_data.h:269
 msgid "2004 (Russia/United States)"
-msgstr "2004 (Rusia/Estados Unidos)"
+msgstr "2004 (Rusia/Amerika Syarikat)"
 
 #: table_data.h:269 table_data.h:270 table_data.h:271 table_data.h:273
 #: table_data.h:274
@@ -2356,39 +2354,39 @@ msgstr "Dubna/Livermore"
 
 #: table_data.h:269
 msgid "Un (one) un (one) trium (three)"
-msgstr "Un (1) un (1) trium (3)"
+msgstr "Un (satu) un (satu) trium (tiga)"
 
 #: table_data.h:270
 msgid "Flerovium"
-msgstr "Flerovio"
+msgstr "Flerovium"
 
 #: table_data.h:270
 msgid "1998 (Russia/United States)"
-msgstr "1998 (Rusia/Estados Unidos)"
+msgstr "1998 (Rusia/Amerika Syarikat)"
 
 #: table_data.h:270
 msgid "Named in honor of Soviet physicist Flerov"
-msgstr "En honor del físico soviético Flerov"
+msgstr "Dinamakan sempena nama ahli fizik Soviet Flerov"
 
 #: table_data.h:271
 msgid "Ununpentium"
-msgstr "Ununpentio"
+msgstr "Ununpentium"
 
 #: table_data.h:271
 msgid "2003 (Russia/United States)"
-msgstr "2003 (Rusia/Estados Unidos)"
+msgstr "2003 (Rusia/Amerika Syarikat)"
 
 #: table_data.h:271
 msgid "Un (one) un (one) pentium (five)"
-msgstr "Un (1) un (1) pentium (5)"
+msgstr "Un (satu) un (satu) pentium (lima)"
 
 #: table_data.h:272
 msgid "Livermorium"
-msgstr "LIvermorio"
+msgstr "Livermorium"
 
 #: table_data.h:272
 msgid "2000 (Russia/United States)"
-msgstr "2000 (Rusia/Estados Unidos)"
+msgstr "2000 (Rusia/Amerika Syarikat)"
 
 #: table_data.h:272
 msgid "Dubna, Dimitrovgrad, Lesnoy/Livermore"
@@ -2396,28 +2394,28 @@ msgstr "Dubna, Dimitrovgrad, Lesnoy/Livermore"
 
 #: table_data.h:272
 msgid "Named in honor of Livermore National Laboratory (USA)"
-msgstr "Su nombre hace referencia al Laboratorio Nacional Livermore (EE. UU.)"
+msgstr "Dinamakan sempena Makmal Kebangsaan Livermore (USA)"
 
 #: table_data.h:273
 msgid "Ununseptium"
-msgstr "Ununseptio"
+msgstr "Ununseptium"
 
 #: table_data.h:273
 msgid "2009 (Russia/United States)"
-msgstr "2009 (Rusia/Estados Unidos)"
+msgstr "2009 (Rusia/Amerika Syarikat)"
 
 #: table_data.h:273
 msgid "Un (one) un (one) septium (seven)"
-msgstr "Un (1) un (1) septium (7)"
+msgstr "Un (satu) un (satu) septium (tujuh)"
 
 #: table_data.h:274
 msgid "Ununoctium"
-msgstr "Ununoctio"
+msgstr "Ununoctium"
 
 #: table_data.h:274
 msgid "2006 (Russia/United States)"
-msgstr "2006 (Rusia/Estados Unidos)"
+msgstr "2006 (Rusia/Amerika Syarikat)"
 
 #: table_data.h:274
 msgid "Un (one) un (one) octium (eight)"
-msgstr "Un (1) un (1) octium (8)"
+msgstr "Un (satu) un (satu) octium (lapan)"

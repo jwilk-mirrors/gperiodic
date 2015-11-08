@@ -9,10 +9,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07 13:09+0300\n"
-"PO-Revision-Date: 2015-07-04 21:56+0000\n"
+"POT-Creation-Date: 2015-07-10 23:32+0300\n"
+"PO-Revision-Date: 2015-07-10 20:47+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
-"Language-Team: Danish (http://www.transifex.com/projects/p/gperiodic/language/da/)\n"
+"Language-Team: Danish (http://www.transifex.com/Magic/gperiodic/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1252,7 +1252,7 @@ msgstr "Græsk: rhodon (rose); dets salte farver opløsninger rosa"
 msgid "Palladium"
 msgstr "Palladium"
 
-#: table_data.h:196 table_data.h:200
+#: table_data.h:196 table_data.h:200 table_data.h:209
 msgid "Silvery-white, soft, malleable and ductile metal"
 msgstr "Sølvhvidt, blødt, bøjeligt metal, der kan smedes"
 
@@ -1423,10 +1423,6 @@ msgstr "Græsk: barys (tung eller tæt)"
 #: table_data.h:209
 msgid "Lanthanum"
 msgstr "Lanthanum"
-
-#: table_data.h:209
-msgid "Silvery-white, soft, malleable, and ductile metal"
-msgstr "Sølvhvidt, blødt, bøjeligt metal, der kan smedes"
 
 #: table_data.h:209
 msgid "1839 (Sweden)"
