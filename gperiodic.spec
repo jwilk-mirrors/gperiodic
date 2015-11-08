@@ -21,7 +21,7 @@ element. This program also features a non-graphical interface.
 %make
 
 %install
-%makeinstall_std
+%make_install
 
 %find_lang %{name}
 

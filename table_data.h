@@ -104,45 +104,6 @@ static double condensed_gas_crit(struct table_entry *entry)
   else return -1.0;
 }
 
-/*
-struct colorscale solid_fluid_cs = { 3, red_yellow2 };
-
-double solid_fluid_crid( struct table_entry *entry ) 
-{
-  double tm;
-	if( entry && entry->info[MELTING] && strcmp(entry->info[MELTING], _("n/a")) ) {
-	  tm = strtod(entry->info[MELTING],0);
-		if(!errno) tm = 0;
-		if( temperature < tm ) return 0.0;
-		else return 1.0;
-	}
-
-	return - 1.0;
-}
-
-struct colorscale condensed_gas_cs = { 3, yellow_white2 };
-
-double condensed_gas_crit(struct table_entry *entry)
-{
-  double tb;
-  if(entry && entry->info[BOILING] && strcmp(entry->info[BOILING],_("n/a"))) {
-    tb = strtod(entry->info[BOILING],0);
-    if (!errno) tb = 0;
-    if (temperature < tb) return 0.0;
-    else return 1.0;
-  }
-  else return -1.0;
-}
-*/
-
-/*
- * NAME  SYMBOL  NUMBER  WEIGHT  DENSITY MELTING  BOILING  ATOMIC_RADIUS COVALENT_RADIUS
- * IONIC_RADIUS ATOMIC_VOLUME SPECIFIC_HEAT FUSION_HEAT EVAPORATION_HEAT TERMAL_CONDUCTIVITY DEBYE_TEMP
- * PAULING  ENERGY OXIDATION CONFIGURATION LATTICE LATTICE_CONSTANT LATTICE_CA_RATIO APPEARANCE DISCOVERY_DATE
- * DISCOVERED_BY NAMED_AFTER MAX_INFO_NR X_POS  Y_POS  PIXEL_DEPTH  RED  GREEN  BLUE
- *
- */
-
 struct table_entry table [ELEMENTNUM+1] = {
   {N_("Hydrogen"), "H", "1", "1.00794", N_("0.0708 (@ -253&#176;C)"), "14.01", "20.28", "53-79", "32", "54 (-1e)", "14.1", "14.267 (H-H)", "0.117 (H-H)", "0.904 (H-H)", "0.1815", "110.00", "2.20", "1311.3", "1, 0, -1", "1s&#185;", N_("HEX"), "3.750", "1.731", N_("Colorless, odorless, tasteless gas"), N_("1766 (England)"), N_("Henry Cavendish"), N_("Greek: hydro (water) and genes (generate)"), 1, 1, 0x7FFFFFFF, 0xAAAA, 0xFFFF, 0xAAAA},
   {N_("Helium"), "He", "2", "4.002602", N_("0.147 (@ -270&#176;C)"), "0.95", "4.216", "28-31", "28-140", "93", "31.8", "5.188", N_("n/a"), "0.08", "0.152", N_("n/a"), "4.5", "2361.3", "0", "1s&#178;", N_("HEX"), "3.570", "1.633", N_("Inert, colorless, odorless, tasteless gas"), N_("1895 (Scotland/Sweden)"), N_("Sir William Ramsey, Nils Langet, P.T.Cleve"), N_("Greek: helios (sun)"), 18, 1, 0x7FFFFFFF, 0xC000, 0x7000, 0x0},
