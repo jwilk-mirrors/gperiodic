@@ -166,6 +166,7 @@ void display_element_dialog( GtkWidget *w, gpointer d )
 GCallback menu_file_exit(void)
 {
     main_window_exit(NULL,NULL);
+    return NULL;
 }
 
 
@@ -323,7 +324,7 @@ void main_prog(void)
   int menu_num_items;
   GdkColor tooltip_color_bg, tooltip_color_fg;
   int red, gree, blue;
-  char *buff;
+  char *buff = NULL;
   int i;
 
   GtkWidget *menubar;
