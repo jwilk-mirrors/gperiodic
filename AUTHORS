@@ -1,6 +1,6 @@
 Kyle R. Burton <?>                                                    the first author for gperiodic-1.x.x (1999-2002)
 Jonas Frantz <jonas@frantz.fi>                                        the second author for gperiodic-2.x.x (2003-2007)
-Alexey Loginov <loginov.alex.valer@gmail.com>                         the third author for gperiodic-3.x.x (2014-2015)
+Alexey Loginov <loginov.alex.valer@gmail.com>                         the third author for gperiodic-3.x.x (2014-2017)
 
 Piotr Najman <?>                                                      patches
 Arno W. Peters <a.w.peters@ieee.org>                                  added in gettext support, and other source changes
@@ -16,5 +16,6 @@ Zach Ploskey <zploskey@gmail.com>                                     patches fr
 Jon Abbott <?>                                                        provided updates to the table
 Andrew Dalke <?>                                                      corrected errors in the table
 Frederic Gobry <?>                                                    patches
+Jan Engelhardt <jengelh@inai.de>                                      patches
 
 Look at translators in PO files.

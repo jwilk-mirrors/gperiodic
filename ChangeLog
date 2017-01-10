@@ -1,3 +1,7 @@
+3.0.2 Jan 22 2017
+   Fix: program returns random data in a function (rpmlint) (Jan Engelhardt)
+   Fix: no-return-in-nonvoid-function (rpmlint) (Jan Engelhardt)
+
 3.0.1 Nov 8 2015
    Update desktop file
    Move to https://sourceforge.net/p/gperiodic
