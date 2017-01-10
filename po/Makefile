@@ -26,10 +26,12 @@ endif
 
 install: 
 	$(MAKE) all
+ifeq ($(enable_nls),1)
 	for f in $(FILES_MO) ; do \
 		mkdir -p $(DESTDIR)$(LOCALEDIR)/`basename $$f .mo`/LC_MESSAGES ; \
 		install -m 644 $$f $(DESTDIR)$(LOCALEDIR)/`basename $$f .mo`/LC_MESSAGES/$(PACKAGE).mo ; \
 	done
+endif
 
 uninstall:
 	for f in $(FILES_MO) ; do \
