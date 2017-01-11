@@ -42,14 +42,14 @@ install:
 
 uninstall:
 	rm -f $(bindir)/gperiodic \
-	$(datadir)/applications/gperiodic.desktop \
-	$(datadir)/pixmaps/gperiodic.png \
-	$(datadir)/pixmaps/gperiodic.xpm \
-	$(mandir)/gperiodic.1 \
-	$(iconsdir)/hicolor/16x16/apps/gperiodic.png \
-	$(iconsdir)/hicolor/32x32/apps/gperiodic.png \
-	$(iconsdir)/hicolor/48x48/apps/gperiodic.png \
-	$(iconsdir)/hicolor/64x64/apps/gperiodic.png
+	      $(datadir)/applications/gperiodic.desktop \
+	      $(datadir)/pixmaps/gperiodic.png \
+	      $(datadir)/pixmaps/gperiodic.xpm \
+	      $(mandir)/gperiodic.1 \
+	      $(iconsdir)/hicolor/16x16/apps/gperiodic.png \
+	      $(iconsdir)/hicolor/32x32/apps/gperiodic.png \
+	      $(iconsdir)/hicolor/48x48/apps/gperiodic.png \
+	      $(iconsdir)/hicolor/64x64/apps/gperiodic.png
 	$(MAKE) -C po/ uninstall enable_nls=$(enable_nls) datadir=$(datadir) DESTDIR=$(DESTDIR)
 
 clean:

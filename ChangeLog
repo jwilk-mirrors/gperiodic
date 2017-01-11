@@ -1,9 +1,9 @@
 3.0.2 Jan 22 2017
-   Fix: program returns random data in a function (rpmlint) (Jan Engelhardt)
-   Fix: no-return-in-nonvoid-function (rpmlint) (Jan Engelhardt)
+   Fix: program returns random data in a function (OpenSuse: rpmlint) (Jan Engelhardt)
+   Fix: no-return-in-nonvoid-function (OpenSuse: rpmlint) (Jan Engelhardt)
    Add "Keywords" in desktop file
    Update info about elements with numbers 113, 115, 117, 118
-   Apply patches from Gentoo
+   Apply patches from Gentoo to fix nls and parallel make (Kacper Kowalik)
 
 3.0.1 Nov 8 2015
    Update desktop file
