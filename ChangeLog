@@ -4,6 +4,7 @@
    Add "Keywords" in desktop file
    Update info about elements with numbers 113, 115, 117, 118
    Apply patches from Gentoo to fix nls and parallel make (Kacper Kowalik)
+   Update translations from transifex.com
 
 3.0.1 Nov 8 2015
    Update desktop file

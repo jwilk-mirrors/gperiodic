@@ -3,30 +3,31 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Jorma Karvonen <karvonen.jorma@gmail.com>, 2015
+# AlexL <loginov.alex.valer@gmail.com>, 2017
+# Милорад Јовановић <j.milorad@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-10 23:09+0300\n"
-"PO-Revision-Date: 2017-01-10 20:16+0000\n"
+"PO-Revision-Date: 2017-01-20 20:20+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
-"Language-Team: Finnish (http://www.transifex.com/Magic/gperiodic/language/fi/)\n"
+"Language-Team: Serbian (http://www.transifex.com/Magic/gperiodic/language/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fi\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: gperiodic.c:195
 #, c-format
 msgid "Periodic table of the elements"
-msgstr ""
+msgstr "Периодни систем елемената"
 
 #: gperiodic.c:197
 #, c-format
 msgid "A program for looking up data of elements from the periodic table"
-msgstr ""
+msgstr "Програм за тражење података о хемијским елементима из периодног система"
 
 #: gperiodic.c:199
 #, c-format
@@ -39,7 +40,7 @@ msgid ""
 "    -D         dump the periodic table\n"
 "    -v         be verbose\n"
 "\n"
-msgstr ""
+msgstr "gperiodic [избори]\nМогућности су:\n    -h         приказује овај екран помоћи\n    -c <темп>  боји елементе према њиховом стању на\n               температури <темп> у Келвинима\n    -D         даје периодни систем\n    -v         бива опширан\n\n"
 
 #: gperiodic.c:206
 #, c-format
@@ -49,7 +50,7 @@ msgid ""
 "gperiodic [element_symbol | atomic_number]\n"
 "               display information on the element with the given element symbol or atomic number\n"
 "\n"
-msgstr ""
+msgstr "или\n\ngperiodic [симбол_елемента | атомски_број]\n               приказује податке о елементу за дати симбол или атомски број\n\n"
 
 #: gperiodic.c:292 gperiodic.c:293 table_data.h:82 table_data.h:98
 #: table_data.h:109 table_data.h:111 table_data.h:114 table_data.h:115
@@ -80,63 +81,63 @@ msgstr ""
 #: table_data.h:230 table_data.h:231 table_data.h:232 table_data.h:233
 #: table_data.h:234 table_data.h:235
 msgid "n/a"
-msgstr ""
+msgstr "н/д"
 
 #: gperiodic.c:337
 msgid "_File"
-msgstr "_Tiedosto"
+msgstr "_Датотека"
 
 #: gperiodic.c:338
 msgid "_Help"
-msgstr "Opa_ste"
+msgstr "По_моћ"
 
 #: gperiodic.c:339
 msgid "E_xit"
-msgstr "Po_istu"
+msgstr "_Изађи"
 
 #: gperiodic.c:339
 msgid "Exit the program"
-msgstr "Poistu ohjelmasta"
+msgstr "Изађите из програма"
 
 #: gperiodic.c:341 gperiodic.c:343
 msgid "_About"
-msgstr "_Ohjelmasta"
+msgstr "_О програму"
 
 #: gperiodic.c:341 gperiodic.c:343
 msgid "About gperiodic"
-msgstr ""
+msgstr "Подаци о програму"
 
 #: gperiodic.c:361
 msgid "GPeriodic"
-msgstr "GPeriodic"
+msgstr "Гпериодник"
 
 #: gperiodic.c:404
 msgid "No symbol for index"
-msgstr ""
+msgstr "Нема симбола за попис"
 
 #: gperiodic.c:411
 msgid "Error button was null?"
-msgstr ""
+msgstr "Дугме грешке беше ништавно?"
 
 #: gperiodic.c:422
 #, c-format
 msgid "%s(%d) Setting color: %d %d %d"
-msgstr ""
+msgstr "%s(%d) Подешавам боју: %d %d %d"
 
 #: gperiodic.c:459
 #, c-format
 msgid "%s n:%s w:%s"
-msgstr ""
+msgstr "%s бр.:%s теж.:%s"
 
 #: gperiodic.c:501
 #, c-format
 msgid " Option -c error : %s is not a number.\n"
-msgstr ""
+msgstr " Грешка опције „-c“ : „%s“ није број.\n"
 
 #: gperiodic.c:505
 #, c-format
 msgid " Option -c error : %s is not a valid number (must be > 0).\n"
-msgstr ""
+msgstr " Грешка опције „-c“ : „%s“ није исправан број (мора бити > 0).\n"
 
 #: gperiodic.c:533
 #, c-format
@@ -144,7 +145,7 @@ msgid ""
 "\n"
 " Unknown element : %s. Exiting.\n"
 "\n"
-msgstr ""
+msgstr "\n Непознати елемент : %s. Излазим.\n\n"
 
 #: gperiodic.c:538
 #, c-format
@@ -152,13 +153,13 @@ msgid ""
 "\n"
 " Element number exceeds existing elements. Exiting.\n"
 "\n"
-msgstr ""
+msgstr "\n Број елемента превазилази постојеће елементе. Излазим.\n\n"
 
 #: gperiodic.h:102
 msgid ""
 "This program shows the periodic table of elements and information about "
 "these elements"
-msgstr ""
+msgstr "Овај програм приказује периодни систем елемената\nи податке о тим елементима"
 
 #: gperiodic.h:103
 msgid ""
@@ -175,127 +176,127 @@ msgid ""
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
-msgstr ""
+msgstr "Овај програм је слободан софтвер; можете га расподељивати\nи/или мењати под условима Гнуове опште јавне лиценце коју\nје објавила Задужбина слободног софтвера; 3. издања лиценце\nили (по вашем избору) било којег новијег издања.\n\nОвај програм се расподељује у нади да ће бити користан,\nали БЕЗ ИКАКВЕ ГАРАНЦИЈЕ; чак и без примењене гаранције\nТРЖИШНЕ ВРЕДНОСТИ или ПРИЛАГОЂЕНОСТИ ОДРЕЂЕНОЈ НАМЕНИ.\nПогледајте Гнуову Општу јавну лиценцу за више детаља.\n\nТребали сте да примите примерак Гнуове Опште јавне лиценце\nуз овај програм. Ако нисте, пишите Задужбини слободног\nсофтвера на адресу:\n„Free Software Foundation, Inc., 51 Franklin Street,\nFifth Floor, Boston, MA 02110-1301, USA“.\n"
 
 #: gperiodic.h:105
 msgid "gperiodic homepage"
-msgstr ""
+msgstr "Матична страница програма"
 
 #: table_data.h:31
 msgid "Name: "
-msgstr "Nimi:"
+msgstr "Назив: "
 
 #: table_data.h:32
 msgid "Symbol: "
-msgstr "Symboli:"
+msgstr "Симбол: "
 
 #: table_data.h:33
 msgid "Atomic Number: "
-msgstr ""
+msgstr "Атомски број: "
 
 #: table_data.h:34
 msgid "Atomic Weight (u.m): "
-msgstr "Atomipaino (u.m): "
+msgstr "Атомска тежина (u.m): "
 
 #: table_data.h:35
 msgid "Density (g/cm&#179;): "
-msgstr ""
+msgstr "Густина (g/cm&#179;): "
 
 #: table_data.h:36
 msgid "Melting Point (K): "
-msgstr "Sulamispiste (K): "
+msgstr "Тачка топљења (K): "
 
 #: table_data.h:37
 msgid "Boiling Point (K): "
-msgstr "Kiehumispiste (K): "
+msgstr "Тачка кључања (K): "
 
 #: table_data.h:38
 msgid "Atomic Radius (pm): "
-msgstr ""
+msgstr "Полупречник атома (pm): "
 
 #: table_data.h:39
 msgid "Covalent Radius (pm): "
-msgstr ""
+msgstr "Полупречник ковалентне везе (pm): "
 
 #: table_data.h:40
 msgid "Ionic Radius (pm): "
-msgstr ""
+msgstr "Јонски полупречник (pm): "
 
 #: table_data.h:41
 msgid "Atomic Volume (cm&#179;/mol): "
-msgstr ""
+msgstr "Атомска запремина (cm&#179;/mol): "
 
 #: table_data.h:42
 msgid "Specific Heat (@20&#176;C J/(K*mol)): "
-msgstr ""
+msgstr "Специфична енергија (на 20&#176;C J/(K*mol)): "
 
 #: table_data.h:43
 msgid "Fusion Heat (kJ/mol): "
-msgstr ""
+msgstr "Енергија топљења (kJ/mol): "
 
 #: table_data.h:44
 msgid "Evaporation Heat (kJ/mol): "
-msgstr ""
+msgstr "Енергија испарења (kJ/mol): "
 
 #: table_data.h:45
 msgid "Thermal Conductivity (@25&#176;C W/(m*K)): "
-msgstr ""
+msgstr "Топлотна проводљивост (на 25&#176;C W/(m*K)): "
 
 #: table_data.h:46
 msgid "Debye temperature (K): "
-msgstr ""
+msgstr "Дебијева температура (K): "
 
 #: table_data.h:47
 msgid "Pauling Negativity Number: "
-msgstr ""
+msgstr "Полинов број негативности: "
 
 #: table_data.h:48
 msgid "First Ionizing Energy (kJ/mol): "
-msgstr ""
+msgstr "Енергија прве јонизације (kJ/mol): "
 
 #: table_data.h:49
 msgid "Oxidation states: "
-msgstr ""
+msgstr "Стања оксидације: "
 
 #: table_data.h:50
 msgid "Electronic Configuration: "
-msgstr ""
+msgstr "Електронска конфигурација: "
 
 #: table_data.h:51
 msgid "Lattice structure: "
-msgstr ""
+msgstr "Структура решетке: "
 
 #: table_data.h:52
 msgid "Lattice constant (&#x212B;): "
-msgstr ""
+msgstr "Константа решетке (&#x212B;): "
 
 #: table_data.h:53
 msgid "Lattice c/a ratio: "
-msgstr ""
+msgstr "Сразмера „c/a“ решетке: "
 
 #: table_data.h:54
 msgid "Appearance: "
-msgstr ""
+msgstr "Изглед: "
 
 #: table_data.h:55
 msgid "Discovery date: "
-msgstr ""
+msgstr "Година открића: "
 
 #: table_data.h:56
 msgid "Discovered by: "
-msgstr "Löytäjä: "
+msgstr "Открио га је: "
 
 #: table_data.h:57
 msgid "Named after: "
-msgstr ""
+msgstr "Назив потиче из: "
 
 #: table_data.h:108
 msgid "Hydrogen"
-msgstr "Vety"
+msgstr "Водоник"
 
 #: table_data.h:108
 msgid "0.0708 (@ -253&#176;C)"
-msgstr ""
+msgstr "0.0708 (на -253&#176;C)"
 
 #: table_data.h:108 table_data.h:109 table_data.h:112 table_data.h:121
 #: table_data.h:131 table_data.h:132 table_data.h:137 table_data.h:140
@@ -307,55 +308,55 @@ msgstr ""
 #: table_data.h:190 table_data.h:195 table_data.h:211 table_data.h:212
 #: table_data.h:213 table_data.h:214
 msgid "HEX"
-msgstr ""
+msgstr "HEX"
 
 #: table_data.h:108 table_data.h:118
 msgid "Colorless, odorless, tasteless gas"
-msgstr ""
+msgstr "Гас без боје, укуса и мириса"
 
 #: table_data.h:108
 msgid "1766 (England)"
-msgstr "1766 (Englanti)"
+msgstr "1766. (Енглеска)"
 
 #: table_data.h:108
 msgid "Henry Cavendish"
-msgstr ""
+msgstr "Хенри Кавендиш"
 
 #: table_data.h:108
 msgid "Greek: hydro (water) and genes (generate)"
-msgstr ""
+msgstr "Грчког: hydro (вода) + gennan (стварати)"
 
 #: table_data.h:109
 msgid "Helium"
-msgstr ""
+msgstr "Хелијум"
 
 #: table_data.h:109
 msgid "0.147 (@ -270&#176;C)"
-msgstr ""
+msgstr "0.147 (на -270&#176;C)"
 
 #: table_data.h:109
 msgid "Inert, colorless, odorless, tasteless gas"
-msgstr ""
+msgstr "Инертан, гас без боје, укуса и мириса"
 
 #: table_data.h:109
 msgid "1895 (Scotland/Sweden)"
-msgstr ""
+msgstr "1895. (Шкотска/Шведска)"
 
 #: table_data.h:109
 msgid "Sir William Ramsey, Nils Langet, P.T.Cleve"
-msgstr ""
+msgstr "Сер Вилијам Рамси, Нил Лангет, П. Т. Клив"
 
 #: table_data.h:109
 msgid "Greek: helios (sun)"
-msgstr ""
+msgstr "Грчког: helios (сунце)"
 
 #: table_data.h:111
 msgid "Lithium"
-msgstr ""
+msgstr "Литијум"
 
 #: table_data.h:111
 msgid "68 (+1e) or 76 (+1e)"
-msgstr ""
+msgstr "68 (+1e) или 76 (+1e)"
 
 #: table_data.h:111 table_data.h:120 table_data.h:124 table_data.h:129
 #: table_data.h:133 table_data.h:134 table_data.h:136 table_data.h:148
@@ -363,209 +364,209 @@ msgstr ""
 #: table_data.h:176 table_data.h:187 table_data.h:188 table_data.h:202
 #: table_data.h:203
 msgid "BCC"
-msgstr ""
+msgstr "BCC"
 
 #: table_data.h:111 table_data.h:120 table_data.h:176
 msgid "Soft, silvery-white metal"
-msgstr ""
+msgstr "Мекан, сребрнасто-бели метал"
 
 #: table_data.h:111 table_data.h:144
 msgid "1817 (Sweden)"
-msgstr ""
+msgstr "1817. (Шведска)"
 
 #: table_data.h:111
 msgid "Johann Arfwedson"
-msgstr ""
+msgstr "Јохан Арведсон"
 
 #: table_data.h:111
 msgid "Greek: lithos (stone)"
-msgstr ""
+msgstr "Грчког: lithos (камен)"
 
 #: table_data.h:112
 msgid "Beryllium"
-msgstr ""
+msgstr "Берилијум"
 
 #: table_data.h:112
 msgid "Hard, brittle, steel-gray metal"
-msgstr ""
+msgstr "Тврд, крт, челично-сиви метал"
 
 #: table_data.h:112
 msgid "1798 (France)"
-msgstr "1798 (Ranska)"
+msgstr "1798. (Француска)"
 
 #: table_data.h:112
 msgid "Louis-Nicolas Vauquelin"
-msgstr "Louis-Nicolas Vauquelin"
+msgstr "Луј-Николас Воклан"
 
 #: table_data.h:112
 msgid "Greek: beryllos, 'beryl' (a mineral)"
-msgstr ""
+msgstr "Грчког: beryllos, „beryl“ (берил, метасиликат берилијума и алуминијума)"
 
 #: table_data.h:113
 msgid "Boron"
-msgstr ""
+msgstr "Бор"
 
 #: table_data.h:113 table_data.h:175 table_data.h:194 table_data.h:197
 msgid "RHL"
-msgstr ""
+msgstr "RHL"
 
 #: table_data.h:113
 msgid "Hard, brittle, lustrous black semimetal"
-msgstr ""
+msgstr "Тврд, крт, сјајан црни полуметал"
 
 #: table_data.h:113
 msgid "1808 (England/France)"
-msgstr ""
+msgstr "1808. (Енглеска/Француска)"
 
 #: table_data.h:113
 msgid "Sir H. Davy, J.L. Gay-Lussac, L.J. Thenard"
-msgstr ""
+msgstr "Сер Х. Деви, Ж. Л. Геј-Лисак. Л. Ј. Тенар"
 
 #: table_data.h:113
 msgid "The Arabic and Persian words for borax"
-msgstr ""
+msgstr "Арапског: buraq, и персијског: burah (боракс)"
 
 #: table_data.h:114
 msgid "Carbon"
-msgstr ""
+msgstr "Угљеник"
 
 #: table_data.h:114
 msgid "2.25 (graphite)"
-msgstr ""
+msgstr "2.25 (графит)"
 
 #: table_data.h:114
 msgid "1860.00 (diamond)"
-msgstr ""
+msgstr "1860.00 (дијамант)"
 
 #: table_data.h:114
 msgid "HEX (graphite), DIA (diamond)"
-msgstr ""
+msgstr "HEX (графит), DIA (дијамант)"
 
 #: table_data.h:114
 msgid "Dense, Black (graphite)"
-msgstr ""
+msgstr "Густ, црн (графит)"
 
 #: table_data.h:114 table_data.h:125 table_data.h:136 table_data.h:139
 #: table_data.h:140 table_data.h:143 table_data.h:158 table_data.h:161
 #: table_data.h:162 table_data.h:193 table_data.h:194 table_data.h:196
 #: table_data.h:197
 msgid "n/a (Unknown)"
-msgstr ""
+msgstr "н/д (није позната)"
 
 #: table_data.h:114 table_data.h:125 table_data.h:136 table_data.h:139
 #: table_data.h:140 table_data.h:143 table_data.h:158 table_data.h:161
 #: table_data.h:162 table_data.h:193 table_data.h:194 table_data.h:196
 #: table_data.h:197
 msgid "Known to the ancients"
-msgstr ""
+msgstr "Познат из давнина"
 
 #: table_data.h:114
 msgid "Latin: carbo (charcoal)"
-msgstr ""
+msgstr "Латинског: carbo (угаљ)"
 
 #: table_data.h:115
 msgid "Nitrogen"
-msgstr ""
+msgstr "Азот"
 
 #: table_data.h:115
 msgid "0.808 (@ -195.8&#176;C)"
-msgstr ""
+msgstr "0.808 (на -195.8&#176;C)"
 
 #: table_data.h:115
 msgid "HEX or CUB"
-msgstr ""
+msgstr "HEX или CUB"
 
 #: table_data.h:115
 msgid "4.039 (HEX)"
-msgstr ""
+msgstr "4.039 (HEX)"
 
 #: table_data.h:115
 msgid "1.651 (HEX)"
-msgstr ""
+msgstr "1.651 (HEX)"
 
 #: table_data.h:115
 msgid "Colorless, odorless, tasteless, and generally inert gas"
-msgstr ""
+msgstr "Претежно инертан гас без боје, мириса и укуса"
 
 #: table_data.h:115
 msgid "1772 (Scotland)"
-msgstr ""
+msgstr "1772. (Шкотска)"
 
 #: table_data.h:115
 msgid "Daniel Rutherford"
-msgstr ""
+msgstr "Данијел Ратерфорд"
 
 #: table_data.h:115
 msgid "Greek: nitron and genes (soda forming)"
-msgstr ""
+msgstr "Грчког: nitron (сода) + genes (образовати)"
 
 #: table_data.h:116
 msgid "Oxygen"
-msgstr ""
+msgstr "Кисеоник"
 
 #: table_data.h:116
 msgid "1.149 (@ -183&#176;C)"
-msgstr ""
+msgstr "1.149 (на -183&#176;C)"
 
 #: table_data.h:116
 msgid "MCL or CUB"
-msgstr ""
+msgstr "MCL или CUB"
 
 #: table_data.h:116
 msgid "6.830 (CUB)"
-msgstr ""
+msgstr "6.830 (CUB)"
 
 #: table_data.h:116
 msgid "Colorless, odorless, tasteless gas; pale blue liquid"
-msgstr ""
+msgstr "Гас без боје, мириса и укуса; бледо плава течност"
 
 #: table_data.h:116
 msgid "1774 (England/Sweden)"
-msgstr ""
+msgstr "1774. (Енглеска/Шведска)"
 
 #: table_data.h:116
 msgid "Joseph Priestly, Carl Wilhelm Scheele"
-msgstr ""
+msgstr "Џозеф Престли, Карл Виљем Шил"
 
 #: table_data.h:116
 msgid "Greek: oxys and genes (acid former)"
-msgstr ""
+msgstr "Грчког: oxys (киселина) + genes (образовати)."
 
 #: table_data.h:117
 msgid "Fluorine"
-msgstr ""
+msgstr "Флуор"
 
 #: table_data.h:117
 msgid "1.108 (@ -189&#176;C)"
-msgstr ""
+msgstr "1.108 (на -189&#176;C)"
 
 #: table_data.h:117 table_data.h:210
 msgid "MCL"
-msgstr ""
+msgstr "MCL"
 
 #: table_data.h:117
 msgid "Greenish-yellow, pungent, corrosive gas"
-msgstr ""
+msgstr "Зеленкасто-жути, оштар, нагризајући гас"
 
 #: table_data.h:117 table_data.h:179
 msgid "1886 (France)"
-msgstr ""
+msgstr "1886. (Француска)"
 
 #: table_data.h:117
 msgid "Henri Moissan"
-msgstr ""
+msgstr "Анри Муасан"
 
 #: table_data.h:117
 msgid "Latin: fluere (flow)"
-msgstr ""
+msgstr "Латинског: fluere (тећи)"
 
 #: table_data.h:118
 msgid "Neon"
-msgstr ""
+msgstr "Неон"
 
 #: table_data.h:118
 msgid "1.204 (@ -246&#176;C)"
-msgstr ""
+msgstr "1.204 (на -246&#176;C)"
 
 #: table_data.h:118 table_data.h:122 table_data.h:127 table_data.h:130
 #: table_data.h:138 table_data.h:139 table_data.h:146 table_data.h:149
@@ -574,1770 +575,1770 @@ msgstr ""
 #: table_data.h:193 table_data.h:196 table_data.h:199 table_data.h:200
 #: table_data.h:205 table_data.h:206
 msgid "FCC"
-msgstr ""
+msgstr "FCC"
 
 #: table_data.h:118 table_data.h:165
 msgid "1898 (England)"
-msgstr ""
+msgstr "1898. (Енглеска)"
 
 #: table_data.h:118 table_data.h:146 table_data.h:165
 msgid "Sir William Ramsey, M.W. Travers"
-msgstr ""
+msgstr "Сер Вилијам Рамси, М. В. Траверс"
 
 #: table_data.h:118
 msgid "Greek: neos (new)"
-msgstr ""
+msgstr "Грчког: neos (нов)"
 
 #: table_data.h:120
 msgid "Sodium"
-msgstr ""
+msgstr "Натријум"
 
 #: table_data.h:120 table_data.h:129
 msgid "1807 (England)"
-msgstr ""
+msgstr "1807. (Енглеска)"
 
 #: table_data.h:120 table_data.h:121 table_data.h:129 table_data.h:130
 #: table_data.h:168
 msgid "Sir Humphrey Davy"
-msgstr ""
+msgstr "Сер Хемфри Деви"
 
 #: table_data.h:120
 msgid ""
 "Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium"
 " carbonate)"
-msgstr ""
+msgstr "Средњевековног латинског: sodanum (лек за главобољу); симбол долази од латинског „natrium“ (натријум карбонат)"
 
 #: table_data.h:121
 msgid "Magnesium"
-msgstr ""
+msgstr "Магнезијум"
 
 #: table_data.h:121
 msgid "Lightweight, malleable, silvery-white metal"
-msgstr ""
+msgstr "Лаган, савитљив, сребрнасто-бели метал"
 
 #: table_data.h:121 table_data.h:130 table_data.h:168
 msgid "1808 (England)"
-msgstr ""
+msgstr "1808. (Енглеска)"
 
 #: table_data.h:121
 msgid "Magnesia, ancient city in district of Thessaly, Greece"
-msgstr ""
+msgstr "Грчког: за назив античког града Магнезије, у Тесалији, у Грчкој"
 
 #: table_data.h:122
 msgid "Aluminum"
-msgstr ""
+msgstr "Алуминијум"
 
 #: table_data.h:122
 msgid "Soft, lightweight, silvery-white metal"
-msgstr ""
+msgstr "Мекан, лаган, сребрнасто-бели метал"
 
 #: table_data.h:122
 msgid "1825 (Denmark)"
-msgstr ""
+msgstr "1825. (Данска)"
 
 #: table_data.h:122
 msgid "Hans Christian Oersted"
-msgstr ""
+msgstr "Ханс Кристијан Орстед"
 
 #: table_data.h:122
 msgid "Latin: alumen, aluminis (alum)"
-msgstr ""
+msgstr "Латинског: alumen, aluminis (стипса)"
 
 #: table_data.h:123
 msgid "Silicon"
-msgstr ""
+msgstr "Силицијум"
 
 #: table_data.h:123 table_data.h:142
 msgid "DIA"
-msgstr ""
+msgstr "DIA"
 
 #: table_data.h:123
 msgid "Amorphous form is brown powder; crystalline form has a gray"
-msgstr ""
+msgstr "Аморфно стање је браон прах; кристално стање је сиво"
 
 #: table_data.h:123
 msgid "1825 (Sweden)"
-msgstr ""
+msgstr "1825. (Шведска)"
 
 #: table_data.h:123 table_data.h:144 table_data.h:206
 msgid "Jons Jacob Berzelius"
-msgstr ""
+msgstr "Џон Џекоб Берзеј"
 
 #: table_data.h:123
 msgid "Latin: silex, silicus (flint)"
-msgstr ""
+msgstr "Латинског: silex, silicus (кремен)"
 
 #: table_data.h:124
 msgid "Phosphorus"
-msgstr ""
+msgstr "Фосфор"
 
 #: table_data.h:124
 msgid "1.82 (white phosphorus)"
-msgstr ""
+msgstr "1.82 (бели фосфор)"
 
 #: table_data.h:124
 msgid "The most common white form is a waxy, phosphorescent solid"
-msgstr ""
+msgstr "Најчешћи бели облик је воштана, фосфоресцентна\nчврста материја"
 
 #: table_data.h:124
 msgid "1669 (Germany)"
-msgstr ""
+msgstr "1669. (Немачка)"
 
 #: table_data.h:124
 msgid "Hennig Brand"
-msgstr ""
+msgstr "Хениг Бранд"
 
 #: table_data.h:124
 msgid "Greek: phosphoros (bringer of light)"
-msgstr ""
+msgstr "Грчког: phos (светлост) + phoros (носилац)"
 
 #: table_data.h:125
 msgid "Sulfur"
-msgstr ""
+msgstr "Сумпор"
 
 #: table_data.h:125 table_data.h:126 table_data.h:141 table_data.h:145
 #: table_data.h:164 table_data.h:208 table_data.h:209
 msgid "ORC"
-msgstr ""
+msgstr "ORC"
 
 #: table_data.h:125
 msgid "Tasteless, odorless, light-yellow, brittle solid"
-msgstr ""
+msgstr "Без укуса, мириса, светло-жуто, крто чврсто тело"
 
 #: table_data.h:125
 msgid "Latin: sulphur (brimstone)"
-msgstr ""
+msgstr "Латинског: sulphur (пламен), и арапског: sufra (жуто)"
 
 #: table_data.h:126
 msgid "Chlorine"
-msgstr ""
+msgstr "Хлор"
 
 #: table_data.h:126
 msgid "1.56 (@ -33.6&#176;C)"
-msgstr ""
+msgstr "1.56 (на -33.6&#176;C)"
 
 #: table_data.h:126
 msgid "Greenish-yellow, disagreeable gas"
-msgstr ""
+msgstr "Зеленкасто-жути, непријатан гас"
 
 #: table_data.h:126 table_data.h:135
 msgid "1774 (Sweden)"
-msgstr ""
+msgstr "1774. (Шведска)"
 
 #: table_data.h:126 table_data.h:153
 msgid "Carl Wilhelm Scheele"
-msgstr ""
+msgstr "Карл Виљем Шил"
 
 #: table_data.h:126
 msgid "Greek: chloros (greenish yellow)"
-msgstr ""
+msgstr "Грчког: chloros (зеленкасто-жут)"
 
 #: table_data.h:127
 msgid "Argon"
-msgstr ""
+msgstr "Аргон"
 
 #: table_data.h:127
 msgid "1.40 (@ -189,35&#176;C)"
-msgstr ""
+msgstr "1.40 (на -189,35&#176;C)"
 
 #: table_data.h:127
 msgid "Colorless, tasteless, odorless noble gas"
-msgstr ""
+msgstr "Племенити гас без боје, укуса и мириса"
 
 #: table_data.h:127
 msgid "1894 (Scotland)"
-msgstr ""
+msgstr "1894. (Шкотска)"
 
 #: table_data.h:127
 msgid "Sir William Ramsey, Baron Rayleigh"
-msgstr ""
+msgstr "Сер Вилијам Рамси, Барон Рејлај"
 
 #: table_data.h:127
 msgid "Greek: argos (inactive)"
-msgstr ""
+msgstr "Грчког: argos (неактиван)"
 
 #: table_data.h:129
 msgid "Potassium"
-msgstr ""
+msgstr "Калијум"
 
 #: table_data.h:129
 msgid "Soft, waxy, silvery-white metal"
-msgstr ""
+msgstr "Мекан, воштан, сребрнасто-бели метал"
 
 #: table_data.h:129
 msgid "English: pot ash; symbol from Latin: kalium (alkali)"
-msgstr ""
+msgstr "Енглеског: pot (посуда) + ash (пепео). Симбол је од латинског „kalium“, на арапском: al qalīy (кречни пепео)"
 
 #: table_data.h:130
 msgid "Calcium"
-msgstr ""
+msgstr "Калцијум"
 
 #: table_data.h:130
 msgid "Fairly hard, silvery-white metal"
-msgstr ""
+msgstr "Поприлично тврд, сребрнасто-бели метал"
 
 #: table_data.h:130
 msgid "Latin: calx, calcis (lime)"
-msgstr ""
+msgstr "Латинског: calx, calcis (креч)"
 
 #: table_data.h:131
 msgid "Scandium"
-msgstr ""
+msgstr "Скандијум"
 
 #: table_data.h:131
 msgid "Fairly soft, silvery-white metal"
-msgstr ""
+msgstr "Поприлично мекан, сребрнасто-бели метал"
 
 #: table_data.h:131 table_data.h:182
 msgid "1879 (Sweden)"
-msgstr ""
+msgstr "1879. (Шведска)"
 
 #: table_data.h:131
 msgid "Lars Nilson"
-msgstr ""
+msgstr "Ларс Нилсон"
 
 #: table_data.h:131
 msgid "Latin: Scandia (Scandinavia)"
-msgstr ""
+msgstr "Добио је назив по Скандинавији (на латинском: Scandia)"
 
 #: table_data.h:132
 msgid "Titanium"
-msgstr ""
+msgstr "Титанијум"
 
 #: table_data.h:132
 msgid "Shiny, dark-gray metal"
-msgstr ""
+msgstr "Блистав, тамно-сиви метал"
 
 #: table_data.h:132
 msgid "1791 (England)"
-msgstr ""
+msgstr "1791. (Енглеска)"
 
 #: table_data.h:132
 msgid "William Gregor"
-msgstr ""
+msgstr "Вилијам Грегор"
 
 #: table_data.h:132
 msgid "Greek: titanos (Titans)"
-msgstr ""
+msgstr "Грчког: titanos (Титани, богови ране грчке митологије)"
 
 #: table_data.h:133
 msgid "Vanadium"
-msgstr ""
+msgstr "Ванадијум"
 
 #: table_data.h:133 table_data.h:177
 msgid "Soft, ductile, silvery-white metal"
-msgstr ""
+msgstr "Мекан, растегљив, сребрнасто-бели метал"
 
 #: table_data.h:133
 msgid "1830 (Sweden)"
-msgstr ""
+msgstr "1830. (Шведска)"
 
 #: table_data.h:133
 msgid "Nils Gabriel Sefstrom"
-msgstr ""
+msgstr "Нилс Габријел Сефстром"
 
 #: table_data.h:133
 msgid "The scandinavian goddess, Vanadis"
-msgstr ""
+msgstr "Старонорвешки: Vanadis (Госпа од Ванира, тј. скандинавска богиња плодности Фреја)"
 
 #: table_data.h:134
 msgid "Chromium"
-msgstr ""
+msgstr "Хром"
 
 #: table_data.h:134
 msgid "Very hard, crystalline, steel-gray metal"
-msgstr ""
+msgstr "Врло тврд, кристални, челично-сиви метал"
 
 #: table_data.h:134
 msgid "1797 (France)"
-msgstr ""
+msgstr "1797. (Француска)"
 
 #: table_data.h:134
 msgid "Louis Vauquelin"
-msgstr ""
+msgstr "Луј Воклан"
 
 #: table_data.h:134
 msgid "Greek: chroma (color)"
-msgstr ""
+msgstr "Грчког: chroma (colore)"
 
 #: table_data.h:135
 msgid "Manganese"
-msgstr ""
+msgstr "Манган"
 
 #: table_data.h:135 table_data.h:198
 msgid "CUB"
-msgstr ""
+msgstr "CUB"
 
 #: table_data.h:135
 msgid "Hard, brittle, gray-white metal"
-msgstr ""
+msgstr "Тврд, крт, сиво-бели метал"
 
 #: table_data.h:135
 msgid "Johann Gahn"
-msgstr ""
+msgstr "Јохан Ган"
 
 #: table_data.h:135
 msgid "Latin: magnes (magnet); Italian: manganese"
-msgstr ""
+msgstr "Латинског: magnes (магнет); италијанског: manganese"
 
 #: table_data.h:136
 msgid "Iron"
-msgstr ""
+msgstr "Гвожђе"
 
 #: table_data.h:136
 msgid "Malleable, ductile, silvery-white metal"
-msgstr ""
+msgstr "Савитљив, растегљив, сребрнасто-бели метал"
 
 #: table_data.h:136
 msgid "Anglo-Saxon: iron; symbol from Latin: ferrum (iron)"
-msgstr ""
+msgstr "Англо-саксонског: iron; симбол је из латинског: ferrum (гвожђе)"
 
 #: table_data.h:137
 msgid "Cobalt"
-msgstr ""
+msgstr "Кобалт"
 
 #: table_data.h:137
 msgid "Hard, ductile, lustrous bluish-gray metal"
-msgstr ""
+msgstr "Тврд, растегљив, сјајан плавкасто-сиви метал"
 
 #: table_data.h:137
 msgid "1735 (Sweden)"
-msgstr ""
+msgstr "1735. (Шведска)"
 
 #: table_data.h:137
 msgid "George Brandt"
-msgstr ""
+msgstr "Џорџ Брант"
 
 #: table_data.h:137
 msgid "German: kobold (goblin)"
-msgstr ""
+msgstr "Немачки: kobold (зли дух)"
 
 #: table_data.h:138
 msgid "Nickel"
-msgstr ""
+msgstr "Никал"
 
 #: table_data.h:138
 msgid "Hard, malleable, silvery-white metal"
-msgstr ""
+msgstr "Тврд, савитљив, сребрнасто-бели метал"
 
 #: table_data.h:138
 msgid "1751 (Sweden)"
-msgstr ""
+msgstr "1751. (Шведска)"
 
 #: table_data.h:138
 msgid "Axel Cronstedt"
-msgstr ""
+msgstr "Аксел Кронстед"
 
 #: table_data.h:138
 msgid "German: kupfernickel (false copper), nickel (goblin)"
-msgstr ""
+msgstr "Немачки: kupfernickel (лажни бакар), nickel (зли дух)"
 
 #: table_data.h:139
 msgid "Copper"
-msgstr ""
+msgstr "Бакар"
 
 #: table_data.h:139
 msgid "Malleable, ductile, reddish-brown metal"
-msgstr ""
+msgstr "Савитљив, растегљив, црвенкасто-браон метал"
 
 #: table_data.h:139
 msgid ""
 "Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
-msgstr ""
+msgstr "Симбол је из латинског: cuprum (острво Кипар познато по рудницима бакра)"
 
 #: table_data.h:140
 msgid "Zinc"
-msgstr ""
+msgstr "Цинк"
 
 #: table_data.h:140
 msgid "Bluish-silver, ductile metal"
-msgstr ""
+msgstr "Растегљив, плавкасто-сребрнасти метал"
 
 #: table_data.h:140
 msgid "German: Zink (German for zinc)"
-msgstr ""
+msgstr "Немачки: zink (калај)"
 
 #: table_data.h:141
 msgid "Gallium"
-msgstr ""
+msgstr "Галијум"
 
 #: table_data.h:141
 msgid "Soft, blue-white metal"
-msgstr ""
+msgstr "Мекан, плаво-бели метал"
 
 #: table_data.h:141
 msgid "1875 (France)"
-msgstr ""
+msgstr "1875. (Француска)"
 
 #: table_data.h:141 table_data.h:179
 msgid "Paul-Emile Lecoq de Boisbaudran"
-msgstr ""
+msgstr "Пол-Емиј Лкок д Буасбодран"
 
 #: table_data.h:141
 msgid "Latin: Gallia (France)"
-msgstr ""
+msgstr "Латинског: Gallia (назив античке области која одговара данашњој Француској)"
 
 #: table_data.h:142
 msgid "Germanium"
-msgstr ""
+msgstr "Германијум"
 
 #: table_data.h:142
 msgid "Grayish-white metal"
-msgstr ""
+msgstr "Сивкасто-бели метал"
 
 #: table_data.h:142
 msgid "1886 (Germany)"
-msgstr ""
+msgstr "1886. (Немачка)"
 
 #: table_data.h:142
 msgid "Clemens Winkler"
-msgstr ""
+msgstr "Клемен Винклер"
 
 #: table_data.h:142
 msgid "Latin: Germania (Germany)"
-msgstr ""
+msgstr "Латинског: Germania (Немачка, где је и откривен)"
 
 #: table_data.h:143
 msgid "Arsenic"
-msgstr ""
+msgstr "Арсен"
 
 #: table_data.h:143
 msgid "5.73 (grey arsenic)"
-msgstr ""
+msgstr "5.73 (сиви арсен)"
 
 #: table_data.h:143
 msgid "24.44 (grey arsenic)"
-msgstr ""
+msgstr "24.44 (сиви арсен)"
 
 #: table_data.h:143 table_data.h:162
 msgid "TRG"
-msgstr ""
+msgstr "TRG"
 
 #: table_data.h:143
 msgid "Steel gray, brittle semimetal"
-msgstr ""
+msgstr "Челично сиви, крт полуметал"
 
 #: table_data.h:143
 msgid "Greek: arsenikon; Latin: arsenicum (both names for yellow pigment)"
-msgstr ""
+msgstr "Грчког: arsenikon; на латинском: arsenicum, (оба назива за жути пигмент)"
 
 #: table_data.h:144
 msgid "Selenium"
-msgstr ""
+msgstr "Селен"
 
 #: table_data.h:144
 msgid "A soft metalloid similar to sulfur"
-msgstr ""
+msgstr "Мекано чврсто тело сиве боје, слично сумпору"
 
 #: table_data.h:144
 msgid "Greek: selena (moon)"
-msgstr ""
+msgstr "Грчког: selene (месец)"
 
 #: table_data.h:145
 msgid "Bromine"
-msgstr ""
+msgstr "Бром"
 
 #: table_data.h:145
 msgid "Reddish-brown liquid"
-msgstr ""
+msgstr "Црвенкаста-браон течност"
 
 #: table_data.h:145
 msgid "1826 (France)"
-msgstr ""
+msgstr "1826. (Француска)"
 
 #: table_data.h:145
 msgid "Antoine J. Balard"
-msgstr ""
+msgstr "Антуан Жером Балар"
 
 #: table_data.h:145
 msgid "Greek: bromos (stench)"
-msgstr ""
+msgstr "Грчког: bromos (смрад)"
 
 #: table_data.h:146
 msgid "Krypton"
-msgstr ""
+msgstr "Криптон"
 
 #: table_data.h:146
 msgid "2.155 (@ -153&#176;C)"
-msgstr ""
+msgstr "2.155 (на -153&#176;C)"
 
 #: table_data.h:146
 msgid "Dense, colorless, odorless, and tasteless gas"
-msgstr ""
+msgstr "Густ гас без боје, мириса и укуса"
 
 #: table_data.h:146
 msgid "1898 (Great Britain)"
-msgstr ""
+msgstr "1898. (Велика Британија)"
 
 #: table_data.h:146
 msgid "Greek: kryptos (hidden)"
-msgstr ""
+msgstr "Грчког: kryptos (скривен)"
 
 #: table_data.h:148
 msgid "Rubidium"
-msgstr ""
+msgstr "Рубидијум"
 
 #: table_data.h:148
 msgid "Soft, silvery-white, highly reactive metal"
-msgstr ""
+msgstr "Мекан, сребрнасто-бели, врло реактивни метал"
 
 #: table_data.h:148
 msgid "1861 (Germany)"
-msgstr ""
+msgstr "1861. (Немачка)"
 
 #: table_data.h:148 table_data.h:167
 msgid "Gustov Kirchoff, Robert Bunsen"
-msgstr ""
+msgstr "Густав Кирхов, Роберт Бансен"
 
 #: table_data.h:148
 msgid "Latin: rubidus (deep red); the color its salts impart to flames"
-msgstr ""
+msgstr "Латинског: rubidus (тамно црвен, због пламена из његових соли)"
 
 #: table_data.h:149
 msgid "Strontium"
-msgstr ""
+msgstr "Стронцијум"
 
 #: table_data.h:149
 msgid "Silvery, malleable metal"
-msgstr ""
+msgstr "Савитљив, сребрнасти метал"
 
 #: table_data.h:149
 msgid "1790 (Scotland)"
-msgstr ""
+msgstr "1790. (Шкотска)"
 
 #: table_data.h:149
 msgid "A. Crawford"
-msgstr ""
+msgstr "А. Крафорд"
 
 #: table_data.h:149
 msgid "The Scottish town, Strontian"
-msgstr ""
+msgstr "Добио је назив према граду Строншјану (Strontian), у Шкотској"
 
 #: table_data.h:150
 msgid "Yttrium"
-msgstr ""
+msgstr "Итријум"
 
 #: table_data.h:150
 msgid "Silvery, ductile, fairly reactive metal"
-msgstr ""
+msgstr "Сребрнасти, растегљив, осредње реактиван метал"
 
 #: table_data.h:150
 msgid "1794 (Finland)"
-msgstr ""
+msgstr "1794. (Финска)"
 
 #: table_data.h:150
 msgid "Johann Gadolin"
-msgstr ""
+msgstr "Џон Гадолин"
 
 #: table_data.h:150
 msgid ""
 "Named after the Swedish town, Ytterby, where one of its minerals was first "
 "found"
-msgstr ""
+msgstr "Добио је назив према граду Итербију (Ytterby), у Шведској, где је први пут пронађен један од његових минерала"
 
 #: table_data.h:151
 msgid "Zirconium"
-msgstr ""
+msgstr "Цирконијум"
 
 #: table_data.h:151
 msgid "Gray-white, lustrous, corrosion-resistant metal"
-msgstr ""
+msgstr "Сиво-бели, сјајан метал отпоран на рђање"
 
 #: table_data.h:151 table_data.h:208
 msgid "1789 (Germany)"
-msgstr ""
+msgstr "1789. (Немачка)"
 
 #: table_data.h:151 table_data.h:208
 msgid "Martin Klaproth"
-msgstr ""
+msgstr "Мартин Клаптор"
 
 #: table_data.h:151
 msgid "The mineral, zircon"
-msgstr ""
+msgstr "Арапског: zarkun, персијског: zargun (сличан злату)"
 
 #: table_data.h:152
 msgid "Niobium"
-msgstr ""
+msgstr "Ниобијум"
 
 #: table_data.h:152
 msgid "Shiny white, soft, ductile metal"
-msgstr ""
+msgstr "Блиставо бели, мекан, растегљив метал"
 
 #: table_data.h:152
 msgid "1801 (England)"
-msgstr ""
+msgstr "1801. (Енглеска)"
 
 #: table_data.h:152
 msgid "Charles Hatchet"
-msgstr ""
+msgstr "Чарлс Хачет"
 
 #: table_data.h:152
 msgid "Niobe; daughter of the mythical Greek king Tantalus"
-msgstr ""
+msgstr "Грчког: Niobe (у грчкој митологији ћерка краља Тантала)"
 
 #: table_data.h:153
 msgid "Molybdenum"
-msgstr ""
+msgstr "Молибден"
 
 #: table_data.h:153 table_data.h:156
 msgid "Silvery white, hard metal"
-msgstr ""
+msgstr "Сребрнасто бели, чврст метал"
 
 #: table_data.h:153
 msgid "1778 (Sweden)"
-msgstr ""
+msgstr "1778. (Шведска)"
 
 #: table_data.h:153
 msgid "Greek: molybdos (lead)"
-msgstr ""
+msgstr "Грчког: molybdos (сличан олову)"
 
 #: table_data.h:154
 msgid "Technetium"
-msgstr ""
+msgstr "Техницијум"
 
 #: table_data.h:154 table_data.h:198
 msgid "Silvery-gray metal"
-msgstr ""
+msgstr "Сребрнасто-сиви метал"
 
 #: table_data.h:154
 msgid "1937 (Italy)"
-msgstr ""
+msgstr "1937. (Италија)"
 
 #: table_data.h:154
 msgid "Carlo Perrier, Emilio Segre"
-msgstr ""
+msgstr "Карло Перјер, Емилио Сегре"
 
 #: table_data.h:154
 msgid "Greek: technetos (artificial)"
-msgstr ""
+msgstr "Грчког: technetos (вештачки)"
 
 #: table_data.h:155
 msgid "Ruthenium"
-msgstr ""
+msgstr "Рутенијум"
 
 #: table_data.h:155
 msgid "Rare, silver-gray, extremely brittle metal"
-msgstr ""
+msgstr "Редак, сребрнасто-сиви, врло крт метал"
 
 #: table_data.h:155
 msgid "1844 (Russia)"
-msgstr ""
+msgstr "1844. (Русија)"
 
 #: table_data.h:155
 msgid "Karl Klaus"
-msgstr ""
+msgstr "Карл Клаус"
 
 #: table_data.h:155
 msgid "Latin: Ruthenia (Russia)"
-msgstr ""
+msgstr "Добио је назив по Русији (на латинском: Ruthenia), где је откривен"
 
 #: table_data.h:156
 msgid "Rhodium"
-msgstr ""
+msgstr "Родијум"
 
 #: table_data.h:156 table_data.h:157
 msgid "1803 (England)"
-msgstr ""
+msgstr "1803. (Енглеска)"
 
 #: table_data.h:156 table_data.h:157
 msgid "William Wollaston"
-msgstr ""
+msgstr "Вилијам Воластон"
 
 #: table_data.h:156
 msgid "Greek: rhodon (rose); its salts give a rosy solution"
-msgstr ""
+msgstr "Грчког: rhodon (розе); због боје раствора његових соли"
 
 #: table_data.h:157
 msgid "Palladium"
-msgstr ""
+msgstr "Паладијум"
 
 #: table_data.h:157 table_data.h:161 table_data.h:170
 msgid "Silvery-white, soft, malleable and ductile metal"
-msgstr ""
+msgstr "Сребрнасто-бели, мекан, растегљив и савитљив метал"
 
 #: table_data.h:157
 msgid "Named after the asteroid, Pallas, discovered in 1803"
-msgstr ""
+msgstr "Добио је назив по астероиду Паладу (Pallas), који је откривен 1803."
 
 #: table_data.h:158
 msgid "Silver"
-msgstr ""
+msgstr "Сребро"
 
 #: table_data.h:158
 msgid "Silvery-ductile, and malleable metal"
-msgstr ""
+msgstr "Сребрнаст, растегљив и савитљив метал"
 
 #: table_data.h:158
 msgid "Anglo-Saxon: siolful (silver); symbol from Latin: argentum"
-msgstr ""
+msgstr "Англо-саксонског: siolful (сребро); симбол је из латинског: argentium."
 
 #: table_data.h:159
 msgid "Cadmium"
-msgstr ""
+msgstr "Кадмијум"
 
 #: table_data.h:159
 msgid "Soft, malleable, blue-white metal"
-msgstr ""
+msgstr "Мек, савитљив, бело-плави метал"
 
 #: table_data.h:159
 msgid "1817 (Germany)"
-msgstr ""
+msgstr "1817. (Немачка)"
 
 #: table_data.h:159
 msgid "Fredrich Stromeyer"
-msgstr ""
+msgstr "Фридрих Стромајер"
 
 #: table_data.h:159
 msgid "Greek: kadmia (ancient name for calamine (zinc oxide))"
-msgstr ""
+msgstr "Грчког: kadmia (стари назив за цинк-оксид каламин)."
 
 #: table_data.h:160
 msgid "Indium"
-msgstr ""
+msgstr "Индијум"
 
 #: table_data.h:160 table_data.h:161 table_data.h:207
 msgid "TET"
-msgstr ""
+msgstr "TET"
 
 #: table_data.h:160
 msgid "Very soft, silvery-white metal"
-msgstr ""
+msgstr "Врло мек, сребрнасто-бели метал"
 
 #: table_data.h:160
 msgid "1863 (Germany)"
-msgstr ""
+msgstr "1863. (Немачка)"
 
 #: table_data.h:160
 msgid "Ferdinand Reich, T. Richter"
-msgstr ""
+msgstr "Фердинанд Рајх, Т. Рихтер"
 
 #: table_data.h:160
 msgid "Latin: indicum (color indigo), the color it shows in a spectroscope"
-msgstr ""
+msgstr "Латинског: indicum (индиго, модро-плаво, према линији те боје у његовом спектру)"
 
 #: table_data.h:161
 msgid "Tin"
-msgstr ""
+msgstr "Калај"
 
 #: table_data.h:161
 msgid "Named after Etruscan god, Tinia; symbol from Latin: stannum (tin)"
-msgstr ""
+msgstr "Добио је назив по етруском богу, Тинији; симбол је од латинског: stannum (каљуга)"
 
 #: table_data.h:162
 msgid "Antimony"
-msgstr ""
+msgstr "Антимон"
 
 #: table_data.h:162
 msgid "Hard, silvery-white, brittle semimetal"
-msgstr ""
+msgstr "Тврд, крт, сребрнасто-бели метал"
 
 #: table_data.h:162
 msgid "Greek: anti and monos (not alone); symbol from mineral stibnite"
-msgstr ""
+msgstr "Грчког: anti (против) + monos (сам); на латинском: stibium (један од његових минерала)"
 
 #: table_data.h:163
 msgid "Tellurium"
-msgstr ""
+msgstr "Телур"
 
 #: table_data.h:163
 msgid "Silvery-white, brittle semimetal"
-msgstr ""
+msgstr "Крт, сребрнасто-бели метал"
 
 #: table_data.h:163
 msgid "1782 (Romania)"
-msgstr ""
+msgstr "1782. (Румунија)"
 
 #: table_data.h:163
 msgid "Franz Joseph Meller von Reichenstein"
-msgstr ""
+msgstr "Франц Јозеф Милер вон Рајханштајн"
 
 #: table_data.h:163
 msgid "Latin: tellus, telluris (Planet Earth)"
-msgstr ""
+msgstr "Латинског: tellus, telluris (планета Земља)"
 
 #: table_data.h:164
 msgid "Iodine"
-msgstr ""
+msgstr "Јод"
 
 #: table_data.h:164
 msgid "Shiny, black nonmetallic solid"
-msgstr ""
+msgstr "Блистава, црна неметална чврста материја"
 
 #: table_data.h:164
 msgid "1811 (France)"
-msgstr ""
+msgstr "1811. (Француска)"
 
 #: table_data.h:164
 msgid "Bernard Courtois"
-msgstr ""
+msgstr "Бернар Куртуа"
 
 #: table_data.h:164
 msgid "Greek: iodes (violet colored)"
-msgstr ""
+msgstr "Грчког: iodes (обојен љубичасто)"
 
 #: table_data.h:165
 msgid "Xenon"
-msgstr ""
+msgstr "Ксенон"
 
 #: table_data.h:165
 msgid "3.52 (@ -107.05&#176;C)"
-msgstr ""
+msgstr "3.52 (на -107.05&#176;C)"
 
 #: table_data.h:165
 msgid "Heavy, colorless, and odorless noble gas"
-msgstr ""
+msgstr "Тежак племенити гас без боје и мириса"
 
 #: table_data.h:165
 msgid "Greek: xenos (strange)"
-msgstr ""
+msgstr "Грчког: xenos (странац)"
 
 #: table_data.h:167
 msgid "Cesium"
-msgstr ""
+msgstr "Цезијум"
 
 #: table_data.h:167
 msgid "Very soft, ductile, light gray metal"
-msgstr ""
+msgstr "Врло мекан, растегљив, светлосиви метал"
 
 #: table_data.h:167
 msgid "1860 (Germany)"
-msgstr ""
+msgstr "1860. (Немачка)"
 
 #: table_data.h:167
 msgid "Latin: caesius (sky blue); for the blue lines of its spectrum"
-msgstr ""
+msgstr "Латинског: coesius (плаво небо), према плавим линијама његовог спектра"
 
 #: table_data.h:168
 msgid "Barium"
-msgstr ""
+msgstr "Баријум"
 
 #: table_data.h:168
 msgid "Soft, slightly malleable, silver-white metal"
-msgstr ""
+msgstr "Мекан, незнатно савитљив, сребрнасто-бели метал"
 
 #: table_data.h:168
 msgid "Greek: barys (heavy or dense)"
-msgstr ""
+msgstr "Грчког: barys (тежак или густ)"
 
 #: table_data.h:170
 msgid "Lanthanum"
-msgstr ""
+msgstr "Лантан"
 
 #: table_data.h:170
 msgid "1839 (Sweden)"
-msgstr ""
+msgstr "1839. (Шведска)"
 
 #: table_data.h:170 table_data.h:178 table_data.h:181
 msgid "Carl Mosander"
-msgstr ""
+msgstr "Карл Мосандер"
 
 #: table_data.h:170
 msgid "Greek: lanthanein (to be hidden)"
-msgstr ""
+msgstr "Грчког: lanthanein (лежати скривен)"
 
 #: table_data.h:171
 msgid "Cerium"
-msgstr ""
+msgstr "Церијум"
 
 #: table_data.h:171
 msgid "Malleable, ductile, iron-gray metal"
-msgstr ""
+msgstr "Савитљив, растегљив, гвоздено-сиви метал"
 
 #: table_data.h:171
 msgid "1803 (Sweden/Germany)"
-msgstr ""
+msgstr "1803. (Шведска/Немачка)"
 
 #: table_data.h:171
 msgid "Wilhelm von Hisinger, Jons Jacob Berzelius, Martin Klaproth"
-msgstr ""
+msgstr "Виљем вон Хисинџер, Џонс Џекоб Берзеј, Мартин Хајнрих Клапрот"
 
 #: table_data.h:171
 msgid ""
 "Named after the asteroid, Ceres, discovered two years before the element"
-msgstr ""
+msgstr "Добио је назив по астероиду Цересу, који је откривен две године раније"
 
 #: table_data.h:172
 msgid "Praseodymium"
-msgstr ""
+msgstr "Празеодијум"
 
 #: table_data.h:172
 msgid "Silvery white, moderately soft, malleable, and ductile metal"
-msgstr ""
+msgstr "Сребрнасто-бели, умерено мекан, савитљив и растегљив метал"
 
 #: table_data.h:172
 msgid "1885 (Austria)"
-msgstr ""
+msgstr "1885. (Аустрија)"
 
 #: table_data.h:172 table_data.h:173
 msgid "C.F. Aver von Welsbach"
-msgstr ""
+msgstr "Ц. Ф. Авер вон Велсбах"
 
 #: table_data.h:172
 msgid "Greek: prasios and didymos (green twin); from its green salts"
-msgstr ""
+msgstr "Грчког: prasios (зелен) + didymos (близанац); због његових зелених соли"
 
 #: table_data.h:173
 msgid "Neodymium"
-msgstr ""
+msgstr "Неодијум"
 
 #: table_data.h:173
 msgid "Silvery-white, rare-earth metal that oxidizes easily in air"
-msgstr ""
+msgstr "Сребрнасто-бели метал ретких земаља који лако оксидира у ваздуху"
 
 #: table_data.h:173
 msgid "1925 (Austria)"
-msgstr ""
+msgstr "1925. (Аустрија)"
 
 #: table_data.h:173
 msgid "Greek: neos and didymos (new twin)"
-msgstr ""
+msgstr "Грчког: neos (нови) + didymos (близанац)"
 
 #: table_data.h:174
 msgid "Promethium"
-msgstr ""
+msgstr "Прометијум"
 
 #: table_data.h:174
 msgid "(+3e)97.9 or (+3e)111"
-msgstr ""
+msgstr "(+3e)97.9 или (+3e)111"
 
 #: table_data.h:174
 msgid "Light-grey, radioactive element"
-msgstr ""
+msgstr "Сребрнасто-бели, радиоактивни елемент"
 
 #: table_data.h:174
 msgid "1945 (United States)"
-msgstr ""
+msgstr "1945. (САД)"
 
 #: table_data.h:174
 msgid "J.A. Marinsky, L.E. Glendenin, C.D. Coryell"
-msgstr ""
+msgstr "Ј. А. Марински, Л. Е. Гленденин, Ц. Д. Корјел"
 
 #: table_data.h:174
 msgid "Named for the Greek god, Prometheus"
-msgstr ""
+msgstr "Грчког: Prometheus (један од Титана из грчке митологије)"
 
 #: table_data.h:175
 msgid "Samarium"
-msgstr ""
+msgstr "Самаријум"
 
 #: table_data.h:175
 msgid "Silvery rare-earth metal"
-msgstr ""
+msgstr "Сребрнасти метал ретких земаља"
 
 #: table_data.h:175
 msgid "1880 (France)"
-msgstr ""
+msgstr "1880. (Француска)"
 
 #: table_data.h:175 table_data.h:177 table_data.h:183
 msgid "Jean Charles Galissard de Marignac"
-msgstr ""
+msgstr "Жан Шарл Галисард д Марињак"
 
 #: table_data.h:175
 msgid "Named after the mineral samarskite"
-msgstr ""
+msgstr "Добио је назив по минералу самарскита, који је добио назив према проналазачу В. Е. Самарскију"
 
 #: table_data.h:176
 msgid "Europium"
-msgstr ""
+msgstr "Еуропијум"
 
 #: table_data.h:176
 msgid "1901 (France)"
-msgstr ""
+msgstr "1901. (Француска)"
 
 #: table_data.h:176
 msgid "Eugene-Antole Demarcay"
-msgstr ""
+msgstr "Еужен-Антол Демарси"
 
 #: table_data.h:176
 msgid "Named for the continent of Europe"
-msgstr ""
+msgstr "Добио је назив по европском континенту"
 
 #: table_data.h:177
 msgid "Gadolinium"
-msgstr ""
+msgstr "Гадолинијум"
 
 #: table_data.h:177
 msgid "1880 (Switzerland)"
-msgstr ""
+msgstr "1880. (Швајцарска)"
 
 #: table_data.h:177
 msgid "Named after the mineral gadolinite"
-msgstr ""
+msgstr "Добио је назив према минералу гадолиниту, у част његовог проналазача финског хемичара Џона Гадолина"
 
 #: table_data.h:178
 msgid "Terbium"
-msgstr ""
+msgstr "Тербијум"
 
 #: table_data.h:178
 msgid "Soft, ductile, silvery-gray, rare-earth metal"
-msgstr ""
+msgstr "Мекан, растегљив, сребрнасто-сиви метал ретких земаља"
 
 #: table_data.h:178 table_data.h:181
 msgid "1843 (Sweden)"
-msgstr ""
+msgstr "1843. (Шведска)"
 
 #: table_data.h:178 table_data.h:181 table_data.h:183
 msgid "Named after the Swedish town, Ytterby"
-msgstr ""
+msgstr "Добио је назив према Итербију, граду у Шведској"
 
 #: table_data.h:179
 msgid "Dysprosium"
-msgstr ""
+msgstr "Диспрозијум"
 
 #: table_data.h:179
 msgid "Soft. lustrous, silvery metal"
-msgstr ""
+msgstr "Мекан, сјајан, сребрнасти метал"
 
 #: table_data.h:179
 msgid "Greek: dysprositos (hard to get at)"
-msgstr ""
+msgstr "Грчког: dys- (не) + prositos (достижан)"
 
 #: table_data.h:180
 msgid "Holmium"
-msgstr ""
+msgstr "Холмијум"
 
 #: table_data.h:180
 msgid "Fairly soft, malleable, lustrous, silvery metal"
-msgstr ""
+msgstr "Поприлично мекан, савитљив, сјајан, сребрнасти метал"
 
 #: table_data.h:180
 msgid "1879 (Switzerland)"
-msgstr ""
+msgstr "1879. (Швајцарска)"
 
 #: table_data.h:180
 msgid "J.L. Soret"
-msgstr ""
+msgstr "Ж. Л. Соре"
 
 #: table_data.h:180
 msgid "Holmia, the Latinized name for Stockholm, Sweden"
-msgstr ""
+msgstr "Добио је назив по Холмији (Holmia), латинском називу за Стокхолм, град у Шведској"
 
 #: table_data.h:181
 msgid "Erbium"
-msgstr ""
+msgstr "Ербијум"
 
 #: table_data.h:181
 msgid "Soft, malleable, silvery metal"
-msgstr ""
+msgstr "Мекан, савитљив, сребрнасти метал"
 
 #: table_data.h:182
 msgid "Thulium"
-msgstr ""
+msgstr "Тулијум"
 
 #: table_data.h:182
 msgid "Soft, malleable, ductile, silvery metal"
-msgstr ""
+msgstr "Мекан, савитљив, растегљив, сребрнасти метал"
 
 #: table_data.h:182
 msgid "Per Theodor Cleve"
-msgstr ""
+msgstr "Пер Тиодор Клив"
 
 #: table_data.h:182
 msgid "Thule, ancient name of Scandinavia"
-msgstr ""
+msgstr "Добио је назив према старом називу за Скандинавију (на латинском: „Thule“, митска држава на северу)"
 
 #: table_data.h:183
 msgid "Ytterbium"
-msgstr ""
+msgstr "Итербијум"
 
 #: table_data.h:183
 msgid "Silvery, lustrous, malleable, and ductile metal"
-msgstr ""
+msgstr "Сребрнаст, сјајан, савитљив и растегљив метал"
 
 #: table_data.h:183
 msgid "1878 (Switzerland)"
-msgstr ""
+msgstr "1878. (Швајцарска)"
 
 #: table_data.h:185
 msgid "Lutetium"
-msgstr ""
+msgstr "Лутецијум"
 
 #: table_data.h:185
 msgid "Silvery-white, hard, dense, rare-earth metal"
-msgstr ""
+msgstr "Сребрнасто-бели, тврди, густи метал ретких земаља"
 
 #: table_data.h:185
 msgid "1907 (France)"
-msgstr ""
+msgstr "1907. (Француска)"
 
 #: table_data.h:185
 msgid "Georges Urbain"
-msgstr ""
+msgstr "Џорџ Урбајн"
 
 #: table_data.h:185
 msgid "Named for the ancient name of Paris: Lutetia Parisorum"
-msgstr ""
+msgstr "Добио је назив по старом називу за Париз (на латинском: „Lutetia Parisorum“)"
 
 #: table_data.h:186
 msgid "Hafnium"
-msgstr ""
+msgstr "Хафнијум"
 
 #: table_data.h:186
 msgid "Silvery, ductile metal"
-msgstr ""
+msgstr "Сребрнасти, растегљиви метал"
 
 #: table_data.h:186
 msgid "1923 (Denmark)"
-msgstr ""
+msgstr "1923. (Данска)"
 
 #: table_data.h:186
 msgid "Dirk Coster, Georg von Hevesy"
-msgstr ""
+msgstr "Дирк Костер, Џорџ вон Хевеси"
 
 #: table_data.h:186
 msgid "Hafnia, the Latin name of Copenhagen"
-msgstr ""
+msgstr "Добио је назив по Копенхагену (на латинском: „Hafnia“)"
 
 #: table_data.h:187
 msgid "Tantalum"
-msgstr ""
+msgstr "Танталијум"
 
 #: table_data.h:187
 msgid "Gray, heavy, hard metal"
-msgstr ""
+msgstr "Тежак и тврд сиви метал"
 
 #: table_data.h:187
 msgid "1802 (Sweden)"
-msgstr ""
+msgstr "1802. (Шведска)"
 
 #: table_data.h:187
 msgid "Anders Ekeberg"
-msgstr ""
+msgstr "Андерс Екеберг"
 
 #: table_data.h:187
 msgid "King Tantalus of Greek mythology, father of Niobe"
-msgstr ""
+msgstr "Добио је назив по Танталу (Tantalus), краљу из грчке митологије, Ниобовом оцу"
 
 #: table_data.h:188
 msgid "Tungsten"
-msgstr ""
+msgstr "Волфрам"
 
 #: table_data.h:188
 msgid "Tough, steel-gray to white metal"
-msgstr ""
+msgstr "Чврст и отпоран метал челично-сиве до беле боје"
 
 #: table_data.h:188
 msgid "1783 (Spain)"
-msgstr ""
+msgstr "1783. (Шпанија)"
 
 #: table_data.h:188
 msgid "Juan Jose, Fausto Elhuyar"
-msgstr ""
+msgstr "Хуан Хозе Елијар, Фауст Елијар"
 
 #: table_data.h:188
 msgid "Swedish: tung sten (heavy stone); symbol from its German name wolfram"
-msgstr ""
+msgstr "Шведског: tung (тежак) + sten (камен); симбол је из немачког назива „wolfram“"
 
 #: table_data.h:189
 msgid "Rhenium"
-msgstr ""
+msgstr "Ренијум"
 
 #: table_data.h:189
 msgid "Dense, silvery-white metal"
-msgstr ""
+msgstr "Густ, сребрнасто-бели метал"
 
 #: table_data.h:189
 msgid "1925 (Germany)"
-msgstr ""
+msgstr "1925. (Немачка)"
 
 #: table_data.h:189
 msgid "Walter Noddack, Ida Tacke, Otto Berg"
-msgstr ""
+msgstr "Валтер Нодак, Ида Тацке, Ото Берг"
 
 #: table_data.h:189
 msgid "Latin: Rhenus, the Rhine River"
-msgstr ""
+msgstr "Добио је назив по античком називу реке Рајне (на латинском: „Rhenus“)"
 
 #: table_data.h:190
 msgid "Osmium"
-msgstr ""
+msgstr "Осмијум"
 
 #: table_data.h:190
 msgid "Blue-white, lustrous, hard metal"
-msgstr ""
+msgstr "Сјајан, тврд плаво-бели метал"
 
 #: table_data.h:190
 msgid "1804 (England)"
-msgstr ""
+msgstr "1804. (Енглеска)"
 
 #: table_data.h:190
 msgid "Smithson Tenant"
-msgstr ""
+msgstr "Смитсон Тенан"
 
 #: table_data.h:190
 msgid "Greek: osme (odor)"
-msgstr ""
+msgstr "Грчког: osme (мирис)"
 
 #: table_data.h:191
 msgid "Iridium"
-msgstr ""
+msgstr "Иридијум"
 
 #: table_data.h:191
 msgid "White, brittle metal"
-msgstr ""
+msgstr "Крт, бели метал"
 
 #: table_data.h:191
 msgid "1804 (England/France)"
-msgstr ""
+msgstr "1804. (Енглеска/Француска)"
 
 #: table_data.h:191
 msgid "S.Tenant, A.F.Fourcroy, L.N.Vauquelin, H.V.Collet-Descoltils"
-msgstr ""
+msgstr "С. Тенан, А. Ф. Фуркори, Л. Н. Воклан, Х. В. Коле-Деколтил"
 
 #: table_data.h:191
 msgid "Greek: iris (rainbow)"
-msgstr ""
+msgstr "Грчког: iris (дуга)"
 
 #: table_data.h:192
 msgid "Platinum"
-msgstr ""
+msgstr "Платина"
 
 #: table_data.h:192
 msgid "Very heavy, soft, silvery-white metal"
-msgstr ""
+msgstr "Врло тежак, мекан, сребрнасто-бели метал"
 
 #: table_data.h:192
 msgid "1557 (Italy), but Incas use before"
-msgstr ""
+msgstr "1557 (Италија), али су га Инке користиле још раније"
 
 #: table_data.h:192
 msgid "Julius Scaliger"
-msgstr ""
+msgstr "Џулијус Скалигер"
 
 #: table_data.h:192
 msgid "Spanish: platina (little silver)"
-msgstr ""
+msgstr "Шпанског: platina (мало сребро)"
 
 #: table_data.h:193
 msgid "Gold"
-msgstr ""
+msgstr "Злато"
 
 #: table_data.h:193
 msgid "(-3e) 185 (+1e) 137 or (+3e) 85 (+1e) 137"
-msgstr ""
+msgstr "(-3e) 185 (+1e) 137 или (+3e) 85 (+1e) 137"
 
 #: table_data.h:193
 msgid "Soft, malleable, yellow metal"
-msgstr ""
+msgstr "Мекан, савитљив, жути метал"
 
 #: table_data.h:193
 msgid "Anglo-Saxon: geolo (yellow); symbol from Latin: aurum (shining dawn)"
-msgstr ""
+msgstr "Англо-саксонског: geolo (жуто); симбол је од латинског: aurum (блистава зора)"
 
 #: table_data.h:194
 msgid "Mercury"
-msgstr ""
+msgstr "Жива"
 
 #: table_data.h:194
 msgid "13.546 (@ +20&#176;C)"
-msgstr ""
+msgstr "13.546 (на +20&#176;C)"
 
 #: table_data.h:194
 msgid "Heavy, silver-white metal that is in its liquid state at"
-msgstr ""
+msgstr "Тежак, сребрнасто-бели метал који је у течном стању на"
 
 #: table_data.h:194
 msgid "The Roman god Mercury; symbol from Latin: hydrargyrum (liquid silver)"
-msgstr ""
+msgstr "Латинског: Mercurio (римско божанство); симбол је из латинског: hydrargyrus (течно сребро)"
 
 #: table_data.h:195
 msgid "Thallium"
-msgstr ""
+msgstr "Талијум"
 
 #: table_data.h:195
 msgid "Soft, gray metal"
-msgstr ""
+msgstr "Мекан, сиви метал"
 
 #: table_data.h:195
 msgid "1861 (England)"
-msgstr ""
+msgstr "1861. (Енглеска)"
 
 #: table_data.h:195
 msgid "Sir William Crookes"
-msgstr ""
+msgstr "Сер Вилијам Крукс"
 
 #: table_data.h:195
 msgid "Greek: thallos (green twig), for a bright green line in its spectrum"
-msgstr ""
+msgstr "Грчког: thallos (зелени изданак), према светлозеленој линији у његовом спектру"
 
 #: table_data.h:196
 msgid "Lead"
-msgstr ""
+msgstr "Олово"
 
 #: table_data.h:196
 msgid "Very soft, highly malleable and ductile, blue-white shiny metal"
-msgstr ""
+msgstr "Врло мек, веома савитљив и растегљив, бело-плави метал"
 
 #: table_data.h:196
 msgid "Anglo-Saxon: lead; symbol from Latin: plumbum"
-msgstr ""
+msgstr "Англо-саксонског: lead; симбол је из латинског: plumbum"
 
 #: table_data.h:197
 msgid "Bismuth"
-msgstr ""
+msgstr "Бизмут"
 
 #: table_data.h:197
 msgid "Hard, brittle, steel-gray metal with a pinkish tinge"
-msgstr ""
+msgstr "Тврд, крт, челично-сиви метал са примесама ружичастог"
 
 #: table_data.h:197
 msgid "German: bisemutum (white mass); now spelled wismut"
-msgstr ""
+msgstr "Немачки: bisemutum (бела маса); сада се изговара „wismut“."
 
 #: table_data.h:198
 msgid "Polonium"
-msgstr ""
+msgstr "Полонијум"
 
 #: table_data.h:198 table_data.h:203
 msgid "1898 (France/Poland)"
-msgstr ""
+msgstr "1898. (Француска/Пољска)"
 
 #: table_data.h:198 table_data.h:203
 msgid "Pierre and Marie Curie-Sklodowska"
-msgstr ""
+msgstr "Пјер Кири и Марија Кири-Склодовска"
 
 #: table_data.h:198
 msgid "Named for Poland, native country of Marie Curie"
-msgstr ""
+msgstr "Добио је назив по Пољској, држави у којој је рођена Марија Кири-Склодовска"
 
 #: table_data.h:199
 msgid "Astatine"
-msgstr ""
+msgstr "Астат"
 
 #: table_data.h:199
 msgid "Unstable, radioactive halogen"
-msgstr ""
+msgstr "Нестабилан, радиоактивни халоген"
 
 #: table_data.h:199 table_data.h:210
 msgid "1940 (United States)"
-msgstr ""
+msgstr "1940. (САД)"
 
 #: table_data.h:199
 msgid "D.R.Corson, K.R.MacKenzie, E. Segre"
-msgstr ""
+msgstr "Дејл Р. Корсон, К. Р. Мек Кензи, Емилио Сегре"
 
 #: table_data.h:199
 msgid "Greek: astatos (unstable)"
-msgstr ""
+msgstr "Грчког: astatos (нестабилан)"
 
 #: table_data.h:200
 msgid "Radon"
-msgstr ""
+msgstr "Радон"
 
 #: table_data.h:200
 msgid "4.4 (@ -62&#176;C)"
-msgstr ""
+msgstr "4.4 (на -62&#176;C)"
 
 #: table_data.h:200
 msgid "Heavy radioactive gas"
-msgstr ""
+msgstr "Тежак радиоактивни гас"
 
 #: table_data.h:200
 msgid "1898 (Germany/England)"
-msgstr ""
+msgstr "1898. (Немачка/Енглеска)"
 
 #: table_data.h:200
 msgid "Fredrich Ernst Dorn, Ernest Rutherford"
-msgstr ""
+msgstr "Добио је назив у част ново-зеландског физичара Ернеста Радерфорда, пионира нуклеарне физике"
 
 #: table_data.h:200
 msgid "Variation of the name of another element, radium"
-msgstr ""
+msgstr "Добио је назив по елементу радијуму, из кога је добијен радиоактивним распадом"
 
 #: table_data.h:202
 msgid "Francium"
-msgstr ""
+msgstr "Францијум"
 
 #: table_data.h:202
 msgid "1939 (France)"
-msgstr ""
+msgstr "1939. (Француска)"
 
 #: table_data.h:202
 msgid "Marguerite Perey"
-msgstr ""
+msgstr "Маргерит Периј"
 
 #: table_data.h:202
 msgid "Named for France, the nation of its discovery"
-msgstr ""
+msgstr "Добио је назив по Француској, у којој је откривен"
 
 #: table_data.h:203
 msgid "Radium"
-msgstr ""
+msgstr "Радијум"
 
 #: table_data.h:203
 msgid "5.5 (@ +20&#176;C)"
-msgstr ""
+msgstr "5.5 (на +20&#176;C)"
 
 #: table_data.h:203
 msgid "Silvery white, radioactive element"
-msgstr ""
+msgstr "Сребрнасто-бели, радиоактивни елемент"
 
 #: table_data.h:203
 msgid "Latin: radius (beam, ray)"
-msgstr ""
+msgstr "Латинског: radius (зрак, сноп)"
 
 #: table_data.h:205
 msgid "Actinium"
-msgstr ""
+msgstr "Актинијум"
 
 #: table_data.h:205
 msgid "Heavy, Silvery-white metal that is very radioactive"
-msgstr ""
+msgstr "Тежак, сребрнасто-бели, врло радиоактивни метал"
 
 #: table_data.h:205
 msgid "1899 (France)"
-msgstr ""
+msgstr "1899. (Француска)"
 
 #: table_data.h:205
 msgid "Andre-Louis Debierne"
-msgstr ""
+msgstr "Андре-Луј Дебјерн"
 
 #: table_data.h:205
 msgid "Greek: akis, aktis, aktinos (beam, ray)"
-msgstr ""
+msgstr "Грчког: akis, aktis, aktinos (зрак, сноп)"
 
 #: table_data.h:206
 msgid "Thorium"
-msgstr ""
+msgstr "Торијум"
 
 #: table_data.h:206
 msgid "Gray, soft, malleable, ductile, radioactive metal"
-msgstr ""
+msgstr "Сив, мек, савитљив, растегљив, радиоактивни метал"
 
 #: table_data.h:206
 msgid "1828 (Sweden)"
-msgstr ""
+msgstr "1828. (Шведска)"
 
 #: table_data.h:206
 msgid "Named for Thor, Norse god of thunder"
-msgstr ""
+msgstr "Добио је назив по Тору (Thor), норвешком богу грмљавине"
 
 #: table_data.h:207
 msgid "Protactinium"
-msgstr ""
+msgstr "Протактинијум"
 
 #: table_data.h:207 table_data.h:210 table_data.h:211
 msgid "Silvery-white, radioactive metal"
-msgstr ""
+msgstr "Сребрнасто-бели, радиоактивни метал"
 
 #: table_data.h:207
 msgid "1918 (England/France)"
-msgstr ""
+msgstr "1918. (Енглеска/Француска)"
 
 #: table_data.h:207
 msgid "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner"
-msgstr ""
+msgstr "Фридрих Соди, Џон Кранстон, Ото Хан, Лајс Мејтнер"
 
 #: table_data.h:207
 msgid ""
 "Greek: proto and actinium (parent of actinium); it forms actinium when it "
 "radioactively decays"
-msgstr ""
+msgstr "Грчког: protos (који дође пре) + actinium; који од њега настаје радиоактивним распадом"
 
 #: table_data.h:208
 msgid "Uranium"
-msgstr ""
+msgstr "Уранијум"
 
 #: table_data.h:208
 msgid "Silvery-white, dense, ductile and malleable, radioactive metal"
-msgstr ""
+msgstr "Густ, савитљив, растегљив, радиоактивни метал сребрнасто-беле боје"
 
 #: table_data.h:208
 msgid "Named for the planet Uranus"
-msgstr ""
+msgstr "Добио је назив по планети Урану"
 
 #: table_data.h:209
 msgid "Neptunium"
-msgstr ""
+msgstr "Нептунијум"
 
 #: table_data.h:209
 msgid "Silvery metal"
-msgstr ""
+msgstr "Сребрнасти метал"
 
 #: table_data.h:209
 msgid "E.M. McMillan, P.H. Abelson"
-msgstr ""
+msgstr "Е. М. Мек Милан, П. Х. Абелсон"
 
 #: table_data.h:209
 msgid "Named for the planet Neptune"
-msgstr ""
+msgstr "Добио је назив по планети Нептуну"
 
 #: table_data.h:210
 msgid "Plutonium"
-msgstr ""
+msgstr "Плутонијум"
 
 #: table_data.h:210
 msgid "71-100 or (+4e) 93 (+3e) 108"
-msgstr ""
+msgstr "71-100 или (+4e) 93 (+3e) 108"
 
 #: table_data.h:210
 msgid "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl"
-msgstr ""
+msgstr "Г. Т. Сиборг, Ј. В. Кенеди, Е. М. Мек Милан, А. Ц. Вол"
 
 #: table_data.h:210
 msgid "Named for the planet Pluto"
-msgstr ""
+msgstr "Добио је назив по планети Плутону"
 
 #: table_data.h:211
 msgid "Americium"
-msgstr ""
+msgstr "Америцијум"
 
 #: table_data.h:211 table_data.h:212
 msgid "1944 (United States)"
-msgstr ""
+msgstr "1944. (САД)"
 
 #: table_data.h:211
 msgid "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso"
-msgstr ""
+msgstr "Г. Т. Сиборг, Р. А. Џејмс, Л. О. Морган, А. Гјорсо"
 
 #: table_data.h:211
 msgid "Named for the American continent, by analogy with europium"
-msgstr ""
+msgstr "Добио је назив по америчком континенту, по аналогији са еуропијумом"
 
 #: table_data.h:212
 msgid "Curium"
-msgstr ""
+msgstr "Киријум"
 
 #: table_data.h:212
 msgid "Silvery, malleable, synthetic radioactive metal"
-msgstr ""
+msgstr "Сребрнаст, савитљив, вештачки радиоактивни метал"
 
 #: table_data.h:212
 msgid "G.T.Seaborg, R.A.James, A.Ghiorso"
-msgstr ""
+msgstr "Г. Т. Сиборг, Р. А. Џејмс, А. Гјорсо"
 
 #: table_data.h:212
 msgid "Named in honor of Pierre and Marie Curie"
-msgstr ""
+msgstr "Добио је назив у част Пјера и Марије Кири"
 
 #: table_data.h:213
 msgid "Berkelium"
-msgstr ""
+msgstr "Берклијум"
 
 #: table_data.h:213
 msgid "Radioactive synthetic metal"
-msgstr ""
+msgstr "Радиоактивни, вештачки метал"
 
 #: table_data.h:213
 msgid "1949 (United States)"
-msgstr ""
+msgstr "1949. (САД)"
 
 #: table_data.h:213
 msgid "G.T.Seaborg, S.G.Tompson, A.Ghiorso"
-msgstr ""
+msgstr "Г. Т. Сиборг, С. Г. Томсон, А. Гјорсо"
 
 #: table_data.h:213
 msgid "Named after Berkeley, California the city of its discovery"
-msgstr ""
+msgstr "Добио је назив по Берклију у Калифорнији, граду у коме је откривен"
 
 #: table_data.h:214
 msgid "Californium"
-msgstr ""
+msgstr "Калифорнијум"
 
 #: table_data.h:214
 msgid "Powerful neutron emitter"
-msgstr ""
+msgstr "Јак одашиљач неутрона"
 
 #: table_data.h:214
 msgid "1950 (United States)"
-msgstr ""
+msgstr "1950. (САД)"
 
 #: table_data.h:214 table_data.h:217
 msgid "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr."
-msgstr ""
+msgstr "Г. Т. Сиборг, С. Г. Томсон, А. Гјорсо, К. Стрит Млађи"
 
 #: table_data.h:214
 msgid "Named after the US-state and University of California"
-msgstr ""
+msgstr "Добио је назив по Калифорнији држави у Сједињеним Америчким Државама и Универзитету"
 
 #: table_data.h:215
 msgid "Einsteinium"
-msgstr ""
+msgstr "Ајнштајнијум"
 
 #: table_data.h:215 table_data.h:216 table_data.h:217 table_data.h:218
 #: table_data.h:220 table_data.h:221 table_data.h:222 table_data.h:223
 #: table_data.h:224
 msgid "Radioactive, synthetic metal"
-msgstr ""
+msgstr "Радиоактивни, вештачки метал"
 
 #: table_data.h:215 table_data.h:216
 msgid "1952 (United States)"
-msgstr ""
+msgstr "1952. (САД)"
 
 #: table_data.h:215 table_data.h:216
 msgid "Argonne, Los Alamos, University of California"
-msgstr ""
+msgstr "Аргон Лаб., Лос Аламос Лаб., Унив. Калифорније"
 
 #: table_data.h:215
 msgid "Named in honor of the scientist Albert Einstein"
-msgstr ""
+msgstr "Добио је назив у част научника Алберта Ајнштајна"
 
 #: table_data.h:216
 msgid "Fermium"
-msgstr ""
+msgstr "Фермијум"
 
 #: table_data.h:216
 msgid "Named in honor of the scientist Enrico Fermi"
-msgstr ""
+msgstr "Добио је назив у част италијанског физичара Енрика Фермија"
 
 #: table_data.h:217
 msgid "Mendelevium"
-msgstr ""
+msgstr "Мендељејевиум"
 
 #: table_data.h:217
 msgid "1955 (United States)"
-msgstr ""
+msgstr "1955. (САД)"
 
 #: table_data.h:217
 msgid ""
 "Named in honor of the scientist Dmitry Ivanovich Mendeleev, who devised the "
 "periodic table"
-msgstr ""
+msgstr "Добио је назив у част руског хемичара Димитрија Ивановича Мендељејева, који је саставио периодни систем елемената"
 
 #: table_data.h:218
 msgid "Nobelium"
-msgstr ""
+msgstr "Нобелијум"
 
 #: table_data.h:218
 msgid "1963 (USSR)"
-msgstr ""
+msgstr "1963. (СССР)"
 
 #: table_data.h:218 table_data.h:221
 msgid "Dubna"
-msgstr ""
+msgstr "Дубна"
 
 #: table_data.h:218
 msgid ""
 "Named in honor of Alfred Nobel, who invented dynamite and founded Nobel "
 "prize"
-msgstr ""
+msgstr "Добио је назив у част шведског хемичара Алфреда Нобела, проналазача динамита и оснивача Нобелове награде"
 
 #: table_data.h:220
 msgid "Lawrencium"
-msgstr ""
+msgstr "Лоренцијум"
 
 #: table_data.h:220
 msgid "1961 (USSR/United States)"
-msgstr ""
+msgstr "1961. (СССР/САД)"
 
 #: table_data.h:220 table_data.h:222 table_data.h:223
 msgid "Soviet Nuclear Research/University of California at Berkeley"
-msgstr ""
+msgstr "Совјетско нуклеарно истраживање / Унив. Калифорније у Берклију"
 
 #: table_data.h:220
 msgid "Named in honor of Ernest Orlando Lawrence, inventor of the cyclotron"
-msgstr ""
+msgstr "Добио је назив у част америчког физичара Ернеста О. Лауренса, проналазача циклотрона"
 
 #: table_data.h:221
 msgid "Rutherfordium"
-msgstr ""
+msgstr "Радефордијум"
 
 #: table_data.h:221
 msgid "1964 (USSR)"
-msgstr ""
+msgstr "1964. (СССР)"
 
 #: table_data.h:221
 msgid "Named in honor of Ernest Rutherford"
-msgstr ""
+msgstr "Добио је назив у част ново-зеландског физичара Ернеста Радерфорда, пионира нуклеарне физике."
 
 #: table_data.h:222
 msgid "Dubnium"
-msgstr ""
+msgstr "Дубнијум"
 
 #: table_data.h:222
 msgid "1970 (USSR/United States)"
-msgstr ""
+msgstr "1970. (СССР/САД)"
 
 #: table_data.h:222
 msgid "Named after the science-town Dubna in Russia"
-msgstr ""
+msgstr "Добио је назив према научном граду Дубна у Русији"
 
 #: table_data.h:223
 msgid "Seaborgium"
-msgstr ""
+msgstr "Сиборгијум"
 
 #: table_data.h:223
 msgid "1974 (USSR/United States)"
-msgstr ""
+msgstr "1974. (СССР/САД)"
 
 #: table_data.h:223
 msgid ""
 "Named in honor of Glenn Theodore Seaborg, American physical chemist known "
 "for research on transuranium elements"
-msgstr ""
+msgstr "Добио је назив у част америчког хемијског физичара Глена Теодора Сиборга, познатом по истраживањима на трансуранијумовим елементима"
 
 #: table_data.h:224
 msgid "Bohrium"
-msgstr ""
+msgstr "Боријум"
 
 #: table_data.h:224
 msgid "1976 (Germany)"
-msgstr ""
+msgstr "1976. (Немачка)"
 
 #: table_data.h:224 table_data.h:225 table_data.h:226 table_data.h:227
 #: table_data.h:228 table_data.h:229
 msgid "Heavy Ion Research Laboratory (HIRL)"
-msgstr ""
+msgstr "Лабораторија за истраживања тешких јона (HIRL)"
 
 #: table_data.h:224
 msgid "Named in honor of Niels Bohr"
-msgstr ""
+msgstr "Добио је назив у част данског физичара Нилса Бора, пионира квантне механике"
 
 #: table_data.h:225
 msgid "Hassium"
-msgstr ""
+msgstr "Хасијум"
 
 #: table_data.h:225
 msgid "1984 (Germany)"
-msgstr ""
+msgstr "1984. (Немачка)"
 
 #: table_data.h:225
 msgid "Named in honor of Hessen county, Germany (latin: Hassia)"
-msgstr ""
+msgstr "Добио је назив по Хесену (на латинском: „Hassia“), граду у Немачкој, где је откривен"
 
 #: table_data.h:226
 msgid "Meitnerium"
-msgstr ""
+msgstr "Митнеријум"
 
 #: table_data.h:226
 msgid "1982 (Germany)"
-msgstr ""
+msgstr "1982. (Немачка)"
 
 #: table_data.h:226
 msgid "Named in honor of Lise Meitner"
-msgstr ""
+msgstr "Добио је назив у част аустријско-шведског физичара Лајза Митнера"
 
 #: table_data.h:227
 msgid "Darmstadtium"
-msgstr ""
+msgstr "Дармштатијум"
 
 #: table_data.h:227 table_data.h:228
 msgid "1994 (Germany)"
-msgstr ""
+msgstr "1994. (Немачка)"
 
 #: table_data.h:227
 msgid "Named after Darmstadt, Germany, the city of its discovery"
-msgstr ""
+msgstr "Добио је назив по Дармштату у Немачкој, граду у коме је откривен"
 
 #: table_data.h:228
 msgid "Roentgenium"
-msgstr ""
+msgstr "Рентгенијум"
 
 #: table_data.h:228
 msgid "Named in honor of physicist Wilhelm Conrad Roentgen"
-msgstr ""
+msgstr "Добио је назив у част немачког физичара Виљама Конрада Рентгена, који је открио икс-зраке"
 
 #: table_data.h:229
 msgid "Copernicium"
-msgstr ""
+msgstr "Коперницијум"
 
 #: table_data.h:229
 msgid "1996 (Germany)"
-msgstr ""
+msgstr "1996. (Немачка)"
 
 #: table_data.h:229
 msgid "Named in honor of Nicolaus Copernicus"
-msgstr ""
+msgstr "Добио је назив у част астронома Николе Коперника"
 
 #: table_data.h:230
 msgid "Nihonium"
@@ -2357,19 +2358,19 @@ msgstr ""
 
 #: table_data.h:231
 msgid "Flerovium"
-msgstr ""
+msgstr "Флеровијум"
 
 #: table_data.h:231
 msgid "1998 (Russia/United States)"
-msgstr ""
+msgstr "1998. (СССР/САД)"
 
 #: table_data.h:231 table_data.h:232 table_data.h:234 table_data.h:235
 msgid "Dubna/Livermore"
-msgstr ""
+msgstr "Дубна/Ливермор"
 
 #: table_data.h:231
 msgid "Named in honor of Soviet physicist Flerov"
-msgstr ""
+msgstr "Добио је назив у част совјетског нуклеарног физичара Георгија Флерова"
 
 #: table_data.h:232
 msgid "Moscovium"
@@ -2377,7 +2378,7 @@ msgstr ""
 
 #: table_data.h:232
 msgid "2003 (Russia/United States)"
-msgstr ""
+msgstr "2003. (СССР/САД)"
 
 #: table_data.h:232
 msgid "Named after the Moscow Region (Russia)"
@@ -2385,19 +2386,19 @@ msgstr ""
 
 #: table_data.h:233
 msgid "Livermorium"
-msgstr ""
+msgstr "Ливерморијум"
 
 #: table_data.h:233
 msgid "2000 (Russia/United States)"
-msgstr ""
+msgstr "2000. (СССР/САД)"
 
 #: table_data.h:233
 msgid "Dubna, Dimitrovgrad, Lesnoy/Livermore"
-msgstr ""
+msgstr "Дубна, Димитровград, Леснов/Ливермор"
 
 #: table_data.h:233
 msgid "Named in honor of Livermore National Laboratory (USA)"
-msgstr ""
+msgstr "Добио је назив према Националној лабораторији Ливермора (САД)"
 
 #: table_data.h:234
 msgid "Tennessine"
@@ -2405,7 +2406,7 @@ msgstr ""
 
 #: table_data.h:234
 msgid "2009 (Russia/United States)"
-msgstr ""
+msgstr "2009. (СССР/САД)"
 
 #: table_data.h:234
 msgid "Named after the State of United States, Tennessee"
@@ -2417,7 +2418,7 @@ msgstr ""
 
 #: table_data.h:235
 msgid "2002 (Russia/United States)"
-msgstr ""
+msgstr "2002. (СССР/САД)"
 
 #: table_data.h:235
 msgid "Named in honor of Soviet physicist Oganessian"

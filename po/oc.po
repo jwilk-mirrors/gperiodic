@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Jorma Karvonen <karvonen.jorma@gmail.com>, 2015
+# Cfpo Miègjorn-Pirenèus <formacion@cfpoc.net>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
@@ -11,12 +11,12 @@ msgstr ""
 "POT-Creation-Date: 2017-01-10 23:09+0300\n"
 "PO-Revision-Date: 2017-01-10 20:16+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
-"Language-Team: Finnish (http://www.transifex.com/Magic/gperiodic/language/fi/)\n"
+"Language-Team: Occitan (post 1500) (http://www.transifex.com/Magic/gperiodic/language/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fi\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: oc\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: gperiodic.c:195
 #, c-format
@@ -80,27 +80,27 @@ msgstr ""
 #: table_data.h:230 table_data.h:231 table_data.h:232 table_data.h:233
 #: table_data.h:234 table_data.h:235
 msgid "n/a"
-msgstr ""
+msgstr "n/d"
 
 #: gperiodic.c:337
 msgid "_File"
-msgstr "_Tiedosto"
+msgstr "_Fichièr"
 
 #: gperiodic.c:338
 msgid "_Help"
-msgstr "Opa_ste"
+msgstr "A_juda"
 
 #: gperiodic.c:339
 msgid "E_xit"
-msgstr "Po_istu"
+msgstr ""
 
 #: gperiodic.c:339
 msgid "Exit the program"
-msgstr "Poistu ohjelmasta"
+msgstr ""
 
 #: gperiodic.c:341 gperiodic.c:343
 msgid "_About"
-msgstr "_Ohjelmasta"
+msgstr "_A prepaus"
 
 #: gperiodic.c:341 gperiodic.c:343
 msgid "About gperiodic"
@@ -183,11 +183,11 @@ msgstr ""
 
 #: table_data.h:31
 msgid "Name: "
-msgstr "Nimi:"
+msgstr "Nom : "
 
 #: table_data.h:32
 msgid "Symbol: "
-msgstr "Symboli:"
+msgstr ""
 
 #: table_data.h:33
 msgid "Atomic Number: "
@@ -195,7 +195,7 @@ msgstr ""
 
 #: table_data.h:34
 msgid "Atomic Weight (u.m): "
-msgstr "Atomipaino (u.m): "
+msgstr ""
 
 #: table_data.h:35
 msgid "Density (g/cm&#179;): "
@@ -203,11 +203,11 @@ msgstr ""
 
 #: table_data.h:36
 msgid "Melting Point (K): "
-msgstr "Sulamispiste (K): "
+msgstr ""
 
 #: table_data.h:37
 msgid "Boiling Point (K): "
-msgstr "Kiehumispiste (K): "
+msgstr ""
 
 #: table_data.h:38
 msgid "Atomic Radius (pm): "
@@ -275,7 +275,7 @@ msgstr ""
 
 #: table_data.h:54
 msgid "Appearance: "
-msgstr ""
+msgstr "Aparéncia : "
 
 #: table_data.h:55
 msgid "Discovery date: "
@@ -283,7 +283,7 @@ msgstr ""
 
 #: table_data.h:56
 msgid "Discovered by: "
-msgstr "Löytäjä: "
+msgstr ""
 
 #: table_data.h:57
 msgid "Named after: "
@@ -291,11 +291,11 @@ msgstr ""
 
 #: table_data.h:108
 msgid "Hydrogen"
-msgstr "Vety"
+msgstr "Idrogèn"
 
 #: table_data.h:108
 msgid "0.0708 (@ -253&#176;C)"
-msgstr ""
+msgstr "0.0708 (@ -253&#176;C)"
 
 #: table_data.h:108 table_data.h:109 table_data.h:112 table_data.h:121
 #: table_data.h:131 table_data.h:132 table_data.h:137 table_data.h:140
@@ -307,7 +307,7 @@ msgstr ""
 #: table_data.h:190 table_data.h:195 table_data.h:211 table_data.h:212
 #: table_data.h:213 table_data.h:214
 msgid "HEX"
-msgstr ""
+msgstr "HEX"
 
 #: table_data.h:108 table_data.h:118
 msgid "Colorless, odorless, tasteless gas"
@@ -315,11 +315,11 @@ msgstr ""
 
 #: table_data.h:108
 msgid "1766 (England)"
-msgstr "1766 (Englanti)"
+msgstr ""
 
 #: table_data.h:108
 msgid "Henry Cavendish"
-msgstr ""
+msgstr "Henry Cavendish"
 
 #: table_data.h:108
 msgid "Greek: hydro (water) and genes (generate)"
@@ -331,7 +331,7 @@ msgstr ""
 
 #: table_data.h:109
 msgid "0.147 (@ -270&#176;C)"
-msgstr ""
+msgstr "0.147 (@ -270&#176;C)"
 
 #: table_data.h:109
 msgid "Inert, colorless, odorless, tasteless gas"
@@ -351,11 +351,11 @@ msgstr ""
 
 #: table_data.h:111
 msgid "Lithium"
-msgstr ""
+msgstr "Liti"
 
 #: table_data.h:111
 msgid "68 (+1e) or 76 (+1e)"
-msgstr ""
+msgstr "68 (+1e) or 76 (+1e)"
 
 #: table_data.h:111 table_data.h:120 table_data.h:124 table_data.h:129
 #: table_data.h:133 table_data.h:134 table_data.h:136 table_data.h:148
@@ -375,7 +375,7 @@ msgstr ""
 
 #: table_data.h:111
 msgid "Johann Arfwedson"
-msgstr ""
+msgstr "Johann Arfwedson"
 
 #: table_data.h:111
 msgid "Greek: lithos (stone)"
@@ -391,7 +391,7 @@ msgstr ""
 
 #: table_data.h:112
 msgid "1798 (France)"
-msgstr "1798 (Ranska)"
+msgstr ""
 
 #: table_data.h:112
 msgid "Louis-Nicolas Vauquelin"
@@ -419,7 +419,7 @@ msgstr ""
 
 #: table_data.h:113
 msgid "Sir H. Davy, J.L. Gay-Lussac, L.J. Thenard"
-msgstr ""
+msgstr "Sir H. Davy, J.L. Gay-Lussac, L.J. Thenard"
 
 #: table_data.h:113
 msgid "The Arabic and Persian words for borax"
@@ -465,7 +465,7 @@ msgstr ""
 
 #: table_data.h:115
 msgid "Nitrogen"
-msgstr ""
+msgstr "Nitrogèn"
 
 #: table_data.h:115
 msgid "0.808 (@ -195.8&#176;C)"
@@ -493,7 +493,7 @@ msgstr ""
 
 #: table_data.h:115
 msgid "Daniel Rutherford"
-msgstr ""
+msgstr "Daniel Rutherford"
 
 #: table_data.h:115
 msgid "Greek: nitron and genes (soda forming)"
@@ -501,11 +501,11 @@ msgstr ""
 
 #: table_data.h:116
 msgid "Oxygen"
-msgstr ""
+msgstr "Oxigèn"
 
 #: table_data.h:116
 msgid "1.149 (@ -183&#176;C)"
-msgstr ""
+msgstr "1.149 (@ -183&#176;C)"
 
 #: table_data.h:116
 msgid "MCL or CUB"
@@ -533,15 +533,15 @@ msgstr ""
 
 #: table_data.h:117
 msgid "Fluorine"
-msgstr ""
+msgstr "Fluorina"
 
 #: table_data.h:117
 msgid "1.108 (@ -189&#176;C)"
-msgstr ""
+msgstr "1.108 (@ -189&#176;C)"
 
 #: table_data.h:117 table_data.h:210
 msgid "MCL"
-msgstr ""
+msgstr "MCL"
 
 #: table_data.h:117
 msgid "Greenish-yellow, pungent, corrosive gas"
@@ -553,7 +553,7 @@ msgstr ""
 
 #: table_data.h:117
 msgid "Henri Moissan"
-msgstr ""
+msgstr "Henri Moissan"
 
 #: table_data.h:117
 msgid "Latin: fluere (flow)"
@@ -561,11 +561,11 @@ msgstr ""
 
 #: table_data.h:118
 msgid "Neon"
-msgstr ""
+msgstr "Neon"
 
 #: table_data.h:118
 msgid "1.204 (@ -246&#176;C)"
-msgstr ""
+msgstr "1.204 (@ -246&#176;C)"
 
 #: table_data.h:118 table_data.h:122 table_data.h:127 table_data.h:130
 #: table_data.h:138 table_data.h:139 table_data.h:146 table_data.h:149
@@ -599,7 +599,7 @@ msgstr ""
 #: table_data.h:120 table_data.h:121 table_data.h:129 table_data.h:130
 #: table_data.h:168
 msgid "Sir Humphrey Davy"
-msgstr ""
+msgstr "Sir Humphrey Davy"
 
 #: table_data.h:120
 msgid ""
@@ -609,7 +609,7 @@ msgstr ""
 
 #: table_data.h:121
 msgid "Magnesium"
-msgstr ""
+msgstr "Magnesi"
 
 #: table_data.h:121
 msgid "Lightweight, malleable, silvery-white metal"
@@ -625,7 +625,7 @@ msgstr ""
 
 #: table_data.h:122
 msgid "Aluminum"
-msgstr ""
+msgstr "Alumini"
 
 #: table_data.h:122
 msgid "Soft, lightweight, silvery-white metal"
@@ -637,7 +637,7 @@ msgstr ""
 
 #: table_data.h:122
 msgid "Hans Christian Oersted"
-msgstr ""
+msgstr "Hans Christian Oersted"
 
 #: table_data.h:122
 msgid "Latin: alumen, aluminis (alum)"
@@ -661,7 +661,7 @@ msgstr ""
 
 #: table_data.h:123 table_data.h:144 table_data.h:206
 msgid "Jons Jacob Berzelius"
-msgstr ""
+msgstr "Jons Jacob Berzelius"
 
 #: table_data.h:123
 msgid "Latin: silex, silicus (flint)"
@@ -685,7 +685,7 @@ msgstr ""
 
 #: table_data.h:124
 msgid "Hennig Brand"
-msgstr ""
+msgstr "Hennig Brand"
 
 #: table_data.h:124
 msgid "Greek: phosphoros (bringer of light)"
@@ -693,7 +693,7 @@ msgstr ""
 
 #: table_data.h:125
 msgid "Sulfur"
-msgstr ""
+msgstr "Sulfur"
 
 #: table_data.h:125 table_data.h:126 table_data.h:141 table_data.h:145
 #: table_data.h:164 table_data.h:208 table_data.h:209
@@ -714,7 +714,7 @@ msgstr ""
 
 #: table_data.h:126
 msgid "1.56 (@ -33.6&#176;C)"
-msgstr ""
+msgstr "1.56 (@ -33.6&#176;C)"
 
 #: table_data.h:126
 msgid "Greenish-yellow, disagreeable gas"
@@ -734,11 +734,11 @@ msgstr ""
 
 #: table_data.h:127
 msgid "Argon"
-msgstr ""
+msgstr "Argon"
 
 #: table_data.h:127
 msgid "1.40 (@ -189,35&#176;C)"
-msgstr ""
+msgstr "1.40 (@ -189,35&#176;C)"
 
 #: table_data.h:127
 msgid "Colorless, tasteless, odorless noble gas"
@@ -758,7 +758,7 @@ msgstr ""
 
 #: table_data.h:129
 msgid "Potassium"
-msgstr ""
+msgstr "Potassi"
 
 #: table_data.h:129
 msgid "Soft, waxy, silvery-white metal"
@@ -770,7 +770,7 @@ msgstr ""
 
 #: table_data.h:130
 msgid "Calcium"
-msgstr ""
+msgstr "Calci"
 
 #: table_data.h:130
 msgid "Fairly hard, silvery-white metal"
@@ -794,7 +794,7 @@ msgstr ""
 
 #: table_data.h:131
 msgid "Lars Nilson"
-msgstr ""
+msgstr "Lars Nilson"
 
 #: table_data.h:131
 msgid "Latin: Scandia (Scandinavia)"
@@ -802,7 +802,7 @@ msgstr ""
 
 #: table_data.h:132
 msgid "Titanium"
-msgstr ""
+msgstr "Titani"
 
 #: table_data.h:132
 msgid "Shiny, dark-gray metal"
@@ -814,7 +814,7 @@ msgstr ""
 
 #: table_data.h:132
 msgid "William Gregor"
-msgstr ""
+msgstr "William Gregor"
 
 #: table_data.h:132
 msgid "Greek: titanos (Titans)"
@@ -822,7 +822,7 @@ msgstr ""
 
 #: table_data.h:133
 msgid "Vanadium"
-msgstr ""
+msgstr "Vanadi"
 
 #: table_data.h:133 table_data.h:177
 msgid "Soft, ductile, silvery-white metal"
@@ -834,7 +834,7 @@ msgstr ""
 
 #: table_data.h:133
 msgid "Nils Gabriel Sefstrom"
-msgstr ""
+msgstr "Nils Gabriel Sefstrom"
 
 #: table_data.h:133
 msgid "The scandinavian goddess, Vanadis"
@@ -854,7 +854,7 @@ msgstr ""
 
 #: table_data.h:134
 msgid "Louis Vauquelin"
-msgstr ""
+msgstr "Louis Vauquelin"
 
 #: table_data.h:134
 msgid "Greek: chroma (color)"
@@ -862,11 +862,11 @@ msgstr ""
 
 #: table_data.h:135
 msgid "Manganese"
-msgstr ""
+msgstr "Manganèsi"
 
 #: table_data.h:135 table_data.h:198
 msgid "CUB"
-msgstr ""
+msgstr "CUB"
 
 #: table_data.h:135
 msgid "Hard, brittle, gray-white metal"
@@ -874,7 +874,7 @@ msgstr ""
 
 #: table_data.h:135
 msgid "Johann Gahn"
-msgstr ""
+msgstr "Johann Gahn"
 
 #: table_data.h:135
 msgid "Latin: magnes (magnet); Italian: manganese"
@@ -894,7 +894,7 @@ msgstr ""
 
 #: table_data.h:137
 msgid "Cobalt"
-msgstr ""
+msgstr "Cobalt"
 
 #: table_data.h:137
 msgid "Hard, ductile, lustrous bluish-gray metal"
@@ -906,7 +906,7 @@ msgstr ""
 
 #: table_data.h:137
 msgid "George Brandt"
-msgstr ""
+msgstr "George Brandt"
 
 #: table_data.h:137
 msgid "German: kobold (goblin)"
@@ -926,7 +926,7 @@ msgstr ""
 
 #: table_data.h:138
 msgid "Axel Cronstedt"
-msgstr ""
+msgstr "Axel Cronstedt"
 
 #: table_data.h:138
 msgid "German: kupfernickel (false copper), nickel (goblin)"
@@ -947,7 +947,7 @@ msgstr ""
 
 #: table_data.h:140
 msgid "Zinc"
-msgstr ""
+msgstr "Zinc"
 
 #: table_data.h:140
 msgid "Bluish-silver, ductile metal"
@@ -959,7 +959,7 @@ msgstr ""
 
 #: table_data.h:141
 msgid "Gallium"
-msgstr ""
+msgstr "Galli"
 
 #: table_data.h:141
 msgid "Soft, blue-white metal"
@@ -971,7 +971,7 @@ msgstr ""
 
 #: table_data.h:141 table_data.h:179
 msgid "Paul-Emile Lecoq de Boisbaudran"
-msgstr ""
+msgstr "Paul-Emile Lecoq de Boisbaudran"
 
 #: table_data.h:141
 msgid "Latin: Gallia (France)"
@@ -979,7 +979,7 @@ msgstr ""
 
 #: table_data.h:142
 msgid "Germanium"
-msgstr ""
+msgstr "Germani"
 
 #: table_data.h:142
 msgid "Grayish-white metal"
@@ -991,7 +991,7 @@ msgstr ""
 
 #: table_data.h:142
 msgid "Clemens Winkler"
-msgstr ""
+msgstr "Clemens Winkler"
 
 #: table_data.h:142
 msgid "Latin: Germania (Germany)"
@@ -999,7 +999,7 @@ msgstr ""
 
 #: table_data.h:143
 msgid "Arsenic"
-msgstr ""
+msgstr "Arsenic"
 
 #: table_data.h:143
 msgid "5.73 (grey arsenic)"
@@ -1047,7 +1047,7 @@ msgstr ""
 
 #: table_data.h:145
 msgid "Antoine J. Balard"
-msgstr ""
+msgstr "Antoine J. Balard"
 
 #: table_data.h:145
 msgid "Greek: bromos (stench)"
@@ -1059,7 +1059,7 @@ msgstr ""
 
 #: table_data.h:146
 msgid "2.155 (@ -153&#176;C)"
-msgstr ""
+msgstr "2.155 (@ -153&#176;C)"
 
 #: table_data.h:146
 msgid "Dense, colorless, odorless, and tasteless gas"
@@ -1075,7 +1075,7 @@ msgstr ""
 
 #: table_data.h:148
 msgid "Rubidium"
-msgstr ""
+msgstr "Rubidi"
 
 #: table_data.h:148
 msgid "Soft, silvery-white, highly reactive metal"
@@ -1107,7 +1107,7 @@ msgstr ""
 
 #: table_data.h:149
 msgid "A. Crawford"
-msgstr ""
+msgstr "A. Crawford"
 
 #: table_data.h:149
 msgid "The Scottish town, Strontian"
@@ -1127,7 +1127,7 @@ msgstr ""
 
 #: table_data.h:150
 msgid "Johann Gadolin"
-msgstr ""
+msgstr "Johann Gadolin"
 
 #: table_data.h:150
 msgid ""
@@ -1149,7 +1149,7 @@ msgstr ""
 
 #: table_data.h:151 table_data.h:208
 msgid "Martin Klaproth"
-msgstr ""
+msgstr "Martin Klaproth"
 
 #: table_data.h:151
 msgid "The mineral, zircon"
@@ -1169,7 +1169,7 @@ msgstr ""
 
 #: table_data.h:152
 msgid "Charles Hatchet"
-msgstr ""
+msgstr "Charles Hatchet"
 
 #: table_data.h:152
 msgid "Niobe; daughter of the mythical Greek king Tantalus"
@@ -1225,7 +1225,7 @@ msgstr ""
 
 #: table_data.h:155
 msgid "Karl Klaus"
-msgstr ""
+msgstr "Karl Klaus"
 
 #: table_data.h:155
 msgid "Latin: Ruthenia (Russia)"
@@ -1241,7 +1241,7 @@ msgstr ""
 
 #: table_data.h:156 table_data.h:157
 msgid "William Wollaston"
-msgstr ""
+msgstr "William Wollaston"
 
 #: table_data.h:156
 msgid "Greek: rhodon (rose); its salts give a rosy solution"
@@ -1606,7 +1606,7 @@ msgstr ""
 
 #: table_data.h:180
 msgid "J.L. Soret"
-msgstr ""
+msgstr "J.L. Soret"
 
 #: table_data.h:180
 msgid "Holmia, the Latinized name for Stockholm, Sweden"
@@ -1630,7 +1630,7 @@ msgstr ""
 
 #: table_data.h:182
 msgid "Per Theodor Cleve"
-msgstr ""
+msgstr "Per Theodor Cleve"
 
 #: table_data.h:182
 msgid "Thule, ancient name of Scandinavia"
@@ -1662,7 +1662,7 @@ msgstr ""
 
 #: table_data.h:185
 msgid "Georges Urbain"
-msgstr ""
+msgstr "Georges Urbain"
 
 #: table_data.h:185
 msgid "Named for the ancient name of Paris: Lutetia Parisorum"
@@ -1702,7 +1702,7 @@ msgstr ""
 
 #: table_data.h:187
 msgid "Anders Ekeberg"
-msgstr ""
+msgstr "Anders Ekeberg"
 
 #: table_data.h:187
 msgid "King Tantalus of Greek mythology, father of Niobe"
@@ -1722,7 +1722,7 @@ msgstr ""
 
 #: table_data.h:188
 msgid "Juan Jose, Fausto Elhuyar"
-msgstr ""
+msgstr "Juan Jose, Fausto Elhuyar"
 
 #: table_data.h:188
 msgid "Swedish: tung sten (heavy stone); symbol from its German name wolfram"
@@ -1742,7 +1742,7 @@ msgstr ""
 
 #: table_data.h:189
 msgid "Walter Noddack, Ida Tacke, Otto Berg"
-msgstr ""
+msgstr "Walter Noddack, Ida Tacke, Otto Berg"
 
 #: table_data.h:189
 msgid "Latin: Rhenus, the Rhine River"
@@ -1762,7 +1762,7 @@ msgstr ""
 
 #: table_data.h:190
 msgid "Smithson Tenant"
-msgstr ""
+msgstr "Smithson Tenant"
 
 #: table_data.h:190
 msgid "Greek: osme (odor)"
@@ -1770,7 +1770,7 @@ msgstr ""
 
 #: table_data.h:191
 msgid "Iridium"
-msgstr ""
+msgstr "Iridi"
 
 #: table_data.h:191
 msgid "White, brittle metal"
@@ -1782,7 +1782,7 @@ msgstr ""
 
 #: table_data.h:191
 msgid "S.Tenant, A.F.Fourcroy, L.N.Vauquelin, H.V.Collet-Descoltils"
-msgstr ""
+msgstr "S.Tenant, A.F.Fourcroy, L.N.Vauquelin, H.V.Collet-Descoltils"
 
 #: table_data.h:191
 msgid "Greek: iris (rainbow)"
@@ -1802,7 +1802,7 @@ msgstr ""
 
 #: table_data.h:192
 msgid "Julius Scaliger"
-msgstr ""
+msgstr "Julius Scaliger"
 
 #: table_data.h:192
 msgid "Spanish: platina (little silver)"
@@ -1810,7 +1810,7 @@ msgstr ""
 
 #: table_data.h:193
 msgid "Gold"
-msgstr ""
+msgstr "Aur"
 
 #: table_data.h:193
 msgid "(-3e) 185 (+1e) 137 or (+3e) 85 (+1e) 137"
@@ -1830,7 +1830,7 @@ msgstr ""
 
 #: table_data.h:194
 msgid "13.546 (@ +20&#176;C)"
-msgstr ""
+msgstr "13.546 (@ +20&#176;C)"
 
 #: table_data.h:194
 msgid "Heavy, silver-white metal that is in its liquid state at"
@@ -1854,7 +1854,7 @@ msgstr ""
 
 #: table_data.h:195
 msgid "Sir William Crookes"
-msgstr ""
+msgstr "Sir William Crookes"
 
 #: table_data.h:195
 msgid "Greek: thallos (green twig), for a bright green line in its spectrum"
@@ -1926,7 +1926,7 @@ msgstr ""
 
 #: table_data.h:200
 msgid "4.4 (@ -62&#176;C)"
-msgstr ""
+msgstr "4.4 (@ -62&#176;C)"
 
 #: table_data.h:200
 msgid "Heavy radioactive gas"
@@ -1954,7 +1954,7 @@ msgstr ""
 
 #: table_data.h:202
 msgid "Marguerite Perey"
-msgstr ""
+msgstr "Marguerite Perey"
 
 #: table_data.h:202
 msgid "Named for France, the nation of its discovery"
@@ -1966,7 +1966,7 @@ msgstr ""
 
 #: table_data.h:203
 msgid "5.5 (@ +20&#176;C)"
-msgstr ""
+msgstr "5.5 (@ +20&#176;C)"
 
 #: table_data.h:203
 msgid "Silvery white, radioactive element"
@@ -1990,7 +1990,7 @@ msgstr ""
 
 #: table_data.h:205
 msgid "Andre-Louis Debierne"
-msgstr ""
+msgstr "Andre-Louis Debierne"
 
 #: table_data.h:205
 msgid "Greek: akis, aktis, aktinos (beam, ray)"
@@ -2026,7 +2026,7 @@ msgstr ""
 
 #: table_data.h:207
 msgid "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner"
-msgstr ""
+msgstr "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner"
 
 #: table_data.h:207
 msgid ""
@@ -2056,7 +2056,7 @@ msgstr ""
 
 #: table_data.h:209
 msgid "E.M. McMillan, P.H. Abelson"
-msgstr ""
+msgstr "E.M. McMillan, P.H. Abelson"
 
 #: table_data.h:209
 msgid "Named for the planet Neptune"
@@ -2068,7 +2068,7 @@ msgstr ""
 
 #: table_data.h:210
 msgid "71-100 or (+4e) 93 (+3e) 108"
-msgstr ""
+msgstr "71-100 or (+4e) 93 (+3e) 108"
 
 #: table_data.h:210
 msgid "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl"
@@ -2088,7 +2088,7 @@ msgstr ""
 
 #: table_data.h:211
 msgid "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso"
-msgstr ""
+msgstr "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso"
 
 #: table_data.h:211
 msgid "Named for the American continent, by analogy with europium"
@@ -2104,7 +2104,7 @@ msgstr ""
 
 #: table_data.h:212
 msgid "G.T.Seaborg, R.A.James, A.Ghiorso"
-msgstr ""
+msgstr "G.T.Seaborg, R.A.James, A.Ghiorso"
 
 #: table_data.h:212
 msgid "Named in honor of Pierre and Marie Curie"
@@ -2124,7 +2124,7 @@ msgstr ""
 
 #: table_data.h:213
 msgid "G.T.Seaborg, S.G.Tompson, A.Ghiorso"
-msgstr ""
+msgstr "G.T.Seaborg, S.G.Tompson, A.Ghiorso"
 
 #: table_data.h:213
 msgid "Named after Berkeley, California the city of its discovery"
@@ -2144,7 +2144,7 @@ msgstr ""
 
 #: table_data.h:214 table_data.h:217
 msgid "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr."
-msgstr ""
+msgstr "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr."
 
 #: table_data.h:214
 msgid "Named after the US-state and University of California"
