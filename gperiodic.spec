@@ -18,7 +18,8 @@ element. This program also features a non-graphical interface.
 %setup -q
 
 %build
-%make
+%make_build \
+	LDFLAGS="%{ldflags}"
 
 %install
 %make_install
