@@ -1,0 +1,22 @@
+Kyle R. Burton <?>                                                    the first author for gperiodic-1.x.x (1999-2002)
+Jonas Frantz <jonas@frantz.fi>                                        the second author for gperiodic-2.x.x (2003-2007)
+Alexey Loginov <loginov.alex.valer@gmail.com>                         the third author for gperiodic-3.x.x (2014-2018)
+
+Piotr Najman <?>                                                      patches
+Arno W. Peters <a.w.peters@ieee.org>                                  added in gettext support, and other source changes
+Georges Khaznadar <?>                                                 related code
+Felix Natter <?>                                                      patches
+Michael Shigorin <mike@altlinux.org>                                  patches
+Costantino Ceoldo <?>                                                 new data and code for the table
+Arkadiusz Lipiec <?>                                                  patches
+Sebastien Bacher <seb128@debian.org>                                  manual page, patches
+Daniel Leidert <daniel.leidert@wgdd.de>                               patches
+Theppitak Karoonboonyanan <thep@linux.thai.net>                       patches
+Zach Ploskey <zploskey@gmail.com>                                     patches from his fork of gperiodic
+Jon Abbott <?>                                                        provided updates to the table
+Andrew Dalke <?>                                                      corrected errors in the table
+Frederic Gobry <?>                                                    patches
+Jan Engelhardt <jengelh@inai.de>                                      patches
+Kacper Kowalik <xarthisius@gentoo.org>                                patches
+
+Look at translators in PO files.

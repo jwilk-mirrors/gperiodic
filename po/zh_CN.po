@@ -1,0 +1,2424 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# 玉堂白鹤 <yjwork@qq.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: gperiodic\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-10 23:09+0300\n"
+"PO-Revision-Date: 2018-12-26 04:03+0000\n"
+"Last-Translator: 玉堂白鹤 <yjwork@qq.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/Magic/gperiodic/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: gperiodic.c:195
+#, c-format
+msgid "Periodic table of the elements"
+msgstr "元素周期表"
+
+#: gperiodic.c:197
+#, c-format
+msgid "A program for looking up data of elements from the periodic table"
+msgstr "用于查找元素周期表中元素数据的程序"
+
+#: gperiodic.c:199
+#, c-format
+msgid ""
+"gperiodic [opts]\n"
+"Options are:\n"
+"    -h         show this help screen\n"
+"    -c <Temp>  color the elements according to their phase at\n"
+"               temperature <Temp> in Kelvins\n"
+"    -D         dump the periodic table\n"
+"    -v         be verbose\n"
+"\n"
+msgstr "gperiodic [opts]\n参数如下:\n    -h        显示帮助信息\n    -c <Temp>  color the elements according to their phase at\n               temperature <Temp> in Kelvins\n    -D         转储元素周期表\n    -v         显示命令执行的详细信息\n\n"
+
+#: gperiodic.c:206
+#, c-format
+msgid ""
+"or\n"
+"\n"
+"gperiodic [element_symbol | atomic_number]\n"
+"               display information on the element with the given element symbol or atomic number\n"
+"\n"
+msgstr "或者\n\ngperiodic [element_symbol | atomic_number]\n              显示指定元素符号或原子序数的元素信息\n\n"
+
+#: gperiodic.c:292 gperiodic.c:293 table_data.h:82 table_data.h:98
+#: table_data.h:109 table_data.h:111 table_data.h:114 table_data.h:115
+#: table_data.h:116 table_data.h:117 table_data.h:118 table_data.h:120
+#: table_data.h:122 table_data.h:123 table_data.h:124 table_data.h:125
+#: table_data.h:126 table_data.h:127 table_data.h:129 table_data.h:130
+#: table_data.h:131 table_data.h:132 table_data.h:133 table_data.h:134
+#: table_data.h:135 table_data.h:136 table_data.h:137 table_data.h:138
+#: table_data.h:139 table_data.h:140 table_data.h:141 table_data.h:142
+#: table_data.h:143 table_data.h:144 table_data.h:145 table_data.h:146
+#: table_data.h:148 table_data.h:149 table_data.h:152 table_data.h:153
+#: table_data.h:155 table_data.h:156 table_data.h:157 table_data.h:158
+#: table_data.h:160 table_data.h:161 table_data.h:162 table_data.h:163
+#: table_data.h:164 table_data.h:165 table_data.h:167 table_data.h:168
+#: table_data.h:171 table_data.h:172 table_data.h:173 table_data.h:174
+#: table_data.h:175 table_data.h:176 table_data.h:177 table_data.h:178
+#: table_data.h:179 table_data.h:180 table_data.h:181 table_data.h:182
+#: table_data.h:183 table_data.h:185 table_data.h:186 table_data.h:187
+#: table_data.h:188 table_data.h:190 table_data.h:191 table_data.h:192
+#: table_data.h:193 table_data.h:196 table_data.h:197 table_data.h:198
+#: table_data.h:199 table_data.h:200 table_data.h:202 table_data.h:203
+#: table_data.h:205 table_data.h:206 table_data.h:207 table_data.h:208
+#: table_data.h:209 table_data.h:210 table_data.h:211 table_data.h:212
+#: table_data.h:213 table_data.h:214 table_data.h:215 table_data.h:216
+#: table_data.h:217 table_data.h:218 table_data.h:220 table_data.h:221
+#: table_data.h:222 table_data.h:223 table_data.h:224 table_data.h:225
+#: table_data.h:226 table_data.h:227 table_data.h:228 table_data.h:229
+#: table_data.h:230 table_data.h:231 table_data.h:232 table_data.h:233
+#: table_data.h:234 table_data.h:235
+msgid "n/a"
+msgstr "不适用"
+
+#: gperiodic.c:337
+msgid "_File"
+msgstr "文件(_F)"
+
+#: gperiodic.c:338
+msgid "_Help"
+msgstr "帮助(_F)"
+
+#: gperiodic.c:339
+msgid "E_xit"
+msgstr "退出(_X)"
+
+#: gperiodic.c:339
+msgid "Exit the program"
+msgstr "退出此程序"
+
+#: gperiodic.c:341 gperiodic.c:343
+msgid "_About"
+msgstr "关于(_A)"
+
+#: gperiodic.c:341 gperiodic.c:343
+msgid "About gperiodic"
+msgstr "关于 gperiodic"
+
+#: gperiodic.c:361
+msgid "GPeriodic"
+msgstr "GPeriodic"
+
+#: gperiodic.c:404
+msgid "No symbol for index"
+msgstr "没有索引的符号"
+
+#: gperiodic.c:411
+msgid "Error button was null?"
+msgstr "错误按钮为 null?"
+
+#: gperiodic.c:422
+#, c-format
+msgid "%s(%d) Setting color: %d %d %d"
+msgstr "%s(%d) 设置颜色: %d %d %d"
+
+#: gperiodic.c:459
+#, c-format
+msgid "%s n:%s w:%s"
+msgstr "%s n:%s w:%s"
+
+#: gperiodic.c:501
+#, c-format
+msgid " Option -c error : %s is not a number.\n"
+msgstr "选项 -c 出错 : %s 不是一个数字。\n"
+
+#: gperiodic.c:505
+#, c-format
+msgid " Option -c error : %s is not a valid number (must be > 0).\n"
+msgstr "选项 -c 出错 : %s 不是一个有效数字（必须 >0)。\n"
+
+#: gperiodic.c:533
+#, c-format
+msgid ""
+"\n"
+" Unknown element : %s. Exiting.\n"
+"\n"
+msgstr "\n 未知元素 : %s。退出。\n\n"
+
+#: gperiodic.c:538
+#, c-format
+msgid ""
+"\n"
+" Element number exceeds existing elements. Exiting.\n"
+"\n"
+msgstr "\n元素序号超出现有元素。退出。\n\n"
+
+#: gperiodic.h:102
+msgid ""
+"This program shows the periodic table of elements and information about "
+"these elements"
+msgstr "该程序显示元素周期表和有关这些元素的信息"
+
+#: gperiodic.h:103
+msgid ""
+"gperiodic is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"gperiodic is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
+msgstr "gperiodic 是一款免费软件；您可以根据自由软件基金会发布\n的 GNU 通用公共许可证条款重新分发和 (或)修改它；使用\n第 2 版本，或者 (您可以选择的）任何更高版本的许可证。\n\ngperiodic 程序是分发的，希望它是有用的，\n但没有任何保证，甚至适销性或特定用途的默示保证。\n有关详细信息，请参阅“ GNU 通用公共许可证”。\n\n您应该已收到此程序的 GNU 通用公共许可证副本; 如果没有，\n请写信给  Free Software Foundation, Inc., \n51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
+
+#: gperiodic.h:105
+msgid "gperiodic homepage"
+msgstr "gperiodic 主页"
+
+#: table_data.h:31
+msgid "Name: "
+msgstr "名称: "
+
+#: table_data.h:32
+msgid "Symbol: "
+msgstr "符号: "
+
+#: table_data.h:33
+msgid "Atomic Number: "
+msgstr "原子序数: "
+
+#: table_data.h:34
+msgid "Atomic Weight (u.m): "
+msgstr "原子质量 (u.m): "
+
+#: table_data.h:35
+msgid "Density (g/cm&#179;): "
+msgstr "密度 (g/cm&#179;): "
+
+#: table_data.h:36
+msgid "Melting Point (K): "
+msgstr "熔点 (K): "
+
+#: table_data.h:37
+msgid "Boiling Point (K): "
+msgstr "沸点 (K): "
+
+#: table_data.h:38
+msgid "Atomic Radius (pm): "
+msgstr "原子半径 (pm): "
+
+#: table_data.h:39
+msgid "Covalent Radius (pm): "
+msgstr "共价半径 (pm): "
+
+#: table_data.h:40
+msgid "Ionic Radius (pm): "
+msgstr "离子半径 (pm): "
+
+#: table_data.h:41
+msgid "Atomic Volume (cm&#179;/mol): "
+msgstr "原子体积 (cm&#179;/mol): "
+
+#: table_data.h:42
+msgid "Specific Heat (@20&#176;C J/(K*mol)): "
+msgstr "比热容 (@20&#176;C J/(K*mol)): "
+
+#: table_data.h:43
+msgid "Fusion Heat (kJ/mol): "
+msgstr "融化热 (kJ/mol): "
+
+#: table_data.h:44
+msgid "Evaporation Heat (kJ/mol): "
+msgstr "汽化热 (kJ/mol): "
+
+#: table_data.h:45
+msgid "Thermal Conductivity (@25&#176;C W/(m*K)): "
+msgstr "导热系数 (@25&#176;C W/(m*K)): "
+
+#: table_data.h:46
+msgid "Debye temperature (K): "
+msgstr "狄拜温度 (K): "
+
+#: table_data.h:47
+msgid "Pauling Negativity Number: "
+msgstr "电负性: "
+
+#: table_data.h:48
+msgid "First Ionizing Energy (kJ/mol): "
+msgstr "第一电离能(kJ/mol): "
+
+#: table_data.h:49
+msgid "Oxidation states: "
+msgstr "氧化态: "
+
+#: table_data.h:50
+msgid "Electronic Configuration: "
+msgstr "电子配置: "
+
+#: table_data.h:51
+msgid "Lattice structure: "
+msgstr "晶体结构: "
+
+#: table_data.h:52
+msgid "Lattice constant (&#x212B;): "
+msgstr "晶格常数 (&#x212B;): "
+
+#: table_data.h:53
+msgid "Lattice c/a ratio: "
+msgstr "晶格 c/a 比: "
+
+#: table_data.h:54
+msgid "Appearance: "
+msgstr "外观: "
+
+#: table_data.h:55
+msgid "Discovery date: "
+msgstr "发现日期: "
+
+#: table_data.h:56
+msgid "Discovered by: "
+msgstr "发现者: "
+
+#: table_data.h:57
+msgid "Named after: "
+msgstr "名称由来： "
+
+#: table_data.h:108
+msgid "Hydrogen"
+msgstr "氢"
+
+#: table_data.h:108
+msgid "0.0708 (@ -253&#176;C)"
+msgstr "0.0708 (@ -253&#176;C)"
+
+#: table_data.h:108 table_data.h:109 table_data.h:112 table_data.h:121
+#: table_data.h:131 table_data.h:132 table_data.h:137 table_data.h:140
+#: table_data.h:144 table_data.h:150 table_data.h:151 table_data.h:154
+#: table_data.h:155 table_data.h:159 table_data.h:163 table_data.h:170
+#: table_data.h:172 table_data.h:173 table_data.h:174 table_data.h:177
+#: table_data.h:178 table_data.h:179 table_data.h:180 table_data.h:181
+#: table_data.h:182 table_data.h:185 table_data.h:186 table_data.h:189
+#: table_data.h:190 table_data.h:195 table_data.h:211 table_data.h:212
+#: table_data.h:213 table_data.h:214
+msgid "HEX"
+msgstr "HEX"
+
+#: table_data.h:108 table_data.h:118
+msgid "Colorless, odorless, tasteless gas"
+msgstr "无色，无嗅，无味的气体"
+
+#: table_data.h:108
+msgid "1766 (England)"
+msgstr "1766年 (英格兰）"
+
+#: table_data.h:108
+msgid "Henry Cavendish"
+msgstr "Henry Cavendish"
+
+#: table_data.h:108
+msgid "Greek: hydro (water) and genes (generate)"
+msgstr "希腊语： hydro（水）和 genes (生成）"
+
+#: table_data.h:109
+msgid "Helium"
+msgstr "氦"
+
+#: table_data.h:109
+msgid "0.147 (@ -270&#176;C)"
+msgstr "0.147 (@ -270&#176;C)"
+
+#: table_data.h:109
+msgid "Inert, colorless, odorless, tasteless gas"
+msgstr "惰性，无色，无嗅，无味的气体"
+
+#: table_data.h:109
+msgid "1895 (Scotland/Sweden)"
+msgstr "1895年（苏格兰/瑞典）"
+
+#: table_data.h:109
+msgid "Sir William Ramsey, Nils Langet, P.T.Cleve"
+msgstr "Sir William Ramsey, Nils Langet, P.T.Cleve"
+
+#: table_data.h:109
+msgid "Greek: helios (sun)"
+msgstr "希腊语：helios（太阳）"
+
+#: table_data.h:111
+msgid "Lithium"
+msgstr "锂"
+
+#: table_data.h:111
+msgid "68 (+1e) or 76 (+1e)"
+msgstr "68 (+1e) 或 76 (+1e)"
+
+#: table_data.h:111 table_data.h:120 table_data.h:124 table_data.h:129
+#: table_data.h:133 table_data.h:134 table_data.h:136 table_data.h:148
+#: table_data.h:152 table_data.h:153 table_data.h:167 table_data.h:168
+#: table_data.h:176 table_data.h:187 table_data.h:188 table_data.h:202
+#: table_data.h:203
+msgid "BCC"
+msgstr "BCC"
+
+#: table_data.h:111 table_data.h:120 table_data.h:176
+msgid "Soft, silvery-white metal"
+msgstr "柔软的银白色金属"
+
+#: table_data.h:111 table_data.h:144
+msgid "1817 (Sweden)"
+msgstr "1817年（瑞典）"
+
+#: table_data.h:111
+msgid "Johann Arfwedson"
+msgstr "Johann Arfwedson"
+
+#: table_data.h:111
+msgid "Greek: lithos (stone)"
+msgstr "希腊语：lithos  (石头）"
+
+#: table_data.h:112
+msgid "Beryllium"
+msgstr "铍"
+
+#: table_data.h:112
+msgid "Hard, brittle, steel-gray metal"
+msgstr "坚硬，易碎，钢灰色金属"
+
+#: table_data.h:112
+msgid "1798 (France)"
+msgstr "1798年（法国）"
+
+#: table_data.h:112
+msgid "Louis-Nicolas Vauquelin"
+msgstr "Louis-Nicolas Vauquelin"
+
+#: table_data.h:112
+msgid "Greek: beryllos, 'beryl' (a mineral)"
+msgstr "希腊语：beryllos，'beryl'（绿宝石）"
+
+#: table_data.h:113
+msgid "Boron"
+msgstr "硼"
+
+#: table_data.h:113 table_data.h:175 table_data.h:194 table_data.h:197
+msgid "RHL"
+msgstr "RHL"
+
+#: table_data.h:113
+msgid "Hard, brittle, lustrous black semimetal"
+msgstr "坚硬，易碎，有光泽的黑色半金属"
+
+#: table_data.h:113
+msgid "1808 (England/France)"
+msgstr "1808年（英格兰/法国）"
+
+#: table_data.h:113
+msgid "Sir H. Davy, J.L. Gay-Lussac, L.J. Thenard"
+msgstr "Sir H. Davy, J.L. Gay-Lussac, L.J. Thenard"
+
+#: table_data.h:113
+msgid "The Arabic and Persian words for borax"
+msgstr "硼砂的阿拉伯语和波斯语"
+
+#: table_data.h:114
+msgid "Carbon"
+msgstr "碳"
+
+#: table_data.h:114
+msgid "2.25 (graphite)"
+msgstr "2.25（石墨）"
+
+#: table_data.h:114
+msgid "1860.00 (diamond)"
+msgstr "1860.00（钻石）"
+
+#: table_data.h:114
+msgid "HEX (graphite), DIA (diamond)"
+msgstr "HEX (石墨), DIA (钻石)"
+
+#: table_data.h:114
+msgid "Dense, Black (graphite)"
+msgstr "密集，黑色（石墨）"
+
+#: table_data.h:114 table_data.h:125 table_data.h:136 table_data.h:139
+#: table_data.h:140 table_data.h:143 table_data.h:158 table_data.h:161
+#: table_data.h:162 table_data.h:193 table_data.h:194 table_data.h:196
+#: table_data.h:197
+msgid "n/a (Unknown)"
+msgstr "n/a (未知)"
+
+#: table_data.h:114 table_data.h:125 table_data.h:136 table_data.h:139
+#: table_data.h:140 table_data.h:143 table_data.h:158 table_data.h:161
+#: table_data.h:162 table_data.h:193 table_data.h:194 table_data.h:196
+#: table_data.h:197
+msgid "Known to the ancients"
+msgstr "古代就已发现"
+
+#: table_data.h:114
+msgid "Latin: carbo (charcoal)"
+msgstr "拉丁语：carbo（木炭）"
+
+#: table_data.h:115
+msgid "Nitrogen"
+msgstr "氮"
+
+#: table_data.h:115
+msgid "0.808 (@ -195.8&#176;C)"
+msgstr "0.808 (@ -195.8&#176;C)"
+
+#: table_data.h:115
+msgid "HEX or CUB"
+msgstr "HEX 或 CUB"
+
+#: table_data.h:115
+msgid "4.039 (HEX)"
+msgstr "4.039 (HEX)"
+
+#: table_data.h:115
+msgid "1.651 (HEX)"
+msgstr "1.651 (HEX)"
+
+#: table_data.h:115
+msgid "Colorless, odorless, tasteless, and generally inert gas"
+msgstr "无色，无嗅，无味，通常是惰性的气体"
+
+#: table_data.h:115
+msgid "1772 (Scotland)"
+msgstr "1772年（苏格兰）"
+
+#: table_data.h:115
+msgid "Daniel Rutherford"
+msgstr "Daniel Rutherford"
+
+#: table_data.h:115
+msgid "Greek: nitron and genes (soda forming)"
+msgstr "希腊语： nitron and genes （苏打形成）"
+
+#: table_data.h:116
+msgid "Oxygen"
+msgstr "氧"
+
+#: table_data.h:116
+msgid "1.149 (@ -183&#176;C)"
+msgstr "1.149 (@ -183&#176;C)"
+
+#: table_data.h:116
+msgid "MCL or CUB"
+msgstr "MCL 或 CUB"
+
+#: table_data.h:116
+msgid "6.830 (CUB)"
+msgstr "6.830 (CUB)"
+
+#: table_data.h:116
+msgid "Colorless, odorless, tasteless gas; pale blue liquid"
+msgstr "无色，无嗅，无味的气体; 淡蓝色液体"
+
+#: table_data.h:116
+msgid "1774 (England/Sweden)"
+msgstr "1774年（英格兰/瑞典）"
+
+#: table_data.h:116
+msgid "Joseph Priestly, Carl Wilhelm Scheele"
+msgstr "Joseph Priestly, Carl Wilhelm Scheele"
+
+#: table_data.h:116
+msgid "Greek: oxys and genes (acid former)"
+msgstr "Greek: oxys and genes （酸的形成）"
+
+#: table_data.h:117
+msgid "Fluorine"
+msgstr "氟"
+
+#: table_data.h:117
+msgid "1.108 (@ -189&#176;C)"
+msgstr "1.108 (@ -189&#176;C)"
+
+#: table_data.h:117 table_data.h:210
+msgid "MCL"
+msgstr "MCL"
+
+#: table_data.h:117
+msgid "Greenish-yellow, pungent, corrosive gas"
+msgstr "绿黄色，辛辣，腐蚀性气体"
+
+#: table_data.h:117 table_data.h:179
+msgid "1886 (France)"
+msgstr "1886（法国）"
+
+#: table_data.h:117
+msgid "Henri Moissan"
+msgstr "Henri Moissan"
+
+#: table_data.h:117
+msgid "Latin: fluere (flow)"
+msgstr "拉丁语：fluere（熔剂）"
+
+#: table_data.h:118
+msgid "Neon"
+msgstr "氖"
+
+#: table_data.h:118
+msgid "1.204 (@ -246&#176;C)"
+msgstr "1.204 (@ -246&#176;C)"
+
+#: table_data.h:118 table_data.h:122 table_data.h:127 table_data.h:130
+#: table_data.h:138 table_data.h:139 table_data.h:146 table_data.h:149
+#: table_data.h:156 table_data.h:157 table_data.h:158 table_data.h:165
+#: table_data.h:171 table_data.h:183 table_data.h:191 table_data.h:192
+#: table_data.h:193 table_data.h:196 table_data.h:199 table_data.h:200
+#: table_data.h:205 table_data.h:206
+msgid "FCC"
+msgstr "FCC"
+
+#: table_data.h:118 table_data.h:165
+msgid "1898 (England)"
+msgstr "1898年 (英格兰）"
+
+#: table_data.h:118 table_data.h:146 table_data.h:165
+msgid "Sir William Ramsey, M.W. Travers"
+msgstr "Sir William Ramsey, M.W. Travers"
+
+#: table_data.h:118
+msgid "Greek: neos (new)"
+msgstr "希腊语：neos（新）"
+
+#: table_data.h:120
+msgid "Sodium"
+msgstr "钠"
+
+#: table_data.h:120 table_data.h:129
+msgid "1807 (England)"
+msgstr "1807年 (英格兰）"
+
+#: table_data.h:120 table_data.h:121 table_data.h:129 table_data.h:130
+#: table_data.h:168
+msgid "Sir Humphrey Davy"
+msgstr "Sir Humphrey Davy"
+
+#: table_data.h:120
+msgid ""
+"Medieval Latin: sodanum (headache remedy); symbol from Latin natrium (sodium"
+" carbonate)"
+msgstr "中世纪拉丁语：sodanum（头痛药）; 来自拉丁符号 natrium（碳酸钠）的符号"
+
+#: table_data.h:121
+msgid "Magnesium"
+msgstr "镁"
+
+#: table_data.h:121
+msgid "Lightweight, malleable, silvery-white metal"
+msgstr "轻质，可塑，银白色金属"
+
+#: table_data.h:121 table_data.h:130 table_data.h:168
+msgid "1808 (England)"
+msgstr "1808年 (英格兰）"
+
+#: table_data.h:121
+msgid "Magnesia, ancient city in district of Thessaly, Greece"
+msgstr "Magnesia，位于希腊萨利的古城"
+
+#: table_data.h:122
+msgid "Aluminum"
+msgstr "铝"
+
+#: table_data.h:122
+msgid "Soft, lightweight, silvery-white metal"
+msgstr "柔软，质轻，银白色金属"
+
+#: table_data.h:122
+msgid "1825 (Denmark)"
+msgstr "1825年 (丹麦)"
+
+#: table_data.h:122
+msgid "Hans Christian Oersted"
+msgstr "Hans Christian Oersted"
+
+#: table_data.h:122
+msgid "Latin: alumen, aluminis (alum)"
+msgstr "拉丁语：alumen，aluminis（明矾）"
+
+#: table_data.h:123
+msgid "Silicon"
+msgstr "硅"
+
+#: table_data.h:123 table_data.h:142
+msgid "DIA"
+msgstr "DIA"
+
+#: table_data.h:123
+msgid "Amorphous form is brown powder; crystalline form has a gray"
+msgstr "无定形形式为棕色粉末; 结晶形式为灰色"
+
+#: table_data.h:123
+msgid "1825 (Sweden)"
+msgstr "1825年（瑞典）"
+
+#: table_data.h:123 table_data.h:144 table_data.h:206
+msgid "Jons Jacob Berzelius"
+msgstr "Jons Jacob Berzelius"
+
+#: table_data.h:123
+msgid "Latin: silex, silicus (flint)"
+msgstr "拉丁语: silex, silicus (燧石)"
+
+#: table_data.h:124
+msgid "Phosphorus"
+msgstr "磷"
+
+#: table_data.h:124
+msgid "1.82 (white phosphorus)"
+msgstr "1.82（白磷）"
+
+#: table_data.h:124
+msgid "The most common white form is a waxy, phosphorescent solid"
+msgstr "最常见的白色形状是蜡状，发磷光的固体"
+
+#: table_data.h:124
+msgid "1669 (Germany)"
+msgstr "1669年（德国）"
+
+#: table_data.h:124
+msgid "Hennig Brand"
+msgstr "Hennig Brand"
+
+#: table_data.h:124
+msgid "Greek: phosphoros (bringer of light)"
+msgstr "希腊语：phosphoros（光的使者）"
+
+#: table_data.h:125
+msgid "Sulfur"
+msgstr "硫"
+
+#: table_data.h:125 table_data.h:126 table_data.h:141 table_data.h:145
+#: table_data.h:164 table_data.h:208 table_data.h:209
+msgid "ORC"
+msgstr "ORC"
+
+#: table_data.h:125
+msgid "Tasteless, odorless, light-yellow, brittle solid"
+msgstr "无味，无嗅， 浅黄色脆性固体"
+
+#: table_data.h:125
+msgid "Latin: sulphur (brimstone)"
+msgstr "拉丁文：sulphur（硫磺）"
+
+#: table_data.h:126
+msgid "Chlorine"
+msgstr "氯"
+
+#: table_data.h:126
+msgid "1.56 (@ -33.6&#176;C)"
+msgstr "1.56 (@ -33.6&#176;C)"
+
+#: table_data.h:126
+msgid "Greenish-yellow, disagreeable gas"
+msgstr "绿黄色，难闻的气体 "
+
+#: table_data.h:126 table_data.h:135
+msgid "1774 (Sweden)"
+msgstr "1774年（瑞典）"
+
+#: table_data.h:126 table_data.h:153
+msgid "Carl Wilhelm Scheele"
+msgstr "Carl Wilhelm Scheele"
+
+#: table_data.h:126
+msgid "Greek: chloros (greenish yellow)"
+msgstr "希腊语：chloros（绿黄色)"
+
+#: table_data.h:127
+msgid "Argon"
+msgstr "氩"
+
+#: table_data.h:127
+msgid "1.40 (@ -189,35&#176;C)"
+msgstr "1.40 (@ -189,35&#176;C)"
+
+#: table_data.h:127
+msgid "Colorless, tasteless, odorless noble gas"
+msgstr "无色，无味，无嗅的惰性气体"
+
+#: table_data.h:127
+msgid "1894 (Scotland)"
+msgstr "1894年（苏格兰）"
+
+#: table_data.h:127
+msgid "Sir William Ramsey, Baron Rayleigh"
+msgstr "Sir William Ramsey, Baron Rayleigh"
+
+#: table_data.h:127
+msgid "Greek: argos (inactive)"
+msgstr "希腊语：argos（不活跃,懒惰）"
+
+#: table_data.h:129
+msgid "Potassium"
+msgstr "钾"
+
+#: table_data.h:129
+msgid "Soft, waxy, silvery-white metal"
+msgstr "柔软，蜡状，银白色金属"
+
+#: table_data.h:129
+msgid "English: pot ash; symbol from Latin: kalium (alkali)"
+msgstr "英语：pot ash; 来自拉丁语的符号：kalium（木灰碱）"
+
+#: table_data.h:130
+msgid "Calcium"
+msgstr "钙"
+
+#: table_data.h:130
+msgid "Fairly hard, silvery-white metal"
+msgstr "相当坚硬，银白色的金属"
+
+#: table_data.h:130
+msgid "Latin: calx, calcis (lime)"
+msgstr "拉丁语：calx，calcis（石灰）"
+
+#: table_data.h:131
+msgid "Scandium"
+msgstr "钪"
+
+#: table_data.h:131
+msgid "Fairly soft, silvery-white metal"
+msgstr "相当柔软的银白色金属"
+
+#: table_data.h:131 table_data.h:182
+msgid "1879 (Sweden)"
+msgstr "1879年（瑞典）"
+
+#: table_data.h:131
+msgid "Lars Nilson"
+msgstr "Lars Nilson"
+
+#: table_data.h:131
+msgid "Latin: Scandia (Scandinavia)"
+msgstr "拉丁语：Scandia（斯堪的纳维亚）"
+
+#: table_data.h:132
+msgid "Titanium"
+msgstr "钛"
+
+#: table_data.h:132
+msgid "Shiny, dark-gray metal"
+msgstr "有光泽，深灰色金属"
+
+#: table_data.h:132
+msgid "1791 (England)"
+msgstr "1791年 (英格兰）"
+
+#: table_data.h:132
+msgid "William Gregor"
+msgstr "William Gregor"
+
+#: table_data.h:132
+msgid "Greek: titanos (Titans)"
+msgstr "希腊语：titanos (泰坦)"
+
+#: table_data.h:133
+msgid "Vanadium"
+msgstr "钒"
+
+#: table_data.h:133 table_data.h:177
+msgid "Soft, ductile, silvery-white metal"
+msgstr "柔软，有韧性的银白色金属"
+
+#: table_data.h:133
+msgid "1830 (Sweden)"
+msgstr "1830年（瑞典）"
+
+#: table_data.h:133
+msgid "Nils Gabriel Sefstrom"
+msgstr "Nils Gabriel Sefstrom"
+
+#: table_data.h:133
+msgid "The scandinavian goddess, Vanadis"
+msgstr "斯堪的纳维亚女神，Vanadis"
+
+#: table_data.h:134
+msgid "Chromium"
+msgstr "铬"
+
+#: table_data.h:134
+msgid "Very hard, crystalline, steel-gray metal"
+msgstr "非常硬的，结晶的，钢灰色金属"
+
+#: table_data.h:134
+msgid "1797 (France)"
+msgstr "1797年（法国）"
+
+#: table_data.h:134
+msgid "Louis Vauquelin"
+msgstr "Louis Vauquelin"
+
+#: table_data.h:134
+msgid "Greek: chroma (color)"
+msgstr "希腊语： chroma（美丽的颜色）"
+
+#: table_data.h:135
+msgid "Manganese"
+msgstr "锰"
+
+#: table_data.h:135 table_data.h:198
+msgid "CUB"
+msgstr "CUB"
+
+#: table_data.h:135
+msgid "Hard, brittle, gray-white metal"
+msgstr "坚硬，易碎，灰白色金属"
+
+#: table_data.h:135
+msgid "Johann Gahn"
+msgstr "Johann Gahn"
+
+#: table_data.h:135
+msgid "Latin: magnes (magnet); Italian: manganese"
+msgstr "拉丁语：magnes（磁石）; 意大利语：manganese 。另一说因该矿产的产地 Manganesia， 位于土耳其而得名"
+
+#: table_data.h:136
+msgid "Iron"
+msgstr "铁"
+
+#: table_data.h:136
+msgid "Malleable, ductile, silvery-white metal"
+msgstr "可锻铸，有韧性，银白色金属"
+
+#: table_data.h:136
+msgid "Anglo-Saxon: iron; symbol from Latin: ferrum (iron)"
+msgstr "盎格鲁撒克逊人：iron；来自拉丁语的符号：ferrum（铁）"
+
+#: table_data.h:137
+msgid "Cobalt"
+msgstr "钴"
+
+#: table_data.h:137
+msgid "Hard, ductile, lustrous bluish-gray metal"
+msgstr "坚硬，有韧性，有光泽的蓝灰色金属"
+
+#: table_data.h:137
+msgid "1735 (Sweden)"
+msgstr "1735年（瑞典）"
+
+#: table_data.h:137
+msgid "George Brandt"
+msgstr "George Brandt"
+
+#: table_data.h:137
+msgid "German: kobold (goblin)"
+msgstr "德语：kobold（地下小魔）"
+
+#: table_data.h:138
+msgid "Nickel"
+msgstr "镍"
+
+#: table_data.h:138
+msgid "Hard, malleable, silvery-white metal"
+msgstr "坚硬，有延展性，银白色金属"
+
+#: table_data.h:138
+msgid "1751 (Sweden)"
+msgstr "1751年（瑞典）"
+
+#: table_data.h:138
+msgid "Axel Cronstedt"
+msgstr "Axel Cronstedt"
+
+#: table_data.h:138
+msgid "German: kupfernickel (false copper), nickel (goblin)"
+msgstr "德语：kupfernickel（假铜）， nickel （骗人的小鬼）"
+
+#: table_data.h:139
+msgid "Copper"
+msgstr "铜"
+
+#: table_data.h:139
+msgid "Malleable, ductile, reddish-brown metal"
+msgstr "可锻造，有韧性，红褐色金属"
+
+#: table_data.h:139
+msgid ""
+"Symbol from Latin: cuprum (island of Cyprus famed for its copper mines)"
+msgstr "来自拉丁语的符号：cuprum（以其铜矿而闻名的塞浦路斯岛 ）"
+
+#: table_data.h:140
+msgid "Zinc"
+msgstr "锌"
+
+#: table_data.h:140
+msgid "Bluish-silver, ductile metal"
+msgstr "蓝银色，韧性金属"
+
+#: table_data.h:140
+msgid "German: Zink (German for zinc)"
+msgstr "德语：Zink（锌的德语）"
+
+#: table_data.h:141
+msgid "Gallium"
+msgstr "镓"
+
+#: table_data.h:141
+msgid "Soft, blue-white metal"
+msgstr "柔软的蓝白色金属"
+
+#: table_data.h:141
+msgid "1875 (France)"
+msgstr "1875年（法国）"
+
+#: table_data.h:141 table_data.h:179
+msgid "Paul-Emile Lecoq de Boisbaudran"
+msgstr "Paul-Emile Lecoq de Boisbaudran"
+
+#: table_data.h:141
+msgid "Latin: Gallia (France)"
+msgstr "拉丁文：Gallia（法国）"
+
+#: table_data.h:142
+msgid "Germanium"
+msgstr "锗"
+
+#: table_data.h:142
+msgid "Grayish-white metal"
+msgstr "灰白色金属"
+
+#: table_data.h:142
+msgid "1886 (Germany)"
+msgstr "1886年（德国）"
+
+#: table_data.h:142
+msgid "Clemens Winkler"
+msgstr "Clemens Winkler"
+
+#: table_data.h:142
+msgid "Latin: Germania (Germany)"
+msgstr "拉丁语：Germania（德国）"
+
+#: table_data.h:143
+msgid "Arsenic"
+msgstr "砷"
+
+#: table_data.h:143
+msgid "5.73 (grey arsenic)"
+msgstr "5.73 (灰砷)"
+
+#: table_data.h:143
+msgid "24.44 (grey arsenic)"
+msgstr "24.44 (灰砷)"
+
+#: table_data.h:143 table_data.h:162
+msgid "TRG"
+msgstr "TRG"
+
+#: table_data.h:143
+msgid "Steel gray, brittle semimetal"
+msgstr "钢灰色，脆，半金属"
+
+#: table_data.h:143
+msgid "Greek: arsenikon; Latin: arsenicum (both names for yellow pigment)"
+msgstr "希腊语：arsenikon; 拉丁文：arsenicum（黄色颜料的两个名称）"
+
+#: table_data.h:144
+msgid "Selenium"
+msgstr "硒"
+
+#: table_data.h:144
+msgid "A soft metalloid similar to sulfur"
+msgstr "一种类似于硫的软质非金属"
+
+#: table_data.h:144
+msgid "Greek: selena (moon)"
+msgstr "希腊语：selena（月亮）"
+
+#: table_data.h:145
+msgid "Bromine"
+msgstr "溴"
+
+#: table_data.h:145
+msgid "Reddish-brown liquid"
+msgstr "红棕色液体"
+
+#: table_data.h:145
+msgid "1826 (France)"
+msgstr "1826年（法国）"
+
+#: table_data.h:145
+msgid "Antoine J. Balard"
+msgstr "Antoine J. Balard"
+
+#: table_data.h:145
+msgid "Greek: bromos (stench)"
+msgstr "希腊语：bromos（恶臭）"
+
+#: table_data.h:146
+msgid "Krypton"
+msgstr "氪"
+
+#: table_data.h:146
+msgid "2.155 (@ -153&#176;C)"
+msgstr "2.155 (@ -153&#176;C)"
+
+#: table_data.h:146
+msgid "Dense, colorless, odorless, and tasteless gas"
+msgstr "浓稠，无色，无嗅，无味的气体"
+
+#: table_data.h:146
+msgid "1898 (Great Britain)"
+msgstr "1898年（大不列颠）"
+
+#: table_data.h:146
+msgid "Greek: kryptos (hidden)"
+msgstr "希腊语：kryptos（隐藏）"
+
+#: table_data.h:148
+msgid "Rubidium"
+msgstr "铷"
+
+#: table_data.h:148
+msgid "Soft, silvery-white, highly reactive metal"
+msgstr "柔软，银白色，高活性金属"
+
+#: table_data.h:148
+msgid "1861 (Germany)"
+msgstr "1861年（德国）"
+
+#: table_data.h:148 table_data.h:167
+msgid "Gustov Kirchoff, Robert Bunsen"
+msgstr "Gustov Kirchoff, Robert Bunsen"
+
+#: table_data.h:148
+msgid "Latin: rubidus (deep red); the color its salts impart to flames"
+msgstr "拉丁语：rubidus（深红色）;因其光谱是红色而得名"
+
+#: table_data.h:149
+msgid "Strontium"
+msgstr "锶"
+
+#: table_data.h:149
+msgid "Silvery, malleable metal"
+msgstr "银色，可延展金属"
+
+#: table_data.h:149
+msgid "1790 (Scotland)"
+msgstr "1790年（苏格兰）"
+
+#: table_data.h:149
+msgid "A. Crawford"
+msgstr "A. Crawford"
+
+#: table_data.h:149
+msgid "The Scottish town, Strontian"
+msgstr "苏格兰小镇，Strontian"
+
+#: table_data.h:150
+msgid "Yttrium"
+msgstr "钇"
+
+#: table_data.h:150
+msgid "Silvery, ductile, fairly reactive metal"
+msgstr "银色，有韧性，相当活泼的金属"
+
+#: table_data.h:150
+msgid "1794 (Finland)"
+msgstr "1794年（芬兰）"
+
+#: table_data.h:150
+msgid "Johann Gadolin"
+msgstr "Johann Gadolin"
+
+#: table_data.h:150
+msgid ""
+"Named after the Swedish town, Ytterby, where one of its minerals was first "
+"found"
+msgstr "以瑞典小镇 Ytterby 命名，其中一种矿物质首次被发现"
+
+#: table_data.h:151
+msgid "Zirconium"
+msgstr "锆"
+
+#: table_data.h:151
+msgid "Gray-white, lustrous, corrosion-resistant metal"
+msgstr "灰白色，有光泽，耐腐蚀的金属"
+
+#: table_data.h:151 table_data.h:208
+msgid "1789 (Germany)"
+msgstr "1789年（德国）"
+
+#: table_data.h:151 table_data.h:208
+msgid "Martin Klaproth"
+msgstr "Martin Klaproth"
+
+#: table_data.h:151
+msgid "The mineral, zircon"
+msgstr "矿物，锆石"
+
+#: table_data.h:152
+msgid "Niobium"
+msgstr "铌"
+
+#: table_data.h:152
+msgid "Shiny white, soft, ductile metal"
+msgstr "闪亮的白色，柔软，韧性金属"
+
+#: table_data.h:152
+msgid "1801 (England)"
+msgstr "1801年 (英格兰）"
+
+#: table_data.h:152
+msgid "Charles Hatchet"
+msgstr "Charles Hatchet"
+
+#: table_data.h:152
+msgid "Niobe; daughter of the mythical Greek king Tantalus"
+msgstr "Niobe; 神话中的希腊国王坦塔罗斯的女儿"
+
+#: table_data.h:153
+msgid "Molybdenum"
+msgstr "钼"
+
+#: table_data.h:153 table_data.h:156
+msgid "Silvery white, hard metal"
+msgstr "银白色，硬金属"
+
+#: table_data.h:153
+msgid "1778 (Sweden)"
+msgstr "1778年（瑞典）"
+
+#: table_data.h:153
+msgid "Greek: molybdos (lead)"
+msgstr "希腊语：molybdos (lead)"
+
+#: table_data.h:154
+msgid "Technetium"
+msgstr "锝"
+
+#: table_data.h:154 table_data.h:198
+msgid "Silvery-gray metal"
+msgstr "银灰色金属"
+
+#: table_data.h:154
+msgid "1937 (Italy)"
+msgstr "1937年（意大利）"
+
+#: table_data.h:154
+msgid "Carlo Perrier, Emilio Segre"
+msgstr "Carlo Perrier, Emilio Segre"
+
+#: table_data.h:154
+msgid "Greek: technetos (artificial)"
+msgstr "希腊语：technetos（人造）"
+
+#: table_data.h:155
+msgid "Ruthenium"
+msgstr "钌"
+
+#: table_data.h:155
+msgid "Rare, silver-gray, extremely brittle metal"
+msgstr "稀有，银灰色，极脆的金属"
+
+#: table_data.h:155
+msgid "1844 (Russia)"
+msgstr "1844年（俄罗斯）"
+
+#: table_data.h:155
+msgid "Karl Klaus"
+msgstr "Karl Klaus"
+
+#: table_data.h:155
+msgid "Latin: Ruthenia (Russia)"
+msgstr "拉丁语：Ruthenia（俄罗斯）"
+
+#: table_data.h:156
+msgid "Rhodium"
+msgstr "铑"
+
+#: table_data.h:156 table_data.h:157
+msgid "1803 (England)"
+msgstr "1803年 (英格兰）"
+
+#: table_data.h:156 table_data.h:157
+msgid "William Wollaston"
+msgstr "William Wollaston"
+
+#: table_data.h:156
+msgid "Greek: rhodon (rose); its salts give a rosy solution"
+msgstr "希腊语：rhodon（玫瑰）; 它的盐会产生玫瑰色的溶液"
+
+#: table_data.h:157
+msgid "Palladium"
+msgstr "钯"
+
+#: table_data.h:157 table_data.h:161 table_data.h:170
+msgid "Silvery-white, soft, malleable and ductile metal"
+msgstr "银白色，质软，有延展性和韧性的金属"
+
+#: table_data.h:157
+msgid "Named after the asteroid, Pallas, discovered in 1803"
+msgstr "以小行星武女星命名，Pallas, 于1803年发现"
+
+#: table_data.h:158
+msgid "Silver"
+msgstr "银"
+
+#: table_data.h:158
+msgid "Silvery-ductile, and malleable metal"
+msgstr "银色，有韧性的可锻造金属"
+
+#: table_data.h:158
+msgid "Anglo-Saxon: siolful (silver); symbol from Latin: argentum"
+msgstr "盎格鲁撒克逊人：siolful（银色）; 来自拉丁语的符号：argentum"
+
+#: table_data.h:159
+msgid "Cadmium"
+msgstr "镉"
+
+#: table_data.h:159
+msgid "Soft, malleable, blue-white metal"
+msgstr "柔软，有延展性，蓝白色金属"
+
+#: table_data.h:159
+msgid "1817 (Germany)"
+msgstr "1817年（德国）"
+
+#: table_data.h:159
+msgid "Fredrich Stromeyer"
+msgstr "Fredrich Stromeyer"
+
+#: table_data.h:159
+msgid "Greek: kadmia (ancient name for calamine (zinc oxide))"
+msgstr "希腊语：kadmia（旧称为炉甘石（氧化锌））"
+
+#: table_data.h:160
+msgid "Indium"
+msgstr "铟"
+
+#: table_data.h:160 table_data.h:161 table_data.h:207
+msgid "TET"
+msgstr "TET"
+
+#: table_data.h:160
+msgid "Very soft, silvery-white metal"
+msgstr "非常柔软的银白色金属"
+
+#: table_data.h:160
+msgid "1863 (Germany)"
+msgstr "1863年（德国）"
+
+#: table_data.h:160
+msgid "Ferdinand Reich, T. Richter"
+msgstr "Ferdinand Reich, T. Richter"
+
+#: table_data.h:160
+msgid "Latin: indicum (color indigo), the color it shows in a spectroscope"
+msgstr "拉丁文：indicum（靛蓝色），它在分光镜中显示的颜色"
+
+#: table_data.h:161
+msgid "Tin"
+msgstr "锡"
+
+#: table_data.h:161
+msgid "Named after Etruscan god, Tinia; symbol from Latin: stannum (tin)"
+msgstr "以伊特鲁里亚神，Tinia命名; 来自拉丁语的符号：stannum（tin）"
+
+#: table_data.h:162
+msgid "Antimony"
+msgstr "锑"
+
+#: table_data.h:162
+msgid "Hard, silvery-white, brittle semimetal"
+msgstr "坚硬，银白色，脆弱的半金属"
+
+#: table_data.h:162
+msgid "Greek: anti and monos (not alone); symbol from mineral stibnite"
+msgstr "希腊语: anti and monos (非单独存在); 辉锑矿的符号"
+
+#: table_data.h:163
+msgid "Tellurium"
+msgstr "碲"
+
+#: table_data.h:163
+msgid "Silvery-white, brittle semimetal"
+msgstr "银白色，性脆的半金属"
+
+#: table_data.h:163
+msgid "1782 (Romania)"
+msgstr "1782年（罗马尼亚）"
+
+#: table_data.h:163
+msgid "Franz Joseph Meller von Reichenstein"
+msgstr "Franz Joseph Meller von Reichenstein"
+
+#: table_data.h:163
+msgid "Latin: tellus, telluris (Planet Earth)"
+msgstr "拉丁语：tellus，telluris（地球）"
+
+#: table_data.h:164
+msgid "Iodine"
+msgstr "碘"
+
+#: table_data.h:164
+msgid "Shiny, black nonmetallic solid"
+msgstr "有光泽，黑色的非金属固体"
+
+#: table_data.h:164
+msgid "1811 (France)"
+msgstr "1811年（法国）"
+
+#: table_data.h:164
+msgid "Bernard Courtois"
+msgstr "Bernard Courtois"
+
+#: table_data.h:164
+msgid "Greek: iodes (violet colored)"
+msgstr "希腊语：iodes（紫色）"
+
+#: table_data.h:165
+msgid "Xenon"
+msgstr "氙"
+
+#: table_data.h:165
+msgid "3.52 (@ -107.05&#176;C)"
+msgstr "3.52 (@ -107.05&#176;C)"
+
+#: table_data.h:165
+msgid "Heavy, colorless, and odorless noble gas"
+msgstr "重的，无色，无嗅的惰性气体"
+
+#: table_data.h:165
+msgid "Greek: xenos (strange)"
+msgstr "希腊语：Xenon (奇异)"
+
+#: table_data.h:167
+msgid "Cesium"
+msgstr "铯"
+
+#: table_data.h:167
+msgid "Very soft, ductile, light gray metal"
+msgstr "非常柔软，有韧性，浅灰色金属"
+
+#: table_data.h:167
+msgid "1860 (Germany)"
+msgstr "1860年（德国）"
+
+#: table_data.h:167
+msgid "Latin: caesius (sky blue); for the blue lines of its spectrum"
+msgstr "拉丁语：caesius（天蓝色）; 其光谱是蓝色"
+
+#: table_data.h:168
+msgid "Barium"
+msgstr "钡"
+
+#: table_data.h:168
+msgid "Soft, slightly malleable, silver-white metal"
+msgstr "柔软，略带延展性，银白色金属"
+
+#: table_data.h:168
+msgid "Greek: barys (heavy or dense)"
+msgstr "希腊语：barys（重或密）"
+
+#: table_data.h:170
+msgid "Lanthanum"
+msgstr "镧"
+
+#: table_data.h:170
+msgid "1839 (Sweden)"
+msgstr "1839年（瑞典）"
+
+#: table_data.h:170 table_data.h:178 table_data.h:181
+msgid "Carl Mosander"
+msgstr "Carl Mosander"
+
+#: table_data.h:170
+msgid "Greek: lanthanein (to be hidden)"
+msgstr "希腊语：lanthanein（被隐藏）"
+
+#: table_data.h:171
+msgid "Cerium"
+msgstr "铈"
+
+#: table_data.h:171
+msgid "Malleable, ductile, iron-gray metal"
+msgstr "可锻造，韧性，铁灰色金属"
+
+#: table_data.h:171
+msgid "1803 (Sweden/Germany)"
+msgstr "1803年 (瑞典/德国)"
+
+#: table_data.h:171
+msgid "Wilhelm von Hisinger, Jons Jacob Berzelius, Martin Klaproth"
+msgstr "Wilhelm von Hisinger, Jons Jacob Berzelius, Martin Klaproth"
+
+#: table_data.h:171
+msgid ""
+"Named after the asteroid, Ceres, discovered two years before the element"
+msgstr "以小行星 Ceres 命名，早于元素两年被发现"
+
+#: table_data.h:172
+msgid "Praseodymium"
+msgstr "镨"
+
+#: table_data.h:172
+msgid "Silvery white, moderately soft, malleable, and ductile metal"
+msgstr "银白色，中等柔软，有延展性和韧性的金属"
+
+#: table_data.h:172
+msgid "1885 (Austria)"
+msgstr "1885年（奥地利）"
+
+#: table_data.h:172 table_data.h:173
+msgid "C.F. Aver von Welsbach"
+msgstr "C.F. Aver von Welsbach"
+
+#: table_data.h:172
+msgid "Greek: prasios and didymos (green twin); from its green salts"
+msgstr "希腊语：prasios 和 didymos（绿色的孪晶）; 来自它的绿色盐"
+
+#: table_data.h:173
+msgid "Neodymium"
+msgstr "钕"
+
+#: table_data.h:173
+msgid "Silvery-white, rare-earth metal that oxidizes easily in air"
+msgstr "银白色，稀土金属，易在空气中氧化"
+
+#: table_data.h:173
+msgid "1925 (Austria)"
+msgstr "1925年（奥地利）"
+
+#: table_data.h:173
+msgid "Greek: neos and didymos (new twin)"
+msgstr "希腊语：neos 和 didymos（新的孪晶）"
+
+#: table_data.h:174
+msgid "Promethium"
+msgstr "钷"
+
+#: table_data.h:174
+msgid "(+3e)97.9 or (+3e)111"
+msgstr "(+3e)97.9 or (+3e)111"
+
+#: table_data.h:174
+msgid "Light-grey, radioactive element"
+msgstr "浅灰色，放射性元素"
+
+#: table_data.h:174
+msgid "1945 (United States)"
+msgstr "1945年（美国）"
+
+#: table_data.h:174
+msgid "J.A. Marinsky, L.E. Glendenin, C.D. Coryell"
+msgstr "J.A. Marinsky, L.E. Glendenin, C.D. Coryell"
+
+#: table_data.h:174
+msgid "Named for the Greek god, Prometheus"
+msgstr "以希腊神，Prometheus 普罗米修斯命名"
+
+#: table_data.h:175
+msgid "Samarium"
+msgstr "钐"
+
+#: table_data.h:175
+msgid "Silvery rare-earth metal"
+msgstr "银色稀土金属"
+
+#: table_data.h:175
+msgid "1880 (France)"
+msgstr "1880（法国）"
+
+#: table_data.h:175 table_data.h:177 table_data.h:183
+msgid "Jean Charles Galissard de Marignac"
+msgstr "Jean Charles Galissard de Marignac"
+
+#: table_data.h:175
+msgid "Named after the mineral samarskite"
+msgstr "以矿物钐土 samarskite 命名"
+
+#: table_data.h:176
+msgid "Europium"
+msgstr "铕"
+
+#: table_data.h:176
+msgid "1901 (France)"
+msgstr "1901年（法国）"
+
+#: table_data.h:176
+msgid "Eugene-Antole Demarcay"
+msgstr "Eugene-Antole Demarcay"
+
+#: table_data.h:176
+msgid "Named for the continent of Europe"
+msgstr "以欧洲大陆命名"
+
+#: table_data.h:177
+msgid "Gadolinium"
+msgstr "钆"
+
+#: table_data.h:177
+msgid "1880 (Switzerland)"
+msgstr "1880年（瑞士）"
+
+#: table_data.h:177
+msgid "Named after the mineral gadolinite"
+msgstr "以矿物质钆土 gadolinite 命名"
+
+#: table_data.h:178
+msgid "Terbium"
+msgstr "铽"
+
+#: table_data.h:178
+msgid "Soft, ductile, silvery-gray, rare-earth metal"
+msgstr "柔软，延展性好，银灰色，稀土金属"
+
+#: table_data.h:178 table_data.h:181
+msgid "1843 (Sweden)"
+msgstr "1843年（瑞典）"
+
+#: table_data.h:178 table_data.h:181 table_data.h:183
+msgid "Named after the Swedish town, Ytterby"
+msgstr "以瑞典小镇 Ytterby 命名"
+
+#: table_data.h:179
+msgid "Dysprosium"
+msgstr "镝"
+
+#: table_data.h:179
+msgid "Soft. lustrous, silvery metal"
+msgstr "柔软的。有光泽的银色金属"
+
+#: table_data.h:179
+msgid "Greek: dysprositos (hard to get at)"
+msgstr "希腊语：dysprositos（很难得到）"
+
+#: table_data.h:180
+msgid "Holmium"
+msgstr "钬"
+
+#: table_data.h:180
+msgid "Fairly soft, malleable, lustrous, silvery metal"
+msgstr "相当软的，可延展的，有光泽的银色金属"
+
+#: table_data.h:180
+msgid "1879 (Switzerland)"
+msgstr "1879年（瑞士）"
+
+#: table_data.h:180
+msgid "J.L. Soret"
+msgstr "J.L. Soret"
+
+#: table_data.h:180
+msgid "Holmia, the Latinized name for Stockholm, Sweden"
+msgstr "Holmia，瑞典斯德哥尔摩的拉丁名称"
+
+#: table_data.h:181
+msgid "Erbium"
+msgstr "铒"
+
+#: table_data.h:181
+msgid "Soft, malleable, silvery metal"
+msgstr "柔软，有延展性，银色金属"
+
+#: table_data.h:182
+msgid "Thulium"
+msgstr "铥"
+
+#: table_data.h:182
+msgid "Soft, malleable, ductile, silvery metal"
+msgstr "柔软，有延展性，有韧性，银色金属"
+
+#: table_data.h:182
+msgid "Per Theodor Cleve"
+msgstr "Per Theodor Cleve"
+
+#: table_data.h:182
+msgid "Thule, ancient name of Scandinavia"
+msgstr "Thule，斯堪的纳维亚半岛的旧称"
+
+#: table_data.h:183
+msgid "Ytterbium"
+msgstr "镱"
+
+#: table_data.h:183
+msgid "Silvery, lustrous, malleable, and ductile metal"
+msgstr "银色，有光泽，有延展性和韧性的金属"
+
+#: table_data.h:183
+msgid "1878 (Switzerland)"
+msgstr "1878年（瑞士）"
+
+#: table_data.h:185
+msgid "Lutetium"
+msgstr "镥"
+
+#: table_data.h:185
+msgid "Silvery-white, hard, dense, rare-earth metal"
+msgstr "银白色，坚硬，致密，稀土金属"
+
+#: table_data.h:185
+msgid "1907 (France)"
+msgstr "1907年（法国）"
+
+#: table_data.h:185
+msgid "Georges Urbain"
+msgstr "Georges Urbain"
+
+#: table_data.h:185
+msgid "Named for the ancient name of Paris: Lutetia Parisorum"
+msgstr "巴黎的旧称: Lutetia Parisorum"
+
+#: table_data.h:186
+msgid "Hafnium"
+msgstr "铪"
+
+#: table_data.h:186
+msgid "Silvery, ductile metal"
+msgstr "银色，韧性金属"
+
+#: table_data.h:186
+msgid "1923 (Denmark)"
+msgstr "1923年 (丹麦)"
+
+#: table_data.h:186
+msgid "Dirk Coster, Georg von Hevesy"
+msgstr "Dirk Coster, Georg von Hevesy"
+
+#: table_data.h:186
+msgid "Hafnia, the Latin name of Copenhagen"
+msgstr "Hafnia，哥本哈根的拉丁名"
+
+#: table_data.h:187
+msgid "Tantalum"
+msgstr "钽"
+
+#: table_data.h:187
+msgid "Gray, heavy, hard metal"
+msgstr "灰色，重，硬金属"
+
+#: table_data.h:187
+msgid "1802 (Sweden)"
+msgstr "1802年（瑞典）"
+
+#: table_data.h:187
+msgid "Anders Ekeberg"
+msgstr "Anders Ekeberg"
+
+#: table_data.h:187
+msgid "King Tantalus of Greek mythology, father of Niobe"
+msgstr "希腊神话中的 Tantalus（坦塔罗斯）国王，尼奥布的父亲"
+
+#: table_data.h:188
+msgid "Tungsten"
+msgstr "钨"
+
+#: table_data.h:188
+msgid "Tough, steel-gray to white metal"
+msgstr "坚韧，钢灰色到白色金属"
+
+#: table_data.h:188
+msgid "1783 (Spain)"
+msgstr "1783年（西班牙）"
+
+#: table_data.h:188
+msgid "Juan Jose, Fausto Elhuyar"
+msgstr "Juan Jose, Fausto Elhuyar"
+
+#: table_data.h:188
+msgid "Swedish: tung sten (heavy stone); symbol from its German name wolfram"
+msgstr "瑞典语：tung sten（重石）;得名于德国的黑钨矿 (Wolframite)"
+
+#: table_data.h:189
+msgid "Rhenium"
+msgstr "铼"
+
+#: table_data.h:189
+msgid "Dense, silvery-white metal"
+msgstr "高密度的银白色金属"
+
+#: table_data.h:189
+msgid "1925 (Germany)"
+msgstr "1925年（德国）"
+
+#: table_data.h:189
+msgid "Walter Noddack, Ida Tacke, Otto Berg"
+msgstr "Walter Noddack, Ida Tacke, Otto Berg"
+
+#: table_data.h:189
+msgid "Latin: Rhenus, the Rhine River"
+msgstr "拉丁语：Rhenus，莱茵河"
+
+#: table_data.h:190
+msgid "Osmium"
+msgstr "锇"
+
+#: table_data.h:190
+msgid "Blue-white, lustrous, hard metal"
+msgstr "蓝白色，有光泽，坚硬的金属"
+
+#: table_data.h:190
+msgid "1804 (England)"
+msgstr "1804年（英格兰）"
+
+#: table_data.h:190
+msgid "Smithson Tenant"
+msgstr "Smithson Tenant"
+
+#: table_data.h:190
+msgid "Greek: osme (odor)"
+msgstr "希腊语：osme（臭味）"
+
+#: table_data.h:191
+msgid "Iridium"
+msgstr "铱"
+
+#: table_data.h:191
+msgid "White, brittle metal"
+msgstr "白色，脆性金属"
+
+#: table_data.h:191
+msgid "1804 (England/France)"
+msgstr "1804（英格兰/法国）"
+
+#: table_data.h:191
+msgid "S.Tenant, A.F.Fourcroy, L.N.Vauquelin, H.V.Collet-Descoltils"
+msgstr "S.Tenant, A.F.Fourcroy, L.N.Vauquelin, H.V.Collet-Descoltils"
+
+#: table_data.h:191
+msgid "Greek: iris (rainbow)"
+msgstr "希腊语： iris （彩虹）"
+
+#: table_data.h:192
+msgid "Platinum"
+msgstr "铂"
+
+#: table_data.h:192
+msgid "Very heavy, soft, silvery-white metal"
+msgstr "非常重，柔软，银白色金属"
+
+#: table_data.h:192
+msgid "1557 (Italy), but Incas use before"
+msgstr "1557年（意大利），但印加人在此前已使用"
+
+#: table_data.h:192
+msgid "Julius Scaliger"
+msgstr "Julius Scaliger"
+
+#: table_data.h:192
+msgid "Spanish: platina (little silver)"
+msgstr "西班牙语：platina（小银）"
+
+#: table_data.h:193
+msgid "Gold"
+msgstr "金"
+
+#: table_data.h:193
+msgid "(-3e) 185 (+1e) 137 or (+3e) 85 (+1e) 137"
+msgstr "(-3e) 185 (+1e) 137 or (+3e) 85 (+1e) 137"
+
+#: table_data.h:193
+msgid "Soft, malleable, yellow metal"
+msgstr "柔软，有延展性，黄色金属"
+
+#: table_data.h:193
+msgid "Anglo-Saxon: geolo (yellow); symbol from Latin: aurum (shining dawn)"
+msgstr "盎格鲁撒克逊人：geolo（黄色）; 来自拉丁语的符号：aurum（闪亮的黎明）"
+
+#: table_data.h:194
+msgid "Mercury"
+msgstr "汞"
+
+#: table_data.h:194
+msgid "13.546 (@ +20&#176;C)"
+msgstr "13.546 (@ +20&#176;C)"
+
+#: table_data.h:194
+msgid "Heavy, silver-white metal that is in its liquid state at"
+msgstr "重金属，银白色金属，处于液态"
+
+#: table_data.h:194
+msgid "The Roman god Mercury; symbol from Latin: hydrargyrum (liquid silver)"
+msgstr "罗马神墨丘利 Mercury; 从拉丁符号： hydrargyrum （水银）"
+
+#: table_data.h:195
+msgid "Thallium"
+msgstr "铊"
+
+#: table_data.h:195
+msgid "Soft, gray metal"
+msgstr "柔软的灰色金属"
+
+#: table_data.h:195
+msgid "1861 (England)"
+msgstr "1861年 (英格兰）"
+
+#: table_data.h:195
+msgid "Sir William Crookes"
+msgstr "Sir William Crookes"
+
+#: table_data.h:195
+msgid "Greek: thallos (green twig), for a bright green line in its spectrum"
+msgstr "希腊语：thallos（绿色树枝），其光谱中明亮的绿线 "
+
+#: table_data.h:196
+msgid "Lead"
+msgstr "铅"
+
+#: table_data.h:196
+msgid "Very soft, highly malleable and ductile, blue-white shiny metal"
+msgstr "很柔软，具有高延展性和韧性，蓝白色有光泽的金属"
+
+#: table_data.h:196
+msgid "Anglo-Saxon: lead; symbol from Latin: plumbum"
+msgstr "盎格鲁撒克逊人：lead; 来自拉丁语的符号：plumbum"
+
+#: table_data.h:197
+msgid "Bismuth"
+msgstr "铋"
+
+#: table_data.h:197
+msgid "Hard, brittle, steel-gray metal with a pinkish tinge"
+msgstr "坚硬，易碎，钢灰色金属，带有粉红色调"
+
+#: table_data.h:197
+msgid "German: bisemutum (white mass); now spelled wismut"
+msgstr "德语：bisemutum（白色金属）; 现在拼写为 wismut"
+
+#: table_data.h:198
+msgid "Polonium"
+msgstr "钋"
+
+#: table_data.h:198 table_data.h:203
+msgid "1898 (France/Poland)"
+msgstr "1898年（法国/波兰）"
+
+#: table_data.h:198 table_data.h:203
+msgid "Pierre and Marie Curie-Sklodowska"
+msgstr "Pierre 和 Marie Curie-Sklodowska"
+
+#: table_data.h:198
+msgid "Named for Poland, native country of Marie Curie"
+msgstr "这是居里夫人为纪念她的祖国波兰Poland (拉丁语为Polonia)而起的名字。 "
+
+#: table_data.h:199
+msgid "Astatine"
+msgstr "砹"
+
+#: table_data.h:199
+msgid "Unstable, radioactive halogen"
+msgstr "不稳定的放射性卤素"
+
+#: table_data.h:199 table_data.h:210
+msgid "1940 (United States)"
+msgstr "1940年（美国）"
+
+#: table_data.h:199
+msgid "D.R.Corson, K.R.MacKenzie, E. Segre"
+msgstr "D.R.Corson, K.R.MacKenzie, E. Segre"
+
+#: table_data.h:199
+msgid "Greek: astatos (unstable)"
+msgstr "希腊语： astatos （不稳定）"
+
+#: table_data.h:200
+msgid "Radon"
+msgstr "氡"
+
+#: table_data.h:200
+msgid "4.4 (@ -62&#176;C)"
+msgstr "4.4 (@ -62&#176;C)"
+
+#: table_data.h:200
+msgid "Heavy radioactive gas"
+msgstr "重放射性气体"
+
+#: table_data.h:200
+msgid "1898 (Germany/England)"
+msgstr "1898年（德国/英格兰）"
+
+#: table_data.h:200
+msgid "Fredrich Ernst Dorn, Ernest Rutherford"
+msgstr "Fredrich Ernst Dorn, Ernest Rutherford"
+
+#: table_data.h:200
+msgid "Variation of the name of another element, radium"
+msgstr "另一个元素镭的名称的变化而来，是由镭衰变而来的元素，后缀 -on 表示惰性气体。"
+
+#: table_data.h:202
+msgid "Francium"
+msgstr "钫"
+
+#: table_data.h:202
+msgid "1939 (France)"
+msgstr "1939年 (法国)"
+
+#: table_data.h:202
+msgid "Marguerite Perey"
+msgstr "Marguerite Perey"
+
+#: table_data.h:202
+msgid "Named for France, the nation of its discovery"
+msgstr "发现者是法国人，为纪念自己的祖国 France 而命名。 "
+
+#: table_data.h:203
+msgid "Radium"
+msgstr "镭"
+
+#: table_data.h:203
+msgid "5.5 (@ +20&#176;C)"
+msgstr "5.5 (@ +20&#176;C)"
+
+#: table_data.h:203
+msgid "Silvery white, radioactive element"
+msgstr "银白色，放射性元素"
+
+#: table_data.h:203
+msgid "Latin: radius (beam, ray)"
+msgstr "拉丁文： radius （光束，射线）"
+
+#: table_data.h:205
+msgid "Actinium"
+msgstr "锕"
+
+#: table_data.h:205
+msgid "Heavy, Silvery-white metal that is very radioactive"
+msgstr "重，银白色金属，具有很强的放射性"
+
+#: table_data.h:205
+msgid "1899 (France)"
+msgstr "1899年（法国）"
+
+#: table_data.h:205
+msgid "Andre-Louis Debierne"
+msgstr "Andre-Louis Debierne"
+
+#: table_data.h:205
+msgid "Greek: akis, aktis, aktinos (beam, ray)"
+msgstr "希腊语：akis，aktis，aktinos （光束，射线），因为放射性衰变而得名"
+
+#: table_data.h:206
+msgid "Thorium"
+msgstr "钍"
+
+#: table_data.h:206
+msgid "Gray, soft, malleable, ductile, radioactive metal"
+msgstr "灰色，柔软，有延展性，有韧性，放射性金属"
+
+#: table_data.h:206
+msgid "1828 (Sweden)"
+msgstr "1828年（瑞典）"
+
+#: table_data.h:206
+msgid "Named for Thor, Norse god of thunder"
+msgstr "以北欧神话中的雷神 Thor 命名"
+
+#: table_data.h:207
+msgid "Protactinium"
+msgstr "镤"
+
+#: table_data.h:207 table_data.h:210 table_data.h:211
+msgid "Silvery-white, radioactive metal"
+msgstr "银白色，放射性金属"
+
+#: table_data.h:207
+msgid "1918 (England/France)"
+msgstr "1918年（英格兰/法国）"
+
+#: table_data.h:207
+msgid "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner"
+msgstr "Fredrich Soddy, John Cranston, Otto Hahn, Lise Meitner"
+
+#: table_data.h:207
+msgid ""
+"Greek: proto and actinium (parent of actinium); it forms actinium when it "
+"radioactively decays"
+msgstr "希腊语：proto 和 actinium（锕的母体）; 它在放射性衰变时形成锕"
+
+#: table_data.h:208
+msgid "Uranium"
+msgstr "铀"
+
+#: table_data.h:208
+msgid "Silvery-white, dense, ductile and malleable, radioactive metal"
+msgstr "银白色的，致密，有韧性和延展性，放射性金属"
+
+#: table_data.h:208
+msgid "Named for the planet Uranus"
+msgstr "以天王星 Uranus 命名"
+
+#: table_data.h:209
+msgid "Neptunium"
+msgstr "镎"
+
+#: table_data.h:209
+msgid "Silvery metal"
+msgstr "银色金属"
+
+#: table_data.h:209
+msgid "E.M. McMillan, P.H. Abelson"
+msgstr "E.M. McMillan, P.H. Abelson"
+
+#: table_data.h:209
+msgid "Named for the planet Neptune"
+msgstr "以海王星 Neptune 命名"
+
+#: table_data.h:210
+msgid "Plutonium"
+msgstr "钚"
+
+#: table_data.h:210
+msgid "71-100 or (+4e) 93 (+3e) 108"
+msgstr "71-100 or (+4e) 93 (+3e) 108"
+
+#: table_data.h:210
+msgid "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl"
+msgstr "G.T.Seaborg, J.W.Kennedy, E.M.McMillan, A.C.Wohl"
+
+#: table_data.h:210
+msgid "Named for the planet Pluto"
+msgstr "以冥王星 Pluto 命名"
+
+#: table_data.h:211
+msgid "Americium"
+msgstr "镅"
+
+#: table_data.h:211 table_data.h:212
+msgid "1944 (United States)"
+msgstr "1944年（美国）"
+
+#: table_data.h:211
+msgid "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso"
+msgstr "G.T.Seaborg, R.A.James, L.O.Morgan, A.Ghiorso"
+
+#: table_data.h:211
+msgid "Named for the American continent, by analogy with europium"
+msgstr "与铕一样，发现者是美国人，为纪念他的国家 American 而得名 "
+
+#: table_data.h:212
+msgid "Curium"
+msgstr "锔"
+
+#: table_data.h:212
+msgid "Silvery, malleable, synthetic radioactive metal"
+msgstr "银色，可延展的合成放射性金属"
+
+#: table_data.h:212
+msgid "G.T.Seaborg, R.A.James, A.Ghiorso"
+msgstr "G.T.Seaborg, R.A.James, A.Ghiorso"
+
+#: table_data.h:212
+msgid "Named in honor of Pierre and Marie Curie"
+msgstr "以纪念居里夫人夫妇 Pierre和 Marie Curie 命名"
+
+#: table_data.h:213
+msgid "Berkelium"
+msgstr "锫"
+
+#: table_data.h:213
+msgid "Radioactive synthetic metal"
+msgstr "放射性合成金属"
+
+#: table_data.h:213
+msgid "1949 (United States)"
+msgstr "1949年（美国）"
+
+#: table_data.h:213
+msgid "G.T.Seaborg, S.G.Tompson, A.Ghiorso"
+msgstr "G.T.Seaborg, S.G.Tompson, A.Ghiorso"
+
+#: table_data.h:213
+msgid "Named after Berkeley, California the city of its discovery"
+msgstr "以该元素发现之地加利福尼亚州伯克利大学 Berkeley 命名"
+
+#: table_data.h:214
+msgid "Californium"
+msgstr "锎"
+
+#: table_data.h:214
+msgid "Powerful neutron emitter"
+msgstr "强大的中子发射"
+
+#: table_data.h:214
+msgid "1950 (United States)"
+msgstr "1950年（美国）"
+
+#: table_data.h:214 table_data.h:217
+msgid "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr."
+msgstr "G.T.Seaborg, S.G.Tompson, A.Ghiorso, K.Street Jr."
+
+#: table_data.h:214
+msgid "Named after the US-state and University of California"
+msgstr "以美国和加州大学命名"
+
+#: table_data.h:215
+msgid "Einsteinium"
+msgstr "锿"
+
+#: table_data.h:215 table_data.h:216 table_data.h:217 table_data.h:218
+#: table_data.h:220 table_data.h:221 table_data.h:222 table_data.h:223
+#: table_data.h:224
+msgid "Radioactive, synthetic metal"
+msgstr "放射性合成金属"
+
+#: table_data.h:215 table_data.h:216
+msgid "1952 (United States)"
+msgstr "1952年（美国）"
+
+#: table_data.h:215 table_data.h:216
+msgid "Argonne, Los Alamos, University of California"
+msgstr "Argonne，Los Alamos，加州大学"
+
+#: table_data.h:215
+msgid "Named in honor of the scientist Albert Einstein"
+msgstr "以纪念科学家爱因斯坦 Albert Einstein 命名"
+
+#: table_data.h:216
+msgid "Fermium"
+msgstr "镄"
+
+#: table_data.h:216
+msgid "Named in honor of the scientist Enrico Fermi"
+msgstr "以纪念科学家费米 Enrico Fermi 命名"
+
+#: table_data.h:217
+msgid "Mendelevium"
+msgstr "钔"
+
+#: table_data.h:217
+msgid "1955 (United States)"
+msgstr "1955年（美国）"
+
+#: table_data.h:217
+msgid ""
+"Named in honor of the scientist Dmitry Ivanovich Mendeleev, who devised the "
+"periodic table"
+msgstr "以纪念设计周期表的科学家德米特里·伊万诺维奇·门捷列夫 Dmitry Ivanovich Mendeleev 命名"
+
+#: table_data.h:218
+msgid "Nobelium"
+msgstr "锘"
+
+#: table_data.h:218
+msgid "1963 (USSR)"
+msgstr "1963 (苏联)"
+
+#: table_data.h:218 table_data.h:221
+msgid "Dubna"
+msgstr "Dubna"
+
+#: table_data.h:218
+msgid ""
+"Named in honor of Alfred Nobel, who invented dynamite and founded Nobel "
+"prize"
+msgstr "以纪念阿尔弗雷德诺贝尔 Alfred Nobel 而命名，他发明了炸药并创立了诺贝尔奖"
+
+#: table_data.h:220
+msgid "Lawrencium"
+msgstr "铹"
+
+#: table_data.h:220
+msgid "1961 (USSR/United States)"
+msgstr "1961年（苏联/美国）"
+
+#: table_data.h:220 table_data.h:222 table_data.h:223
+msgid "Soviet Nuclear Research/University of California at Berkeley"
+msgstr "苏联联合核研究所/加州大学伯克利分校"
+
+#: table_data.h:220
+msgid "Named in honor of Ernest Orlando Lawrence, inventor of the cyclotron"
+msgstr "以纪念回旋加速器的发明者欧内斯特·奥兰多·劳伦斯 Ernest Orlando Lawrence 而命名"
+
+#: table_data.h:221
+msgid "Rutherfordium"
+msgstr "𬬻"
+
+#: table_data.h:221
+msgid "1964 (USSR)"
+msgstr "1964 (苏联)"
+
+#: table_data.h:221
+msgid "Named in honor of Ernest Rutherford"
+msgstr "以纪念欧内斯特·卢瑟福 Ernest Rutherford 而命名"
+
+#: table_data.h:222
+msgid "Dubnium"
+msgstr "𬭊"
+
+#: table_data.h:222
+msgid "1970 (USSR/United States)"
+msgstr "1970年（苏联/美国）"
+
+#: table_data.h:222
+msgid "Named after the science-town Dubna in Russia"
+msgstr "以俄罗斯科学城杜布纳 Dubna 命名"
+
+#: table_data.h:223
+msgid "Seaborgium"
+msgstr "𬭳"
+
+#: table_data.h:223
+msgid "1974 (USSR/United States)"
+msgstr "1974年（苏联/美国）"
+
+#: table_data.h:223
+msgid ""
+"Named in honor of Glenn Theodore Seaborg, American physical chemist known "
+"for research on transuranium elements"
+msgstr "以纪念研究超铀元素而闻名的美国物理化学家西伯格 Glenn Theodore Seaborg 命名"
+
+#: table_data.h:224
+msgid "Bohrium"
+msgstr "𬭛"
+
+#: table_data.h:224
+msgid "1976 (Germany)"
+msgstr "1976年（德国）"
+
+#: table_data.h:224 table_data.h:225 table_data.h:226 table_data.h:227
+#: table_data.h:228 table_data.h:229
+msgid "Heavy Ion Research Laboratory (HIRL)"
+msgstr "重离子研究实验室 (HIRL)"
+
+#: table_data.h:224
+msgid "Named in honor of Niels Bohr"
+msgstr "以纪念丹麦物理学家玻尔 Niels Bohr 而命名"
+
+#: table_data.h:225
+msgid "Hassium"
+msgstr "𬭶"
+
+#: table_data.h:225
+msgid "1984 (Germany)"
+msgstr "1984年（德国）"
+
+#: table_data.h:225
+msgid "Named in honor of Hessen county, Germany (latin: Hassia)"
+msgstr "以纪念德国黑森州而命名（拉丁语：Hassia）"
+
+#: table_data.h:226
+msgid "Meitnerium"
+msgstr "鿏"
+
+#: table_data.h:226
+msgid "1982 (Germany)"
+msgstr "1982 年（德国）"
+
+#: table_data.h:226
+msgid "Named in honor of Lise Meitner"
+msgstr "以纪念犹太裔瑞典核物理学家麦特纳 Lise Meitner 而命名"
+
+#: table_data.h:227
+msgid "Darmstadtium"
+msgstr "𫟼"
+
+#: table_data.h:227 table_data.h:228
+msgid "1994 (Germany)"
+msgstr "1994年（德国）"
+
+#: table_data.h:227
+msgid "Named after Darmstadt, Germany, the city of its discovery"
+msgstr "以德国达姆施塔特 Darmstadt 命名，这是其发现之城"
+
+#: table_data.h:228
+msgid "Roentgenium"
+msgstr "𬬭"
+
+#: table_data.h:228
+msgid "Named in honor of physicist Wilhelm Conrad Roentgen"
+msgstr "以纪念物理学家 Wilhelm Conrad Roentgen 命名"
+
+#: table_data.h:229
+msgid "Copernicium"
+msgstr "鎶"
+
+#: table_data.h:229
+msgid "1996 (Germany)"
+msgstr "1996年（德国）"
+
+#: table_data.h:229
+msgid "Named in honor of Nicolaus Copernicus"
+msgstr "以纪念 Nicolaus Copernicus 而命名"
+
+#: table_data.h:230
+msgid "Nihonium"
+msgstr "钅尔"
+
+#: table_data.h:230
+msgid "2004 (Japan)"
+msgstr "2004年 （日本）"
+
+#: table_data.h:230
+msgid "RIKEN - Research Institute in Japan"
+msgstr "RIKEN - 日本研究机构"
+
+#: table_data.h:230
+msgid "Nihon is country of the rising sun (Japan)"
+msgstr "日本 Nihon是太阳升起的国家（日本）"
+
+#: table_data.h:231
+msgid "Flerovium"
+msgstr "𫓧"
+
+#: table_data.h:231
+msgid "1998 (Russia/United States)"
+msgstr "1998年（俄罗斯/美国）"
+
+#: table_data.h:231 table_data.h:232 table_data.h:234 table_data.h:235
+msgid "Dubna/Livermore"
+msgstr "Dubna/Livermore"
+
+#: table_data.h:231
+msgid "Named in honor of Soviet physicist Flerov"
+msgstr "以纪念苏联物理学家弗洛罗夫而命名"
+
+#: table_data.h:232
+msgid "Moscovium"
+msgstr "镆"
+
+#: table_data.h:232
+msgid "2003 (Russia/United States)"
+msgstr "2003年（俄罗斯/美国）"
+
+#: table_data.h:232
+msgid "Named after the Moscow Region (Russia)"
+msgstr "以莫斯科地区（俄罗斯）命名"
+
+#: table_data.h:233
+msgid "Livermorium"
+msgstr "鉝"
+
+#: table_data.h:233
+msgid "2000 (Russia/United States)"
+msgstr "2000年（俄罗斯/美国）"
+
+#: table_data.h:233
+msgid "Dubna, Dimitrovgrad, Lesnoy/Livermore"
+msgstr "Dubna, Dimitrovgrad, Lesnoy/Livermore"
+
+#: table_data.h:233
+msgid "Named in honor of Livermore National Laboratory (USA)"
+msgstr "以纪念利弗莫尔国家实验室（美国）命名"
+
+#: table_data.h:234
+msgid "Tennessine"
+msgstr "石田  （新造字，左右结构，tián）"
+
+#: table_data.h:234
+msgid "2009 (Russia/United States)"
+msgstr "2009年（俄罗斯/美国）"
+
+#: table_data.h:234
+msgid "Named after the State of United States, Tennessee"
+msgstr "以美国田纳西州命名"
+
+#: table_data.h:235
+msgid "Oganesson"
+msgstr "气奥 （新造字，上下半包围结构，ào）"
+
+#: table_data.h:235
+msgid "2002 (Russia/United States)"
+msgstr "2002年（俄罗斯/美国）"
+
+#: table_data.h:235
+msgid "Named in honor of Soviet physicist Oganessian"
+msgstr "以纪念苏联物理学家 Oganessian 而命名"
