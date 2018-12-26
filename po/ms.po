@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# abuyop <abuyop@gmail.com>, 2015
+# abuyop <abuyop@gmail.com>, 2015,2017
 # AlexL <loginov.alex.valer@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-10 23:09+0300\n"
-"PO-Revision-Date: 2017-01-20 20:18+0000\n"
-"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
+"PO-Revision-Date: 2018-12-26 04:03+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>\n"
 "Language-Team: Malay (http://www.transifex.com/Magic/gperiodic/language/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2342,19 +2342,19 @@ msgstr "Dinamakan sempena nama Nicolaus Copernicus"
 
 #: table_data.h:230
 msgid "Nihonium"
-msgstr ""
+msgstr "Nihonium"
 
 #: table_data.h:230
 msgid "2004 (Japan)"
-msgstr ""
+msgstr "2004 (Jepun)"
 
 #: table_data.h:230
 msgid "RIKEN - Research Institute in Japan"
-msgstr ""
+msgstr "RIKEN - Institut Kajian di Jepun"
 
 #: table_data.h:230
 msgid "Nihon is country of the rising sun (Japan)"
-msgstr ""
+msgstr "Nihon bermaksud negara matahari terbit (Jepun)"
 
 #: table_data.h:231
 msgid "Flerovium"
@@ -2374,7 +2374,7 @@ msgstr "Dinamakan sempena nama ahli fizik Soviet Flerov"
 
 #: table_data.h:232
 msgid "Moscovium"
-msgstr ""
+msgstr "Moscovium"
 
 #: table_data.h:232
 msgid "2003 (Russia/United States)"
@@ -2382,7 +2382,7 @@ msgstr "2003 (Rusia/Amerika Syarikat)"
 
 #: table_data.h:232
 msgid "Named after the Moscow Region (Russia)"
-msgstr ""
+msgstr "Dinamakan mengikut Wilayah Moscow (Rusia)"
 
 #: table_data.h:233
 msgid "Livermorium"
@@ -2402,7 +2402,7 @@ msgstr "Dinamakan sempena Makmal Kebangsaan Livermore (USA)"
 
 #: table_data.h:234
 msgid "Tennessine"
-msgstr ""
+msgstr "Tennessine"
 
 #: table_data.h:234
 msgid "2009 (Russia/United States)"
@@ -2410,11 +2410,11 @@ msgstr "2009 (Rusia/Amerika Syarikat)"
 
 #: table_data.h:234
 msgid "Named after the State of United States, Tennessee"
-msgstr ""
+msgstr "Dinamakan mengikut Negeri di Negara Amerika Syarikat, iaitu Tennessee"
 
 #: table_data.h:235
 msgid "Oganesson"
-msgstr ""
+msgstr "Oganesson"
 
 #: table_data.h:235
 msgid "2002 (Russia/United States)"
@@ -2422,4 +2422,4 @@ msgstr "2002 (Rusia/Amerika Syarikat)"
 
 #: table_data.h:235
 msgid "Named in honor of Soviet physicist Oganessian"
-msgstr ""
+msgstr "Dinamakan sempena nama ahli fizik Soviet Oganessian"

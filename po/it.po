@@ -6,14 +6,14 @@
 # AlexL <loginov.alex.valer@gmail.com>, 2015,2017
 # Ambrogio Oliva <?>, 1999
 # Andrea Tasso <andrea@tasso.info>, 2004
-# Sebastiano Pistore <olatusrooc@virgilio.it>, 2016
+# Sebastiano Pistore <SebastianoPistore.info@protonmail.ch>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-10 23:09+0300\n"
-"PO-Revision-Date: 2017-01-20 20:22+0000\n"
-"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
+"PO-Revision-Date: 2018-12-26 04:03+0000\n"
+"Last-Translator: Sebastiano Pistore <SebastianoPistore.info@protonmail.ch>\n"
 "Language-Team: Italian (http://www.transifex.com/Magic/gperiodic/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -881,7 +881,7 @@ msgstr "Johann Gahn"
 
 #: table_data.h:135
 msgid "Latin: magnes (magnet); Italian: manganese"
-msgstr ""
+msgstr "Latino: magnes (magnete); Italiano: manganese"
 
 #: table_data.h:136
 msgid "Iron"
@@ -958,7 +958,7 @@ msgstr "Metallo duttile, di colore argenteo-bluastro"
 
 #: table_data.h:140
 msgid "German: Zink (German for zinc)"
-msgstr ""
+msgstr "Tedesco: Zink (termine tedesco per Zinco)"
 
 #: table_data.h:141
 msgid "Gallium"
@@ -2344,19 +2344,19 @@ msgstr "Dal nome di Nicola Copernico"
 
 #: table_data.h:230
 msgid "Nihonium"
-msgstr ""
+msgstr "Nihonio"
 
 #: table_data.h:230
 msgid "2004 (Japan)"
-msgstr ""
+msgstr "2004 (Giappone)"
 
 #: table_data.h:230
 msgid "RIKEN - Research Institute in Japan"
-msgstr ""
+msgstr "RIKEN - Research Institute in Japan"
 
 #: table_data.h:230
 msgid "Nihon is country of the rising sun (Japan)"
-msgstr ""
+msgstr "Nihon è il Paese del sol levante (Giappone)"
 
 #: table_data.h:231
 msgid "Flerovium"
@@ -2376,7 +2376,7 @@ msgstr "Dal nome del Laboratorio di Reazioni Nucleare Flërov"
 
 #: table_data.h:232
 msgid "Moscovium"
-msgstr ""
+msgstr "Moscovio"
 
 #: table_data.h:232
 msgid "2003 (Russia/United States)"
@@ -2384,7 +2384,7 @@ msgstr "2003 (Russia/Stati Uniti)"
 
 #: table_data.h:232
 msgid "Named after the Moscow Region (Russia)"
-msgstr ""
+msgstr "Dal nome della regione di Mosca (Russia)"
 
 #: table_data.h:233
 msgid "Livermorium"
@@ -2404,7 +2404,7 @@ msgstr "Dal nome del Laboratorio Nazionale di Livermore, negli Stati Uniti"
 
 #: table_data.h:234
 msgid "Tennessine"
-msgstr ""
+msgstr "Tennessinio"
 
 #: table_data.h:234
 msgid "2009 (Russia/United States)"
@@ -2412,11 +2412,11 @@ msgstr "2009 (Russia/Stati Uniti)"
 
 #: table_data.h:234
 msgid "Named after the State of United States, Tennessee"
-msgstr ""
+msgstr "Dal nome dell Tennessee, Stati Uniti"
 
 #: table_data.h:235
 msgid "Oganesson"
-msgstr ""
+msgstr "Oganessio"
 
 #: table_data.h:235
 msgid "2002 (Russia/United States)"
@@ -2424,4 +2424,4 @@ msgstr "2002 (Russia/Stati Uniti)"
 
 #: table_data.h:235
 msgid "Named in honor of Soviet physicist Oganessian"
-msgstr ""
+msgstr "Dal nome del fisico sovietico Oganessian"

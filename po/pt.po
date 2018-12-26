@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# AlexL <loginov.alex.valer@gmail.com>, 2017
+# AlexL <loginov.alex.valer@gmail.com>, 2017-2018
 # Lalo Martins <?>, 1999
 # Raquel Coelho <raquelfrcoelho@gmail.com>, 2016
 msgid ""
@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-10 23:09+0300\n"
-"PO-Revision-Date: 2017-01-20 20:27+0000\n"
+"PO-Revision-Date: 2018-12-26 04:03+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/Magic/gperiodic/language/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -2343,7 +2343,7 @@ msgstr "Nomeado em honra de Nicolaus Copernicus"
 
 #: table_data.h:230
 msgid "Nihonium"
-msgstr ""
+msgstr "Nipónio"
 
 #: table_data.h:230
 msgid "2004 (Japan)"
@@ -2375,7 +2375,7 @@ msgstr "O nome deriva do Laboratório de Reacções Nucleares Flerov"
 
 #: table_data.h:232
 msgid "Moscovium"
-msgstr ""
+msgstr "Moscóvio"
 
 #: table_data.h:232
 msgid "2003 (Russia/United States)"
@@ -2403,7 +2403,7 @@ msgstr "Nomeado pelo Laboratório Nacional de Livermore (EUA)"
 
 #: table_data.h:234
 msgid "Tennessine"
-msgstr ""
+msgstr "Tenesso"
 
 #: table_data.h:234
 msgid "2009 (Russia/United States)"
@@ -2415,7 +2415,7 @@ msgstr ""
 
 #: table_data.h:235
 msgid "Oganesson"
-msgstr ""
+msgstr "Oganésson"
 
 #: table_data.h:235
 msgid "2002 (Russia/United States)"

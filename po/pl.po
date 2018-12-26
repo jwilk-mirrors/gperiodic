@@ -7,20 +7,21 @@
 # Arkadiusz Lipiec <?>, 2003
 # Ireneusz Imiolek <imiolek.i@googlemail.com>, 2014
 # Piotr Najman <?>, 2003
+# Tomasz Pudło <wptom@wp.pl>, 2017
 # Wiktor Jezioro <wikjezioro@op.pl>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-10 23:09+0300\n"
-"PO-Revision-Date: 2017-01-19 22:20+0000\n"
-"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
+"PO-Revision-Date: 2018-12-26 04:03+0000\n"
+"Last-Translator: Tomasz Pudło <wptom@wp.pl>\n"
 "Language-Team: Polish (http://www.transifex.com/Magic/gperiodic/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: gperiodic.c:195
 #, c-format
@@ -2345,7 +2346,7 @@ msgstr "Nazwany ku czci Mikołaja Kopernika"
 
 #: table_data.h:230
 msgid "Nihonium"
-msgstr ""
+msgstr "Nihon"
 
 #: table_data.h:230
 msgid "2004 (Japan)"
@@ -2357,7 +2358,7 @@ msgstr "RIKEN - Instytut Badawczy w Japonii"
 
 #: table_data.h:230
 msgid "Nihon is country of the rising sun (Japan)"
-msgstr ""
+msgstr "Nihon to kraj wschodzącego słońca (Japonia)"
 
 #: table_data.h:231
 msgid "Flerovium"
@@ -2377,7 +2378,7 @@ msgstr "Nazwany ku czci sowieckiego fizyka Florowa"
 
 #: table_data.h:232
 msgid "Moscovium"
-msgstr ""
+msgstr "Moskow"
 
 #: table_data.h:232
 msgid "2003 (Russia/United States)"
@@ -2385,7 +2386,7 @@ msgstr "2003 (Rosja/Stany Zjednoczone)"
 
 #: table_data.h:232
 msgid "Named after the Moscow Region (Russia)"
-msgstr ""
+msgstr "Nazwany na cześć obwodu moskiewskiego (Rosja)"
 
 #: table_data.h:233
 msgid "Livermorium"
@@ -2405,7 +2406,7 @@ msgstr "Nazwane na część Narodowego Laboratorium Livermore (USA)"
 
 #: table_data.h:234
 msgid "Tennessine"
-msgstr ""
+msgstr "Tenes"
 
 #: table_data.h:234
 msgid "2009 (Russia/United States)"
@@ -2413,11 +2414,11 @@ msgstr "2009 (Rosja/Stany Zjednoczone)"
 
 #: table_data.h:234
 msgid "Named after the State of United States, Tennessee"
-msgstr ""
+msgstr "Nazwany na cześć stanu Tennessee w Stanach Zjednoczonych"
 
 #: table_data.h:235
 msgid "Oganesson"
-msgstr ""
+msgstr "Oganeson"
 
 #: table_data.h:235
 msgid "2002 (Russia/United States)"
@@ -2425,4 +2426,4 @@ msgstr "2002 (Rosja/Stany Zjednoczone)"
 
 #: table_data.h:235
 msgid "Named in honor of Soviet physicist Oganessian"
-msgstr ""
+msgstr "Nazwany na cześć rosyjskiego fizyka Jurija Oganiesiana"

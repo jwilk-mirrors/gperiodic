@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# AlexL <loginov.alex.valer@gmail.com>, 2017
+# AlexL <loginov.alex.valer@gmail.com>, 2017-2018
 # Christian Klein <?>, 1999
 # Marc Lattemann, 2014
 # Sven Neumann <?>, 1999
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-10 23:09+0300\n"
-"PO-Revision-Date: 2017-01-20 20:17+0000\n"
+"PO-Revision-Date: 2018-12-26 04:03+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/Magic/gperiodic/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -2344,11 +2344,11 @@ msgstr "Nach dem Astronomen Nicolaus Copernicus benannt"
 
 #: table_data.h:230
 msgid "Nihonium"
-msgstr ""
+msgstr "Nihonium"
 
 #: table_data.h:230
 msgid "2004 (Japan)"
-msgstr ""
+msgstr "2004 (Japan)"
 
 #: table_data.h:230
 msgid "RIKEN - Research Institute in Japan"
@@ -2376,7 +2376,7 @@ msgstr "Nach dem russischen Physiker Georgi Fljorow vom „Vereinigtes Institut 
 
 #: table_data.h:232
 msgid "Moscovium"
-msgstr ""
+msgstr "Moscovium"
 
 #: table_data.h:232
 msgid "2003 (Russia/United States)"
@@ -2404,7 +2404,7 @@ msgstr "Nach dem „Livermore National Laboratory (USA)“ benannt"
 
 #: table_data.h:234
 msgid "Tennessine"
-msgstr ""
+msgstr "Tenness"
 
 #: table_data.h:234
 msgid "2009 (Russia/United States)"
@@ -2416,7 +2416,7 @@ msgstr ""
 
 #: table_data.h:235
 msgid "Oganesson"
-msgstr ""
+msgstr "Oganesson"
 
 #: table_data.h:235
 msgid "2002 (Russia/United States)"

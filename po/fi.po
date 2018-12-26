@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# AlexL <loginov.alex.valer@gmail.com>, 2018
 # Jorma Karvonen <karvonen.jorma@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-10 23:09+0300\n"
-"PO-Revision-Date: 2017-01-10 20:16+0000\n"
+"PO-Revision-Date: 2018-12-26 04:03+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/Magic/gperiodic/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -327,7 +328,7 @@ msgstr ""
 
 #: table_data.h:109
 msgid "Helium"
-msgstr ""
+msgstr "Helium"
 
 #: table_data.h:109
 msgid "0.147 (@ -270&#176;C)"
@@ -351,7 +352,7 @@ msgstr ""
 
 #: table_data.h:111
 msgid "Lithium"
-msgstr ""
+msgstr "Litium"
 
 #: table_data.h:111
 msgid "68 (+1e) or 76 (+1e)"
@@ -383,7 +384,7 @@ msgstr ""
 
 #: table_data.h:112
 msgid "Beryllium"
-msgstr ""
+msgstr "Beryllium"
 
 #: table_data.h:112
 msgid "Hard, brittle, steel-gray metal"
@@ -403,7 +404,7 @@ msgstr ""
 
 #: table_data.h:113
 msgid "Boron"
-msgstr ""
+msgstr "Boori"
 
 #: table_data.h:113 table_data.h:175 table_data.h:194 table_data.h:197
 msgid "RHL"
@@ -427,7 +428,7 @@ msgstr ""
 
 #: table_data.h:114
 msgid "Carbon"
-msgstr ""
+msgstr "Hiili"
 
 #: table_data.h:114
 msgid "2.25 (graphite)"
@@ -465,7 +466,7 @@ msgstr ""
 
 #: table_data.h:115
 msgid "Nitrogen"
-msgstr ""
+msgstr "Typpi"
 
 #: table_data.h:115
 msgid "0.808 (@ -195.8&#176;C)"
@@ -501,7 +502,7 @@ msgstr ""
 
 #: table_data.h:116
 msgid "Oxygen"
-msgstr ""
+msgstr "Happi"
 
 #: table_data.h:116
 msgid "1.149 (@ -183&#176;C)"
@@ -533,7 +534,7 @@ msgstr ""
 
 #: table_data.h:117
 msgid "Fluorine"
-msgstr ""
+msgstr "Fluori"
 
 #: table_data.h:117
 msgid "1.108 (@ -189&#176;C)"
@@ -561,7 +562,7 @@ msgstr ""
 
 #: table_data.h:118
 msgid "Neon"
-msgstr ""
+msgstr "Neon"
 
 #: table_data.h:118
 msgid "1.204 (@ -246&#176;C)"
@@ -590,7 +591,7 @@ msgstr ""
 
 #: table_data.h:120
 msgid "Sodium"
-msgstr ""
+msgstr "Natrium"
 
 #: table_data.h:120 table_data.h:129
 msgid "1807 (England)"
@@ -609,7 +610,7 @@ msgstr ""
 
 #: table_data.h:121
 msgid "Magnesium"
-msgstr ""
+msgstr "Magnesium"
 
 #: table_data.h:121
 msgid "Lightweight, malleable, silvery-white metal"
@@ -625,7 +626,7 @@ msgstr ""
 
 #: table_data.h:122
 msgid "Aluminum"
-msgstr ""
+msgstr "Alumiini"
 
 #: table_data.h:122
 msgid "Soft, lightweight, silvery-white metal"
@@ -645,7 +646,7 @@ msgstr ""
 
 #: table_data.h:123
 msgid "Silicon"
-msgstr ""
+msgstr "Pii"
 
 #: table_data.h:123 table_data.h:142
 msgid "DIA"
@@ -669,7 +670,7 @@ msgstr ""
 
 #: table_data.h:124
 msgid "Phosphorus"
-msgstr ""
+msgstr "Fosfori"
 
 #: table_data.h:124
 msgid "1.82 (white phosphorus)"
@@ -693,7 +694,7 @@ msgstr ""
 
 #: table_data.h:125
 msgid "Sulfur"
-msgstr ""
+msgstr "Rikki"
 
 #: table_data.h:125 table_data.h:126 table_data.h:141 table_data.h:145
 #: table_data.h:164 table_data.h:208 table_data.h:209
@@ -710,7 +711,7 @@ msgstr ""
 
 #: table_data.h:126
 msgid "Chlorine"
-msgstr ""
+msgstr "Kloori"
 
 #: table_data.h:126
 msgid "1.56 (@ -33.6&#176;C)"
@@ -734,7 +735,7 @@ msgstr ""
 
 #: table_data.h:127
 msgid "Argon"
-msgstr ""
+msgstr "Argon"
 
 #: table_data.h:127
 msgid "1.40 (@ -189,35&#176;C)"
@@ -758,7 +759,7 @@ msgstr ""
 
 #: table_data.h:129
 msgid "Potassium"
-msgstr ""
+msgstr "Kalium"
 
 #: table_data.h:129
 msgid "Soft, waxy, silvery-white metal"
@@ -770,7 +771,7 @@ msgstr ""
 
 #: table_data.h:130
 msgid "Calcium"
-msgstr ""
+msgstr "Kalsium"
 
 #: table_data.h:130
 msgid "Fairly hard, silvery-white metal"
@@ -782,7 +783,7 @@ msgstr ""
 
 #: table_data.h:131
 msgid "Scandium"
-msgstr ""
+msgstr "Skandium"
 
 #: table_data.h:131
 msgid "Fairly soft, silvery-white metal"
@@ -802,7 +803,7 @@ msgstr ""
 
 #: table_data.h:132
 msgid "Titanium"
-msgstr ""
+msgstr "Titaani"
 
 #: table_data.h:132
 msgid "Shiny, dark-gray metal"
@@ -822,7 +823,7 @@ msgstr ""
 
 #: table_data.h:133
 msgid "Vanadium"
-msgstr ""
+msgstr "Vanadiini"
 
 #: table_data.h:133 table_data.h:177
 msgid "Soft, ductile, silvery-white metal"
@@ -842,7 +843,7 @@ msgstr ""
 
 #: table_data.h:134
 msgid "Chromium"
-msgstr ""
+msgstr "Kromi"
 
 #: table_data.h:134
 msgid "Very hard, crystalline, steel-gray metal"
@@ -862,7 +863,7 @@ msgstr ""
 
 #: table_data.h:135
 msgid "Manganese"
-msgstr ""
+msgstr "Mangaani"
 
 #: table_data.h:135 table_data.h:198
 msgid "CUB"
@@ -882,7 +883,7 @@ msgstr ""
 
 #: table_data.h:136
 msgid "Iron"
-msgstr ""
+msgstr "Rauta"
 
 #: table_data.h:136
 msgid "Malleable, ductile, silvery-white metal"
@@ -894,7 +895,7 @@ msgstr ""
 
 #: table_data.h:137
 msgid "Cobalt"
-msgstr ""
+msgstr "Koboltti"
 
 #: table_data.h:137
 msgid "Hard, ductile, lustrous bluish-gray metal"
@@ -914,7 +915,7 @@ msgstr ""
 
 #: table_data.h:138
 msgid "Nickel"
-msgstr ""
+msgstr "Nikkeli"
 
 #: table_data.h:138
 msgid "Hard, malleable, silvery-white metal"
@@ -934,7 +935,7 @@ msgstr ""
 
 #: table_data.h:139
 msgid "Copper"
-msgstr ""
+msgstr "Kupari"
 
 #: table_data.h:139
 msgid "Malleable, ductile, reddish-brown metal"
@@ -947,7 +948,7 @@ msgstr ""
 
 #: table_data.h:140
 msgid "Zinc"
-msgstr ""
+msgstr "Sinkki"
 
 #: table_data.h:140
 msgid "Bluish-silver, ductile metal"
@@ -959,7 +960,7 @@ msgstr ""
 
 #: table_data.h:141
 msgid "Gallium"
-msgstr ""
+msgstr "Gallium"
 
 #: table_data.h:141
 msgid "Soft, blue-white metal"
@@ -979,7 +980,7 @@ msgstr ""
 
 #: table_data.h:142
 msgid "Germanium"
-msgstr ""
+msgstr "Germanium"
 
 #: table_data.h:142
 msgid "Grayish-white metal"
@@ -999,7 +1000,7 @@ msgstr ""
 
 #: table_data.h:143
 msgid "Arsenic"
-msgstr ""
+msgstr "Arseeni"
 
 #: table_data.h:143
 msgid "5.73 (grey arsenic)"
@@ -1023,7 +1024,7 @@ msgstr ""
 
 #: table_data.h:144
 msgid "Selenium"
-msgstr ""
+msgstr "Seleeni"
 
 #: table_data.h:144
 msgid "A soft metalloid similar to sulfur"
@@ -1035,7 +1036,7 @@ msgstr ""
 
 #: table_data.h:145
 msgid "Bromine"
-msgstr ""
+msgstr "Bromi"
 
 #: table_data.h:145
 msgid "Reddish-brown liquid"
@@ -1055,7 +1056,7 @@ msgstr ""
 
 #: table_data.h:146
 msgid "Krypton"
-msgstr ""
+msgstr "Krypton"
 
 #: table_data.h:146
 msgid "2.155 (@ -153&#176;C)"
@@ -1075,7 +1076,7 @@ msgstr ""
 
 #: table_data.h:148
 msgid "Rubidium"
-msgstr ""
+msgstr "Rubidium"
 
 #: table_data.h:148
 msgid "Soft, silvery-white, highly reactive metal"
@@ -1095,7 +1096,7 @@ msgstr ""
 
 #: table_data.h:149
 msgid "Strontium"
-msgstr ""
+msgstr "Strontium"
 
 #: table_data.h:149
 msgid "Silvery, malleable metal"
@@ -1115,7 +1116,7 @@ msgstr ""
 
 #: table_data.h:150
 msgid "Yttrium"
-msgstr ""
+msgstr "Yttrium"
 
 #: table_data.h:150
 msgid "Silvery, ductile, fairly reactive metal"
@@ -1137,7 +1138,7 @@ msgstr ""
 
 #: table_data.h:151
 msgid "Zirconium"
-msgstr ""
+msgstr "Zirkonium"
 
 #: table_data.h:151
 msgid "Gray-white, lustrous, corrosion-resistant metal"
@@ -1157,7 +1158,7 @@ msgstr ""
 
 #: table_data.h:152
 msgid "Niobium"
-msgstr ""
+msgstr "Niobium"
 
 #: table_data.h:152
 msgid "Shiny white, soft, ductile metal"
@@ -1177,7 +1178,7 @@ msgstr ""
 
 #: table_data.h:153
 msgid "Molybdenum"
-msgstr ""
+msgstr "Molybdeeni"
 
 #: table_data.h:153 table_data.h:156
 msgid "Silvery white, hard metal"
@@ -1193,7 +1194,7 @@ msgstr ""
 
 #: table_data.h:154
 msgid "Technetium"
-msgstr ""
+msgstr "Teknetium"
 
 #: table_data.h:154 table_data.h:198
 msgid "Silvery-gray metal"
@@ -1213,7 +1214,7 @@ msgstr ""
 
 #: table_data.h:155
 msgid "Ruthenium"
-msgstr ""
+msgstr "Rutenium"
 
 #: table_data.h:155
 msgid "Rare, silver-gray, extremely brittle metal"
@@ -1233,7 +1234,7 @@ msgstr ""
 
 #: table_data.h:156
 msgid "Rhodium"
-msgstr ""
+msgstr "Rodium"
 
 #: table_data.h:156 table_data.h:157
 msgid "1803 (England)"
@@ -1249,7 +1250,7 @@ msgstr ""
 
 #: table_data.h:157
 msgid "Palladium"
-msgstr ""
+msgstr "Palladium"
 
 #: table_data.h:157 table_data.h:161 table_data.h:170
 msgid "Silvery-white, soft, malleable and ductile metal"
@@ -1261,7 +1262,7 @@ msgstr ""
 
 #: table_data.h:158
 msgid "Silver"
-msgstr ""
+msgstr "Hopea"
 
 #: table_data.h:158
 msgid "Silvery-ductile, and malleable metal"
@@ -1273,7 +1274,7 @@ msgstr ""
 
 #: table_data.h:159
 msgid "Cadmium"
-msgstr ""
+msgstr "Kadmium"
 
 #: table_data.h:159
 msgid "Soft, malleable, blue-white metal"
@@ -1293,7 +1294,7 @@ msgstr ""
 
 #: table_data.h:160
 msgid "Indium"
-msgstr ""
+msgstr "Indium"
 
 #: table_data.h:160 table_data.h:161 table_data.h:207
 msgid "TET"
@@ -1317,7 +1318,7 @@ msgstr ""
 
 #: table_data.h:161
 msgid "Tin"
-msgstr ""
+msgstr "Tina"
 
 #: table_data.h:161
 msgid "Named after Etruscan god, Tinia; symbol from Latin: stannum (tin)"
@@ -1325,7 +1326,7 @@ msgstr ""
 
 #: table_data.h:162
 msgid "Antimony"
-msgstr ""
+msgstr "Antimoni"
 
 #: table_data.h:162
 msgid "Hard, silvery-white, brittle semimetal"
@@ -1337,7 +1338,7 @@ msgstr ""
 
 #: table_data.h:163
 msgid "Tellurium"
-msgstr ""
+msgstr "Telluuri"
 
 #: table_data.h:163
 msgid "Silvery-white, brittle semimetal"
@@ -1357,7 +1358,7 @@ msgstr ""
 
 #: table_data.h:164
 msgid "Iodine"
-msgstr ""
+msgstr "Jodi"
 
 #: table_data.h:164
 msgid "Shiny, black nonmetallic solid"
@@ -1377,7 +1378,7 @@ msgstr ""
 
 #: table_data.h:165
 msgid "Xenon"
-msgstr ""
+msgstr "Ksenon"
 
 #: table_data.h:165
 msgid "3.52 (@ -107.05&#176;C)"
@@ -1393,7 +1394,7 @@ msgstr ""
 
 #: table_data.h:167
 msgid "Cesium"
-msgstr ""
+msgstr "Cesium"
 
 #: table_data.h:167
 msgid "Very soft, ductile, light gray metal"
@@ -1409,7 +1410,7 @@ msgstr ""
 
 #: table_data.h:168
 msgid "Barium"
-msgstr ""
+msgstr "Barium"
 
 #: table_data.h:168
 msgid "Soft, slightly malleable, silver-white metal"
@@ -1421,7 +1422,7 @@ msgstr ""
 
 #: table_data.h:170
 msgid "Lanthanum"
-msgstr ""
+msgstr "Lantaani"
 
 #: table_data.h:170
 msgid "1839 (Sweden)"
@@ -1437,7 +1438,7 @@ msgstr ""
 
 #: table_data.h:171
 msgid "Cerium"
-msgstr ""
+msgstr "Cerium"
 
 #: table_data.h:171
 msgid "Malleable, ductile, iron-gray metal"
@@ -1458,7 +1459,7 @@ msgstr ""
 
 #: table_data.h:172
 msgid "Praseodymium"
-msgstr ""
+msgstr "Praseodyymi"
 
 #: table_data.h:172
 msgid "Silvery white, moderately soft, malleable, and ductile metal"
@@ -1478,7 +1479,7 @@ msgstr ""
 
 #: table_data.h:173
 msgid "Neodymium"
-msgstr ""
+msgstr "Neodyymi"
 
 #: table_data.h:173
 msgid "Silvery-white, rare-earth metal that oxidizes easily in air"
@@ -1494,7 +1495,7 @@ msgstr ""
 
 #: table_data.h:174
 msgid "Promethium"
-msgstr ""
+msgstr "Prometium"
 
 #: table_data.h:174
 msgid "(+3e)97.9 or (+3e)111"
@@ -1518,7 +1519,7 @@ msgstr ""
 
 #: table_data.h:175
 msgid "Samarium"
-msgstr ""
+msgstr "Samarium"
 
 #: table_data.h:175
 msgid "Silvery rare-earth metal"
@@ -1538,7 +1539,7 @@ msgstr ""
 
 #: table_data.h:176
 msgid "Europium"
-msgstr ""
+msgstr "Europium"
 
 #: table_data.h:176
 msgid "1901 (France)"
@@ -1554,7 +1555,7 @@ msgstr ""
 
 #: table_data.h:177
 msgid "Gadolinium"
-msgstr ""
+msgstr "Gadolinium"
 
 #: table_data.h:177
 msgid "1880 (Switzerland)"
@@ -1566,7 +1567,7 @@ msgstr ""
 
 #: table_data.h:178
 msgid "Terbium"
-msgstr ""
+msgstr "Terbium"
 
 #: table_data.h:178
 msgid "Soft, ductile, silvery-gray, rare-earth metal"
@@ -1582,7 +1583,7 @@ msgstr ""
 
 #: table_data.h:179
 msgid "Dysprosium"
-msgstr ""
+msgstr "Dysprosium"
 
 #: table_data.h:179
 msgid "Soft. lustrous, silvery metal"
@@ -1594,7 +1595,7 @@ msgstr ""
 
 #: table_data.h:180
 msgid "Holmium"
-msgstr ""
+msgstr "Holmium"
 
 #: table_data.h:180
 msgid "Fairly soft, malleable, lustrous, silvery metal"
@@ -1614,7 +1615,7 @@ msgstr ""
 
 #: table_data.h:181
 msgid "Erbium"
-msgstr ""
+msgstr "Erbium"
 
 #: table_data.h:181
 msgid "Soft, malleable, silvery metal"
@@ -1622,7 +1623,7 @@ msgstr ""
 
 #: table_data.h:182
 msgid "Thulium"
-msgstr ""
+msgstr "Tulium"
 
 #: table_data.h:182
 msgid "Soft, malleable, ductile, silvery metal"
@@ -1638,7 +1639,7 @@ msgstr ""
 
 #: table_data.h:183
 msgid "Ytterbium"
-msgstr ""
+msgstr "Ytterbium"
 
 #: table_data.h:183
 msgid "Silvery, lustrous, malleable, and ductile metal"
@@ -1650,7 +1651,7 @@ msgstr ""
 
 #: table_data.h:185
 msgid "Lutetium"
-msgstr ""
+msgstr "Lutetium"
 
 #: table_data.h:185
 msgid "Silvery-white, hard, dense, rare-earth metal"
@@ -1670,7 +1671,7 @@ msgstr ""
 
 #: table_data.h:186
 msgid "Hafnium"
-msgstr ""
+msgstr "Hafnium"
 
 #: table_data.h:186
 msgid "Silvery, ductile metal"
@@ -1690,7 +1691,7 @@ msgstr ""
 
 #: table_data.h:187
 msgid "Tantalum"
-msgstr ""
+msgstr "Tantaali"
 
 #: table_data.h:187
 msgid "Gray, heavy, hard metal"
@@ -1710,7 +1711,7 @@ msgstr ""
 
 #: table_data.h:188
 msgid "Tungsten"
-msgstr ""
+msgstr "Volframi"
 
 #: table_data.h:188
 msgid "Tough, steel-gray to white metal"
@@ -1730,7 +1731,7 @@ msgstr ""
 
 #: table_data.h:189
 msgid "Rhenium"
-msgstr ""
+msgstr "Renium"
 
 #: table_data.h:189
 msgid "Dense, silvery-white metal"
@@ -1750,7 +1751,7 @@ msgstr ""
 
 #: table_data.h:190
 msgid "Osmium"
-msgstr ""
+msgstr "Osmium"
 
 #: table_data.h:190
 msgid "Blue-white, lustrous, hard metal"
@@ -1770,7 +1771,7 @@ msgstr ""
 
 #: table_data.h:191
 msgid "Iridium"
-msgstr ""
+msgstr "Iridium"
 
 #: table_data.h:191
 msgid "White, brittle metal"
@@ -1790,7 +1791,7 @@ msgstr ""
 
 #: table_data.h:192
 msgid "Platinum"
-msgstr ""
+msgstr "Platina"
 
 #: table_data.h:192
 msgid "Very heavy, soft, silvery-white metal"
@@ -1810,7 +1811,7 @@ msgstr ""
 
 #: table_data.h:193
 msgid "Gold"
-msgstr ""
+msgstr "Kulta"
 
 #: table_data.h:193
 msgid "(-3e) 185 (+1e) 137 or (+3e) 85 (+1e) 137"
@@ -1826,7 +1827,7 @@ msgstr ""
 
 #: table_data.h:194
 msgid "Mercury"
-msgstr ""
+msgstr "Elohopea"
 
 #: table_data.h:194
 msgid "13.546 (@ +20&#176;C)"
@@ -1842,7 +1843,7 @@ msgstr ""
 
 #: table_data.h:195
 msgid "Thallium"
-msgstr ""
+msgstr "Tallium"
 
 #: table_data.h:195
 msgid "Soft, gray metal"
@@ -1862,7 +1863,7 @@ msgstr ""
 
 #: table_data.h:196
 msgid "Lead"
-msgstr ""
+msgstr "Lyijy"
 
 #: table_data.h:196
 msgid "Very soft, highly malleable and ductile, blue-white shiny metal"
@@ -1874,7 +1875,7 @@ msgstr ""
 
 #: table_data.h:197
 msgid "Bismuth"
-msgstr ""
+msgstr "Vismutti"
 
 #: table_data.h:197
 msgid "Hard, brittle, steel-gray metal with a pinkish tinge"
@@ -1886,7 +1887,7 @@ msgstr ""
 
 #: table_data.h:198
 msgid "Polonium"
-msgstr ""
+msgstr "Polonium"
 
 #: table_data.h:198 table_data.h:203
 msgid "1898 (France/Poland)"
@@ -1902,7 +1903,7 @@ msgstr ""
 
 #: table_data.h:199
 msgid "Astatine"
-msgstr ""
+msgstr "Astatiini"
 
 #: table_data.h:199
 msgid "Unstable, radioactive halogen"
@@ -1922,7 +1923,7 @@ msgstr ""
 
 #: table_data.h:200
 msgid "Radon"
-msgstr ""
+msgstr "Radon"
 
 #: table_data.h:200
 msgid "4.4 (@ -62&#176;C)"
@@ -1946,7 +1947,7 @@ msgstr ""
 
 #: table_data.h:202
 msgid "Francium"
-msgstr ""
+msgstr "Frankium"
 
 #: table_data.h:202
 msgid "1939 (France)"
@@ -1962,7 +1963,7 @@ msgstr ""
 
 #: table_data.h:203
 msgid "Radium"
-msgstr ""
+msgstr "Radium"
 
 #: table_data.h:203
 msgid "5.5 (@ +20&#176;C)"
@@ -1978,7 +1979,7 @@ msgstr ""
 
 #: table_data.h:205
 msgid "Actinium"
-msgstr ""
+msgstr "Aktinium"
 
 #: table_data.h:205
 msgid "Heavy, Silvery-white metal that is very radioactive"
@@ -1998,7 +1999,7 @@ msgstr ""
 
 #: table_data.h:206
 msgid "Thorium"
-msgstr ""
+msgstr "Torium"
 
 #: table_data.h:206
 msgid "Gray, soft, malleable, ductile, radioactive metal"
@@ -2014,7 +2015,7 @@ msgstr ""
 
 #: table_data.h:207
 msgid "Protactinium"
-msgstr ""
+msgstr "Protaktinium"
 
 #: table_data.h:207 table_data.h:210 table_data.h:211
 msgid "Silvery-white, radioactive metal"
@@ -2036,7 +2037,7 @@ msgstr ""
 
 #: table_data.h:208
 msgid "Uranium"
-msgstr ""
+msgstr "Uraani"
 
 #: table_data.h:208
 msgid "Silvery-white, dense, ductile and malleable, radioactive metal"
@@ -2048,7 +2049,7 @@ msgstr ""
 
 #: table_data.h:209
 msgid "Neptunium"
-msgstr ""
+msgstr "Neptunium"
 
 #: table_data.h:209
 msgid "Silvery metal"
@@ -2064,7 +2065,7 @@ msgstr ""
 
 #: table_data.h:210
 msgid "Plutonium"
-msgstr ""
+msgstr "Plutonium"
 
 #: table_data.h:210
 msgid "71-100 or (+4e) 93 (+3e) 108"
@@ -2080,7 +2081,7 @@ msgstr ""
 
 #: table_data.h:211
 msgid "Americium"
-msgstr ""
+msgstr "Amerikium"
 
 #: table_data.h:211 table_data.h:212
 msgid "1944 (United States)"
@@ -2096,7 +2097,7 @@ msgstr ""
 
 #: table_data.h:212
 msgid "Curium"
-msgstr ""
+msgstr "Curium"
 
 #: table_data.h:212
 msgid "Silvery, malleable, synthetic radioactive metal"
@@ -2112,7 +2113,7 @@ msgstr ""
 
 #: table_data.h:213
 msgid "Berkelium"
-msgstr ""
+msgstr "Berkelium"
 
 #: table_data.h:213
 msgid "Radioactive synthetic metal"
@@ -2132,7 +2133,7 @@ msgstr ""
 
 #: table_data.h:214
 msgid "Californium"
-msgstr ""
+msgstr "Kalifornium"
 
 #: table_data.h:214
 msgid "Powerful neutron emitter"
@@ -2152,7 +2153,7 @@ msgstr ""
 
 #: table_data.h:215
 msgid "Einsteinium"
-msgstr ""
+msgstr "Einsteinium"
 
 #: table_data.h:215 table_data.h:216 table_data.h:217 table_data.h:218
 #: table_data.h:220 table_data.h:221 table_data.h:222 table_data.h:223
@@ -2174,7 +2175,7 @@ msgstr ""
 
 #: table_data.h:216
 msgid "Fermium"
-msgstr ""
+msgstr "Fermium"
 
 #: table_data.h:216
 msgid "Named in honor of the scientist Enrico Fermi"
@@ -2182,7 +2183,7 @@ msgstr ""
 
 #: table_data.h:217
 msgid "Mendelevium"
-msgstr ""
+msgstr "Mendelevium"
 
 #: table_data.h:217
 msgid "1955 (United States)"
@@ -2196,7 +2197,7 @@ msgstr ""
 
 #: table_data.h:218
 msgid "Nobelium"
-msgstr ""
+msgstr "Nobelium"
 
 #: table_data.h:218
 msgid "1963 (USSR)"
@@ -2214,7 +2215,7 @@ msgstr ""
 
 #: table_data.h:220
 msgid "Lawrencium"
-msgstr ""
+msgstr "Lawrencium"
 
 #: table_data.h:220
 msgid "1961 (USSR/United States)"
@@ -2230,7 +2231,7 @@ msgstr ""
 
 #: table_data.h:221
 msgid "Rutherfordium"
-msgstr ""
+msgstr "Rutherfordium"
 
 #: table_data.h:221
 msgid "1964 (USSR)"
@@ -2242,7 +2243,7 @@ msgstr ""
 
 #: table_data.h:222
 msgid "Dubnium"
-msgstr ""
+msgstr "Dubnium"
 
 #: table_data.h:222
 msgid "1970 (USSR/United States)"
@@ -2254,7 +2255,7 @@ msgstr ""
 
 #: table_data.h:223
 msgid "Seaborgium"
-msgstr ""
+msgstr "Seaborgium"
 
 #: table_data.h:223
 msgid "1974 (USSR/United States)"
@@ -2268,7 +2269,7 @@ msgstr ""
 
 #: table_data.h:224
 msgid "Bohrium"
-msgstr ""
+msgstr "Bohrium"
 
 #: table_data.h:224
 msgid "1976 (Germany)"
@@ -2285,7 +2286,7 @@ msgstr ""
 
 #: table_data.h:225
 msgid "Hassium"
-msgstr ""
+msgstr "Hassium"
 
 #: table_data.h:225
 msgid "1984 (Germany)"
@@ -2297,7 +2298,7 @@ msgstr ""
 
 #: table_data.h:226
 msgid "Meitnerium"
-msgstr ""
+msgstr "Meitnerium"
 
 #: table_data.h:226
 msgid "1982 (Germany)"
@@ -2309,7 +2310,7 @@ msgstr ""
 
 #: table_data.h:227
 msgid "Darmstadtium"
-msgstr ""
+msgstr "Darmstadtium"
 
 #: table_data.h:227 table_data.h:228
 msgid "1994 (Germany)"
@@ -2321,7 +2322,7 @@ msgstr ""
 
 #: table_data.h:228
 msgid "Roentgenium"
-msgstr ""
+msgstr "Röntgenium"
 
 #: table_data.h:228
 msgid "Named in honor of physicist Wilhelm Conrad Roentgen"
@@ -2329,7 +2330,7 @@ msgstr ""
 
 #: table_data.h:229
 msgid "Copernicium"
-msgstr ""
+msgstr "Kopernikium"
 
 #: table_data.h:229
 msgid "1996 (Germany)"
@@ -2341,7 +2342,7 @@ msgstr ""
 
 #: table_data.h:230
 msgid "Nihonium"
-msgstr ""
+msgstr "Nihonium"
 
 #: table_data.h:230
 msgid "2004 (Japan)"
@@ -2357,7 +2358,7 @@ msgstr ""
 
 #: table_data.h:231
 msgid "Flerovium"
-msgstr ""
+msgstr "Flerovium"
 
 #: table_data.h:231
 msgid "1998 (Russia/United States)"
@@ -2373,7 +2374,7 @@ msgstr ""
 
 #: table_data.h:232
 msgid "Moscovium"
-msgstr ""
+msgstr "Moskovium"
 
 #: table_data.h:232
 msgid "2003 (Russia/United States)"
@@ -2385,7 +2386,7 @@ msgstr ""
 
 #: table_data.h:233
 msgid "Livermorium"
-msgstr ""
+msgstr "Livermorium"
 
 #: table_data.h:233
 msgid "2000 (Russia/United States)"
@@ -2401,7 +2402,7 @@ msgstr ""
 
 #: table_data.h:234
 msgid "Tennessine"
-msgstr ""
+msgstr "Tennessiini"
 
 #: table_data.h:234
 msgid "2009 (Russia/United States)"
@@ -2413,7 +2414,7 @@ msgstr ""
 
 #: table_data.h:235
 msgid "Oganesson"
-msgstr ""
+msgstr "Oganesson"
 
 #: table_data.h:235
 msgid "2002 (Russia/United States)"

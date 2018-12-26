@@ -1,5 +1,5 @@
 3.0.3 Dec 26 2018
-   Fix FTCBFS: Use a triplet-prefixed pkg-config (patch from Debian)
+   Fix FTCBFS: Use a triplet-prefixed pkg-config (patch from Debian by Helmut Grohne <helmut@subdivi.de>)
    Update translations from transifex.com
 
 3.0.2 Jan 22 2017

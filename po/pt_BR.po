@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# AlexL <loginov.alex.valer@gmail.com>, 2017
+# AlexL <loginov.alex.valer@gmail.com>, 2017-2018
+# Daniel Martins (MCdanielkiller) <danieljogo982@gmail.com>, 2017
 # Marcio Andre Padula <padula1000@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-10 23:09+0300\n"
-"PO-Revision-Date: 2017-01-20 20:19+0000\n"
+"PO-Revision-Date: 2018-12-26 04:03+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/Magic/gperiodic/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -2342,15 +2343,15 @@ msgstr "O nome deriva do astrônomo Nicolau Copérnico"
 
 #: table_data.h:230
 msgid "Nihonium"
-msgstr ""
+msgstr "Niônio"
 
 #: table_data.h:230
 msgid "2004 (Japan)"
-msgstr ""
+msgstr "2004 (Japão)"
 
 #: table_data.h:230
 msgid "RIKEN - Research Institute in Japan"
-msgstr ""
+msgstr "RIKEN - Instituto de pesquisa no Japão"
 
 #: table_data.h:230
 msgid "Nihon is country of the rising sun (Japan)"
@@ -2374,7 +2375,7 @@ msgstr "Nomeado em homenagem ao físico soviético Flerov"
 
 #: table_data.h:232
 msgid "Moscovium"
-msgstr ""
+msgstr "Moscóvio"
 
 #: table_data.h:232
 msgid "2003 (Russia/United States)"
@@ -2402,7 +2403,7 @@ msgstr "Nomeado pelo Laboratório Nacional de Livermore (EUA)"
 
 #: table_data.h:234
 msgid "Tennessine"
-msgstr ""
+msgstr "Tenesso"
 
 #: table_data.h:234
 msgid "2009 (Russia/United States)"
@@ -2414,7 +2415,7 @@ msgstr ""
 
 #: table_data.h:235
 msgid "Oganesson"
-msgstr ""
+msgstr "Oganessônio"
 
 #: table_data.h:235
 msgid "2002 (Russia/United States)"

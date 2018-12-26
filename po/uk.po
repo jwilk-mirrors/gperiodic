@@ -3,21 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# AlexL <loginov.alex.valer@gmail.com>, 2017
+# AlexL <loginov.alex.valer@gmail.com>, 2017-2018
 # Oleksandr Mishchenko <sasha.mishchenko@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: gperiodic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-10 23:09+0300\n"
-"PO-Revision-Date: 2017-01-20 20:21+0000\n"
+"PO-Revision-Date: 2018-12-26 04:03+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/Magic/gperiodic/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #: gperiodic.c:195
 #, c-format
@@ -2342,7 +2342,7 @@ msgstr "Названо в честь Миколи Коперника"
 
 #: table_data.h:230
 msgid "Nihonium"
-msgstr ""
+msgstr "Ніхоній"
 
 #: table_data.h:230
 msgid "2004 (Japan)"
@@ -2374,7 +2374,7 @@ msgstr "радянський академік Фльоров"
 
 #: table_data.h:232
 msgid "Moscovium"
-msgstr ""
+msgstr "Московій"
 
 #: table_data.h:232
 msgid "2003 (Russia/United States)"
@@ -2402,7 +2402,7 @@ msgstr "названо на честь Ліверморської націона
 
 #: table_data.h:234
 msgid "Tennessine"
-msgstr ""
+msgstr "Теннессин"
 
 #: table_data.h:234
 msgid "2009 (Russia/United States)"
@@ -2414,7 +2414,7 @@ msgstr ""
 
 #: table_data.h:235
 msgid "Oganesson"
-msgstr ""
+msgstr "Оганесон"
 
 #: table_data.h:235
 msgid "2002 (Russia/United States)"
