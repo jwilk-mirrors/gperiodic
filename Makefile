@@ -2,6 +2,7 @@ CC := gcc
 CFLAGS :=
 LIBS :=
 LDFLAGS :=
+PKG_CONFIG := pkg-config
 override CFLAGS += `$(PKG_CONFIG) --cflags gtk+-2.0` -I. $(RPM_OPT_FLAGS)
 override LIBS += `$(PKG_CONFIG) --libs gtk+-2.0`
 bindir ?= /usr/bin
