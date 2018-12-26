@@ -1,6 +1,6 @@
 Name:		gperiodic
 Summary:	A graphical application for browsing the periodic table
-Version:	3.0.2
+Version:	3.0.3
 Release:	%mkrel 1
 URL:		https://sourceforge.net/p/gperiodic
 Group:		Sciences/Chemistry

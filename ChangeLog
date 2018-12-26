@@ -1,3 +1,7 @@
+3.0.3 Dec 26 2018
+   Fix FTCBFS: Use a triplet-prefixed pkg-config (patch from Debian)
+   Update translations from transifex.com
+
 3.0.2 Jan 22 2017
    Fix: program returns random data in a function (OpenSuse: rpmlint) (Jan Engelhardt)
    Fix: no-return-in-nonvoid-function (OpenSuse: rpmlint) (Jan Engelhardt)

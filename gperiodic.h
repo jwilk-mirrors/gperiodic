@@ -3,7 +3,7 @@
 gperiodic - a program for browsing the periodic table and looking up
             information on elements.
 
-Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014-2017 Alexey Loginov
+Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014-2018 Alexey Loginov
                                                                                                                                                              
     This file is part of gperiodic.
                                                                                                                                                              
@@ -98,7 +98,7 @@ int interactive_shell(void);
 /************************************************************************************************/
 
 #define PROGNAME "gperiodic"
-#define COPYRIGHT "Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014-2017 Alexey Loginov"
+#define COPYRIGHT "Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014-2018 Alexey Loginov"
 #define COMMENTS gettext("This program shows the periodic table of elements and information about these elements")
 #define LICENSE gettext("gperiodic is free software; you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation; either version 2 of the License, or\n(at your option) any later version.\n\ngperiodic is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n")
 #define HOMEPAGEURL "https://sourceforge.net/p/gperiodic"

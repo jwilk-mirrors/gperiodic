@@ -3,7 +3,7 @@
 gperiodic - a program for browsing the periodic table and looking up
             information on elements.
                                                                                                                                                                     
-Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014-2017 Alexey Loginov
+Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014-2018 Alexey Loginov
                                                                                                                                                                     
     This file is part of gperiodic.
                                                                                                                                                                     
