@@ -35,7 +35,7 @@ Copyright (C) 1999-2002 Kyle R. Burton, 2003-2007 Jonas Frantz, 2014-2018 Alexey
 #include "gperiodic.h"
 #include "table_data.h"
 
-#define VERSION "3.0.2"
+#define VERSION "3.0.3"
 
 #define PACKAGE "gperiodic"
 #define GPERIODIC_LOCALE_DIR "/usr/share/locale"
